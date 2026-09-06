@@ -6,6 +6,7 @@
   <meta name="theme-color" content="#071018">
   <title>Sports Betting Command Center</title>
   <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./player-analysis.css">
 </head>
 <body>
   <div class="app-shell">
@@ -20,7 +21,7 @@
 
       <nav class="side-nav" aria-label="Primary">
         <button class="nav-item active" type="button" data-section="today"><span>◫</span>Today</button>
-        <button class="nav-item disabled" type="button" title="Coming next"><span>♙</span>Player Analysis <small>Soon</small></button>
+        <button class="nav-item" type="button" data-section="player" title="Open player analysis"><span>♙</span>Player Analysis <small>Live</small></button>
         <button class="nav-item disabled" type="button" title="Coming next"><span>◌</span>Shadow Lab <small>Soon</small></button>
         <button class="nav-item disabled" type="button" title="Coming next"><span>▥</span>Market <small>Soon</small></button>
         <button class="nav-item disabled" type="button" title="Coming next"><span>⚙</span>System <small>Soon</small></button>
@@ -112,7 +113,7 @@
           <div class="section-heading">
             <div>
               <h2>Today’s Pitcher-K Board</h2>
-              <p>Research candidates are model-vs-market signals, not betting recommendations.</p>
+              <p>Research candidates are model-vs-market signals, not betting recommendations. Select a pitcher for analysis.</p>
             </div>
             <button class="ghost-button" id="refreshButton" type="button">↻ Reload snapshot</button>
           </div>
@@ -191,13 +192,23 @@
   </div>
 
   <nav class="mobile-bottom-nav" aria-label="Mobile navigation">
-    <button class="active" type="button">Today</button>
-    <button type="button" disabled>Players</button>
+    <button class="active" type="button" data-section="today">Today</button>
+    <button type="button" data-section="player">Players</button>
     <button type="button" disabled>Lab</button>
     <button type="button" disabled>Market</button>
     <button type="button" disabled>System</button>
   </nav>
 
+  <div id="analysisBackdrop" class="analysis-backdrop" aria-hidden="true"></div>
+  <aside id="playerAnalysisDrawer" class="player-analysis-drawer" aria-hidden="true" aria-label="Player analysis">
+    <div class="pa-drawer-header">
+      <div class="pa-drawer-title"><span>♙</span> Player Analysis</div>
+      <button class="pa-close" type="button" data-close-analysis aria-label="Close player analysis">×</button>
+    </div>
+    <div id="playerAnalysisContent" class="pa-content"></div>
+  </aside>
+
   <script src="./app.js" defer></script>
+  <script src="./player-analysis.js" defer></script>
 </body>
 </html>

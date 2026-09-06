@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "sample_data": false,
-  "generated_at": "2026-09-06T00:47:18.857893Z",
+  "generated_at": "2026-09-06T01:29:21.637600Z",
   "target_date": "2026-09-05",
   "timezone": "America/New_York",
   "model_version": "MLB_K_v0.1",
@@ -77,6 +77,2384 @@
       "detail": "Fresh two-sided market quote had no uniquely scored probable starter for the target date."
     }
   ],
+  "players": [
+    {
+      "analysis_key": "824468:669160",
+      "game_pk": 824468,
+      "game_datetime": "2026-09-05T22:40:00Z",
+      "pitcher_id": 669160,
+      "pitcher_name": "Dustin May",
+      "team": "Milwaukee Brewers",
+      "team_abbr": "MIL",
+      "opponent": "Cincinnati Reds",
+      "opponent_abbr": "CIN",
+      "throwing_hand": "R",
+      "home_away": "away",
+      "venue_name": "Great American Ball Park",
+      "projected_k": 4.4589675244429765,
+      "features": {
+        "rest_days": 5,
+        "days_since_last_start": 6,
+        "prior_start_strikeouts": 4,
+        "prior_start_pitches": 97,
+        "prior_start_batters_faced": 23,
+        "avg_k_l3": 1.6666666666666667,
+        "avg_k_l5": 3.2,
+        "avg_k_l10": 4.4,
+        "avg_pitches_l5": 68.8,
+        "avg_bf_l5": 17.6,
+        "k_per_bf_l5": 0.18181818181818182,
+        "swstr_l5": 0.10755813953488372,
+        "csw_l5": 0.25,
+        "whiff_l5": 0.21764705882352942,
+        "velo_l3": 93.36895241070499,
+        "season_velo_prior": 92.63437135849365,
+        "velo_delta_l3_vs_season": 0.7345810522113396,
+        "opponent_k_rate_season_prior": 0.2528779014908473,
+        "opponent_k_rate_l14d": 0.23678646934460887,
+        "opponent_k_rate_l30d": 0.2557915057915058,
+        "opponent_k_rate_vs_hand_season_prior": 0.25383853392768696,
+        "opponent_k_rate_vs_hand_l30d": 0.2596899224806202,
+        "opponent_whiff_rate_l14d": 0.2615039281705948,
+        "opponent_contact_rate_l14d": 0.7384960718294051
+      },
+      "recent_starts": [
+        {
+          "game_date": "2026-08-30",
+          "opponent": "Texas Rangers",
+          "opponent_abbr": "TEX",
+          "home_away": "home",
+          "strikeouts": 4,
+          "pitches": 97,
+          "batters_faced": 23
+        },
+        {
+          "game_date": "2026-08-26",
+          "opponent": "New York Mets",
+          "opponent_abbr": "NYM",
+          "home_away": "away",
+          "strikeouts": 0,
+          "pitches": 1,
+          "batters_faced": 1
+        },
+        {
+          "game_date": "2026-08-19",
+          "opponent": "Seattle Mariners",
+          "opponent_abbr": "SEA",
+          "home_away": "home",
+          "strikeouts": 1,
+          "pitches": 66,
+          "batters_faced": 16
+        },
+        {
+          "game_date": "2026-08-12",
+          "opponent": "San Diego Padres",
+          "opponent_abbr": "SD",
+          "home_away": "away",
+          "strikeouts": 6,
+          "pitches": 83,
+          "batters_faced": 25
+        },
+        {
+          "game_date": "2026-08-06",
+          "opponent": "Pittsburgh Pirates",
+          "opponent_abbr": "PIT",
+          "home_away": "home",
+          "strikeouts": 5,
+          "pitches": 97,
+          "batters_faced": 23
+        }
+      ]
+    },
+    {
+      "analysis_key": "823904:607192",
+      "game_pk": 823904,
+      "game_datetime": "2026-09-06T01:10:00Z",
+      "pitcher_id": 607192,
+      "pitcher_name": "Tyler Glasnow",
+      "team": "Los Angeles Dodgers",
+      "team_abbr": "LAD",
+      "opponent": "Washington Nationals",
+      "opponent_abbr": "WSH",
+      "throwing_hand": "R",
+      "home_away": "home",
+      "venue_name": "UNIQLO Field at Dodger Stadium",
+      "projected_k": 5.90443006856615,
+      "features": {
+        "rest_days": 5,
+        "days_since_last_start": 6,
+        "prior_start_strikeouts": 6,
+        "prior_start_pitches": 85,
+        "prior_start_batters_faced": 23,
+        "avg_k_l3": 5.0,
+        "avg_k_l5": 6.6,
+        "avg_k_l10": 6.5,
+        "avg_pitches_l5": 78.0,
+        "avg_bf_l5": 19.4,
+        "k_per_bf_l5": 0.3402061855670103,
+        "swstr_l5": 0.12878787878787878,
+        "csw_l5": 0.3282828282828283,
+        "whiff_l5": 0.30538922155688625,
+        "velo_l3": 91.89122899780847,
+        "season_velo_prior": 90.79575244320907,
+        "velo_delta_l3_vs_season": 1.0954765545994007,
+        "opponent_k_rate_season_prior": 0.21559383499546692,
+        "opponent_k_rate_l14d": 0.20570264765784113,
+        "opponent_k_rate_l30d": 0.22673267326732674,
+        "opponent_k_rate_vs_hand_season_prior": 0.2059274399591211,
+        "opponent_k_rate_vs_hand_l30d": 0.2133676092544987,
+        "opponent_whiff_rate_l14d": 0.25286160249739853,
+        "opponent_contact_rate_l14d": 0.7471383975026015
+      },
+      "recent_starts": [
+        {
+          "game_date": "2026-08-30",
+          "opponent": "Detroit Tigers",
+          "opponent_abbr": "DET",
+          "home_away": "away",
+          "strikeouts": 6,
+          "pitches": 85,
+          "batters_faced": 23
+        },
+        {
+          "game_date": "2026-08-25",
+          "opponent": "Atlanta Braves",
+          "opponent_abbr": "ATL",
+          "home_away": "away",
+          "strikeouts": 7,
+          "pitches": 89,
+          "batters_faced": 21
+        },
+        {
+          "game_date": "2026-05-06",
+          "opponent": "Houston Astros",
+          "opponent_abbr": "HOU",
+          "home_away": "away",
+          "strikeouts": 2,
+          "pitches": 19,
+          "batters_faced": 4
+        },
+        {
+          "game_date": "2026-04-29",
+          "opponent": "Miami Marlins",
+          "opponent_abbr": "MIA",
+          "home_away": "home",
+          "strikeouts": 9,
+          "pitches": 92,
+          "batters_faced": 24
+        },
+        {
+          "game_date": "2026-04-23",
+          "opponent": "San Francisco Giants",
+          "opponent_abbr": "SF",
+          "home_away": "away",
+          "strikeouts": 9,
+          "pitches": 105,
+          "batters_faced": 25
+        }
+      ]
+    },
+    {
+      "analysis_key": "824795:543243",
+      "game_pk": 824795,
+      "game_datetime": "2026-09-05T23:05:00Z",
+      "pitcher_id": 543243,
+      "pitcher_name": "Sonny Gray",
+      "team": "Boston Red Sox",
+      "team_abbr": "BOS",
+      "opponent": "Baltimore Orioles",
+      "opponent_abbr": "BAL",
+      "throwing_hand": "R",
+      "home_away": "away",
+      "venue_name": "Oriole Park at Camden Yards",
+      "projected_k": 4.8019514370376335,
+      "features": {
+        "rest_days": 9,
+        "days_since_last_start": 10,
+        "prior_start_strikeouts": 5,
+        "prior_start_pitches": 93,
+        "prior_start_batters_faced": 23,
+        "avg_k_l3": 6.0,
+        "avg_k_l5": 6.0,
+        "avg_k_l10": 5.3,
+        "avg_pitches_l5": 91.6,
+        "avg_bf_l5": 25.0,
+        "k_per_bf_l5": 0.24,
+        "swstr_l5": 0.11790393013100436,
+        "csw_l5": 0.28820960698689957,
+        "whiff_l5": 0.25961538461538464,
+        "velo_l3": 87.15262269175541,
+        "season_velo_prior": 87.40817918728949,
+        "velo_delta_l3_vs_season": -0.2555564955340799,
+        "opponent_k_rate_season_prior": 0.24283587644212876,
+        "opponent_k_rate_l14d": 0.23636363636363636,
+        "opponent_k_rate_l30d": 0.2398871119473189,
+        "opponent_k_rate_vs_hand_season_prior": 0.23658536585365852,
+        "opponent_k_rate_vs_hand_l30d": 0.22953216374269006,
+        "opponent_whiff_rate_l14d": 0.237012987012987,
+        "opponent_contact_rate_l14d": 0.762987012987013
+      },
+      "recent_starts": [
+        {
+          "game_date": "2026-08-26",
+          "opponent": "Miami Marlins",
+          "opponent_abbr": "MIA",
+          "home_away": "away",
+          "strikeouts": 5,
+          "pitches": 93,
+          "batters_faced": 23
+        },
+        {
+          "game_date": "2026-08-21",
+          "opponent": "San Francisco Giants",
+          "opponent_abbr": "SF",
+          "home_away": "home",
+          "strikeouts": 6,
+          "pitches": 97,
+          "batters_faced": 27
+        },
+        {
+          "game_date": "2026-08-15",
+          "opponent": "Pittsburgh Pirates",
+          "opponent_abbr": "PIT",
+          "home_away": "away",
+          "strikeouts": 7,
+          "pitches": 86,
+          "batters_faced": 26
+        },
+        {
+          "game_date": "2026-08-10",
+          "opponent": "Toronto Blue Jays",
+          "opponent_abbr": "TOR",
+          "home_away": "away",
+          "strikeouts": 4,
+          "pitches": 99,
+          "batters_faced": 26
+        },
+        {
+          "game_date": "2026-08-05",
+          "opponent": "Chicago White Sox",
+          "opponent_abbr": "CWS",
+          "home_away": "home",
+          "strikeouts": 8,
+          "pitches": 83,
+          "batters_faced": 23
+        }
+      ]
+    },
+    {
+      "analysis_key": "824553:641743",
+      "game_pk": 824553,
+      "game_datetime": "2026-09-05T23:10:00Z",
+      "pitcher_id": 641743,
+      "pitcher_name": "Anthony Kay",
+      "team": "Chicago White Sox",
+      "team_abbr": "CWS",
+      "opponent": "Minnesota Twins",
+      "opponent_abbr": "MIN",
+      "throwing_hand": "L",
+      "home_away": "home",
+      "venue_name": "Rate Field",
+      "projected_k": 4.806568013533872,
+      "features": {
+        "rest_days": 4,
+        "days_since_last_start": 5,
+        "prior_start_strikeouts": 5,
+        "prior_start_pitches": 89,
+        "prior_start_batters_faced": 23,
+        "avg_k_l3": 5.0,
+        "avg_k_l5": 4.6,
+        "avg_k_l10": 4.6,
+        "avg_pitches_l5": 90.2,
+        "avg_bf_l5": 23.4,
+        "k_per_bf_l5": 0.19658119658119658,
+        "swstr_l5": 0.1197339246119734,
+        "csw_l5": 0.28159645232815966,
+        "whiff_l5": 0.24545454545454545,
+        "velo_l3": 90.67118109133408,
+        "season_velo_prior": 90.0902569225399,
+        "velo_delta_l3_vs_season": 0.5809241687941835,
+        "opponent_k_rate_season_prior": 0.20888557028187418,
+        "opponent_k_rate_l14d": 0.16382978723404254,
+        "opponent_k_rate_l30d": 0.1863230921704658,
+        "opponent_k_rate_vs_hand_season_prior": 0.22007481296758105,
+        "opponent_k_rate_vs_hand_l30d": 0.21518987341772153,
+        "opponent_whiff_rate_l14d": 0.2190366972477064,
+        "opponent_contact_rate_l14d": 0.7809633027522935
+      },
+      "recent_starts": [
+        {
+          "game_date": "2026-08-31",
+          "opponent": "Houston Astros",
+          "opponent_abbr": "HOU",
+          "home_away": "away",
+          "strikeouts": 5,
+          "pitches": 89,
+          "batters_faced": 23
+        },
+        {
+          "game_date": "2026-08-25",
+          "opponent": "Texas Rangers",
+          "opponent_abbr": "TEX",
+          "home_away": "home",
+          "strikeouts": 4,
+          "pitches": 99,
+          "batters_faced": 23
+        },
+        {
+          "game_date": "2026-08-20",
+          "opponent": "Atlanta Braves",
+          "opponent_abbr": "ATL",
+          "home_away": "home",
+          "strikeouts": 6,
+          "pitches": 94,
+          "batters_faced": 24
+        },
+        {
+          "game_date": "2026-08-15",
+          "opponent": "Detroit Tigers",
+          "opponent_abbr": "DET",
+          "home_away": "away",
+          "strikeouts": 4,
+          "pitches": 86,
+          "batters_faced": 22
+        },
+        {
+          "game_date": "2026-08-08",
+          "opponent": "Cleveland Guardians",
+          "opponent_abbr": "CLE",
+          "home_away": "home",
+          "strikeouts": 4,
+          "pitches": 83,
+          "batters_faced": 25
+        }
+      ]
+    },
+    {
+      "analysis_key": "824468:671096",
+      "game_pk": 824468,
+      "game_datetime": "2026-09-05T22:40:00Z",
+      "pitcher_id": 671096,
+      "pitcher_name": "Andrew Abbott",
+      "team": "Cincinnati Reds",
+      "team_abbr": "CIN",
+      "opponent": "Milwaukee Brewers",
+      "opponent_abbr": "MIL",
+      "throwing_hand": "L",
+      "home_away": "home",
+      "venue_name": "Great American Ball Park",
+      "projected_k": 4.534793280530483,
+      "features": {
+        "rest_days": 6,
+        "days_since_last_start": 7,
+        "prior_start_strikeouts": 1,
+        "prior_start_pitches": 68,
+        "prior_start_batters_faced": 19,
+        "avg_k_l3": 4.333333333333333,
+        "avg_k_l5": 4.0,
+        "avg_k_l10": 4.2,
+        "avg_pitches_l5": 87.0,
+        "avg_bf_l5": 24.2,
+        "k_per_bf_l5": 0.1652892561983471,
+        "swstr_l5": 0.09655172413793103,
+        "csw_l5": 0.2735632183908046,
+        "whiff_l5": 0.20388349514563106,
+        "velo_l3": 87.57085288660919,
+        "season_velo_prior": 87.3801206486639,
+        "velo_delta_l3_vs_season": 0.1907322379452836,
+        "opponent_k_rate_season_prior": 0.21433730588660166,
+        "opponent_k_rate_l14d": 0.19731800766283525,
+        "opponent_k_rate_l30d": 0.22772277227722773,
+        "opponent_k_rate_vs_hand_season_prior": 0.2109982068141064,
+        "opponent_k_rate_vs_hand_l30d": 0.21478060046189376,
+        "opponent_whiff_rate_l14d": 0.20588235294117646,
+        "opponent_contact_rate_l14d": 0.7941176470588236
+      },
+      "recent_starts": [
+        {
+          "game_date": "2026-08-29",
+          "opponent": "Chicago Cubs",
+          "opponent_abbr": "CHC",
+          "home_away": "away",
+          "strikeouts": 1,
+          "pitches": 68,
+          "batters_faced": 19
+        },
+        {
+          "game_date": "2026-08-23",
+          "opponent": "Arizona Diamondbacks",
+          "opponent_abbr": "ARI",
+          "home_away": "away",
+          "strikeouts": 6,
+          "pitches": 88,
+          "batters_faced": 26
+        },
+        {
+          "game_date": "2026-08-18",
+          "opponent": "St. Louis Cardinals",
+          "opponent_abbr": "STL",
+          "home_away": "home",
+          "strikeouts": 6,
+          "pitches": 98,
+          "batters_faced": 26
+        },
+        {
+          "game_date": "2026-08-13",
+          "opponent": "Chicago White Sox",
+          "opponent_abbr": "CWS",
+          "home_away": "away",
+          "strikeouts": 3,
+          "pitches": 93,
+          "batters_faced": 23
+        },
+        {
+          "game_date": "2026-08-06",
+          "opponent": "Athletics",
+          "opponent_abbr": "ATH",
+          "home_away": "home",
+          "strikeouts": 4,
+          "pitches": 88,
+          "batters_faced": 27
+        }
+      ]
+    },
+    {
+      "analysis_key": "823335:579328",
+      "game_pk": 823335,
+      "game_datetime": "2026-09-05T22:40:00Z",
+      "pitcher_id": 579328,
+      "pitcher_name": "Yusei Kikuchi",
+      "team": "Los Angeles Angels",
+      "team_abbr": "LAA",
+      "opponent": "Pittsburgh Pirates",
+      "opponent_abbr": "PIT",
+      "throwing_hand": "L",
+      "home_away": "away",
+      "venue_name": "PNC Park",
+      "projected_k": 4.976383770114001,
+      "features": {
+        "rest_days": 5,
+        "days_since_last_start": 6,
+        "prior_start_strikeouts": 6,
+        "prior_start_pitches": 92,
+        "prior_start_batters_faced": 27,
+        "avg_k_l3": 3.6666666666666665,
+        "avg_k_l5": 4.8,
+        "avg_k_l10": 4.9,
+        "avg_pitches_l5": 78.4,
+        "avg_bf_l5": 20.6,
+        "k_per_bf_l5": 0.23300970873786409,
+        "swstr_l5": 0.11734693877551021,
+        "csw_l5": 0.2627551020408163,
+        "whiff_l5": 0.23232323232323232,
+        "velo_l3": 89.82575836880919,
+        "season_velo_prior": 89.55199407988118,
+        "velo_delta_l3_vs_season": 0.27376428892800675,
+        "opponent_k_rate_season_prior": 0.24411871154542164,
+        "opponent_k_rate_l14d": 0.2731182795698925,
+        "opponent_k_rate_l30d": 0.2517766497461929,
+        "opponent_k_rate_vs_hand_season_prior": 0.2622093023255814,
+        "opponent_k_rate_vs_hand_l30d": 0.2864450127877238,
+        "opponent_whiff_rate_l14d": 0.2897727272727273,
+        "opponent_contact_rate_l14d": 0.7102272727272727
+      },
+      "recent_starts": [
+        {
+          "game_date": "2026-08-30",
+          "opponent": "Philadelphia Phillies",
+          "opponent_abbr": "PHI",
+          "home_away": "home",
+          "strikeouts": 6,
+          "pitches": 92,
+          "batters_faced": 27
+        },
+        {
+          "game_date": "2026-08-23",
+          "opponent": "Texas Rangers",
+          "opponent_abbr": "TEX",
+          "home_away": "away",
+          "strikeouts": 4,
+          "pitches": 89,
+          "batters_faced": 23
+        },
+        {
+          "game_date": "2026-04-29",
+          "opponent": "Chicago White Sox",
+          "opponent_abbr": "CWS",
+          "home_away": "away",
+          "strikeouts": 1,
+          "pitches": 35,
+          "batters_faced": 9
+        },
+        {
+          "game_date": "2026-04-24",
+          "opponent": "Kansas City Royals",
+          "opponent_abbr": "KC",
+          "home_away": "away",
+          "strikeouts": 5,
+          "pitches": 90,
+          "batters_faced": 22
+        },
+        {
+          "game_date": "2026-04-18",
+          "opponent": "San Diego Padres",
+          "opponent_abbr": "SD",
+          "home_away": "home",
+          "strikeouts": 8,
+          "pitches": 86,
+          "batters_faced": 22
+        }
+      ]
+    },
+    {
+      "analysis_key": "823257:607074",
+      "game_pk": 823257,
+      "game_datetime": "2026-09-05T23:15:00Z",
+      "pitcher_id": 607074,
+      "pitcher_name": "Carlos Rod\u00f3n",
+      "team": "New York Yankees",
+      "team_abbr": "NYY",
+      "opponent": "San Diego Padres",
+      "opponent_abbr": "SD",
+      "throwing_hand": "L",
+      "home_away": "away",
+      "venue_name": "Petco Park",
+      "projected_k": 4.761798847991888,
+      "features": {
+        "rest_days": 6,
+        "days_since_last_start": 7,
+        "prior_start_strikeouts": 5,
+        "prior_start_pitches": 88,
+        "prior_start_batters_faced": 19,
+        "avg_k_l3": 3.6666666666666665,
+        "avg_k_l5": 4.4,
+        "avg_k_l10": 5.3,
+        "avg_pitches_l5": 82.6,
+        "avg_bf_l5": 19.2,
+        "k_per_bf_l5": 0.22916666666666666,
+        "swstr_l5": 0.14527845036319612,
+        "csw_l5": 0.25907990314769974,
+        "whiff_l5": 0.2955665024630542,
+        "velo_l3": 90.62639553429028,
+        "season_velo_prior": 90.68234163761252,
+        "velo_delta_l3_vs_season": -0.055946103322241925,
+        "opponent_k_rate_season_prior": 0.2174738841405508,
+        "opponent_k_rate_l14d": 0.21258134490238612,
+        "opponent_k_rate_l30d": 0.2028397565922921,
+        "opponent_k_rate_vs_hand_season_prior": 0.22067448680351906,
+        "opponent_k_rate_vs_hand_l30d": 0.2197452229299363,
+        "opponent_whiff_rate_l14d": 0.25027808676307006,
+        "opponent_contact_rate_l14d": 0.7497219132369299
+      },
+      "recent_starts": [
+        {
+          "game_date": "2026-08-29",
+          "opponent": "Boston Red Sox",
+          "opponent_abbr": "BOS",
+          "home_away": "home",
+          "strikeouts": 5,
+          "pitches": 88,
+          "batters_faced": 19
+        },
+        {
+          "game_date": "2026-08-23",
+          "opponent": "Toronto Blue Jays",
+          "opponent_abbr": "TOR",
+          "home_away": "home",
+          "strikeouts": 2,
+          "pitches": 76,
+          "batters_faced": 17
+        },
+        {
+          "game_date": "2026-08-18",
+          "opponent": "Baltimore Orioles",
+          "opponent_abbr": "BAL",
+          "home_away": "away",
+          "strikeouts": 4,
+          "pitches": 66,
+          "batters_faced": 17
+        },
+        {
+          "game_date": "2026-06-28",
+          "opponent": "Boston Red Sox",
+          "opponent_abbr": "BOS",
+          "home_away": "away",
+          "strikeouts": 6,
+          "pitches": 96,
+          "batters_faced": 21
+        },
+        {
+          "game_date": "2026-06-23",
+          "opponent": "Detroit Tigers",
+          "opponent_abbr": "DET",
+          "home_away": "away",
+          "strikeouts": 5,
+          "pitches": 87,
+          "batters_faced": 22
+        }
+      ]
+    },
+    {
+      "analysis_key": "823823:665871",
+      "game_pk": 823823,
+      "game_datetime": "2026-09-05T20:10:00Z",
+      "pitcher_id": 665871,
+      "pitcher_name": "Javier Assad",
+      "team": "Chicago Cubs",
+      "team_abbr": "CHC",
+      "opponent": "Miami Marlins",
+      "opponent_abbr": "MIA",
+      "throwing_hand": "R",
+      "home_away": "away",
+      "venue_name": "loanDepot park",
+      "projected_k": 3.8055895797398978,
+      "features": {
+        "rest_days": 31,
+        "days_since_last_start": 32,
+        "prior_start_strikeouts": 3,
+        "prior_start_pitches": 88,
+        "prior_start_batters_faced": 21,
+        "avg_k_l3": 4.333333333333333,
+        "avg_k_l5": 4.0,
+        "avg_k_l10": 3.5,
+        "avg_pitches_l5": 83.2,
+        "avg_bf_l5": 19.8,
+        "k_per_bf_l5": 0.20202020202020202,
+        "swstr_l5": 0.06954436450839328,
+        "csw_l5": 0.2589928057553957,
+        "whiff_l5": 0.15508021390374332,
+        "velo_l3": 89.92803798341926,
+        "season_velo_prior": 89.63999519961598,
+        "velo_delta_l3_vs_season": 0.2880427838032773,
+        "opponent_k_rate_season_prior": 0.21776450830378802,
+        "opponent_k_rate_l14d": 0.22937625754527163,
+        "opponent_k_rate_l30d": 0.2277992277992278,
+        "opponent_k_rate_vs_hand_season_prior": 0.2124031007751938,
+        "opponent_k_rate_vs_hand_l30d": 0.22852983988355166,
+        "opponent_whiff_rate_l14d": 0.2796976241900648,
+        "opponent_contact_rate_l14d": 0.7203023758099352
+      },
+      "recent_starts": [
+        {
+          "game_date": "2026-08-04",
+          "opponent": "Los Angeles Dodgers",
+          "opponent_abbr": "LAD",
+          "home_away": "home",
+          "strikeouts": 3,
+          "pitches": 88,
+          "batters_faced": 21
+        },
+        {
+          "game_date": "2026-07-30",
+          "opponent": "St. Louis Cardinals",
+          "opponent_abbr": "STL",
+          "home_away": "away",
+          "strikeouts": 6,
+          "pitches": 83,
+          "batters_faced": 20
+        },
+        {
+          "game_date": "2026-07-11",
+          "opponent": "Cincinnati Reds",
+          "opponent_abbr": "CIN",
+          "home_away": "away",
+          "strikeouts": 4,
+          "pitches": 82,
+          "batters_faced": 20
+        },
+        {
+          "game_date": "2026-07-05",
+          "opponent": "St. Louis Cardinals",
+          "opponent_abbr": "STL",
+          "home_away": "home",
+          "strikeouts": 2,
+          "pitches": 80,
+          "batters_faced": 17
+        },
+        {
+          "game_date": "2026-06-24",
+          "opponent": "New York Mets",
+          "opponent_abbr": "NYM",
+          "home_away": "away",
+          "strikeouts": 5,
+          "pitches": 83,
+          "batters_faced": 21
+        }
+      ]
+    },
+    {
+      "analysis_key": "824066:607625",
+      "game_pk": 824066,
+      "game_datetime": "2026-09-05T23:10:00Z",
+      "pitcher_id": 607625,
+      "pitcher_name": "Seth Lugo",
+      "team": "Kansas City Royals",
+      "team_abbr": "KC",
+      "opponent": "Toronto Blue Jays",
+      "opponent_abbr": "TOR",
+      "throwing_hand": "R",
+      "home_away": "home",
+      "venue_name": "Kauffman Stadium",
+      "projected_k": 3.7946774982154055,
+      "features": {
+        "rest_days": 5,
+        "days_since_last_start": 6,
+        "prior_start_strikeouts": 2,
+        "prior_start_pitches": 93,
+        "prior_start_batters_faced": 22,
+        "avg_k_l3": 3.3333333333333335,
+        "avg_k_l5": 3.8,
+        "avg_k_l10": 3.8,
+        "avg_pitches_l5": 90.8,
+        "avg_bf_l5": 22.8,
+        "k_per_bf_l5": 0.16666666666666666,
+        "swstr_l5": 0.08370044052863436,
+        "csw_l5": 0.2444933920704846,
+        "whiff_l5": 0.17511520737327188,
+        "velo_l3": 86.3071128327494,
+        "season_velo_prior": 85.7337600634496,
+        "velo_delta_l3_vs_season": 0.5733527692998024,
+        "opponent_k_rate_season_prior": 0.1929593373493976,
+        "opponent_k_rate_l14d": 0.16375545851528384,
+        "opponent_k_rate_l30d": 0.1840607210626186,
+        "opponent_k_rate_vs_hand_season_prior": 0.18888592038471813,
+        "opponent_k_rate_vs_hand_l30d": 0.19349845201238391,
+        "opponent_whiff_rate_l14d": 0.199023199023199,
+        "opponent_contact_rate_l14d": 0.800976800976801
+      },
+      "recent_starts": [
+        {
+          "game_date": "2026-08-30",
+          "opponent": "Cleveland Guardians",
+          "opponent_abbr": "CLE",
+          "home_away": "away",
+          "strikeouts": 2,
+          "pitches": 93,
+          "batters_faced": 22
+        },
+        {
+          "game_date": "2026-08-25",
+          "opponent": "Toronto Blue Jays",
+          "opponent_abbr": "TOR",
+          "home_away": "away",
+          "strikeouts": 5,
+          "pitches": 89,
+          "batters_faced": 21
+        },
+        {
+          "game_date": "2026-08-19",
+          "opponent": "Athletics",
+          "opponent_abbr": "ATH",
+          "home_away": "home",
+          "strikeouts": 3,
+          "pitches": 96,
+          "batters_faced": 26
+        },
+        {
+          "game_date": "2026-08-14",
+          "opponent": "Los Angeles Angels",
+          "opponent_abbr": "LAA",
+          "home_away": "away",
+          "strikeouts": 4,
+          "pitches": 86,
+          "batters_faced": 21
+        },
+        {
+          "game_date": "2026-08-08",
+          "opponent": "Chicago Cubs",
+          "opponent_abbr": "CHC",
+          "home_away": "home",
+          "strikeouts": 5,
+          "pitches": 90,
+          "batters_faced": 24
+        }
+      ]
+    },
+    {
+      "analysis_key": "823335:677952",
+      "game_pk": 823335,
+      "game_datetime": "2026-09-05T22:40:00Z",
+      "pitcher_id": 677952,
+      "pitcher_name": "Braxton Ashcraft",
+      "team": "Pittsburgh Pirates",
+      "team_abbr": "PIT",
+      "opponent": "Los Angeles Angels",
+      "opponent_abbr": "LAA",
+      "throwing_hand": "R",
+      "home_away": "home",
+      "venue_name": "PNC Park",
+      "projected_k": 5.564305719465164,
+      "features": {
+        "rest_days": 5,
+        "days_since_last_start": 6,
+        "prior_start_strikeouts": 3,
+        "prior_start_pitches": 71,
+        "prior_start_batters_faced": 22,
+        "avg_k_l3": 3.0,
+        "avg_k_l5": 4.8,
+        "avg_k_l10": 4.9,
+        "avg_pitches_l5": 81.8,
+        "avg_bf_l5": 23.8,
+        "k_per_bf_l5": 0.20168067226890757,
+        "swstr_l5": 0.1100244498777506,
+        "csw_l5": 0.3276283618581907,
+        "whiff_l5": 0.21739130434782608,
+        "velo_l3": 93.51196705876282,
+        "season_velo_prior": 92.54996396262628,
+        "velo_delta_l3_vs_season": 0.9620030961365416,
+        "opponent_k_rate_season_prior": 0.2522692889561271,
+        "opponent_k_rate_l14d": 0.25892857142857145,
+        "opponent_k_rate_l30d": 0.24975124378109453,
+        "opponent_k_rate_vs_hand_season_prior": 0.25311753780843727,
+        "opponent_k_rate_vs_hand_l30d": 0.27002967359050445,
+        "opponent_whiff_rate_l14d": 0.2835164835164835,
+        "opponent_contact_rate_l14d": 0.7164835164835165
+      },
+      "recent_starts": [
+        {
+          "game_date": "2026-08-30",
+          "opponent": "St. Louis Cardinals",
+          "opponent_abbr": "STL",
+          "home_away": "away",
+          "strikeouts": 3,
+          "pitches": 71,
+          "batters_faced": 22
+        },
+        {
+          "game_date": "2026-08-24",
+          "opponent": "San Diego Padres",
+          "opponent_abbr": "SD",
+          "home_away": "away",
+          "strikeouts": 2,
+          "pitches": 91,
+          "batters_faced": 21
+        },
+        {
+          "game_date": "2026-08-18",
+          "opponent": "Detroit Tigers",
+          "opponent_abbr": "DET",
+          "home_away": "home",
+          "strikeouts": 4,
+          "pitches": 80,
+          "batters_faced": 28
+        },
+        {
+          "game_date": "2026-08-13",
+          "opponent": "Miami Marlins",
+          "opponent_abbr": "MIA",
+          "home_away": "away",
+          "strikeouts": 10,
+          "pitches": 85,
+          "batters_faced": 28
+        },
+        {
+          "game_date": "2026-08-06",
+          "opponent": "Milwaukee Brewers",
+          "opponent_abbr": "MIL",
+          "home_away": "away",
+          "strikeouts": 5,
+          "pitches": 82,
+          "batters_faced": 20
+        }
+      ]
+    },
+    {
+      "analysis_key": "824389:800048",
+      "game_pk": 824389,
+      "game_datetime": "2026-09-05T22:10:00Z",
+      "pitcher_id": 800048,
+      "pitcher_name": "Parker Messick",
+      "team": "Cleveland Guardians",
+      "team_abbr": "CLE",
+      "opponent": "Detroit Tigers",
+      "opponent_abbr": "DET",
+      "throwing_hand": "L",
+      "home_away": "home",
+      "venue_name": "Progressive Field",
+      "projected_k": 5.784867295877762,
+      "features": {
+        "rest_days": 5,
+        "days_since_last_start": 6,
+        "prior_start_strikeouts": 5,
+        "prior_start_pitches": 105,
+        "prior_start_batters_faced": 25,
+        "avg_k_l3": 6.333333333333333,
+        "avg_k_l5": 6.6,
+        "avg_k_l10": 5.5,
+        "avg_pitches_l5": 99.2,
+        "avg_bf_l5": 24.2,
+        "k_per_bf_l5": 0.2727272727272727,
+        "swstr_l5": 0.1310483870967742,
+        "csw_l5": 0.2701612903225806,
+        "whiff_l5": 0.26422764227642276,
+        "velo_l3": 91.23892362618807,
+        "season_velo_prior": 89.9945137645241,
+        "velo_delta_l3_vs_season": 1.2444098616639678,
+        "opponent_k_rate_season_prior": 0.22605292582929556,
+        "opponent_k_rate_l14d": 0.24843423799582465,
+        "opponent_k_rate_l30d": 0.21951219512195122,
+        "opponent_k_rate_vs_hand_season_prior": 0.22756005056890014,
+        "opponent_k_rate_vs_hand_l30d": 0.23209169054441262,
+        "opponent_whiff_rate_l14d": 0.2555309734513274,
+        "opponent_contact_rate_l14d": 0.7444690265486726
+      },
+      "recent_starts": [
+        {
+          "game_date": "2026-08-30",
+          "opponent": "Kansas City Royals",
+          "opponent_abbr": "KC",
+          "home_away": "home",
+          "strikeouts": 5,
+          "pitches": 105,
+          "batters_faced": 25
+        },
+        {
+          "game_date": "2026-08-24",
+          "opponent": "Los Angeles Angels",
+          "opponent_abbr": "LAA",
+          "home_away": "away",
+          "strikeouts": 4,
+          "pitches": 94,
+          "batters_faced": 21
+        },
+        {
+          "game_date": "2026-08-19",
+          "opponent": "San Francisco Giants",
+          "opponent_abbr": "SF",
+          "home_away": "home",
+          "strikeouts": 10,
+          "pitches": 98,
+          "batters_faced": 26
+        },
+        {
+          "game_date": "2026-08-13",
+          "opponent": "Detroit Tigers",
+          "opponent_abbr": "DET",
+          "home_away": "away",
+          "strikeouts": 6,
+          "pitches": 102,
+          "batters_faced": 23
+        },
+        {
+          "game_date": "2026-08-07",
+          "opponent": "Chicago White Sox",
+          "opponent_abbr": "CWS",
+          "home_away": "away",
+          "strikeouts": 8,
+          "pitches": 97,
+          "batters_faced": 26
+        }
+      ]
+    },
+    {
+      "analysis_key": "823257:592662",
+      "game_pk": 823257,
+      "game_datetime": "2026-09-05T23:15:00Z",
+      "pitcher_id": 592662,
+      "pitcher_name": "Robbie Ray",
+      "team": "San Diego Padres",
+      "team_abbr": "SD",
+      "opponent": "New York Yankees",
+      "opponent_abbr": "NYY",
+      "throwing_hand": "L",
+      "home_away": "home",
+      "venue_name": "Petco Park",
+      "projected_k": 4.975015369784691,
+      "features": {
+        "rest_days": 5,
+        "days_since_last_start": 6,
+        "prior_start_strikeouts": 4,
+        "prior_start_pitches": 93,
+        "prior_start_batters_faced": 22,
+        "avg_k_l3": 4.333333333333333,
+        "avg_k_l5": 3.8,
+        "avg_k_l10": 4.4,
+        "avg_pitches_l5": 91.8,
+        "avg_bf_l5": 22.0,
+        "k_per_bf_l5": 0.17272727272727273,
+        "swstr_l5": 0.11328976034858387,
+        "csw_l5": 0.2549019607843137,
+        "whiff_l5": 0.2613065326633166,
+        "velo_l3": 87.75167186457509,
+        "season_velo_prior": 88.45271293265111,
+        "velo_delta_l3_vs_season": -0.7010410680760231,
+        "opponent_k_rate_season_prior": 0.2475303951367781,
+        "opponent_k_rate_l14d": 0.25,
+        "opponent_k_rate_l30d": 0.2677083333333333,
+        "opponent_k_rate_vs_hand_season_prior": 0.24776785714285715,
+        "opponent_k_rate_vs_hand_l30d": 0.2579505300353357,
+        "opponent_whiff_rate_l14d": 0.25922023182297155,
+        "opponent_contact_rate_l14d": 0.7407797681770285
+      },
+      "recent_starts": [
+        {
+          "game_date": "2026-08-30",
+          "opponent": "Tampa Bay Rays",
+          "opponent_abbr": "TB",
+          "home_away": "away",
+          "strikeouts": 4,
+          "pitches": 93,
+          "batters_faced": 22
+        },
+        {
+          "game_date": "2026-08-24",
+          "opponent": "Pittsburgh Pirates",
+          "opponent_abbr": "PIT",
+          "home_away": "home",
+          "strikeouts": 5,
+          "pitches": 99,
+          "batters_faced": 22
+        },
+        {
+          "game_date": "2026-08-18",
+          "opponent": "New York Mets",
+          "opponent_abbr": "NYM",
+          "home_away": "away",
+          "strikeouts": 4,
+          "pitches": 91,
+          "batters_faced": 24
+        },
+        {
+          "game_date": "2026-08-12",
+          "opponent": "Milwaukee Brewers",
+          "opponent_abbr": "MIL",
+          "home_away": "home",
+          "strikeouts": 4,
+          "pitches": 84,
+          "batters_faced": 17
+        },
+        {
+          "game_date": "2026-08-07",
+          "opponent": "Houston Astros",
+          "opponent_abbr": "HOU",
+          "home_away": "home",
+          "strikeouts": 2,
+          "pitches": 92,
+          "batters_faced": 25
+        }
+      ]
+    },
+    {
+      "analysis_key": "823577:804267",
+      "game_pk": 823577,
+      "game_datetime": "2026-09-05T20:10:00Z",
+      "pitcher_id": 804267,
+      "pitcher_name": "Zac Thornton",
+      "team": "New York Mets",
+      "team_abbr": "NYM",
+      "opponent": "San Francisco Giants",
+      "opponent_abbr": "SF",
+      "throwing_hand": "L",
+      "home_away": "home",
+      "venue_name": "Citi Field",
+      "projected_k": 4.498318811654251,
+      "features": {
+        "rest_days": 5,
+        "days_since_last_start": 6,
+        "prior_start_strikeouts": 5,
+        "prior_start_pitches": 97,
+        "prior_start_batters_faced": 22,
+        "avg_k_l3": 5.333333333333333,
+        "avg_k_l5": 4.2,
+        "avg_k_l10": 4.2,
+        "avg_pitches_l5": 85.6,
+        "avg_bf_l5": 22.2,
+        "k_per_bf_l5": 0.1891891891891892,
+        "swstr_l5": 0.0911214953271028,
+        "csw_l5": 0.21962616822429906,
+        "whiff_l5": 0.16883116883116883,
+        "velo_l3": 86.9492346531846,
+        "season_velo_prior": 87.35925868782323,
+        "velo_delta_l3_vs_season": -0.41002403463862436,
+        "opponent_k_rate_season_prior": 0.21317320322762245,
+        "opponent_k_rate_l14d": 0.21467889908256882,
+        "opponent_k_rate_l30d": 0.23290386521308226,
+        "opponent_k_rate_vs_hand_season_prior": 0.2335958005249344,
+        "opponent_k_rate_vs_hand_l30d": 0.2552552552552553,
+        "opponent_whiff_rate_l14d": 0.23185265438786565,
+        "opponent_contact_rate_l14d": 0.7681473456121344
+      },
+      "recent_starts": [
+        {
+          "game_date": "2026-08-30",
+          "opponent": "Houston Astros",
+          "opponent_abbr": "HOU",
+          "home_away": "home",
+          "strikeouts": 5,
+          "pitches": 97,
+          "batters_faced": 22
+        },
+        {
+          "game_date": "2026-08-25",
+          "opponent": "Milwaukee Brewers",
+          "opponent_abbr": "MIL",
+          "home_away": "home",
+          "strikeouts": 4,
+          "pitches": 89,
+          "batters_faced": 23
+        },
+        {
+          "game_date": "2026-08-18",
+          "opponent": "San Diego Padres",
+          "opponent_abbr": "SD",
+          "home_away": "home",
+          "strikeouts": 7,
+          "pitches": 99,
+          "batters_faced": 23
+        },
+        {
+          "game_date": "2026-08-12",
+          "opponent": "Atlanta Braves",
+          "opponent_abbr": "ATL",
+          "home_away": "away",
+          "strikeouts": 2,
+          "pitches": 80,
+          "batters_faced": 24
+        },
+        {
+          "game_date": "2026-08-07",
+          "opponent": "Pittsburgh Pirates",
+          "opponent_abbr": "PIT",
+          "home_away": "away",
+          "strikeouts": 3,
+          "pitches": 63,
+          "batters_faced": 19
+        }
+      ]
+    },
+    {
+      "analysis_key": "823419:554430",
+      "game_pk": 823419,
+      "game_datetime": "2026-09-05T22:05:00Z",
+      "pitcher_id": 554430,
+      "pitcher_name": "Zack Wheeler",
+      "team": "Philadelphia Phillies",
+      "team_abbr": "PHI",
+      "opponent": "Atlanta Braves",
+      "opponent_abbr": "ATL",
+      "throwing_hand": "R",
+      "home_away": "home",
+      "venue_name": "Citizens Bank Park",
+      "projected_k": 6.898415404757301,
+      "features": {
+        "rest_days": 5,
+        "days_since_last_start": 6,
+        "prior_start_strikeouts": 6,
+        "prior_start_pitches": 108,
+        "prior_start_batters_faced": 25,
+        "avg_k_l3": 5.666666666666667,
+        "avg_k_l5": 5.6,
+        "avg_k_l10": 7.0,
+        "avg_pitches_l5": 101.8,
+        "avg_bf_l5": 24.2,
+        "k_per_bf_l5": 0.23140495867768596,
+        "swstr_l5": 0.12966601178781925,
+        "csw_l5": 0.28487229862475444,
+        "whiff_l5": 0.2832618025751073,
+        "velo_l3": 90.2047889957853,
+        "season_velo_prior": 90.0563862263328,
+        "velo_delta_l3_vs_season": 0.14840276945248831,
+        "opponent_k_rate_season_prior": 0.21679909194097616,
+        "opponent_k_rate_l14d": 0.22321428571428573,
+        "opponent_k_rate_l30d": 0.23404255319148937,
+        "opponent_k_rate_vs_hand_season_prior": 0.22093695777906305,
+        "opponent_k_rate_vs_hand_l30d": 0.2453900709219858,
+        "opponent_whiff_rate_l14d": 0.2448087431693989,
+        "opponent_contact_rate_l14d": 0.7551912568306011
+      },
+      "recent_starts": [
+        {
+          "game_date": "2026-08-30",
+          "opponent": "Los Angeles Angels",
+          "opponent_abbr": "LAA",
+          "home_away": "away",
+          "strikeouts": 6,
+          "pitches": 108,
+          "batters_faced": 25
+        },
+        {
+          "game_date": "2026-08-24",
+          "opponent": "Seattle Mariners",
+          "opponent_abbr": "SEA",
+          "home_away": "away",
+          "strikeouts": 4,
+          "pitches": 103,
+          "batters_faced": 25
+        },
+        {
+          "game_date": "2026-08-18",
+          "opponent": "Miami Marlins",
+          "opponent_abbr": "MIA",
+          "home_away": "home",
+          "strikeouts": 7,
+          "pitches": 98,
+          "batters_faced": 20
+        },
+        {
+          "game_date": "2026-08-12",
+          "opponent": "St. Louis Cardinals",
+          "opponent_abbr": "STL",
+          "home_away": "away",
+          "strikeouts": 5,
+          "pitches": 84,
+          "batters_faced": 23
+        },
+        {
+          "game_date": "2026-08-07",
+          "opponent": "Toronto Blue Jays",
+          "opponent_abbr": "TOR",
+          "home_away": "home",
+          "strikeouts": 6,
+          "pitches": 116,
+          "batters_faced": 28
+        }
+      ]
+    },
+    {
+      "analysis_key": "823419:527048",
+      "game_pk": 823419,
+      "game_datetime": "2026-09-05T22:05:00Z",
+      "pitcher_id": 527048,
+      "pitcher_name": "Mart\u00edn P\u00e9rez",
+      "team": "Atlanta Braves",
+      "team_abbr": "ATL",
+      "opponent": "Philadelphia Phillies",
+      "opponent_abbr": "PHI",
+      "throwing_hand": "L",
+      "home_away": "away",
+      "venue_name": "Citizens Bank Park",
+      "projected_k": 3.282944455367913,
+      "features": {
+        "rest_days": 6,
+        "days_since_last_start": 7,
+        "prior_start_strikeouts": 6,
+        "prior_start_pitches": 83,
+        "prior_start_batters_faced": 24,
+        "avg_k_l3": 3.6666666666666665,
+        "avg_k_l5": 3.2,
+        "avg_k_l10": 3.1,
+        "avg_pitches_l5": 75.8,
+        "avg_bf_l5": 20.2,
+        "k_per_bf_l5": 0.15841584158415842,
+        "swstr_l5": 0.10290237467018469,
+        "csw_l5": 0.2532981530343008,
+        "whiff_l5": 0.22285714285714286,
+        "velo_l3": 84.9474728685928,
+        "season_velo_prior": 85.12299405576104,
+        "velo_delta_l3_vs_season": -0.1755211871682434,
+        "opponent_k_rate_season_prior": 0.22077677224736048,
+        "opponent_k_rate_l14d": 0.18973214285714285,
+        "opponent_k_rate_l30d": 0.16912487708947885,
+        "opponent_k_rate_vs_hand_season_prior": 0.22317596566523606,
+        "opponent_k_rate_vs_hand_l30d": 0.1618705035971223,
+        "opponent_whiff_rate_l14d": 0.22491349480968859,
+        "opponent_contact_rate_l14d": 0.7750865051903114
+      },
+      "recent_starts": [
+        {
+          "game_date": "2026-08-29",
+          "opponent": "Colorado Rockies",
+          "opponent_abbr": "COL",
+          "home_away": "home",
+          "strikeouts": 6,
+          "pitches": 83,
+          "batters_faced": 24
+        },
+        {
+          "game_date": "2026-08-22",
+          "opponent": "Milwaukee Brewers",
+          "opponent_abbr": "MIL",
+          "home_away": "away",
+          "strikeouts": 2,
+          "pitches": 97,
+          "batters_faced": 20
+        },
+        {
+          "game_date": "2026-08-17",
+          "opponent": "Minnesota Twins",
+          "opponent_abbr": "MIN",
+          "home_away": "away",
+          "strikeouts": 3,
+          "pitches": 82,
+          "batters_faced": 25
+        },
+        {
+          "game_date": "2026-08-11",
+          "opponent": "New York Mets",
+          "opponent_abbr": "NYM",
+          "home_away": "home",
+          "strikeouts": 2,
+          "pitches": 82,
+          "batters_faced": 23
+        },
+        {
+          "game_date": "2026-08-06",
+          "opponent": "Miami Marlins",
+          "opponent_abbr": "MIA",
+          "home_away": "home",
+          "strikeouts": 3,
+          "pitches": 35,
+          "batters_faced": 9
+        }
+      ]
+    },
+    {
+      "analysis_key": "824389:664285",
+      "game_pk": 824389,
+      "game_datetime": "2026-09-05T22:10:00Z",
+      "pitcher_id": 664285,
+      "pitcher_name": "Framber Valdez",
+      "team": "Detroit Tigers",
+      "team_abbr": "DET",
+      "opponent": "Cleveland Guardians",
+      "opponent_abbr": "CLE",
+      "throwing_hand": "L",
+      "home_away": "away",
+      "venue_name": "Progressive Field",
+      "projected_k": 3.771356564489708,
+      "features": {
+        "rest_days": 5,
+        "days_since_last_start": 6,
+        "prior_start_strikeouts": 5,
+        "prior_start_pitches": 105,
+        "prior_start_batters_faced": 25,
+        "avg_k_l3": 3.3333333333333335,
+        "avg_k_l5": 3.6,
+        "avg_k_l10": 3.9,
+        "avg_pitches_l5": 95.4,
+        "avg_bf_l5": 26.2,
+        "k_per_bf_l5": 0.13740458015267176,
+        "swstr_l5": 0.06918238993710692,
+        "csw_l5": 0.259958071278826,
+        "whiff_l5": 0.15639810426540285,
+        "velo_l3": 88.85799145299147,
+        "season_velo_prior": 88.21901430329326,
+        "velo_delta_l3_vs_season": 0.6389771496982064,
+        "opponent_k_rate_season_prior": 0.21312698116725715,
+        "opponent_k_rate_l14d": 0.18473895582329317,
+        "opponent_k_rate_l30d": 0.17799043062200956,
+        "opponent_k_rate_vs_hand_season_prior": 0.2213267203967762,
+        "opponent_k_rate_vs_hand_l30d": 0.1864406779661017,
+        "opponent_whiff_rate_l14d": 0.2025862068965517,
+        "opponent_contact_rate_l14d": 0.7974137931034483
+      },
+      "recent_starts": [
+        {
+          "game_date": "2026-08-30",
+          "opponent": "Los Angeles Dodgers",
+          "opponent_abbr": "LAD",
+          "home_away": "home",
+          "strikeouts": 5,
+          "pitches": 105,
+          "batters_faced": 25
+        },
+        {
+          "game_date": "2026-08-24",
+          "opponent": "Tampa Bay Rays",
+          "opponent_abbr": "TB",
+          "home_away": "home",
+          "strikeouts": 0,
+          "pitches": 84,
+          "batters_faced": 26
+        },
+        {
+          "game_date": "2026-08-17",
+          "opponent": "Pittsburgh Pirates",
+          "opponent_abbr": "PIT",
+          "home_away": "away",
+          "strikeouts": 5,
+          "pitches": 91,
+          "batters_faced": 26
+        },
+        {
+          "game_date": "2026-08-12",
+          "opponent": "Cleveland Guardians",
+          "opponent_abbr": "CLE",
+          "home_away": "home",
+          "strikeouts": 3,
+          "pitches": 102,
+          "batters_faced": 29
+        },
+        {
+          "game_date": "2026-08-06",
+          "opponent": "Seattle Mariners",
+          "opponent_abbr": "SEA",
+          "home_away": "away",
+          "strikeouts": 5,
+          "pitches": 95,
+          "batters_faced": 25
+        }
+      ]
+    },
+    {
+      "analysis_key": "823823:687473",
+      "game_pk": 823823,
+      "game_datetime": "2026-09-05T20:10:00Z",
+      "pitcher_id": 687473,
+      "pitcher_name": "Ryan Gusto",
+      "team": "Miami Marlins",
+      "team_abbr": "MIA",
+      "opponent": "Chicago Cubs",
+      "opponent_abbr": "CHC",
+      "throwing_hand": "R",
+      "home_away": "home",
+      "venue_name": "loanDepot park",
+      "projected_k": 3.7544748073506953,
+      "features": {
+        "rest_days": 4,
+        "days_since_last_start": 5,
+        "prior_start_strikeouts": 4,
+        "prior_start_pitches": 69,
+        "prior_start_batters_faced": 18,
+        "avg_k_l3": 2.6666666666666665,
+        "avg_k_l5": 3.6,
+        "avg_k_l10": 3.6,
+        "avg_pitches_l5": 70.0,
+        "avg_bf_l5": 20.0,
+        "k_per_bf_l5": 0.18,
+        "swstr_l5": 0.11714285714285715,
+        "csw_l5": 0.34285714285714286,
+        "whiff_l5": 0.23563218390804597,
+        "velo_l3": 89.02997217713484,
+        "season_velo_prior": 88.73486068885863,
+        "velo_delta_l3_vs_season": 0.2951114882762056,
+        "opponent_k_rate_season_prior": 0.2139551441794233,
+        "opponent_k_rate_l14d": 0.1743295019157088,
+        "opponent_k_rate_l30d": 0.20055970149253732,
+        "opponent_k_rate_vs_hand_season_prior": 0.2139546230787997,
+        "opponent_k_rate_vs_hand_l30d": 0.19951338199513383,
+        "opponent_whiff_rate_l14d": 0.20386266094420602,
+        "opponent_contact_rate_l14d": 0.796137339055794
+      },
+      "recent_starts": [
+        {
+          "game_date": "2026-08-31",
+          "opponent": "Washington Nationals",
+          "opponent_abbr": "WSH",
+          "home_away": "away",
+          "strikeouts": 4,
+          "pitches": 69,
+          "batters_faced": 18
+        },
+        {
+          "game_date": "2026-08-26",
+          "opponent": "Boston Red Sox",
+          "opponent_abbr": "BOS",
+          "home_away": "home",
+          "strikeouts": 2,
+          "pitches": 89,
+          "batters_faced": 25
+        },
+        {
+          "game_date": "2026-08-21",
+          "opponent": "Washington Nationals",
+          "opponent_abbr": "WSH",
+          "home_away": "home",
+          "strikeouts": 2,
+          "pitches": 62,
+          "batters_faced": 18
+        },
+        {
+          "game_date": "2026-08-15",
+          "opponent": "Cincinnati Reds",
+          "opponent_abbr": "CIN",
+          "home_away": "away",
+          "strikeouts": 6,
+          "pitches": 70,
+          "batters_faced": 21
+        },
+        {
+          "game_date": "2026-08-09",
+          "opponent": "Los Angeles Angels",
+          "opponent_abbr": "LAA",
+          "home_away": "home",
+          "strikeouts": 4,
+          "pitches": 60,
+          "batters_faced": 18
+        }
+      ]
+    },
+    {
+      "analysis_key": "822850:656876",
+      "game_pk": 822850,
+      "game_datetime": "2026-09-05T23:05:00Z",
+      "pitcher_id": 656876,
+      "pitcher_name": "Drew Rasmussen",
+      "team": "Tampa Bay Rays",
+      "team_abbr": "TB",
+      "opponent": "Texas Rangers",
+      "opponent_abbr": "TEX",
+      "throwing_hand": "R",
+      "home_away": "away",
+      "venue_name": "Globe Life Field",
+      "projected_k": 5.3671196751358465,
+      "features": {
+        "rest_days": 5,
+        "days_since_last_start": 6,
+        "prior_start_strikeouts": 6,
+        "prior_start_pitches": 97,
+        "prior_start_batters_faced": 24,
+        "avg_k_l3": 5.333333333333333,
+        "avg_k_l5": 5.4,
+        "avg_k_l10": 5.5,
+        "avg_pitches_l5": 92.2,
+        "avg_bf_l5": 22.6,
+        "k_per_bf_l5": 0.23893805309734514,
+        "swstr_l5": 0.10845986984815618,
+        "csw_l5": 0.28199566160520606,
+        "whiff_l5": 0.21551724137931033,
+        "velo_l3": 92.15263811073378,
+        "season_velo_prior": 92.39162898306299,
+        "velo_delta_l3_vs_season": -0.2389908723292109,
+        "opponent_k_rate_season_prior": 0.22542372881355932,
+        "opponent_k_rate_l14d": 0.1851106639839034,
+        "opponent_k_rate_l30d": 0.219,
+        "opponent_k_rate_vs_hand_season_prior": 0.22083775185577942,
+        "opponent_k_rate_vs_hand_l30d": 0.22982456140350876,
+        "opponent_whiff_rate_l14d": 0.24382716049382716,
+        "opponent_contact_rate_l14d": 0.7561728395061729
+      },
+      "recent_starts": [
+        {
+          "game_date": "2026-08-30",
+          "opponent": "San Diego Padres",
+          "opponent_abbr": "SD",
+          "home_away": "home",
+          "strikeouts": 6,
+          "pitches": 97,
+          "batters_faced": 24
+        },
+        {
+          "game_date": "2026-08-24",
+          "opponent": "Detroit Tigers",
+          "opponent_abbr": "DET",
+          "home_away": "away",
+          "strikeouts": 5,
+          "pitches": 103,
+          "batters_faced": 21
+        },
+        {
+          "game_date": "2026-08-19",
+          "opponent": "Toronto Blue Jays",
+          "opponent_abbr": "TOR",
+          "home_away": "home",
+          "strikeouts": 5,
+          "pitches": 86,
+          "batters_faced": 23
+        },
+        {
+          "game_date": "2026-08-12",
+          "opponent": "Athletics",
+          "opponent_abbr": "ATH",
+          "home_away": "away",
+          "strikeouts": 3,
+          "pitches": 84,
+          "batters_faced": 21
+        },
+        {
+          "game_date": "2026-08-07",
+          "opponent": "Seattle Mariners",
+          "opponent_abbr": "SEA",
+          "home_away": "away",
+          "strikeouts": 8,
+          "pitches": 91,
+          "batters_faced": 24
+        }
+      ]
+    },
+    {
+      "analysis_key": "824310:669461",
+      "game_pk": 824310,
+      "game_datetime": "2026-09-06T00:10:00Z",
+      "pitcher_id": 669461,
+      "pitcher_name": "Matthew Liberatore",
+      "team": "St. Louis Cardinals",
+      "team_abbr": "STL",
+      "opponent": "Colorado Rockies",
+      "opponent_abbr": "COL",
+      "throwing_hand": "L",
+      "home_away": "away",
+      "venue_name": "Coors Field",
+      "projected_k": 5.517001384460172,
+      "features": {
+        "rest_days": 5,
+        "days_since_last_start": 6,
+        "prior_start_strikeouts": 9,
+        "prior_start_pitches": 107,
+        "prior_start_batters_faced": 26,
+        "avg_k_l3": 8.333333333333334,
+        "avg_k_l5": 6.8,
+        "avg_k_l10": 6.2,
+        "avg_pitches_l5": 97.4,
+        "avg_bf_l5": 22.6,
+        "k_per_bf_l5": 0.3008849557522124,
+        "swstr_l5": 0.11270491803278689,
+        "csw_l5": 0.3114754098360656,
+        "whiff_l5": 0.2619047619047619,
+        "velo_l3": 87.48185772482968,
+        "season_velo_prior": 88.72223926715624,
+        "velo_delta_l3_vs_season": -1.2403815423265598,
+        "opponent_k_rate_season_prior": 0.2268346923647146,
+        "opponent_k_rate_l14d": 0.228515625,
+        "opponent_k_rate_l30d": 0.22321428571428573,
+        "opponent_k_rate_vs_hand_season_prior": 0.24910820451843044,
+        "opponent_k_rate_vs_hand_l30d": 0.2393617021276596,
+        "opponent_whiff_rate_l14d": 0.2578125,
+        "opponent_contact_rate_l14d": 0.7421875
+      },
+      "recent_starts": [
+        {
+          "game_date": "2026-08-30",
+          "opponent": "Pittsburgh Pirates",
+          "opponent_abbr": "PIT",
+          "home_away": "home",
+          "strikeouts": 9,
+          "pitches": 107,
+          "batters_faced": 26
+        },
+        {
+          "game_date": "2026-08-25",
+          "opponent": "Baltimore Orioles",
+          "opponent_abbr": "BAL",
+          "home_away": "home",
+          "strikeouts": 7,
+          "pitches": 91,
+          "batters_faced": 22
+        },
+        {
+          "game_date": "2026-08-19",
+          "opponent": "Cincinnati Reds",
+          "opponent_abbr": "CIN",
+          "home_away": "away",
+          "strikeouts": 9,
+          "pitches": 100,
+          "batters_faced": 22
+        },
+        {
+          "game_date": "2026-08-14",
+          "opponent": "Chicago Cubs",
+          "opponent_abbr": "CHC",
+          "home_away": "away",
+          "strikeouts": 6,
+          "pitches": 95,
+          "batters_faced": 19
+        },
+        {
+          "game_date": "2026-08-08",
+          "opponent": "Colorado Rockies",
+          "opponent_abbr": "COL",
+          "home_away": "home",
+          "strikeouts": 3,
+          "pitches": 94,
+          "batters_faced": 24
+        }
+      ]
+    },
+    {
+      "analysis_key": "823094:605488",
+      "game_pk": 823094,
+      "game_datetime": "2026-09-06T01:40:00Z",
+      "pitcher_id": 605488,
+      "pitcher_name": "Jeffrey Springs",
+      "team": "Athletics",
+      "team_abbr": "ATH",
+      "opponent": "Seattle Mariners",
+      "opponent_abbr": "SEA",
+      "throwing_hand": "L",
+      "home_away": "away",
+      "venue_name": "T-Mobile Park",
+      "projected_k": 3.9722676627341587,
+      "features": {
+        "rest_days": 5,
+        "days_since_last_start": 6,
+        "prior_start_strikeouts": 6,
+        "prior_start_pitches": 90,
+        "prior_start_batters_faced": 21,
+        "avg_k_l3": 3.3333333333333335,
+        "avg_k_l5": 2.4,
+        "avg_k_l10": 3.0,
+        "avg_pitches_l5": 77.2,
+        "avg_bf_l5": 19.6,
+        "k_per_bf_l5": 0.12244897959183673,
+        "swstr_l5": 0.09585492227979274,
+        "csw_l5": 0.24352331606217617,
+        "whiff_l5": 0.20441988950276244,
+        "velo_l3": 85.54685613571273,
+        "season_velo_prior": 85.87195755643603,
+        "velo_delta_l3_vs_season": -0.32510142072329984,
+        "opponent_k_rate_season_prior": 0.2320390170699681,
+        "opponent_k_rate_l14d": 0.25553319919517103,
+        "opponent_k_rate_l30d": 0.24806201550387597,
+        "opponent_k_rate_vs_hand_season_prior": 0.24367274867569158,
+        "opponent_k_rate_vs_hand_l30d": 0.2626728110599078,
+        "opponent_whiff_rate_l14d": 0.2682080924855491,
+        "opponent_contact_rate_l14d": 0.7317919075144509
+      },
+      "recent_starts": [
+        {
+          "game_date": "2026-08-30",
+          "opponent": "Baltimore Orioles",
+          "opponent_abbr": "BAL",
+          "home_away": "home",
+          "strikeouts": 6,
+          "pitches": 90,
+          "batters_faced": 21
+        },
+        {
+          "game_date": "2026-08-24",
+          "opponent": "Minnesota Twins",
+          "opponent_abbr": "MIN",
+          "home_away": "home",
+          "strikeouts": 3,
+          "pitches": 89,
+          "batters_faced": 23
+        },
+        {
+          "game_date": "2026-08-19",
+          "opponent": "Kansas City Royals",
+          "opponent_abbr": "KC",
+          "home_away": "away",
+          "strikeouts": 1,
+          "pitches": 85,
+          "batters_faced": 25
+        },
+        {
+          "game_date": "2026-07-31",
+          "opponent": "Detroit Tigers",
+          "opponent_abbr": "DET",
+          "home_away": "home",
+          "strikeouts": 2,
+          "pitches": 86,
+          "batters_faced": 20
+        },
+        {
+          "game_date": "2026-07-26",
+          "opponent": "Minnesota Twins",
+          "opponent_abbr": "MIN",
+          "home_away": "away",
+          "strikeouts": 0,
+          "pitches": 36,
+          "batters_faced": 9
+        }
+      ]
+    },
+    {
+      "analysis_key": "823094:669923",
+      "game_pk": 823094,
+      "game_datetime": "2026-09-06T01:40:00Z",
+      "pitcher_id": 669923,
+      "pitcher_name": "George Kirby",
+      "team": "Seattle Mariners",
+      "team_abbr": "SEA",
+      "opponent": "Athletics",
+      "opponent_abbr": "ATH",
+      "throwing_hand": "R",
+      "home_away": "home",
+      "venue_name": "T-Mobile Park",
+      "projected_k": 5.319559355153364,
+      "features": {
+        "rest_days": 4,
+        "days_since_last_start": 5,
+        "prior_start_strikeouts": 2,
+        "prior_start_pitches": 86,
+        "prior_start_batters_faced": 23,
+        "avg_k_l3": 4.666666666666667,
+        "avg_k_l5": 3.6,
+        "avg_k_l10": 4.4,
+        "avg_pitches_l5": 92.0,
+        "avg_bf_l5": 23.4,
+        "k_per_bf_l5": 0.15384615384615385,
+        "swstr_l5": 0.1079913606911447,
+        "csw_l5": 0.2570194384449244,
+        "whiff_l5": 0.21008403361344538,
+        "velo_l3": 91.56977747283612,
+        "season_velo_prior": 91.90772591594246,
+        "velo_delta_l3_vs_season": -0.33794844310634176,
+        "opponent_k_rate_season_prior": 0.22476471673740542,
+        "opponent_k_rate_l14d": 0.23921568627450981,
+        "opponent_k_rate_l30d": 0.2169811320754717,
+        "opponent_k_rate_vs_hand_season_prior": 0.21476137624861266,
+        "opponent_k_rate_vs_hand_l30d": 0.2063953488372093,
+        "opponent_whiff_rate_l14d": 0.27947154471544716,
+        "opponent_contact_rate_l14d": 0.7205284552845528
+      },
+      "recent_starts": [
+        {
+          "game_date": "2026-08-31",
+          "opponent": "Boston Red Sox",
+          "opponent_abbr": "BOS",
+          "home_away": "away",
+          "strikeouts": 2,
+          "pitches": 86,
+          "batters_faced": 23
+        },
+        {
+          "game_date": "2026-08-25",
+          "opponent": "Philadelphia Phillies",
+          "opponent_abbr": "PHI",
+          "home_away": "home",
+          "strikeouts": 9,
+          "pitches": 92,
+          "batters_faced": 30
+        },
+        {
+          "game_date": "2026-08-20",
+          "opponent": "Milwaukee Brewers",
+          "opponent_abbr": "MIL",
+          "home_away": "away",
+          "strikeouts": 3,
+          "pitches": 84,
+          "batters_faced": 20
+        },
+        {
+          "game_date": "2026-08-14",
+          "opponent": "Houston Astros",
+          "opponent_abbr": "HOU",
+          "home_away": "away",
+          "strikeouts": 2,
+          "pitches": 99,
+          "batters_faced": 24
+        },
+        {
+          "game_date": "2026-08-08",
+          "opponent": "Tampa Bay Rays",
+          "opponent_abbr": "TB",
+          "home_away": "home",
+          "strikeouts": 2,
+          "pitches": 99,
+          "batters_faced": 20
+        }
+      ]
+    },
+    {
+      "analysis_key": "824553:671737",
+      "game_pk": 824553,
+      "game_datetime": "2026-09-05T23:10:00Z",
+      "pitcher_id": 671737,
+      "pitcher_name": "Taj Bradley",
+      "team": "Minnesota Twins",
+      "team_abbr": "MIN",
+      "opponent": "Chicago White Sox",
+      "opponent_abbr": "CWS",
+      "throwing_hand": "R",
+      "home_away": "away",
+      "venue_name": "Rate Field",
+      "projected_k": 6.246410153194521,
+      "features": {
+        "rest_days": 4,
+        "days_since_last_start": 5,
+        "prior_start_strikeouts": 9,
+        "prior_start_pitches": 104,
+        "prior_start_batters_faced": 27,
+        "avg_k_l3": 9.0,
+        "avg_k_l5": 7.4,
+        "avg_k_l10": 6.6,
+        "avg_pitches_l5": 95.4,
+        "avg_bf_l5": 24.2,
+        "k_per_bf_l5": 0.30578512396694213,
+        "swstr_l5": 0.14046121593291405,
+        "csw_l5": 0.3081761006289308,
+        "whiff_l5": 0.29910714285714285,
+        "velo_l3": 93.21160321160319,
+        "season_velo_prior": 92.88185175412349,
+        "velo_delta_l3_vs_season": 0.329751457479702,
+        "opponent_k_rate_season_prior": 0.23764399851356374,
+        "opponent_k_rate_l14d": 0.2318548387096774,
+        "opponent_k_rate_l30d": 0.2324521422060164,
+        "opponent_k_rate_vs_hand_season_prior": 0.23515625,
+        "opponent_k_rate_vs_hand_l30d": 0.23186528497409326,
+        "opponent_whiff_rate_l14d": 0.25975473801560756,
+        "opponent_contact_rate_l14d": 0.7402452619843924
+      },
+      "recent_starts": [
+        {
+          "game_date": "2026-08-31",
+          "opponent": "Detroit Tigers",
+          "opponent_abbr": "DET",
+          "home_away": "home",
+          "strikeouts": 9,
+          "pitches": 104,
+          "batters_faced": 27
+        },
+        {
+          "game_date": "2026-08-25",
+          "opponent": "Athletics",
+          "opponent_abbr": "ATH",
+          "home_away": "away",
+          "strikeouts": 11,
+          "pitches": 99,
+          "batters_faced": 28
+        },
+        {
+          "game_date": "2026-08-19",
+          "opponent": "Atlanta Braves",
+          "opponent_abbr": "ATL",
+          "home_away": "home",
+          "strikeouts": 7,
+          "pitches": 88,
+          "batters_faced": 20
+        },
+        {
+          "game_date": "2026-08-13",
+          "opponent": "Philadelphia Phillies",
+          "opponent_abbr": "PHI",
+          "home_away": "home",
+          "strikeouts": 3,
+          "pitches": 89,
+          "batters_faced": 23
+        },
+        {
+          "game_date": "2026-08-08",
+          "opponent": "Milwaukee Brewers",
+          "opponent_abbr": "MIL",
+          "home_away": "away",
+          "strikeouts": 7,
+          "pitches": 97,
+          "batters_faced": 23
+        }
+      ]
+    },
+    {
+      "analysis_key": "824066:453286",
+      "game_pk": 824066,
+      "game_datetime": "2026-09-05T23:10:00Z",
+      "pitcher_id": 453286,
+      "pitcher_name": "Max Scherzer",
+      "team": "Toronto Blue Jays",
+      "team_abbr": "TOR",
+      "opponent": "Kansas City Royals",
+      "opponent_abbr": "KC",
+      "throwing_hand": "R",
+      "home_away": "away",
+      "venue_name": "Kauffman Stadium",
+      "projected_k": 3.6138948001100166,
+      "features": {
+        "rest_days": 5,
+        "days_since_last_start": 6,
+        "prior_start_strikeouts": 10,
+        "prior_start_pitches": 97,
+        "prior_start_batters_faced": 23,
+        "avg_k_l3": 5.0,
+        "avg_k_l5": 4.6,
+        "avg_k_l10": 3.7,
+        "avg_pitches_l5": 87.6,
+        "avg_bf_l5": 21.6,
+        "k_per_bf_l5": 0.21296296296296297,
+        "swstr_l5": 0.1141552511415525,
+        "csw_l5": 0.2762557077625571,
+        "whiff_l5": 0.2403846153846154,
+        "velo_l3": 87.51001751983773,
+        "season_velo_prior": 87.65260253463846,
+        "velo_delta_l3_vs_season": -0.14258501480072994,
+        "opponent_k_rate_season_prior": 0.20738104158860995,
+        "opponent_k_rate_l14d": 0.19305856832971802,
+        "opponent_k_rate_l30d": 0.1889763779527559,
+        "opponent_k_rate_vs_hand_season_prior": 0.2042833607907743,
+        "opponent_k_rate_vs_hand_l30d": 0.16744186046511628,
+        "opponent_whiff_rate_l14d": 0.23838630806845965,
+        "opponent_contact_rate_l14d": 0.7616136919315404
+      },
+      "recent_starts": [
+        {
+          "game_date": "2026-08-30",
+          "opponent": "Seattle Mariners",
+          "opponent_abbr": "SEA",
+          "home_away": "home",
+          "strikeouts": 10,
+          "pitches": 97,
+          "batters_faced": 23
+        },
+        {
+          "game_date": "2026-08-25",
+          "opponent": "Kansas City Royals",
+          "opponent_abbr": "KC",
+          "home_away": "home",
+          "strikeouts": 4,
+          "pitches": 92,
+          "batters_faced": 23
+        },
+        {
+          "game_date": "2026-08-19",
+          "opponent": "Tampa Bay Rays",
+          "opponent_abbr": "TB",
+          "home_away": "away",
+          "strikeouts": 1,
+          "pitches": 73,
+          "batters_faced": 21
+        },
+        {
+          "game_date": "2026-08-13",
+          "opponent": "Boston Red Sox",
+          "opponent_abbr": "BOS",
+          "home_away": "home",
+          "strikeouts": 4,
+          "pitches": 92,
+          "batters_faced": 20
+        },
+        {
+          "game_date": "2026-08-08",
+          "opponent": "Philadelphia Phillies",
+          "opponent_abbr": "PHI",
+          "home_away": "away",
+          "strikeouts": 4,
+          "pitches": 84,
+          "batters_faced": 21
+        }
+      ]
+    },
+    {
+      "analysis_key": "822850:594798",
+      "game_pk": 822850,
+      "game_datetime": "2026-09-05T23:05:00Z",
+      "pitcher_id": 594798,
+      "pitcher_name": "Jacob deGrom",
+      "team": "Texas Rangers",
+      "team_abbr": "TEX",
+      "opponent": "Tampa Bay Rays",
+      "opponent_abbr": "TB",
+      "throwing_hand": "R",
+      "home_away": "home",
+      "venue_name": "Globe Life Field",
+      "projected_k": 5.454855055668758,
+      "features": {
+        "rest_days": 4,
+        "days_since_last_start": 5,
+        "prior_start_strikeouts": 8,
+        "prior_start_pitches": 85,
+        "prior_start_batters_faced": 21,
+        "avg_k_l3": 6.666666666666667,
+        "avg_k_l5": 6.4,
+        "avg_k_l10": 6.1,
+        "avg_pitches_l5": 81.4,
+        "avg_bf_l5": 18.6,
+        "k_per_bf_l5": 0.34408602150537637,
+        "swstr_l5": 0.16953316953316952,
+        "csw_l5": 0.3022113022113022,
+        "whiff_l5": 0.350253807106599,
+        "velo_l3": 93.31246572583545,
+        "season_velo_prior": 93.07123894836701,
+        "velo_delta_l3_vs_season": 0.2412267774684409,
+        "opponent_k_rate_season_prior": 0.18418587221285365,
+        "opponent_k_rate_l14d": 0.1510204081632653,
+        "opponent_k_rate_l30d": 0.1579961464354528,
+        "opponent_k_rate_vs_hand_season_prior": 0.1850244167118828,
+        "opponent_k_rate_vs_hand_l30d": 0.15079365079365079,
+        "opponent_whiff_rate_l14d": 0.19190751445086704,
+        "opponent_contact_rate_l14d": 0.8080924855491329
+      },
+      "recent_starts": [
+        {
+          "game_date": "2026-08-31",
+          "opponent": "Athletics",
+          "opponent_abbr": "ATH",
+          "home_away": "home",
+          "strikeouts": 8,
+          "pitches": 85,
+          "batters_faced": 21
+        },
+        {
+          "game_date": "2026-08-25",
+          "opponent": "Chicago White Sox",
+          "opponent_abbr": "CWS",
+          "home_away": "away",
+          "strikeouts": 2,
+          "pitches": 87,
+          "batters_faced": 22
+        },
+        {
+          "game_date": "2026-08-20",
+          "opponent": "Washington Nationals",
+          "opponent_abbr": "WSH",
+          "home_away": "home",
+          "strikeouts": 10,
+          "pitches": 94,
+          "batters_faced": 20
+        },
+        {
+          "game_date": "2026-08-13",
+          "opponent": "Los Angeles Angels",
+          "opponent_abbr": "LAA",
+          "home_away": "away",
+          "strikeouts": 3,
+          "pitches": 53,
+          "batters_faced": 12
+        },
+        {
+          "game_date": "2026-08-08",
+          "opponent": "Baltimore Orioles",
+          "opponent_abbr": "BAL",
+          "home_away": "home",
+          "strikeouts": 9,
+          "pitches": 88,
+          "batters_faced": 18
+        }
+      ]
+    },
+    {
+      "analysis_key": "824795:605135",
+      "game_pk": 824795,
+      "game_datetime": "2026-09-05T23:05:00Z",
+      "pitcher_id": 605135,
+      "pitcher_name": "Chris Bassitt",
+      "team": "Baltimore Orioles",
+      "team_abbr": "BAL",
+      "opponent": "Boston Red Sox",
+      "opponent_abbr": "BOS",
+      "throwing_hand": "R",
+      "home_away": "home",
+      "venue_name": "Oriole Park at Camden Yards",
+      "projected_k": 4.15671562952344,
+      "features": {
+        "rest_days": 5,
+        "days_since_last_start": 6,
+        "prior_start_strikeouts": 4,
+        "prior_start_pitches": 99,
+        "prior_start_batters_faced": 27,
+        "avg_k_l3": 5.0,
+        "avg_k_l5": 3.8,
+        "avg_k_l10": 3.8,
+        "avg_pitches_l5": 87.4,
+        "avg_bf_l5": 23.4,
+        "k_per_bf_l5": 0.1623931623931624,
+        "swstr_l5": 0.0888382687927107,
+        "csw_l5": 0.26651480637813213,
+        "whiff_l5": 0.1875,
+        "velo_l3": 86.07463405989722,
+        "season_velo_prior": 85.1608467827547,
+        "velo_delta_l3_vs_season": 0.913787277142518,
+        "opponent_k_rate_season_prior": 0.21213242093582393,
+        "opponent_k_rate_l14d": 0.2029520295202952,
+        "opponent_k_rate_l30d": 0.19035314384151594,
+        "opponent_k_rate_vs_hand_season_prior": 0.21297216699801194,
+        "opponent_k_rate_vs_hand_l30d": 0.18538713195201745,
+        "opponent_whiff_rate_l14d": 0.23664921465968586,
+        "opponent_contact_rate_l14d": 0.7633507853403141
+      },
+      "recent_starts": [
+        {
+          "game_date": "2026-08-30",
+          "opponent": "Athletics",
+          "opponent_abbr": "ATH",
+          "home_away": "away",
+          "strikeouts": 4,
+          "pitches": 99,
+          "batters_faced": 27
+        },
+        {
+          "game_date": "2026-08-25",
+          "opponent": "St. Louis Cardinals",
+          "opponent_abbr": "STL",
+          "home_away": "away",
+          "strikeouts": 5,
+          "pitches": 99,
+          "batters_faced": 26
+        },
+        {
+          "game_date": "2026-08-19",
+          "opponent": "New York Yankees",
+          "opponent_abbr": "NYY",
+          "home_away": "home",
+          "strikeouts": 6,
+          "pitches": 95,
+          "batters_faced": 24
+        },
+        {
+          "game_date": "2026-08-14",
+          "opponent": "Tampa Bay Rays",
+          "opponent_abbr": "TB",
+          "home_away": "away",
+          "strikeouts": 3,
+          "pitches": 88,
+          "batters_faced": 24
+        },
+        {
+          "game_date": "2026-06-03",
+          "opponent": "Boston Red Sox",
+          "opponent_abbr": "BOS",
+          "home_away": "away",
+          "strikeouts": 1,
+          "pitches": 56,
+          "batters_faced": 16
+        }
+      ]
+    },
+    {
+      "analysis_key": "823904:676917",
+      "game_pk": 823904,
+      "game_datetime": "2026-09-06T01:10:00Z",
+      "pitcher_id": 676917,
+      "pitcher_name": "Cade Cavalli",
+      "team": "Washington Nationals",
+      "team_abbr": "WSH",
+      "opponent": "Los Angeles Dodgers",
+      "opponent_abbr": "LAD",
+      "throwing_hand": "R",
+      "home_away": "away",
+      "venue_name": "UNIQLO Field at Dodger Stadium",
+      "projected_k": 5.536420800874577,
+      "features": {
+        "rest_days": 6,
+        "days_since_last_start": 7,
+        "prior_start_strikeouts": 8,
+        "prior_start_pitches": 70,
+        "prior_start_batters_faced": 16,
+        "avg_k_l3": 8.666666666666666,
+        "avg_k_l5": 8.8,
+        "avg_k_l10": 7.2,
+        "avg_pitches_l5": 90.0,
+        "avg_bf_l5": 22.8,
+        "k_per_bf_l5": 0.38596491228070173,
+        "swstr_l5": 0.17035398230088494,
+        "csw_l5": 0.3473451327433628,
+        "whiff_l5": 0.3632075471698113,
+        "velo_l3": 91.52979774705581,
+        "season_velo_prior": 91.60588712366122,
+        "velo_delta_l3_vs_season": -0.0760893766054096,
+        "opponent_k_rate_season_prior": 0.2051044941742186,
+        "opponent_k_rate_l14d": 0.20169851380042464,
+        "opponent_k_rate_l30d": 0.207035175879397,
+        "opponent_k_rate_vs_hand_season_prior": 0.20642570281124498,
+        "opponent_k_rate_vs_hand_l30d": 0.20336391437308868,
+        "opponent_whiff_rate_l14d": 0.25829383886255924,
+        "opponent_contact_rate_l14d": 0.7417061611374407
+      },
+      "recent_starts": [
+        {
+          "game_date": "2026-08-29",
+          "opponent": "Miami Marlins",
+          "opponent_abbr": "MIA",
+          "home_away": "home",
+          "strikeouts": 8,
+          "pitches": 70,
+          "batters_faced": 16
+        },
+        {
+          "game_date": "2026-08-24",
+          "opponent": "Colorado Rockies",
+          "opponent_abbr": "COL",
+          "home_away": "home",
+          "strikeouts": 7,
+          "pitches": 93,
+          "batters_faced": 24
+        },
+        {
+          "game_date": "2026-08-19",
+          "opponent": "Texas Rangers",
+          "opponent_abbr": "TEX",
+          "home_away": "away",
+          "strikeouts": 11,
+          "pitches": 84,
+          "batters_faced": 22
+        },
+        {
+          "game_date": "2026-08-13",
+          "opponent": "Chicago Cubs",
+          "opponent_abbr": "CHC",
+          "home_away": "home",
+          "strikeouts": 10,
+          "pitches": 103,
+          "batters_faced": 26
+        },
+        {
+          "game_date": "2026-08-07",
+          "opponent": "Cincinnati Reds",
+          "opponent_abbr": "CIN",
+          "home_away": "home",
+          "strikeouts": 8,
+          "pitches": 100,
+          "batters_faced": 26
+        }
+      ]
+    },
+    {
+      "analysis_key": "824145:694297",
+      "game_pk": 824145,
+      "game_datetime": "2026-09-05T23:15:00Z",
+      "pitcher_id": 694297,
+      "pitcher_name": "Brandon Pfaadt",
+      "team": "Arizona Diamondbacks",
+      "team_abbr": "ARI",
+      "opponent": "Houston Astros",
+      "opponent_abbr": "HOU",
+      "throwing_hand": "R",
+      "home_away": "away",
+      "venue_name": "Daikin Park",
+      "projected_k": 4.277517229436267,
+      "features": {
+        "rest_days": 4,
+        "days_since_last_start": 5,
+        "prior_start_strikeouts": 1,
+        "prior_start_pitches": 87,
+        "prior_start_batters_faced": 24,
+        "avg_k_l3": 4.0,
+        "avg_k_l5": 4.2,
+        "avg_k_l10": 3.4,
+        "avg_pitches_l5": 92.8,
+        "avg_bf_l5": 24.4,
+        "k_per_bf_l5": 0.1721311475409836,
+        "swstr_l5": 0.10991379310344827,
+        "csw_l5": 0.27586206896551724,
+        "whiff_l5": 0.2236842105263158,
+        "velo_l3": 88.80669659145501,
+        "season_velo_prior": 88.88548807979501,
+        "velo_delta_l3_vs_season": -0.07879148834000205,
+        "opponent_k_rate_season_prior": 0.21584342963653308,
+        "opponent_k_rate_l14d": 0.22821576763485477,
+        "opponent_k_rate_l30d": 0.21940928270042195,
+        "opponent_k_rate_vs_hand_season_prior": 0.21816386969397827,
+        "opponent_k_rate_vs_hand_l30d": 0.22598870056497175,
+        "opponent_whiff_rate_l14d": 0.23194748358862144,
+        "opponent_contact_rate_l14d": 0.7680525164113785
+      },
+      "recent_starts": [
+        {
+          "game_date": "2026-08-31",
+          "opponent": "Philadelphia Phillies",
+          "opponent_abbr": "PHI",
+          "home_away": "home",
+          "strikeouts": 1,
+          "pitches": 87,
+          "batters_faced": 24
+        },
+        {
+          "game_date": "2026-08-25",
+          "opponent": "Chicago Cubs",
+          "opponent_abbr": "CHC",
+          "home_away": "home",
+          "strikeouts": 3,
+          "pitches": 103,
+          "batters_faced": 28
+        },
+        {
+          "game_date": "2026-08-19",
+          "opponent": "Boston Red Sox",
+          "opponent_abbr": "BOS",
+          "home_away": "away",
+          "strikeouts": 8,
+          "pitches": 94,
+          "batters_faced": 24
+        },
+        {
+          "game_date": "2026-08-14",
+          "opponent": "Atlanta Braves",
+          "opponent_abbr": "ATL",
+          "home_away": "away",
+          "strikeouts": 7,
+          "pitches": 87,
+          "batters_faced": 23
+        },
+        {
+          "game_date": "2026-08-08",
+          "opponent": "Los Angeles Dodgers",
+          "opponent_abbr": "LAD",
+          "home_away": "home",
+          "strikeouts": 2,
+          "pitches": 93,
+          "batters_faced": 23
+        }
+      ]
+    }
+  ],
   "markets": [
     {
       "game_pk": 824468,
@@ -99,7 +2477,8 @@
       "ev": 0.22811573233710547,
       "research_candidate": true,
       "quote_last_seen_at": "2026-09-05T17:20:46.520361Z",
-      "quote_source_updated_at": "2026-09-05T17:02:53Z"
+      "quote_source_updated_at": "2026-09-05T17:02:53Z",
+      "analysis_key": "824468:669160"
     },
     {
       "game_pk": 823904,
@@ -122,7 +2501,8 @@
       "ev": 0.19973644758914344,
       "research_candidate": true,
       "quote_last_seen_at": "2026-09-05T17:20:46.520361Z",
-      "quote_source_updated_at": "2026-09-05T17:02:53Z"
+      "quote_source_updated_at": "2026-09-05T17:02:53Z",
+      "analysis_key": "823904:607192"
     },
     {
       "game_pk": 824795,
@@ -145,7 +2525,8 @@
       "ev": 0.24760603610305387,
       "research_candidate": true,
       "quote_last_seen_at": "2026-09-05T17:20:46.520361Z",
-      "quote_source_updated_at": "2026-09-05T17:02:53Z"
+      "quote_source_updated_at": "2026-09-05T17:02:53Z",
+      "analysis_key": "824795:543243"
     },
     {
       "game_pk": 824553,
@@ -168,7 +2549,8 @@
       "ev": 0.1457497278049915,
       "research_candidate": true,
       "quote_last_seen_at": "2026-09-05T17:20:46.520361Z",
-      "quote_source_updated_at": "2026-09-05T17:02:53Z"
+      "quote_source_updated_at": "2026-09-05T17:02:53Z",
+      "analysis_key": "824553:641743"
     },
     {
       "game_pk": 824468,
@@ -191,7 +2573,8 @@
       "ev": 0.15871969887781634,
       "research_candidate": true,
       "quote_last_seen_at": "2026-09-05T17:20:46.520361Z",
-      "quote_source_updated_at": "2026-09-05T17:02:53Z"
+      "quote_source_updated_at": "2026-09-05T17:02:53Z",
+      "analysis_key": "824468:671096"
     },
     {
       "game_pk": 823335,
@@ -214,7 +2597,8 @@
       "ev": 0.09564037919645507,
       "research_candidate": true,
       "quote_last_seen_at": "2026-09-05T17:20:46.520361Z",
-      "quote_source_updated_at": "2026-09-05T17:02:53Z"
+      "quote_source_updated_at": "2026-09-05T17:02:53Z",
+      "analysis_key": "823335:579328"
     },
     {
       "game_pk": 823257,
@@ -237,7 +2621,8 @@
       "ev": 0.08473912376983717,
       "research_candidate": true,
       "quote_last_seen_at": "2026-09-05T17:20:46.520361Z",
-      "quote_source_updated_at": "2026-09-05T17:02:53Z"
+      "quote_source_updated_at": "2026-09-05T17:02:53Z",
+      "analysis_key": "823257:607074"
     },
     {
       "game_pk": 823823,
@@ -260,7 +2645,8 @@
       "ev": 0.10280531360878142,
       "research_candidate": true,
       "quote_last_seen_at": "2026-09-05T17:20:46.520361Z",
-      "quote_source_updated_at": "2026-09-05T17:02:53Z"
+      "quote_source_updated_at": "2026-09-05T17:02:53Z",
+      "analysis_key": "823823:665871"
     },
     {
       "game_pk": 824066,
@@ -283,7 +2669,8 @@
       "ev": 0.09813955964304855,
       "research_candidate": true,
       "quote_last_seen_at": "2026-09-05T17:20:46.520361Z",
-      "quote_source_updated_at": "2026-09-05T17:02:53Z"
+      "quote_source_updated_at": "2026-09-05T17:02:53Z",
+      "analysis_key": "824066:607625"
     },
     {
       "game_pk": 823335,
@@ -306,7 +2693,8 @@
       "ev": 0.04933185213374869,
       "research_candidate": true,
       "quote_last_seen_at": "2026-09-05T17:20:46.520361Z",
-      "quote_source_updated_at": "2026-09-05T17:02:53Z"
+      "quote_source_updated_at": "2026-09-05T17:02:53Z",
+      "analysis_key": "823335:677952"
     },
     {
       "game_pk": 824389,
@@ -329,7 +2717,8 @@
       "ev": 0.05159061006233867,
       "research_candidate": true,
       "quote_last_seen_at": "2026-09-05T17:20:46.520361Z",
-      "quote_source_updated_at": "2026-09-05T16:32:42Z"
+      "quote_source_updated_at": "2026-09-05T16:32:42Z",
+      "analysis_key": "824389:800048"
     },
     {
       "game_pk": 823257,
@@ -352,7 +2741,8 @@
       "ev": 0.051139101923724395,
       "research_candidate": true,
       "quote_last_seen_at": "2026-09-05T17:20:46.520361Z",
-      "quote_source_updated_at": "2026-09-05T17:02:53Z"
+      "quote_source_updated_at": "2026-09-05T17:02:53Z",
+      "analysis_key": "823257:592662"
     },
     {
       "game_pk": 823577,
@@ -375,7 +2765,8 @@
       "ev": 0.04436737480609154,
       "research_candidate": true,
       "quote_last_seen_at": "2026-09-05T17:20:46.520361Z",
-      "quote_source_updated_at": "2026-09-05T16:47:47Z"
+      "quote_source_updated_at": "2026-09-05T16:47:47Z",
+      "analysis_key": "823577:804267"
     },
     {
       "game_pk": 823419,
@@ -398,7 +2789,8 @@
       "ev": 0.021450432592664992,
       "research_candidate": true,
       "quote_last_seen_at": "2026-09-05T17:20:46.520361Z",
-      "quote_source_updated_at": "2026-09-05T17:02:53Z"
+      "quote_source_updated_at": "2026-09-05T17:02:53Z",
+      "analysis_key": "823419:554430"
     },
     {
       "game_pk": 823419,
@@ -421,7 +2813,8 @@
       "ev": 0.010465652106275813,
       "research_candidate": false,
       "quote_last_seen_at": "2026-09-05T17:20:46.520361Z",
-      "quote_source_updated_at": "2026-09-05T17:02:53Z"
+      "quote_source_updated_at": "2026-09-05T17:02:53Z",
+      "analysis_key": "823419:527048"
     },
     {
       "game_pk": 824389,
@@ -444,7 +2837,8 @@
       "ev": 0.030629348543889767,
       "research_candidate": true,
       "quote_last_seen_at": "2026-09-05T17:20:46.520361Z",
-      "quote_source_updated_at": "2026-09-05T17:02:53Z"
+      "quote_source_updated_at": "2026-09-05T17:02:53Z",
+      "analysis_key": "824389:664285"
     },
     {
       "game_pk": 823823,
@@ -467,7 +2861,8 @@
       "ev": 0.004313144747845499,
       "research_candidate": false,
       "quote_last_seen_at": "2026-09-05T17:20:46.520361Z",
-      "quote_source_updated_at": "2026-09-05T17:02:53Z"
+      "quote_source_updated_at": "2026-09-05T17:02:53Z",
+      "analysis_key": "823823:687473"
     },
     {
       "game_pk": 822850,
@@ -490,7 +2885,8 @@
       "ev": -0.006721704763114622,
       "research_candidate": false,
       "quote_last_seen_at": "2026-09-05T17:20:46.520361Z",
-      "quote_source_updated_at": "2026-09-05T17:02:53Z"
+      "quote_source_updated_at": "2026-09-05T17:02:53Z",
+      "analysis_key": "822850:656876"
     },
     {
       "game_pk": 824310,
@@ -513,7 +2909,8 @@
       "ev": -0.004614514209809184,
       "research_candidate": false,
       "quote_last_seen_at": "2026-09-05T17:20:46.520361Z",
-      "quote_source_updated_at": "2026-09-05T17:02:53Z"
+      "quote_source_updated_at": "2026-09-05T17:02:53Z",
+      "analysis_key": "824310:669461"
     },
     {
       "game_pk": 823094,
@@ -536,7 +2933,8 @@
       "ev": 0.005096554938958109,
       "research_candidate": false,
       "quote_last_seen_at": "2026-09-05T17:20:46.520361Z",
-      "quote_source_updated_at": "2026-09-05T17:02:53Z"
+      "quote_source_updated_at": "2026-09-05T17:02:53Z",
+      "analysis_key": "823094:605488"
     },
     {
       "game_pk": 823094,
@@ -559,7 +2957,8 @@
       "ev": -0.012390477110731934,
       "research_candidate": false,
       "quote_last_seen_at": "2026-09-05T17:20:46.520361Z",
-      "quote_source_updated_at": "2026-09-05T17:02:53Z"
+      "quote_source_updated_at": "2026-09-05T17:02:53Z",
+      "analysis_key": "823094:669923"
     },
     {
       "game_pk": 824553,
@@ -582,7 +2981,8 @@
       "ev": -0.031233025720326713,
       "research_candidate": false,
       "quote_last_seen_at": "2026-09-05T17:20:46.520361Z",
-      "quote_source_updated_at": "2026-09-05T17:02:53Z"
+      "quote_source_updated_at": "2026-09-05T17:02:53Z",
+      "analysis_key": "824553:671737"
     },
     {
       "game_pk": 824066,
@@ -605,7 +3005,8 @@
       "ev": -0.030351198284370273,
       "research_candidate": false,
       "quote_last_seen_at": "2026-09-05T17:20:46.520361Z",
-      "quote_source_updated_at": "2026-09-05T17:02:53Z"
+      "quote_source_updated_at": "2026-09-05T17:02:53Z",
+      "analysis_key": "824066:453286"
     },
     {
       "game_pk": 822850,
@@ -628,7 +3029,8 @@
       "ev": -0.04554436841855625,
       "research_candidate": false,
       "quote_last_seen_at": "2026-09-05T17:20:46.520361Z",
-      "quote_source_updated_at": "2026-09-05T17:02:53Z"
+      "quote_source_updated_at": "2026-09-05T17:02:53Z",
+      "analysis_key": "822850:594798"
     },
     {
       "game_pk": 824795,
@@ -651,7 +3053,8 @@
       "ev": -0.05189543142464614,
       "research_candidate": false,
       "quote_last_seen_at": "2026-09-05T17:20:46.520361Z",
-      "quote_source_updated_at": "2026-09-05T17:02:53Z"
+      "quote_source_updated_at": "2026-09-05T17:02:53Z",
+      "analysis_key": "824795:605135"
     },
     {
       "game_pk": 823904,
@@ -674,7 +3077,8 @@
       "ev": -0.05927560001992971,
       "research_candidate": false,
       "quote_last_seen_at": "2026-09-05T17:20:46.520361Z",
-      "quote_source_updated_at": "2026-09-05T17:02:53Z"
+      "quote_source_updated_at": "2026-09-05T17:02:53Z",
+      "analysis_key": "823904:676917"
     },
     {
       "game_pk": 824145,
@@ -697,7 +3101,8 @@
       "ev": -0.06371163454391648,
       "research_candidate": false,
       "quote_last_seen_at": "2026-09-05T17:20:46.520361Z",
-      "quote_source_updated_at": "2026-09-05T17:02:53Z"
+      "quote_source_updated_at": "2026-09-05T17:02:53Z",
+      "analysis_key": "824145:694297"
     },
     {
       "game_pk": 824145,
@@ -720,7 +3125,8 @@
       "ev": -0.06878353370942236,
       "research_candidate": false,
       "quote_last_seen_at": "2026-09-05T17:20:46.520361Z",
-      "quote_source_updated_at": "2026-09-05T17:02:53Z"
+      "quote_source_updated_at": "2026-09-05T17:02:53Z",
+      "analysis_key": "824145:694297"
     },
     {
       "game_pk": 823904,
@@ -743,7 +3149,8 @@
       "ev": -0.06896434016811837,
       "research_candidate": false,
       "quote_last_seen_at": "2026-09-05T17:20:46.520361Z",
-      "quote_source_updated_at": "2026-09-05T17:02:53Z"
+      "quote_source_updated_at": "2026-09-05T17:02:53Z",
+      "analysis_key": "823904:676917"
     },
     {
       "game_pk": 824795,
@@ -766,7 +3173,8 @@
       "ev": -0.08401138087374516,
       "research_candidate": false,
       "quote_last_seen_at": "2026-09-05T17:20:46.520361Z",
-      "quote_source_updated_at": "2026-09-05T17:02:53Z"
+      "quote_source_updated_at": "2026-09-05T17:02:53Z",
+      "analysis_key": "824795:605135"
     },
     {
       "game_pk": 822850,
@@ -789,7 +3197,8 @@
       "ev": -0.0827094439862307,
       "research_candidate": false,
       "quote_last_seen_at": "2026-09-05T17:20:46.520361Z",
-      "quote_source_updated_at": "2026-09-05T17:02:53Z"
+      "quote_source_updated_at": "2026-09-05T17:02:53Z",
+      "analysis_key": "822850:594798"
     },
     {
       "game_pk": 824066,
@@ -812,7 +3221,8 @@
       "ev": -0.09893437719487197,
       "research_candidate": false,
       "quote_last_seen_at": "2026-09-05T17:20:46.520361Z",
-      "quote_source_updated_at": "2026-09-05T17:02:53Z"
+      "quote_source_updated_at": "2026-09-05T17:02:53Z",
+      "analysis_key": "824066:453286"
     },
     {
       "game_pk": 824553,
@@ -835,7 +3245,8 @@
       "ev": -0.10758519501066388,
       "research_candidate": false,
       "quote_last_seen_at": "2026-09-05T17:20:46.520361Z",
-      "quote_source_updated_at": "2026-09-05T17:02:53Z"
+      "quote_source_updated_at": "2026-09-05T17:02:53Z",
+      "analysis_key": "824553:671737"
     },
     {
       "game_pk": 823094,
@@ -858,7 +3269,8 @@
       "ev": -0.10694791104092494,
       "research_candidate": false,
       "quote_last_seen_at": "2026-09-05T17:20:46.520361Z",
-      "quote_source_updated_at": "2026-09-05T17:02:53Z"
+      "quote_source_updated_at": "2026-09-05T17:02:53Z",
+      "analysis_key": "823094:669923"
     },
     {
       "game_pk": 823094,
@@ -881,7 +3293,8 @@
       "ev": -0.0988500821492656,
       "research_candidate": false,
       "quote_last_seen_at": "2026-09-05T17:20:46.520361Z",
-      "quote_source_updated_at": "2026-09-05T17:02:53Z"
+      "quote_source_updated_at": "2026-09-05T17:02:53Z",
+      "analysis_key": "823094:605488"
     },
     {
       "game_pk": 824310,
@@ -904,7 +3317,8 @@
       "ev": -0.11122979190134519,
       "research_candidate": false,
       "quote_last_seen_at": "2026-09-05T17:20:46.520361Z",
-      "quote_source_updated_at": "2026-09-05T17:02:53Z"
+      "quote_source_updated_at": "2026-09-05T17:02:53Z",
+      "analysis_key": "824310:669461"
     },
     {
       "game_pk": 822850,
@@ -927,7 +3341,8 @@
       "ev": -0.12901125880565667,
       "research_candidate": false,
       "quote_last_seen_at": "2026-09-05T17:20:46.520361Z",
-      "quote_source_updated_at": "2026-09-05T17:02:53Z"
+      "quote_source_updated_at": "2026-09-05T17:02:53Z",
+      "analysis_key": "822850:656876"
     },
     {
       "game_pk": 823823,
@@ -950,7 +3365,8 @@
       "ev": -0.12119435153036473,
       "research_candidate": false,
       "quote_last_seen_at": "2026-09-05T17:20:46.520361Z",
-      "quote_source_updated_at": "2026-09-05T17:02:53Z"
+      "quote_source_updated_at": "2026-09-05T17:02:53Z",
+      "analysis_key": "823823:687473"
     },
     {
       "game_pk": 824389,
@@ -973,7 +3389,8 @@
       "ev": -0.1251873659239715,
       "research_candidate": false,
       "quote_last_seen_at": "2026-09-05T17:20:46.520361Z",
-      "quote_source_updated_at": "2026-09-05T17:02:53Z"
+      "quote_source_updated_at": "2026-09-05T17:02:53Z",
+      "analysis_key": "824389:664285"
     },
     {
       "game_pk": 823419,
@@ -996,7 +3413,8 @@
       "ev": -0.1557409438523938,
       "research_candidate": false,
       "quote_last_seen_at": "2026-09-05T17:20:46.520361Z",
-      "quote_source_updated_at": "2026-09-05T17:02:53Z"
+      "quote_source_updated_at": "2026-09-05T17:02:53Z",
+      "analysis_key": "823419:527048"
     },
     {
       "game_pk": 823419,
@@ -1019,7 +3437,8 @@
       "ev": -0.14758346020876334,
       "research_candidate": false,
       "quote_last_seen_at": "2026-09-05T17:20:46.520361Z",
-      "quote_source_updated_at": "2026-09-05T17:02:53Z"
+      "quote_source_updated_at": "2026-09-05T17:02:53Z",
+      "analysis_key": "823419:554430"
     },
     {
       "game_pk": 823577,
@@ -1042,7 +3461,8 @@
       "ev": -0.16425141403692278,
       "research_candidate": false,
       "quote_last_seen_at": "2026-09-05T17:20:46.520361Z",
-      "quote_source_updated_at": "2026-09-05T16:47:47Z"
+      "quote_source_updated_at": "2026-09-05T16:47:47Z",
+      "analysis_key": "823577:804267"
     },
     {
       "game_pk": 823257,
@@ -1065,7 +3485,8 @@
       "ev": -0.2065201110338164,
       "research_candidate": false,
       "quote_last_seen_at": "2026-09-05T17:20:46.520361Z",
-      "quote_source_updated_at": "2026-09-05T17:02:53Z"
+      "quote_source_updated_at": "2026-09-05T17:02:53Z",
+      "analysis_key": "823257:592662"
     },
     {
       "game_pk": 824389,
@@ -1088,7 +3509,8 @@
       "ev": -0.220563966588753,
       "research_candidate": false,
       "quote_last_seen_at": "2026-09-05T17:20:46.520361Z",
-      "quote_source_updated_at": "2026-09-05T16:32:42Z"
+      "quote_source_updated_at": "2026-09-05T16:32:42Z",
+      "analysis_key": "824389:800048"
     },
     {
       "game_pk": 823335,
@@ -1111,7 +3533,8 @@
       "ev": -0.23837493704568624,
       "research_candidate": false,
       "quote_last_seen_at": "2026-09-05T17:20:46.520361Z",
-      "quote_source_updated_at": "2026-09-05T17:02:53Z"
+      "quote_source_updated_at": "2026-09-05T17:02:53Z",
+      "analysis_key": "823335:677952"
     },
     {
       "game_pk": 824066,
@@ -1134,7 +3557,8 @@
       "ev": -0.195860300478376,
       "research_candidate": false,
       "quote_last_seen_at": "2026-09-05T17:20:46.520361Z",
-      "quote_source_updated_at": "2026-09-05T17:02:53Z"
+      "quote_source_updated_at": "2026-09-05T17:02:53Z",
+      "analysis_key": "824066:607625"
     },
     {
       "game_pk": 823823,
@@ -1157,7 +3581,8 @@
       "ev": -0.20190505366777312,
       "research_candidate": false,
       "quote_last_seen_at": "2026-09-05T17:20:46.520361Z",
-      "quote_source_updated_at": "2026-09-05T17:02:53Z"
+      "quote_source_updated_at": "2026-09-05T17:02:53Z",
+      "analysis_key": "823823:665871"
     },
     {
       "game_pk": 823257,
@@ -1180,7 +3605,8 @@
       "ev": -0.24688794094988986,
       "research_candidate": false,
       "quote_last_seen_at": "2026-09-05T17:20:46.520361Z",
-      "quote_source_updated_at": "2026-09-05T17:02:53Z"
+      "quote_source_updated_at": "2026-09-05T17:02:53Z",
+      "analysis_key": "823257:607074"
     },
     {
       "game_pk": 823335,
@@ -1203,7 +3629,8 @@
       "ev": -0.3671968826949106,
       "research_candidate": false,
       "quote_last_seen_at": "2026-09-05T17:20:46.520361Z",
-      "quote_source_updated_at": "2026-09-05T17:02:53Z"
+      "quote_source_updated_at": "2026-09-05T17:02:53Z",
+      "analysis_key": "823335:579328"
     },
     {
       "game_pk": 824468,
@@ -1226,7 +3653,8 @@
       "ev": -0.32371582198642423,
       "research_candidate": false,
       "quote_last_seen_at": "2026-09-05T17:20:46.520361Z",
-      "quote_source_updated_at": "2026-09-05T17:02:53Z"
+      "quote_source_updated_at": "2026-09-05T17:02:53Z",
+      "analysis_key": "824468:671096"
     },
     {
       "game_pk": 824553,
@@ -1249,7 +3677,8 @@
       "ev": -0.3519510106291035,
       "research_candidate": false,
       "quote_last_seen_at": "2026-09-05T17:20:46.520361Z",
-      "quote_source_updated_at": "2026-09-05T17:02:53Z"
+      "quote_source_updated_at": "2026-09-05T17:02:53Z",
+      "analysis_key": "824553:641743"
     },
     {
       "game_pk": 824795,
@@ -1272,7 +3701,8 @@
       "ev": -0.36195924337839447,
       "research_candidate": false,
       "quote_last_seen_at": "2026-09-05T17:20:46.520361Z",
-      "quote_source_updated_at": "2026-09-05T17:02:53Z"
+      "quote_source_updated_at": "2026-09-05T17:02:53Z",
+      "analysis_key": "824795:543243"
     },
     {
       "game_pk": 823904,
@@ -1295,7 +3725,8 @@
       "ev": -0.4460270889946317,
       "research_candidate": false,
       "quote_last_seen_at": "2026-09-05T17:20:46.520361Z",
-      "quote_source_updated_at": "2026-09-05T17:02:53Z"
+      "quote_source_updated_at": "2026-09-05T17:02:53Z",
+      "analysis_key": "823904:607192"
     },
     {
       "game_pk": 824468,
@@ -1318,7 +3749,8 @@
       "ev": -0.4111445897106204,
       "research_candidate": false,
       "quote_last_seen_at": "2026-09-05T17:20:46.520361Z",
-      "quote_source_updated_at": "2026-09-05T17:02:53Z"
+      "quote_source_updated_at": "2026-09-05T17:02:53Z",
+      "analysis_key": "824468:669160"
     }
   ]
 }
