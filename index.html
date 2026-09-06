@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#071018">
+  <title>Sports Betting Command Center</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar">
+      <div class="brand-block">
+        <div class="brand-mark" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
+        <div>
+          <div class="brand-title">Sports Betting<br>Command Center</div>
+          <div class="brand-subtitle">Data → Models → Markets → Your Edge</div>
+        </div>
+      </div>
+
+      <nav class="side-nav" aria-label="Primary">
+        <button class="nav-item active" type="button" data-section="today"><span>◫</span>Today</button>
+        <button class="nav-item disabled" type="button" title="Coming next"><span>♙</span>Player Analysis <small>Soon</small></button>
+        <button class="nav-item disabled" type="button" title="Coming next"><span>◌</span>Shadow Lab <small>Soon</small></button>
+        <button class="nav-item disabled" type="button" title="Coming next"><span>▥</span>Market <small>Soon</small></button>
+        <button class="nav-item disabled" type="button" title="Coming next"><span>⚙</span>System <small>Soon</small></button>
+      </nav>
+
+      <div class="sidebar-footer">
+        <div class="meta-label">Model Version</div>
+        <div id="modelVersion" class="meta-value">MLB_K v0.1</div>
+        <div class="meta-label">Snapshot</div>
+        <div id="sidebarUpdated" class="meta-value">Loading…</div>
+        <div id="systemState" class="system-state"><span class="status-dot"></span>Checking data</div>
+      </div>
+    </aside>
+
+    <main class="main-content">
+      <header class="topbar">
+        <div class="mobile-brand">
+          <div class="brand-mark mini" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
+          <strong>SBC</strong>
+        </div>
+        <div class="selectors">
+          <div class="select-chip"><strong>MLB</strong><span>Pitcher Strikeouts</span></div>
+          <div class="date-chip" id="dateChip">Loading date…</div>
+        </div>
+        <div class="top-status">
+          <div id="topSystemState" class="system-state compact"><span class="status-dot"></span>Checking</div>
+          <div id="topUpdated" class="top-updated">—</div>
+        </div>
+        <button class="menu-button" id="menuButton" type="button" aria-label="Open navigation">☰</button>
+      </header>
+
+      <section class="content-wrap">
+        <div id="previewBanner" class="preview-banner hidden">Preview data is loaded. Deploy the dashboard snapshot workflow to replace it with MotherDuck data.</div>
+        <div id="errorBanner" class="error-banner hidden"></div>
+
+        <section class="metric-grid" aria-label="Today summary">
+          <article class="metric-card">
+            <div id="pricedCount" class="metric-number">—</div>
+            <div class="metric-title">Pitchers Priced</div>
+            <div id="pricedSides" class="metric-subtitle">— sides</div>
+          </article>
+          <article class="metric-card success-card">
+            <div id="candidateCount" class="metric-number success-text">—</div>
+            <div class="metric-title success-text">Research Candidates</div>
+            <div id="candidateThreshold" class="metric-subtitle">Research threshold</div>
+          </article>
+          <article class="metric-card warning-card">
+            <div id="unmatchedCount" class="metric-number warning-text">—</div>
+            <div class="metric-title warning-text">Unmatched Market Names</div>
+            <div class="metric-subtitle">Skipped, never force-matched</div>
+          </article>
+          <article class="metric-card freshness-card">
+            <div class="freshness-title"><span class="status-dot"></span><span id="freshnessLabel">Checking</span></div>
+            <div class="metric-title">Data Freshness</div>
+            <div id="oddsScanTime" class="metric-subtitle">Last odds scan —</div>
+          </article>
+          <article class="metric-card">
+            <div class="book-title">Pinnacle</div>
+            <div class="metric-title">Benchmark Market</div>
+            <div id="snapshotTime" class="metric-subtitle">Latest snapshot —</div>
+          </article>
+        </section>
+
+        <section class="filter-panel">
+          <div>
+            <h2>Filters</h2>
+            <div class="filter-row" role="group" aria-label="Side filter">
+              <button class="filter-button active" type="button" data-side="all">All</button>
+              <button class="filter-button" type="button" data-side="over">Over</button>
+              <button class="filter-button" type="button" data-side="under">Under</button>
+              <span class="filter-divider"></span>
+              <button class="edge-button" type="button" data-edge="-999">All Edges</button>
+              <button class="edge-button active" type="button" data-edge="3">3+ pp</button>
+              <button class="edge-button" type="button" data-edge="5">5+ pp</button>
+              <button class="edge-button" type="button" data-edge="10">10+ pp</button>
+            </div>
+          </div>
+          <label class="sort-control">Sort by
+            <select id="sortSelect">
+              <option value="edge-desc">Model Edge (High to Low)</option>
+              <option value="game-time">Game Time</option>
+              <option value="ev-desc">Estimated EV (High to Low)</option>
+              <option value="pitcher">Pitcher Name</option>
+            </select>
+          </label>
+        </section>
+
+        <section class="market-section">
+          <div class="section-heading">
+            <div>
+              <h2>Today’s Pitcher-K Board</h2>
+              <p>Research candidates are model-vs-market signals, not betting recommendations.</p>
+            </div>
+            <button class="ghost-button" id="refreshButton" type="button">↻ Reload snapshot</button>
+          </div>
+
+          <div class="desktop-table-wrap">
+            <table class="market-table">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Game Time (ET)</th>
+                  <th>Pitcher</th>
+                  <th>Opponent</th>
+                  <th title="Model expected strikeouts">Proj K</th>
+                  <th>Sportsbook</th>
+                  <th>Side</th>
+                  <th>Line</th>
+                  <th>Odds</th>
+                  <th title="Our model probability this side wins">Model %</th>
+                  <th title="Pinnacle two-way probability after removing vig">Market Fair %</th>
+                  <th title="Model probability minus market fair probability, in percentage points">Edge (pp)</th>
+                  <th title="Expected profit per dollar if the model probability is correct">EV %</th>
+                  <th>Status</th>
+                </tr>
+              </thead>
+              <tbody id="marketTableBody"></tbody>
+            </table>
+          </div>
+
+          <div id="mobileCards" class="mobile-card-list"></div>
+          <div id="emptyState" class="empty-state hidden">No rows match the current filters.</div>
+        </section>
+
+        <section class="lower-grid">
+          <article class="panel">
+            <h3>Quick Insights</h3>
+            <div class="insight-list">
+              <div class="insight"><span class="insight-icon gold">◇</span><div><strong id="insightCandidates">—</strong><span>Research candidates</span></div></div>
+              <div class="insight"><span class="insight-icon green">↓</span><div><strong id="insightUnders">—</strong><span>Unders</span></div></div>
+              <div class="insight"><span class="insight-icon red">↑</span><div><strong id="insightOvers">—</strong><span>Overs</span></div></div>
+              <div class="insight"><span class="insight-icon amber">!</span><div><strong id="insightUnmatched">—</strong><span>Unmatched market names</span></div></div>
+            </div>
+            <div class="research-note">These are research candidates, not bet recommendations. Track results in the Shadow Lab before treating model edges as actionable.</div>
+          </article>
+
+          <article class="panel chart-panel">
+            <h3>Edge Distribution <small>Research Candidates</small></h3>
+            <div id="edgeChart" class="bar-chart" aria-label="Edge distribution"></div>
+            <div class="donut-row">
+              <div id="sideDonut" class="donut" aria-label="Candidate side distribution"></div>
+              <div class="donut-legend">
+                <div><span class="legend-dot gold-bg"></span>Unders <strong id="donutUnders">—</strong></div>
+                <div><span class="legend-dot gray-bg"></span>Overs <strong id="donutOvers">—</strong></div>
+              </div>
+            </div>
+          </article>
+
+          <article class="panel">
+            <h3>Recent Runs</h3>
+            <div id="recentRuns" class="run-list"></div>
+            <div class="panel-action disabled-action">System screen coming next</div>
+          </article>
+        </section>
+
+        <details class="metric-guide">
+          <summary>Metric guide: what Proj K, Model %, Market Fair %, Edge pp and EV % mean</summary>
+          <div class="guide-grid">
+            <div><strong>Proj K</strong><span>Our model’s expected strikeouts for the pitcher.</span></div>
+            <div><strong>Model %</strong><span>Our estimated probability that the listed Over or Under wins.</span></div>
+            <div><strong>Market Fair %</strong><span>Pinnacle’s two-way implied probability after removing vig.</span></div>
+            <div><strong>Edge (pp)</strong><span>Model % minus Market Fair %, measured in percentage points.</span></div>
+            <div><strong>EV %</strong><span>Theoretical expected return at the listed price if the model probability is correct.</span></div>
+          </div>
+        </details>
+      </section>
+    </main>
+  </div>
+
+  <nav class="mobile-bottom-nav" aria-label="Mobile navigation">
+    <button class="active" type="button">Today</button>
+    <button type="button" disabled>Players</button>
+    <button type="button" disabled>Lab</button>
+    <button type="button" disabled>Market</button>
+    <button type="button" disabled>System</button>
+  </nav>
+
+  <script src="./app.js" defer></script>
+</body>
+</html>
