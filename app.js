@@ -79,8 +79,59 @@ function freshnessInfo() {
   return { level: 'error', label: 'Snapshot Stale', detail: `Last odds scan ${formatTimeET(latest)}` };
 }
 
+function isShadowLabOpen() {
+  const view = $('shadowLabView');
+  return Boolean(view && !view.classList.contains('hidden'));
+}
+
+function setSidebarClockLabel(text) {
+  const label = $('sidebarUpdated')?.previousElementSibling;
+  if (label?.classList.contains('meta-label')) label.textContent = text;
+}
+
+function getShadowData() {
+  try {
+    return typeof shadowState !== 'undefined' ? shadowState.data : null;
+  } catch (_error) {
+    return null;
+  }
+}
+
+function setShadowHeaderState() {
+  const d = getShadowData();
+  const elements = [$('systemState'), $('topSystemState')];
+  elements.forEach((el) => {
+    if (!el) return;
+    el.classList.remove('stale', 'error');
+    el.innerHTML = `<span class="status-dot"></span>${d ? 'Shadow Updated' : 'Loading Shadow'}`;
+  });
+  setSidebarClockLabel('Shadow Results');
+
+  if (!d) {
+    $('topUpdated').textContent = 'Loading results…';
+    $('sidebarUpdated').textContent = 'Loading…';
+    $('dateChip').textContent = 'Shadow Results';
+    return;
+  }
+
+  const throughDate = d.latest_settlement_run?.target_date || d.results?.[0]?.target_date || null;
+  $('topUpdated').textContent = `Results ${formatDateTimeET(d.generated_at)}`;
+  $('sidebarUpdated').textContent = formatDateTimeET(d.generated_at);
+  $('dateChip').textContent = throughDate ? `Through ${formatDate(throughDate)}` : 'Shadow Results';
+}
+
 function setSystemState() {
   const fresh = freshnessInfo();
+  const freshnessTitle = document.querySelector('.freshness-title');
+  if (freshnessTitle) freshnessTitle.classList.toggle('stale', fresh.level !== 'fresh');
+  if ($('freshnessLabel')) $('freshnessLabel').textContent = fresh.label;
+  if ($('oddsScanTime')) $('oddsScanTime').textContent = fresh.detail;
+
+  if (isShadowLabOpen()) {
+    setShadowHeaderState();
+    return;
+  }
+
   const elements = [$('systemState'), $('topSystemState')];
   elements.forEach((el) => {
     if (!el) return;
@@ -89,10 +140,6 @@ function setSystemState() {
     if (fresh.level === 'error') el.classList.add('error');
     el.innerHTML = `<span class="status-dot"></span>${fresh.label}`;
   });
-  const freshnessTitle = document.querySelector('.freshness-title');
-  if (freshnessTitle) freshnessTitle.classList.toggle('stale', fresh.level !== 'fresh');
-  $('freshnessLabel').textContent = fresh.label;
-  $('oddsScanTime').textContent = fresh.detail;
 }
 
 function marketRows() {
@@ -181,6 +228,7 @@ function renderSummary() {
   $('unmatchedCount').textContent = s.unmatched_market_names;
   $('snapshotTime').textContent = `Latest snapshot ${formatTimeET(d.freshness.latest_quote_seen_at)}`;
   $('modelVersion').textContent = d.model_version.replace('_', ' ');
+  setSidebarClockLabel('Today Snapshot');
   $('sidebarUpdated').textContent = formatDateTimeET(d.generated_at);
   $('topUpdated').textContent = `Snapshot ${formatTimeET(d.generated_at)}`;
   $('dateChip').textContent = formatDate(d.target_date);
@@ -260,6 +308,21 @@ function bindControls() {
   $('refreshButton').addEventListener('click', () => window.location.reload());
   $('menuButton').addEventListener('click', () => $('sidebar').classList.toggle('open'));
   document.addEventListener('click', (event) => {
+    const section = event.target.closest('[data-section]')?.dataset.section;
+    if (section === 'shadow') {
+      setTimeout(setSystemState, 0);
+      setTimeout(setSystemState, 500);
+      setTimeout(setSystemState, 1500);
+    } else if (section === 'today' || section === 'player') {
+      setTimeout(() => {
+        if (state.data && !isShadowLabOpen()) renderSummary();
+      }, 0);
+    }
+    if (event.target.closest('#shadowReload')) {
+      setTimeout(setSystemState, 500);
+      setTimeout(setSystemState, 1500);
+    }
+
     if (window.innerWidth > 820) return;
     if (!$('sidebar').contains(event.target) && !$('menuButton').contains(event.target)) $('sidebar').classList.remove('open');
   });
