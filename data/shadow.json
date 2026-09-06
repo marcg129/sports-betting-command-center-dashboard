@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-06T03:08:32.300671Z",
+  "methodology": {
+    "stake": "Flat $1 hypothetical stake per research candidate",
+    "clv": "CLV is a proxy based on the latest captured Pinnacle pregame quote, not necessarily the exact closing tick.",
+    "candidate_rule": "Rows marked Research Candidate by the market-pricing workflow at entry time."
+  },
+  "summary": {
+    "n": 0,
+    "wins": 0,
+    "losses": 0,
+    "pushes": 0,
+    "win_rate": null,
+    "profit": 0,
+    "roi": null,
+    "avg_clv_pp": null,
+    "positive_clv_pct": null,
+    "avg_line_clv_k": null,
+    "total_candidates": 0,
+    "pending": 0,
+    "avg_entry_edge_pp": null,
+    "avg_entry_ev": null,
+    "clv_rows": 0,
+    "clv_coverage": null,
+    "line_clv_rows": 0,
+    "avg_close_minutes_before_start": null,
+    "sample_stage": {
+      "key": "very_early",
+      "label": "Very Early Sample",
+      "message": "Fewer than 25 settled research candidates. Treat win rate, ROI, and bucket splits as descriptive only."
+    }
+  },
+  "side_breakdown": [
+    {
+      "key": "over",
+      "label": "Over",
+      "n": 0,
+      "wins": 0,
+      "losses": 0,
+      "pushes": 0,
+      "win_rate": null,
+      "profit": 0,
+      "roi": null,
+      "avg_clv_pp": null,
+      "positive_clv_pct": null,
+      "avg_line_clv_k": null
+    },
+    {
+      "key": "under",
+      "label": "Under",
+      "n": 0,
+      "wins": 0,
+      "losses": 0,
+      "pushes": 0,
+      "win_rate": null,
+      "profit": 0,
+      "roi": null,
+      "avg_clv_pp": null,
+      "positive_clv_pct": null,
+      "avg_line_clv_k": null
+    }
+  ],
+  "edge_breakdown": [
+    {
+      "key": "3_5",
+      "label": "3\u20135 pp",
+      "n": 0,
+      "wins": 0,
+      "losses": 0,
+      "pushes": 0,
+      "win_rate": null,
+      "profit": 0,
+      "roi": null,
+      "avg_clv_pp": null,
+      "positive_clv_pct": null,
+      "avg_line_clv_k": null
+    },
+    {
+      "key": "5_10",
+      "label": "5\u201310 pp",
+      "n": 0,
+      "wins": 0,
+      "losses": 0,
+      "pushes": 0,
+      "win_rate": null,
+      "profit": 0,
+      "roi": null,
+      "avg_clv_pp": null,
+      "positive_clv_pct": null,
+      "avg_line_clv_k": null
+    },
+    {
+      "key": "10_plus",
+      "label": "10+ pp",
+      "n": 0,
+      "wins": 0,
+      "losses": 0,
+      "pushes": 0,
+      "win_rate": null,
+      "profit": 0,
+      "roi": null,
+      "avg_clv_pp": null,
+      "positive_clv_pct": null,
+      "avg_line_clv_k": null
+    }
+  ],
+  "latest_settlement_run": null,
+  "results": [],
+  "pending": []
+}
