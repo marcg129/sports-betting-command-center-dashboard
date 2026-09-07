@@ -1,0 +1,125 @@
+.nav-item[data-section="system"] small { color: var(--gold); }
+
+.sys-view { min-height: calc(100vh - 78px); }
+.sys-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 18px;
+  margin-bottom: 14px;
+}
+.sys-header h1 { margin: 5px 0; font-size: 27px; }
+.sys-header p { margin: 0; max-width: 760px; color: var(--muted); font-size: 11px; line-height: 1.55; }
+.sys-kicker { color: var(--gold); font-size: 9px; font-weight: 800; letter-spacing: .12em; }
+
+.sys-health-banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 14px;
+  padding: 13px 15px;
+  margin-bottom: 12px;
+  border: 1px solid rgba(72,223,100,.24);
+  border-radius: 8px;
+  background: rgba(72,223,100,.045);
+}
+.sys-health-banner.attention { border-color: rgba(255,97,97,.35); background: rgba(255,97,97,.055); }
+.sys-health-banner.running { border-color: rgba(240,182,43,.3); background: rgba(240,182,43,.05); }
+.sys-health-title { display: flex; align-items: center; gap: 8px; font-size: 13px; font-weight: 800; }
+.sys-health-title .sys-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--green); box-shadow: 0 0 10px rgba(72,223,100,.7); }
+.sys-health-banner.attention .sys-dot { background: #ff6161; box-shadow: 0 0 10px rgba(255,97,97,.7); }
+.sys-health-banner.running .sys-dot { background: var(--gold); box-shadow: 0 0 10px rgba(240,182,43,.65); }
+.sys-health-detail { color: var(--muted); font-size: 9px; }
+
+.sys-metrics {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(150px, 1fr));
+  gap: 10px;
+  margin-bottom: 12px;
+}
+.sys-metric {
+  min-height: 110px;
+  padding: 15px 16px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: linear-gradient(180deg, rgba(17,29,40,.95), rgba(12,24,34,.95));
+}
+.sys-metric > span { display: block; color: var(--muted); font-size: 9px; text-transform: uppercase; letter-spacing: .04em; }
+.sys-metric strong { display: block; margin-top: 9px; font-size: 24px; line-height: 1; }
+.sys-metric small { display: block; margin-top: 8px; color: var(--muted-2); font-size: 9px; line-height: 1.4; }
+.sys-metric.warning strong { color: var(--gold); }
+.sys-metric.good strong { color: var(--green); }
+
+.sys-grid { display: grid; grid-template-columns: 1.25fr .75fr; gap: 12px; margin-bottom: 12px; }
+.sys-panel { padding: 16px; }
+.sys-panel-heading { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; margin-bottom: 12px; }
+.sys-panel-heading h3 { margin: 0 0 4px; }
+.sys-panel-heading p { margin: 0; color: var(--muted); font-size: 9px; line-height: 1.45; }
+
+.sys-component-list, .sys-workflow-list { display: grid; gap: 7px; }
+.sys-row {
+  display: grid;
+  grid-template-columns: minmax(150px, 1fr) 100px minmax(170px, .9fr);
+  gap: 12px;
+  align-items: center;
+  padding: 10px 11px;
+  border: 1px solid var(--border-soft);
+  border-radius: 7px;
+  background: #0a1620;
+}
+.sys-row-main strong { display: block; font-size: 10px; }
+.sys-row-main span, .sys-row-detail { display: block; margin-top: 4px; color: var(--muted); font-size: 8px; line-height: 1.35; }
+.sys-badge { display: inline-flex; justify-content: center; align-items: center; min-width: 68px; padding: 5px 7px; border-radius: 999px; border: 1px solid #32414c; color: var(--muted); font-size: 7px; font-weight: 800; text-transform: uppercase; }
+.sys-badge.success, .sys-badge.completed { color: var(--green); border-color: rgba(72,223,100,.25); background: rgba(72,223,100,.07); }
+.sys-badge.failure, .sys-badge.failed, .sys-badge.error, .sys-badge.cancelled, .sys-badge.timed_out { color: #ff8f8f; border-color: rgba(255,97,97,.3); background: rgba(255,97,97,.06); }
+.sys-badge.running, .sys-badge.in_progress, .sys-badge.queued { color: var(--gold); border-color: rgba(240,182,43,.3); background: rgba(240,182,43,.06); }
+.sys-error-text { color: #ff9a9a; }
+
+.sys-stat-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; }
+.sys-stat-grid > div { padding: 11px; border: 1px solid var(--border-soft); border-radius: 7px; background: #0a1620; }
+.sys-stat-grid span { display: block; color: var(--muted); font-size: 8px; text-transform: uppercase; }
+.sys-stat-grid strong { display: block; margin-top: 6px; font-size: 17px; }
+.sys-stat-grid small { display: block; margin-top: 4px; color: var(--muted); font-size: 8px; }
+
+.sys-schedule { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
+.sys-schedule-item { padding: 11px; border: 1px solid var(--border-soft); border-radius: 7px; background: #0a1620; }
+.sys-schedule-item time { display: block; color: var(--gold); font-size: 13px; font-weight: 800; }
+.sys-schedule-item strong { display: block; margin-top: 6px; font-size: 10px; }
+.sys-schedule-item span { display: block; margin-top: 4px; color: var(--muted); font-size: 8px; line-height: 1.4; }
+
+.sys-quality-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
+.sys-quality-grid > div { padding: 11px; border: 1px solid var(--border-soft); border-radius: 7px; background: #0a1620; }
+.sys-quality-grid span { display: block; color: var(--muted); font-size: 8px; }
+.sys-quality-grid strong { display: block; margin-top: 6px; font-size: 17px; }
+
+@media (max-width: 1250px) {
+  .sys-metrics { grid-template-columns: repeat(3, 1fr); }
+  .sys-schedule { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 980px) {
+  .sys-grid { grid-template-columns: 1fr; }
+  .sys-row { grid-template-columns: 1fr auto; }
+  .sys-row-detail { grid-column: 1 / -1; }
+}
+
+@media (max-width: 820px) {
+  .sys-view { padding-top: 13px; }
+  .sys-header { align-items: center; }
+  .sys-header h1 { font-size: 22px; }
+  .sys-header p { font-size: 10px; }
+  .sys-metrics { grid-template-columns: 1fr 1fr; gap: 7px; }
+  .sys-metric { min-height: 94px; padding: 11px; }
+  .sys-metric strong { font-size: 20px; }
+  .sys-quality-grid { grid-template-columns: 1fr 1fr; }
+}
+
+@media (max-width: 520px) {
+  .sys-health-banner { display: block; }
+  .sys-health-detail { margin-top: 7px; }
+  .sys-metrics { grid-template-columns: 1fr 1fr; }
+  .sys-stat-grid { grid-template-columns: 1fr 1fr; }
+  .sys-schedule { grid-template-columns: 1fr; }
+  .sys-row { grid-template-columns: 1fr; }
+  .sys-badge { justify-self: start; }
+}

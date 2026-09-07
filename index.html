@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="./shadow-lab.css">
   <link rel="stylesheet" href="./market.css">
   <link rel="stylesheet" href="./market-clarity.css">
+  <link rel="stylesheet" href="./system.css">
 </head>
 <body>
   <div class="app-shell">
@@ -27,7 +28,7 @@
         <button class="nav-item" type="button" data-section="player" title="Open player analysis"><span>♙</span>Player Analysis <small>Live</small></button>
         <button class="nav-item" type="button" data-section="shadow" title="Open shadow results and CLV"><span>◌</span>Shadow Lab <small>Live</small></button>
         <button class="nav-item" type="button" data-section="market" title="Open full market board"><span>▥</span>Market <small>Live</small></button>
-        <button class="nav-item disabled" type="button" title="Coming next"><span>⚙</span>System <small>Soon</small></button>
+        <button class="nav-item" type="button" data-section="system" title="Open pipeline and model health"><span>⚙</span>System <small>Live</small></button>
       </nav>
 
       <div class="sidebar-footer">
@@ -176,7 +177,7 @@
           <article class="panel">
             <h3>Recent Runs</h3>
             <div id="recentRuns" class="run-list"></div>
-            <div class="panel-action disabled-action">System screen coming next</div>
+            <button class="panel-action" type="button" data-section="system">Open System health</button>
           </article>
         </section>
 
@@ -199,7 +200,7 @@
     <button type="button" data-section="player">Players</button>
     <button type="button" data-section="shadow">Lab</button>
     <button type="button" data-section="market">Market</button>
-    <button type="button" disabled>System</button>
+    <button type="button" data-section="system">System</button>
   </nav>
 
   <div id="analysisBackdrop" class="analysis-backdrop" aria-hidden="true"></div>
@@ -216,5 +217,6 @@
   <script src="./shadow-lab.js" defer></script>
   <script src="./market.js" defer></script>
   <script src="./market-clarity.js" defer></script>
+  <script src="./system.js" defer></script>
 </body>
 </html>

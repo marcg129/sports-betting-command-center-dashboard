@@ -1,0 +1,162 @@
+{
+  "schema_version": 1,
+  "sample_data": false,
+  "generated_at": "2026-09-07T01:14:48.471157Z",
+  "timezone": "America/New_York",
+  "overall_status": "healthy",
+  "api_usage": {
+    "credits_remaining": 958,
+    "last_request_cost": 3,
+    "last_collector_at": "2026-09-06T23:57:44.865526Z",
+    "rows_returned": 1
+  },
+  "model": {
+    "model_version": "MLB_K_v0.1",
+    "point_model": "poisson",
+    "distribution": "poisson",
+    "trained_through": "2026-09-05",
+    "settled_projections": 27,
+    "mae": 1.7772018004355832,
+    "rmse": 2.198105918029882,
+    "bias": -0.635680733510707,
+    "within_1k_pct": 29.629629629629626,
+    "first_result_date": "2026-09-05",
+    "last_result_date": "2026-09-05"
+  },
+  "data_quality": {
+    "pricing_finished_at": "2026-09-06T23:57:47.970321Z",
+    "pricing_target_date": "2026-09-06",
+    "matched_markets": 1,
+    "sides_priced": 2,
+    "research_candidates": 1,
+    "unmatched_market_names": 0,
+    "unmatched_live_pitchers": 15,
+    "pricing_status": "success",
+    "projection_result_rows": 27,
+    "projection_settled_rows": 27,
+    "projection_settlement_pct": 100.0,
+    "shadow_result_rows": 54
+  },
+  "components": [
+    {
+      "name": "Odds Collector",
+      "started_at": "2026-09-06T23:57:40.294914Z",
+      "finished_at": "2026-09-06T23:57:44.865526Z",
+      "status": "success",
+      "error_message": null,
+      "rows": 1,
+      "credits_remaining": 958
+    },
+    {
+      "name": "Live Projections",
+      "started_at": "2026-09-06T17:44:15.034901Z",
+      "finished_at": "2026-09-06T17:44:16.926568Z",
+      "status": "success",
+      "error_message": null,
+      "rows": 16,
+      "trained_through": "2026-09-05"
+    },
+    {
+      "name": "Market Pricing",
+      "started_at": "2026-09-06T23:57:46.314302Z",
+      "finished_at": "2026-09-06T23:57:47.970321Z",
+      "status": "success",
+      "error_message": null,
+      "rows": 2,
+      "research_candidates": 1
+    },
+    {
+      "name": "Shadow Settlement",
+      "started_at": "2026-09-06T20:31:53.624133Z",
+      "finished_at": "2026-09-06T20:32:07.074994Z",
+      "status": "success",
+      "error_message": null,
+      "rows": 15,
+      "wins": 6,
+      "losses": 9
+    },
+    {
+      "name": "Model Training",
+      "started_at": "2026-09-04T21:06:43.676825Z",
+      "finished_at": "2026-09-04T21:07:14.578231Z",
+      "status": "success",
+      "error_message": null,
+      "selected_model": "poisson",
+      "holdout_mae": 1.7673906733798348
+    }
+  ],
+  "workflows": [
+    {
+      "name": "Daily MLB K Today Pipeline",
+      "status": "completed",
+      "conclusion": "success",
+      "event": "workflow_dispatch",
+      "created_at": "2026-09-06T17:43:10Z",
+      "updated_at": "2026-09-06T17:44:31Z",
+      "run_number": 1,
+      "html_url": "https://github.com/marcg129/sports-betting-command-center/actions/runs/34049477544"
+    },
+    {
+      "name": "MLB Pitcher K Odds Collector",
+      "status": "completed",
+      "conclusion": "success",
+      "event": "schedule",
+      "created_at": "2026-09-06T23:57:25Z",
+      "updated_at": "2026-09-06T23:57:50Z",
+      "run_number": 15,
+      "html_url": "https://github.com/marcg129/sports-betting-command-center/actions/runs/34068308591"
+    },
+    {
+      "name": "Score MLB K Live",
+      "status": "completed",
+      "conclusion": "success",
+      "event": "workflow_dispatch",
+      "created_at": "2026-09-05T17:00:04Z",
+      "updated_at": "2026-09-05T17:01:21Z",
+      "run_number": 1,
+      "html_url": "https://github.com/marcg129/sports-betting-command-center/actions/runs/33979573099"
+    },
+    {
+      "name": "Price MLB K Market v0.1",
+      "status": "completed",
+      "conclusion": "success",
+      "event": "workflow_dispatch",
+      "created_at": "2026-09-05T17:23:38Z",
+      "updated_at": "2026-09-05T17:24:08Z",
+      "run_number": 1,
+      "html_url": "https://github.com/marcg129/sports-betting-command-center/actions/runs/33980822417"
+    },
+    {
+      "name": "Settle MLB K Shadow Results",
+      "status": "completed",
+      "conclusion": "success",
+      "event": "workflow_dispatch",
+      "created_at": "2026-09-06T20:31:16Z",
+      "updated_at": "2026-09-06T20:32:12Z",
+      "run_number": 2,
+      "html_url": "https://github.com/marcg129/sports-betting-command-center/actions/runs/34058245527"
+    }
+  ],
+  "schedule": [
+    {
+      "name": "Shadow settlement",
+      "time_et": "9:47 AM",
+      "purpose": "Settle prior-day shadow and projection results"
+    },
+    {
+      "name": "Morning Today pipeline",
+      "time_et": "10:17 AM",
+      "purpose": "Refresh features, score pitchers, collect odds, price market"
+    },
+    {
+      "name": "Market refresh",
+      "time_et": "2:17 PM",
+      "purpose": "Refresh odds, re-price market, publish dashboard"
+    },
+    {
+      "name": "Market refresh",
+      "time_et": "6:17 PM",
+      "purpose": "Refresh odds, re-price market, publish dashboard"
+    }
+  ]
+}
