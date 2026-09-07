@@ -8,6 +8,8 @@
   <link rel="stylesheet" href="./styles.css">
   <link rel="stylesheet" href="./player-analysis.css">
   <link rel="stylesheet" href="./shadow-lab.css">
+  <link rel="stylesheet" href="./market.css">
+  <link rel="stylesheet" href="./market-clarity.css">
 </head>
 <body>
   <div class="app-shell">
@@ -24,7 +26,7 @@
         <button class="nav-item active" type="button" data-section="today"><span>◫</span>Today</button>
         <button class="nav-item" type="button" data-section="player" title="Open player analysis"><span>♙</span>Player Analysis <small>Live</small></button>
         <button class="nav-item" type="button" data-section="shadow" title="Open shadow results and CLV"><span>◌</span>Shadow Lab <small>Live</small></button>
-        <button class="nav-item disabled" type="button" title="Coming next"><span>▥</span>Market <small>Soon</small></button>
+        <button class="nav-item" type="button" data-section="market" title="Open full market board"><span>▥</span>Market <small>Live</small></button>
         <button class="nav-item disabled" type="button" title="Coming next"><span>⚙</span>System <small>Soon</small></button>
       </nav>
 
@@ -196,7 +198,7 @@
     <button class="active" type="button" data-section="today">Today</button>
     <button type="button" data-section="player">Players</button>
     <button type="button" data-section="shadow">Lab</button>
-    <button type="button" disabled>Market</button>
+    <button type="button" data-section="market">Market</button>
     <button type="button" disabled>System</button>
   </nav>
 
@@ -212,5 +214,7 @@
   <script src="./app.js" defer></script>
   <script src="./player-analysis.js" defer></script>
   <script src="./shadow-lab.js" defer></script>
+  <script src="./market.js" defer></script>
+  <script src="./market-clarity.js" defer></script>
 </body>
 </html>
