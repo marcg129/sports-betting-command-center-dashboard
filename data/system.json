@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "sample_data": false,
-  "generated_at": "2026-09-07T17:07:17.829413Z",
+  "generated_at": "2026-09-07T18:25:47.235882Z",
   "timezone": "America/New_York",
   "overall_status": "healthy",
   "api_usage": {
@@ -15,11 +15,11 @@
     "point_model": "poisson",
     "distribution": "poisson",
     "trained_through": "2026-09-06",
-    "settled_projections": 41,
-    "mae": 1.7930824544200918,
-    "rmse": 2.20459307838942,
-    "bias": -0.32567137286124975,
-    "within_1k_pct": 29.268292682926827,
+    "settled_projections": 43,
+    "mae": 1.7330340977570131,
+    "rmse": 2.1557100345704656,
+    "bias": -0.3338746944102101,
+    "within_1k_pct": 32.55813953488372,
     "first_result_date": "2026-09-05",
     "last_result_date": "2026-09-06"
   },
@@ -33,8 +33,8 @@
     "unmatched_live_pitchers": 13,
     "pricing_status": "success",
     "projection_result_rows": 43,
-    "projection_settled_rows": 41,
-    "projection_settlement_pct": 95.34883720930233,
+    "projection_settled_rows": 43,
+    "projection_settlement_pct": 100.0,
     "shadow_result_rows": 80
   },
   "components": [
@@ -67,12 +67,12 @@
     },
     {
       "name": "Shadow Settlement",
-      "started_at": "2026-09-07T04:14:29.410377Z",
-      "finished_at": "2026-09-07T04:14:33.412677Z",
+      "started_at": "2026-09-07T18:24:52.945729Z",
+      "finished_at": "2026-09-07T18:24:58.796981Z",
       "status": "success",
       "error_message": null,
-      "rows": 8,
-      "wins": 4,
+      "rows": 10,
+      "wins": 6,
       "losses": 4
     },
     {
@@ -110,11 +110,11 @@
       "name": "Settle MLB K Shadow Results",
       "status": "completed",
       "conclusion": "success",
-      "event": "workflow_dispatch",
-      "created_at": "2026-09-07T04:13:53Z",
-      "updated_at": "2026-09-07T04:14:39Z",
-      "run_number": 3,
-      "html_url": "https://github.com/marcg129/sports-betting-command-center/actions/runs/34082316109"
+      "event": "schedule",
+      "created_at": "2026-09-07T18:24:16Z",
+      "updated_at": "2026-09-07T18:25:06Z",
+      "run_number": 4,
+      "html_url": "https://github.com/marcg129/sports-betting-command-center/actions/runs/34151484317"
     }
   ],
   "schedule": [
