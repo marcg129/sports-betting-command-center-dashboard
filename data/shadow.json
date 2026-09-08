@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-09-08T20:03:19.630187Z",
+  "generated_at": "2026-09-08T21:14:00.828327Z",
   "methodology": {
     "stake": "Flat $1 hypothetical stake per research candidate",
     "clv": "CLV is a proxy based on the latest captured Pinnacle pregame quote, not necessarily the exact closing tick.",

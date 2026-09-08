@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "sample_data": false,
-  "generated_at": "2026-09-08T20:03:24.188171Z",
+  "generated_at": "2026-09-08T21:14:05.276707Z",
   "timezone": "America/New_York",
   "overall_status": "healthy",
   "api_usage": {
-    "credits_remaining": 946,
+    "credits_remaining": 943,
     "last_request_cost": 3,
-    "last_collector_at": "2026-09-08T17:57:58.679860Z",
+    "last_collector_at": "2026-09-08T21:13:00.639520Z",
     "rows_returned": 6
   },
   "model": {
@@ -24,11 +24,11 @@
     "last_result_date": "2026-09-07"
   },
   "data_quality": {
-    "pricing_finished_at": "2026-09-08T17:58:01.757234Z",
+    "pricing_finished_at": "2026-09-08T21:13:08.634071Z",
     "pricing_target_date": "2026-09-08",
     "matched_markets": 6,
     "sides_priced": 12,
-    "research_candidates": 5,
+    "research_candidates": 2,
     "unmatched_market_names": 0,
     "unmatched_live_pitchers": 21,
     "pricing_status": "success",
@@ -40,12 +40,12 @@
   "components": [
     {
       "name": "Odds Collector",
-      "started_at": "2026-09-08T17:57:54.113471Z",
-      "finished_at": "2026-09-08T17:57:58.679860Z",
+      "started_at": "2026-09-08T21:12:52.300608Z",
+      "finished_at": "2026-09-08T21:13:00.639520Z",
       "status": "success",
       "error_message": null,
       "rows": 6,
-      "credits_remaining": 946
+      "credits_remaining": 943
     },
     {
       "name": "Live Projections",
@@ -58,12 +58,12 @@
     },
     {
       "name": "Market Pricing",
-      "started_at": "2026-09-08T17:58:00.272272Z",
-      "finished_at": "2026-09-08T17:58:01.757234Z",
+      "started_at": "2026-09-08T21:13:04.423329Z",
+      "finished_at": "2026-09-08T21:13:08.634071Z",
       "status": "success",
       "error_message": null,
       "rows": 12,
-      "research_candidates": 5
+      "research_candidates": 2
     },
     {
       "name": "Shadow Settlement",
@@ -101,10 +101,10 @@
       "status": "completed",
       "conclusion": "success",
       "event": "schedule",
-      "created_at": "2026-09-08T00:26:50Z",
-      "updated_at": "2026-09-08T00:27:15Z",
-      "run_number": 17,
-      "html_url": "https://github.com/marcg129/sports-betting-command-center/actions/runs/34173337514"
+      "created_at": "2026-09-08T21:12:39Z",
+      "updated_at": "2026-09-08T21:13:12Z",
+      "run_number": 18,
+      "html_url": "https://github.com/marcg129/sports-betting-command-center/actions/runs/34279287163"
     },
     {
       "name": "Settle MLB K Shadow Results",
