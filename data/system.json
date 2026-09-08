@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "sample_data": false,
-  "generated_at": "2026-09-08T17:58:50.821250Z",
+  "generated_at": "2026-09-08T20:03:24.188171Z",
   "timezone": "America/New_York",
   "overall_status": "healthy",
   "api_usage": {
@@ -138,5 +138,6 @@
       "time_et": "6:17 PM",
       "purpose": "Refresh odds, re-price market, publish dashboard"
     }
-  ]
+  ],
+  "pipeline_timing": null
 }
