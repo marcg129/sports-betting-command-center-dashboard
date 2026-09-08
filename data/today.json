@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
   "sample_data": false,
-  "generated_at": "2026-09-07T21:34:38.244669Z",
+  "generated_at": "2026-09-08T00:27:55.077285Z",
   "target_date": "2026-09-07",
   "timezone": "America/New_York",
   "model_version": "MLB_K_v0.1",
   "summary": {
-    "pitchers_priced": 2,
-    "sides_priced": 4,
-    "research_candidates": 1,
+    "pitchers_priced": 3,
+    "sides_priced": 6,
+    "research_candidates": 2,
     "unmatched_market_names": 1,
-    "unmatched_live_pitchers": 14,
-    "quotes_considered": 6,
-    "quote_pairs_found": 3,
+    "unmatched_live_pitchers": 13,
+    "quotes_considered": 8,
+    "quote_pairs_found": 4,
     "min_edge": 0.03,
     "min_ev": 0.02,
     "max_quote_age_minutes": 180,
@@ -20,26 +20,26 @@
       "0_3": 1,
       "3_5": 0,
       "5_10": 0,
-      "10_plus": 1
+      "10_plus": 2
     },
     "candidate_sides": {
       "over": 0,
-      "under": 1
+      "under": 2
     }
   },
   "freshness": {
-    "latest_quote_seen_at": "2026-09-07T21:33:44.885949Z",
-    "collector_finished_at": "2026-09-07T21:33:46.112954Z",
-    "credits_remaining": 952,
+    "latest_quote_seen_at": "2026-09-08T00:27:08.523742Z",
+    "collector_finished_at": "2026-09-08T00:27:08.762629Z",
+    "credits_remaining": 949,
     "live_scoring_finished_at": "2026-09-07T17:06:15.648275Z",
-    "market_pricing_finished_at": "2026-09-07T21:33:53.258334Z"
+    "market_pricing_finished_at": "2026-09-08T00:27:12.108512Z"
   },
   "recent_runs": [
     {
       "name": "Odds Collector",
-      "finished_at": "2026-09-07T21:33:46.112954Z",
+      "finished_at": "2026-09-08T00:27:08.762629Z",
       "status": "success",
-      "detail": "3 quotes"
+      "detail": "1 quotes"
     },
     {
       "name": "Live Projections",
@@ -49,9 +49,9 @@
     },
     {
       "name": "Market Pricing",
-      "finished_at": "2026-09-07T21:33:53.258334Z",
+      "finished_at": "2026-09-08T00:27:12.108512Z",
       "status": "success",
-      "detail": "4 sides \u00b7 1 candidates"
+      "detail": "6 sides \u00b7 2 candidates"
     }
   ],
   "issues": [
@@ -65,13 +65,6 @@
     {
       "issue_type": "live_pitcher_without_fresh_market",
       "player_name": "Chase Burns",
-      "sportsbook": null,
-      "line": null,
-      "detail": "Scored probable starter had no fresh two-sided pitcher-K market quote."
-    },
-    {
-      "issue_type": "live_pitcher_without_fresh_market",
-      "player_name": "Dylan Cease",
       "sportsbook": null,
       "line": null,
       "detail": "Scored probable starter had no fresh two-sided pitcher-K market quote."
@@ -162,6 +155,94 @@
     }
   ],
   "players": [
+    {
+      "analysis_key": "824958:656302",
+      "game_pk": 824958,
+      "game_datetime": "2026-09-08T02:05:00Z",
+      "pitcher_id": 656302,
+      "pitcher_name": "Dylan Cease",
+      "team": "Toronto Blue Jays",
+      "team_abbr": "TOR",
+      "opponent": "Athletics",
+      "opponent_abbr": "ATH",
+      "throwing_hand": "R",
+      "home_away": "away",
+      "venue_name": "Sutter Health Park",
+      "projected_k": 6.330109887652617,
+      "features": {
+        "rest_days": 4,
+        "days_since_last_start": 5,
+        "prior_start_strikeouts": 4,
+        "prior_start_pitches": 83,
+        "prior_start_batters_faced": 21,
+        "avg_k_l3": 6.666666666666667,
+        "avg_k_l5": 7.4,
+        "avg_k_l10": 8.4,
+        "avg_pitches_l5": 98.8,
+        "avg_bf_l5": 23.4,
+        "k_per_bf_l5": 0.3162393162393162,
+        "swstr_l5": 0.12955465587044535,
+        "csw_l5": 0.2813765182186235,
+        "whiff_l5": 0.2909090909090909,
+        "velo_l3": 89.08566073931446,
+        "season_velo_prior": 90.75192312962864,
+        "velo_delta_l3_vs_season": -1.6662623903141736,
+        "opponent_k_rate_season_prior": 0.22515952597994532,
+        "opponent_k_rate_l14d": 0.23138832997987926,
+        "opponent_k_rate_l30d": 0.21206409048067862,
+        "opponent_k_rate_vs_hand_season_prior": 0.21553133514986375,
+        "opponent_k_rate_vs_hand_l30d": 0.2103861517976032,
+        "opponent_whiff_rate_l14d": 0.2624338624338624,
+        "opponent_contact_rate_l14d": 0.7375661375661375
+      },
+      "recent_starts": [
+        {
+          "game_date": "2026-09-02",
+          "opponent": "Cleveland Guardians",
+          "opponent_abbr": "CLE",
+          "home_away": "away",
+          "strikeouts": 4,
+          "pitches": 83,
+          "batters_faced": 21
+        },
+        {
+          "game_date": "2026-08-28",
+          "opponent": "Seattle Mariners",
+          "opponent_abbr": "SEA",
+          "home_away": "home",
+          "strikeouts": 8,
+          "pitches": 92,
+          "batters_faced": 22
+        },
+        {
+          "game_date": "2026-08-22",
+          "opponent": "New York Yankees",
+          "opponent_abbr": "NYY",
+          "home_away": "away",
+          "strikeouts": 8,
+          "pitches": 111,
+          "batters_faced": 26
+        },
+        {
+          "game_date": "2026-08-16",
+          "opponent": "New York Yankees",
+          "opponent_abbr": "NYY",
+          "home_away": "home",
+          "strikeouts": 10,
+          "pitches": 104,
+          "batters_faced": 24
+        },
+        {
+          "game_date": "2026-08-11",
+          "opponent": "Boston Red Sox",
+          "opponent_abbr": "BOS",
+          "home_away": "home",
+          "strikeouts": 7,
+          "pitches": 104,
+          "batters_faced": 24
+        }
+      ]
+    },
     {
       "analysis_key": "823175:657277",
       "game_pk": 823175,
@@ -341,6 +422,30 @@
   ],
   "markets": [
     {
+      "game_pk": 824958,
+      "game_datetime": "2026-09-08T02:05:00Z",
+      "pitcher_id": 656302,
+      "pitcher_name": "Dylan Cease",
+      "team": "Toronto Blue Jays",
+      "team_abbr": "TOR",
+      "opponent": "Athletics",
+      "opponent_abbr": "ATH",
+      "throwing_hand": "R",
+      "projected_k": 6.330109887652617,
+      "sportsbook": "Pinnacle",
+      "side": "Under",
+      "line": 7.5,
+      "american_odds": -130,
+      "model_probability": 0.6974200346240137,
+      "market_fair_probability": 0.5281576830249397,
+      "edge_pp": 16.9262351599074,
+      "ev": 0.23389714527787842,
+      "research_candidate": true,
+      "quote_last_seen_at": "2026-09-08T00:27:08.523742Z",
+      "quote_source_updated_at": "2026-09-08T00:23:15Z",
+      "analysis_key": "824958:656302"
+    },
+    {
       "game_pk": 823175,
       "game_datetime": "2026-09-08T00:10:00Z",
       "pitcher_id": 657277,
@@ -435,6 +540,30 @@
       "quote_last_seen_at": "2026-09-07T21:33:44.885949Z",
       "quote_source_updated_at": "2026-09-07T21:22:10Z",
       "analysis_key": "823175:657277"
+    },
+    {
+      "game_pk": 824958,
+      "game_datetime": "2026-09-08T02:05:00Z",
+      "pitcher_id": 656302,
+      "pitcher_name": "Dylan Cease",
+      "team": "Toronto Blue Jays",
+      "team_abbr": "TOR",
+      "opponent": "Athletics",
+      "opponent_abbr": "ATH",
+      "throwing_hand": "R",
+      "projected_k": 6.330109887652617,
+      "sportsbook": "Pinnacle",
+      "side": "Over",
+      "line": 7.5,
+      "american_odds": -102,
+      "model_probability": 0.3025799653759863,
+      "market_fair_probability": 0.4718423169750604,
+      "edge_pp": -16.92623515990741,
+      "ev": -0.4007730572091197,
+      "research_candidate": false,
+      "quote_last_seen_at": "2026-09-08T00:27:08.523742Z",
+      "quote_source_updated_at": "2026-09-08T00:23:15Z",
+      "analysis_key": "824958:656302"
     }
   ]
 }

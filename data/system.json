@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
   "sample_data": false,
-  "generated_at": "2026-09-07T21:34:42.501324Z",
+  "generated_at": "2026-09-08T00:28:01.755091Z",
   "timezone": "America/New_York",
   "overall_status": "healthy",
   "api_usage": {
-    "credits_remaining": 952,
+    "credits_remaining": 949,
     "last_request_cost": 3,
-    "last_collector_at": "2026-09-07T21:33:46.112954Z",
-    "rows_returned": 3
+    "last_collector_at": "2026-09-08T00:27:08.762629Z",
+    "rows_returned": 1
   },
   "model": {
     "model_version": "MLB_K_v0.1",
@@ -24,13 +24,13 @@
     "last_result_date": "2026-09-06"
   },
   "data_quality": {
-    "pricing_finished_at": "2026-09-07T21:33:53.258334Z",
+    "pricing_finished_at": "2026-09-08T00:27:12.108512Z",
     "pricing_target_date": "2026-09-07",
-    "matched_markets": 2,
-    "sides_priced": 4,
-    "research_candidates": 1,
+    "matched_markets": 3,
+    "sides_priced": 6,
+    "research_candidates": 2,
     "unmatched_market_names": 1,
-    "unmatched_live_pitchers": 14,
+    "unmatched_live_pitchers": 13,
     "pricing_status": "success",
     "projection_result_rows": 43,
     "projection_settled_rows": 43,
@@ -40,12 +40,12 @@
   "components": [
     {
       "name": "Odds Collector",
-      "started_at": "2026-09-07T21:33:37.408771Z",
-      "finished_at": "2026-09-07T21:33:46.112954Z",
+      "started_at": "2026-09-08T00:27:01.186065Z",
+      "finished_at": "2026-09-08T00:27:08.762629Z",
       "status": "success",
       "error_message": null,
-      "rows": 3,
-      "credits_remaining": 952
+      "rows": 1,
+      "credits_remaining": 949
     },
     {
       "name": "Live Projections",
@@ -58,12 +58,12 @@
     },
     {
       "name": "Market Pricing",
-      "started_at": "2026-09-07T21:33:49.536789Z",
-      "finished_at": "2026-09-07T21:33:53.258334Z",
+      "started_at": "2026-09-08T00:27:10.336443Z",
+      "finished_at": "2026-09-08T00:27:12.108512Z",
       "status": "success",
       "error_message": null,
-      "rows": 4,
-      "research_candidates": 1
+      "rows": 6,
+      "research_candidates": 2
     },
     {
       "name": "Shadow Settlement",
@@ -101,10 +101,10 @@
       "status": "completed",
       "conclusion": "success",
       "event": "schedule",
-      "created_at": "2026-09-07T21:33:20Z",
-      "updated_at": "2026-09-07T21:33:57Z",
-      "run_number": 16,
-      "html_url": "https://github.com/marcg129/sports-betting-command-center/actions/runs/34163556422"
+      "created_at": "2026-09-08T00:26:50Z",
+      "updated_at": "2026-09-08T00:27:15Z",
+      "run_number": 17,
+      "html_url": "https://github.com/marcg129/sports-betting-command-center/actions/runs/34173337514"
     },
     {
       "name": "Settle MLB K Shadow Results",
