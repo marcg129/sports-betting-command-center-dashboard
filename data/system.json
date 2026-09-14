@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "sample_data": false,
-  "generated_at": "2026-09-14T14:58:48.310568Z",
+  "generated_at": "2026-09-14T18:54:37.809075Z",
   "timezone": "America/New_York",
   "overall_status": "healthy",
   "api_usage": {
@@ -15,13 +15,13 @@
     "point_model": "poisson",
     "distribution": "poisson",
     "trained_through": "2026-09-13",
-    "settled_projections": 171,
-    "mae": 1.8129713081012986,
-    "rmse": 2.2087982227426646,
-    "bias": 0.1161943216307715,
-    "within_1k_pct": 32.748538011695906,
+    "settled_projections": 198,
+    "mae": 1.7549082114728949,
+    "rmse": 2.1509208062791787,
+    "bias": 0.12449500256436913,
+    "within_1k_pct": 33.83838383838384,
     "first_result_date": "2026-09-05",
-    "last_result_date": "2026-09-12"
+    "last_result_date": "2026-09-13"
   },
   "data_quality": {
     "pricing_finished_at": "2026-09-14T14:19:13.162366Z",
@@ -32,10 +32,10 @@
     "unmatched_market_names": 0,
     "unmatched_live_pitchers": 19,
     "pricing_status": "success",
-    "projection_result_rows": 171,
-    "projection_settled_rows": 171,
-    "projection_settlement_pct": 100.0,
-    "shadow_result_rows": 234
+    "projection_result_rows": 199,
+    "projection_settled_rows": 198,
+    "projection_settlement_pct": 99.49748743718592,
+    "shadow_result_rows": 288
   },
   "components": [
     {
@@ -67,13 +67,13 @@
     },
     {
       "name": "Shadow Settlement",
-      "started_at": "2026-09-13T17:04:15.897375Z",
-      "finished_at": "2026-09-13T17:04:21.507137Z",
+      "started_at": "2026-09-14T18:52:56.284051Z",
+      "finished_at": "2026-09-14T18:53:17.753754Z",
       "status": "success",
       "error_message": null,
-      "rows": 15,
-      "wins": 7,
-      "losses": 8
+      "rows": 23,
+      "wins": 11,
+      "losses": 12
     },
     {
       "name": "Model Training",
@@ -111,10 +111,10 @@
       "status": "completed",
       "conclusion": "success",
       "event": "schedule",
-      "created_at": "2026-09-13T17:03:37Z",
-      "updated_at": "2026-09-13T17:04:33Z",
-      "run_number": 10,
-      "html_url": "https://github.com/marcg129/sports-betting-command-center/actions/runs/34770434257"
+      "created_at": "2026-09-14T18:52:13Z",
+      "updated_at": "2026-09-14T18:53:45Z",
+      "run_number": 11,
+      "html_url": "https://github.com/marcg129/sports-betting-command-center/actions/runs/34883432005"
     }
   ],
   "schedule": [
