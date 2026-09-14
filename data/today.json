@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
   "sample_data": false,
-  "generated_at": "2026-09-13T20:54:15.676358Z",
+  "generated_at": "2026-09-14T00:15:28.977899Z",
   "target_date": "2026-09-13",
   "timezone": "America/New_York",
   "model_version": "MLB_K_v0.1",
   "summary": {
     "pitchers_priced": 2,
     "sides_priced": 4,
-    "research_candidates": 2,
+    "research_candidates": 1,
     "unmatched_market_names": 0,
     "unmatched_live_pitchers": 26,
     "quotes_considered": 4,
@@ -17,27 +17,27 @@
     "min_ev": 0.02,
     "max_quote_age_minutes": 180,
     "edge_buckets": {
-      "0_3": 0,
+      "0_3": 1,
       "3_5": 0,
-      "5_10": 2,
+      "5_10": 1,
       "10_plus": 0
     },
     "candidate_sides": {
-      "over": 1,
+      "over": 0,
       "under": 1
     }
   },
   "freshness": {
-    "latest_quote_seen_at": "2026-09-13T20:53:15.255130Z",
-    "collector_finished_at": "2026-09-13T20:53:15.561691Z",
-    "credits_remaining": 904,
+    "latest_quote_seen_at": "2026-09-14T00:14:31.690413Z",
+    "collector_finished_at": "2026-09-14T00:14:32.283845Z",
+    "credits_remaining": 901,
     "live_scoring_finished_at": "2026-09-13T14:18:20.448934Z",
-    "market_pricing_finished_at": "2026-09-13T20:53:19.208457Z"
+    "market_pricing_finished_at": "2026-09-14T00:14:38.571174Z"
   },
   "recent_runs": [
     {
       "name": "Odds Collector",
-      "finished_at": "2026-09-13T20:53:15.561691Z",
+      "finished_at": "2026-09-14T00:14:32.283845Z",
       "status": "success",
       "detail": "2 quotes"
     },
@@ -49,9 +49,9 @@
     },
     {
       "name": "Market Pricing",
-      "finished_at": "2026-09-13T20:53:19.208457Z",
+      "finished_at": "2026-09-14T00:14:38.571174Z",
       "status": "success",
-      "detail": "4 sides \u00b7 2 candidates"
+      "detail": "4 sides \u00b7 1 candidates"
     }
   ],
   "issues": [
@@ -176,14 +176,14 @@
     },
     {
       "issue_type": "live_pitcher_without_fresh_market",
-      "player_name": "Jake Irvin",
+      "player_name": "Jacob Lopez",
       "sportsbook": null,
       "line": null,
       "detail": "Scored probable starter had no fresh two-sided pitcher-K market quote."
     },
     {
       "issue_type": "live_pitcher_without_fresh_market",
-      "player_name": "Logan Webb",
+      "player_name": "Jake Irvin",
       "sportsbook": null,
       "line": null,
       "detail": "Scored probable starter had no fresh two-sided pitcher-K market quote."
@@ -239,94 +239,6 @@
     }
   ],
   "players": [
-    {
-      "analysis_key": "824952:682052",
-      "game_pk": 824952,
-      "game_datetime": "2026-09-13T20:05:00Z",
-      "pitcher_id": 682052,
-      "pitcher_name": "Jacob Lopez",
-      "team": "Athletics",
-      "team_abbr": "ATH",
-      "opponent": "Seattle Mariners",
-      "opponent_abbr": "SEA",
-      "throwing_hand": "L",
-      "home_away": "home",
-      "venue_name": "Sutter Health Park",
-      "projected_k": 5.706335217136347,
-      "features": {
-        "rest_days": 5,
-        "days_since_last_start": 6,
-        "prior_start_strikeouts": 1,
-        "prior_start_pitches": 93,
-        "prior_start_batters_faced": 26,
-        "avg_k_l3": 4.666666666666667,
-        "avg_k_l5": 5.8,
-        "avg_k_l10": 6.1,
-        "avg_pitches_l5": 95.8,
-        "avg_bf_l5": 24.0,
-        "k_per_bf_l5": 0.24166666666666667,
-        "swstr_l5": 0.12943632567849686,
-        "csw_l5": 0.29018789144050106,
-        "whiff_l5": 0.26495726495726496,
-        "velo_l3": 82.76673350200296,
-        "season_velo_prior": 83.98729558802059,
-        "velo_delta_l3_vs_season": -1.2205620860176225,
-        "opponent_k_rate_season_prior": 0.23129130201821754,
-        "opponent_k_rate_l14d": 0.22718446601941747,
-        "opponent_k_rate_l30d": 0.2412488174077578,
-        "opponent_k_rate_vs_hand_season_prior": 0.24006532389765922,
-        "opponent_k_rate_vs_hand_l30d": 0.2482758620689655,
-        "opponent_whiff_rate_l14d": 0.24219590958019377,
-        "opponent_contact_rate_l14d": 0.7578040904198062
-      },
-      "recent_starts": [
-        {
-          "game_date": "2026-09-07",
-          "opponent": "Toronto Blue Jays",
-          "opponent_abbr": "TOR",
-          "home_away": "home",
-          "strikeouts": 1,
-          "pitches": 93,
-          "batters_faced": 26
-        },
-        {
-          "game_date": "2026-09-02",
-          "opponent": "Texas Rangers",
-          "opponent_abbr": "TEX",
-          "home_away": "away",
-          "strikeouts": 7,
-          "pitches": 102,
-          "batters_faced": 25
-        },
-        {
-          "game_date": "2026-08-28",
-          "opponent": "Baltimore Orioles",
-          "opponent_abbr": "BAL",
-          "home_away": "home",
-          "strikeouts": 6,
-          "pitches": 100,
-          "batters_faced": 22
-        },
-        {
-          "game_date": "2026-08-22",
-          "opponent": "Houston Astros",
-          "opponent_abbr": "HOU",
-          "home_away": "away",
-          "strikeouts": 9,
-          "pitches": 91,
-          "batters_faced": 23
-        },
-        {
-          "game_date": "2026-08-16",
-          "opponent": "Texas Rangers",
-          "opponent_abbr": "TEX",
-          "home_away": "home",
-          "strikeouts": 6,
-          "pitches": 93,
-          "batters_faced": 24
-        }
-      ]
-    },
     {
       "analysis_key": "823171:601713",
       "game_pk": 823171,
@@ -414,34 +326,98 @@
           "batters_faced": 19
         }
       ]
+    },
+    {
+      "analysis_key": "823171:657277",
+      "game_pk": 823171,
+      "game_datetime": "2026-09-13T23:20:00Z",
+      "pitcher_id": 657277,
+      "pitcher_name": "Logan Webb",
+      "team": "San Francisco Giants",
+      "team_abbr": "SF",
+      "opponent": "San Diego Padres",
+      "opponent_abbr": "SD",
+      "throwing_hand": "R",
+      "home_away": "home",
+      "venue_name": "Oracle Park",
+      "projected_k": 4.9952358264103385,
+      "features": {
+        "rest_days": 5,
+        "days_since_last_start": 6,
+        "prior_start_strikeouts": 8,
+        "prior_start_pitches": 99,
+        "prior_start_batters_faced": 23,
+        "avg_k_l3": 5.0,
+        "avg_k_l5": 4.8,
+        "avg_k_l10": 4.7,
+        "avg_pitches_l5": 82.2,
+        "avg_bf_l5": 21.2,
+        "k_per_bf_l5": 0.22641509433962265,
+        "swstr_l5": 0.12135922330097088,
+        "csw_l5": 0.3058252427184466,
+        "whiff_l5": 0.26595744680851063,
+        "velo_l3": 88.91595494997557,
+        "season_velo_prior": 88.76221048852868,
+        "velo_delta_l3_vs_season": 0.15374446144689102,
+        "opponent_k_rate_season_prior": 0.2151120751988431,
+        "opponent_k_rate_l14d": 0.2012987012987013,
+        "opponent_k_rate_l30d": 0.2054655870445344,
+        "opponent_k_rate_vs_hand_season_prior": 0.2138657520823126,
+        "opponent_k_rate_vs_hand_l30d": 0.1925373134328358,
+        "opponent_whiff_rate_l14d": 0.2462253193960511,
+        "opponent_contact_rate_l14d": 0.7537746806039489
+      },
+      "recent_starts": [
+        {
+          "game_date": "2026-09-07",
+          "opponent": "St. Louis Cardinals",
+          "opponent_abbr": "STL",
+          "home_away": "home",
+          "strikeouts": 8,
+          "pitches": 99,
+          "batters_faced": 23
+        },
+        {
+          "game_date": "2026-09-01",
+          "opponent": "Pittsburgh Pirates",
+          "opponent_abbr": "PIT",
+          "home_away": "away",
+          "strikeouts": 1,
+          "pitches": 65,
+          "batters_faced": 18
+        },
+        {
+          "game_date": "2026-08-26",
+          "opponent": "Cincinnati Reds",
+          "opponent_abbr": "CIN",
+          "home_away": "home",
+          "strikeouts": 6,
+          "pitches": 97,
+          "batters_faced": 25
+        },
+        {
+          "game_date": "2026-08-21",
+          "opponent": "Boston Red Sox",
+          "opponent_abbr": "BOS",
+          "home_away": "away",
+          "strikeouts": 2,
+          "pitches": 70,
+          "batters_faced": 18
+        },
+        {
+          "game_date": "2026-08-15",
+          "opponent": "Colorado Rockies",
+          "opponent_abbr": "COL",
+          "home_away": "home",
+          "strikeouts": 7,
+          "pitches": 80,
+          "batters_faced": 22
+        }
+      ]
     }
   ],
   "markets": [
     {
-      "game_pk": 824952,
-      "game_datetime": "2026-09-13T20:05:00Z",
-      "pitcher_id": 682052,
-      "pitcher_name": "Jacob Lopez",
-      "team": "Athletics",
-      "team_abbr": "ATH",
-      "opponent": "Seattle Mariners",
-      "opponent_abbr": "SEA",
-      "throwing_hand": "L",
-      "projected_k": 5.706335217136347,
-      "sportsbook": "Pinnacle",
-      "side": "Over",
-      "line": 4.5,
-      "american_odds": -167,
-      "model_probability": 0.6737166499378219,
-      "market_fair_probability": 0.5845974329054843,
-      "edge_pp": 8.91192170323376,
-      "ev": 0.07713952735388951,
-      "research_candidate": true,
-      "quote_last_seen_at": "2026-09-13T20:53:15.255130Z",
-      "quote_source_updated_at": "2026-09-13T20:00:04Z",
-      "analysis_key": "824952:682052"
-    },
-    {
       "game_pk": 823171,
       "game_datetime": "2026-09-13T23:20:00Z",
       "pitcher_id": 601713,
@@ -455,15 +431,63 @@
       "sportsbook": "Pinnacle",
       "side": "Under",
       "line": 4.5,
-      "american_odds": -116,
+      "american_odds": -112,
       "model_probability": 0.5601481064944956,
-      "market_fair_probability": 0.5020223264843877,
-      "edge_pp": 5.8125780010107935,
-      "ev": 0.043034424512099045,
+      "market_fair_probability": 0.4939310568053083,
+      "edge_pp": 6.621704968918735,
+      "ev": 0.06028026441485146,
       "research_candidate": true,
-      "quote_last_seen_at": "2026-09-13T20:53:15.255130Z",
-      "quote_source_updated_at": "2026-09-13T20:30:20Z",
+      "quote_last_seen_at": "2026-09-14T00:14:31.690413Z",
+      "quote_source_updated_at": "2026-09-13T23:16:17Z",
       "analysis_key": "823171:601713"
+    },
+    {
+      "game_pk": 823171,
+      "game_datetime": "2026-09-13T23:20:00Z",
+      "pitcher_id": 657277,
+      "pitcher_name": "Logan Webb",
+      "team": "San Francisco Giants",
+      "team_abbr": "SF",
+      "opponent": "San Diego Padres",
+      "opponent_abbr": "SD",
+      "throwing_hand": "R",
+      "projected_k": 4.9952358264103385,
+      "sportsbook": "Pinnacle",
+      "side": "Over",
+      "line": 4.5,
+      "american_odds": -138,
+      "model_probability": 0.5586703600415147,
+      "market_fair_probability": 0.5418848167539267,
+      "edge_pp": 1.6785543287587967,
+      "ev": -0.036495867598722254,
+      "research_candidate": false,
+      "quote_last_seen_at": "2026-09-14T00:14:31.690413Z",
+      "quote_source_updated_at": "2026-09-13T23:16:17Z",
+      "analysis_key": "823171:657277"
+    },
+    {
+      "game_pk": 823171,
+      "game_datetime": "2026-09-13T23:20:00Z",
+      "pitcher_id": 657277,
+      "pitcher_name": "Logan Webb",
+      "team": "San Francisco Giants",
+      "team_abbr": "SF",
+      "opponent": "San Diego Padres",
+      "opponent_abbr": "SD",
+      "throwing_hand": "R",
+      "projected_k": 4.9952358264103385,
+      "sportsbook": "Pinnacle",
+      "side": "Under",
+      "line": 4.5,
+      "american_odds": 104,
+      "model_probability": 0.4413296399584853,
+      "market_fair_probability": 0.4581151832460733,
+      "edge_pp": -1.6785543287588023,
+      "ev": -0.09968753448469003,
+      "research_candidate": false,
+      "quote_last_seen_at": "2026-09-14T00:14:31.690413Z",
+      "quote_source_updated_at": "2026-09-13T23:16:17Z",
+      "analysis_key": "823171:657277"
     },
     {
       "game_pk": 823171,
@@ -479,39 +503,15 @@
       "sportsbook": "Pinnacle",
       "side": "Over",
       "line": 4.5,
-      "american_odds": -114,
+      "american_odds": -118,
       "model_probability": 0.43985189350550435,
-      "market_fair_probability": 0.49797767351561234,
-      "edge_pp": -5.812578001010799,
-      "ev": -0.17431310447472181,
+      "market_fair_probability": 0.5060689431946916,
+      "edge_pp": -6.6217049689187295,
+      "ev": -0.18739210052810795,
       "research_candidate": false,
-      "quote_last_seen_at": "2026-09-13T20:53:15.255130Z",
-      "quote_source_updated_at": "2026-09-13T20:30:20Z",
+      "quote_last_seen_at": "2026-09-14T00:14:31.690413Z",
+      "quote_source_updated_at": "2026-09-13T23:16:17Z",
       "analysis_key": "823171:601713"
-    },
-    {
-      "game_pk": 824952,
-      "game_datetime": "2026-09-13T20:05:00Z",
-      "pitcher_id": 682052,
-      "pitcher_name": "Jacob Lopez",
-      "team": "Athletics",
-      "team_abbr": "ATH",
-      "opponent": "Seattle Mariners",
-      "opponent_abbr": "SEA",
-      "throwing_hand": "L",
-      "projected_k": 5.706335217136347,
-      "sportsbook": "Pinnacle",
-      "side": "Under",
-      "line": 4.5,
-      "american_odds": 125,
-      "model_probability": 0.3262833500621781,
-      "market_fair_probability": 0.41540256709451573,
-      "edge_pp": -8.91192170323376,
-      "ev": -0.26586246236009925,
-      "research_candidate": false,
-      "quote_last_seen_at": "2026-09-13T20:53:15.255130Z",
-      "quote_source_updated_at": "2026-09-13T20:00:04Z",
-      "analysis_key": "824952:682052"
     }
   ]
 }
