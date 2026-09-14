@@ -1,517 +1,194 @@
 {
   "schema_version": 1,
   "sample_data": false,
-  "generated_at": "2026-09-14T00:15:28.977899Z",
-  "target_date": "2026-09-13",
+  "generated_at": "2026-09-14T14:20:06.567912Z",
+  "target_date": "2026-09-14",
   "timezone": "America/New_York",
   "model_version": "MLB_K_v0.1",
   "summary": {
-    "pitchers_priced": 2,
-    "sides_priced": 4,
-    "research_candidates": 1,
+    "pitchers_priced": 0,
+    "sides_priced": 0,
+    "research_candidates": 0,
     "unmatched_market_names": 0,
-    "unmatched_live_pitchers": 26,
-    "quotes_considered": 4,
-    "quote_pairs_found": 2,
+    "unmatched_live_pitchers": 19,
+    "quotes_considered": 0,
+    "quote_pairs_found": 0,
     "min_edge": 0.03,
     "min_ev": 0.02,
     "max_quote_age_minutes": 180,
     "edge_buckets": {
-      "0_3": 1,
+      "0_3": 0,
       "3_5": 0,
-      "5_10": 1,
+      "5_10": 0,
       "10_plus": 0
     },
     "candidate_sides": {
       "over": 0,
-      "under": 1
+      "under": 0
     }
   },
   "freshness": {
-    "latest_quote_seen_at": "2026-09-14T00:14:31.690413Z",
-    "collector_finished_at": "2026-09-14T00:14:32.283845Z",
-    "credits_remaining": 901,
-    "live_scoring_finished_at": "2026-09-13T14:18:20.448934Z",
-    "market_pricing_finished_at": "2026-09-14T00:14:38.571174Z"
+    "latest_quote_seen_at": null,
+    "collector_finished_at": "2026-09-14T14:19:05.327557Z",
+    "credits_remaining": 898,
+    "live_scoring_finished_at": "2026-09-14T14:19:00.015508Z",
+    "market_pricing_finished_at": "2026-09-14T14:19:13.162366Z"
   },
   "recent_runs": [
     {
       "name": "Odds Collector",
-      "finished_at": "2026-09-14T00:14:32.283845Z",
+      "finished_at": "2026-09-14T14:19:05.327557Z",
       "status": "success",
-      "detail": "2 quotes"
+      "detail": "0 quotes"
     },
     {
       "name": "Live Projections",
-      "finished_at": "2026-09-13T14:18:20.448934Z",
+      "finished_at": "2026-09-14T14:19:00.015508Z",
       "status": "success",
-      "detail": "28 pitchers"
+      "detail": "19 pitchers"
     },
     {
       "name": "Market Pricing",
-      "finished_at": "2026-09-14T00:14:38.571174Z",
+      "finished_at": "2026-09-14T14:19:13.162366Z",
       "status": "success",
-      "detail": "4 sides \u00b7 1 candidates"
+      "detail": "0 sides \u00b7 0 candidates"
     }
   ],
   "issues": [
     {
       "issue_type": "live_pitcher_without_fresh_market",
-      "player_name": "Andrew Painter",
+      "player_name": "Brandon Young",
       "sportsbook": null,
       "line": null,
       "detail": "Scored probable starter had no fresh two-sided pitcher-K market quote."
     },
     {
       "issue_type": "live_pitcher_without_fresh_market",
-      "player_name": "Bryce Miller",
+      "player_name": "Casey Mize",
       "sportsbook": null,
       "line": null,
       "detail": "Scored probable starter had no fresh two-sided pitcher-K market quote."
     },
     {
       "issue_type": "live_pitcher_without_fresh_market",
-      "player_name": "Bubba Chandler",
+      "player_name": "Corbin Burnes",
       "sportsbook": null,
       "line": null,
       "detail": "Scored probable starter had no fresh two-sided pitcher-K market quote."
     },
     {
       "issue_type": "live_pitcher_without_fresh_market",
-      "player_name": "Cal Quantrill",
+      "player_name": "David Peterson",
       "sportsbook": null,
       "line": null,
       "detail": "Scored probable starter had no fresh two-sided pitcher-K market quote."
     },
     {
       "issue_type": "live_pitcher_without_fresh_market",
-      "player_name": "Cam Schlittler",
+      "player_name": "Dean Kremer",
       "sportsbook": null,
       "line": null,
       "detail": "Scored probable starter had no fresh two-sided pitcher-K market quote."
     },
     {
       "issue_type": "live_pitcher_without_fresh_market",
-      "player_name": "Chase Burns",
+      "player_name": "Gavin Williams",
       "sportsbook": null,
       "line": null,
       "detail": "Scored probable starter had no fresh two-sided pitcher-K market quote."
     },
     {
       "issue_type": "live_pitcher_without_fresh_market",
-      "player_name": "Christian Scott",
+      "player_name": "Jonah Tong",
       "sportsbook": null,
       "line": null,
       "detail": "Scored probable starter had no fresh two-sided pitcher-K market quote."
     },
     {
       "issue_type": "live_pitcher_without_fresh_market",
-      "player_name": "Dylan Cease",
+      "player_name": "Jos\u00e9 Soriano",
       "sportsbook": null,
       "line": null,
       "detail": "Scored probable starter had no fresh two-sided pitcher-K market quote."
     },
     {
       "issue_type": "live_pitcher_without_fresh_market",
-      "player_name": "Eduardo Rodriguez",
+      "player_name": "Landen Roupp",
       "sportsbook": null,
       "line": null,
       "detail": "Scored probable starter had no fresh two-sided pitcher-K market quote."
     },
     {
       "issue_type": "live_pitcher_without_fresh_market",
-      "player_name": "Emmet Sheehan",
+      "player_name": "Nick Lodolo",
       "sportsbook": null,
       "line": null,
       "detail": "Scored probable starter had no fresh two-sided pitcher-K market quote."
     },
     {
       "issue_type": "live_pitcher_without_fresh_market",
-      "player_name": "Eury P\u00e9rez",
+      "player_name": "Quinn Mathews",
       "sportsbook": null,
       "line": null,
       "detail": "Scored probable starter had no fresh two-sided pitcher-K market quote."
     },
     {
       "issue_type": "live_pitcher_without_fresh_market",
-      "player_name": "Freddy Peralta",
+      "player_name": "Reid Detmers",
       "sportsbook": null,
       "line": null,
       "detail": "Scored probable starter had no fresh two-sided pitcher-K market quote."
     },
     {
       "issue_type": "live_pitcher_without_fresh_market",
-      "player_name": "Gabriel Hughes",
+      "player_name": "Reynaldo L\u00f3pez",
       "sportsbook": null,
       "line": null,
       "detail": "Scored probable starter had no fresh two-sided pitcher-K market quote."
     },
     {
       "issue_type": "live_pitcher_without_fresh_market",
-      "player_name": "Grant Holmes",
+      "player_name": "Sandy Alcantara",
       "sportsbook": null,
       "line": null,
       "detail": "Scored probable starter had no fresh two-sided pitcher-K market quote."
     },
     {
       "issue_type": "live_pitcher_without_fresh_market",
-      "player_name": "Grayson Rodriguez",
+      "player_name": "Sean Newcomb",
       "sportsbook": null,
       "line": null,
       "detail": "Scored probable starter had no fresh two-sided pitcher-K market quote."
     },
     {
       "issue_type": "live_pitcher_without_fresh_market",
-      "player_name": "Hayden Wesneski",
+      "player_name": "Tarik Skubal",
       "sportsbook": null,
       "line": null,
       "detail": "Scored probable starter had no fresh two-sided pitcher-K market quote."
     },
     {
       "issue_type": "live_pitcher_without_fresh_market",
-      "player_name": "Jackson Jobe",
+      "player_name": "Tomoyuki Sugano",
       "sportsbook": null,
       "line": null,
       "detail": "Scored probable starter had no fresh two-sided pitcher-K market quote."
     },
     {
       "issue_type": "live_pitcher_without_fresh_market",
-      "player_name": "Jacob Lopez",
+      "player_name": "Troy Melton",
       "sportsbook": null,
       "line": null,
       "detail": "Scored probable starter had no fresh two-sided pitcher-K market quote."
     },
     {
       "issue_type": "live_pitcher_without_fresh_market",
-      "player_name": "Jake Irvin",
-      "sportsbook": null,
-      "line": null,
-      "detail": "Scored probable starter had no fresh two-sided pitcher-K market quote."
-    },
-    {
-      "issue_type": "live_pitcher_without_fresh_market",
-      "player_name": "Matthew Boyd",
-      "sportsbook": null,
-      "line": null,
-      "detail": "Scored probable starter had no fresh two-sided pitcher-K market quote."
-    },
-    {
-      "issue_type": "live_pitcher_without_fresh_market",
-      "player_name": "Michael McGreevy",
-      "sportsbook": null,
-      "line": null,
-      "detail": "Scored probable starter had no fresh two-sided pitcher-K market quote."
-    },
-    {
-      "issue_type": "live_pitcher_without_fresh_market",
-      "player_name": "Noah Cameron",
-      "sportsbook": null,
-      "line": null,
-      "detail": "Scored probable starter had no fresh two-sided pitcher-K market quote."
-    },
-    {
-      "issue_type": "live_pitcher_without_fresh_market",
-      "player_name": "Payton Tolle",
-      "sportsbook": null,
-      "line": null,
-      "detail": "Scored probable starter had no fresh two-sided pitcher-K market quote."
-    },
-    {
-      "issue_type": "live_pitcher_without_fresh_market",
-      "player_name": "Robert Gasser",
-      "sportsbook": null,
-      "line": null,
-      "detail": "Scored probable starter had no fresh two-sided pitcher-K market quote."
-    },
-    {
-      "issue_type": "live_pitcher_without_fresh_market",
-      "player_name": "Tanner Bibee",
-      "sportsbook": null,
-      "line": null,
-      "detail": "Scored probable starter had no fresh two-sided pitcher-K market quote."
-    },
-    {
-      "issue_type": "live_pitcher_without_fresh_market",
-      "player_name": "Trevor Rogers",
+      "player_name": "Will Warren",
       "sportsbook": null,
       "line": null,
       "detail": "Scored probable starter had no fresh two-sided pitcher-K market quote."
     }
   ],
-  "players": [
-    {
-      "analysis_key": "823171:601713",
-      "game_pk": 823171,
-      "game_datetime": "2026-09-13T23:20:00Z",
-      "pitcher_id": 601713,
-      "pitcher_name": "Nick Pivetta",
-      "team": "San Diego Padres",
-      "team_abbr": "SD",
-      "opponent": "San Francisco Giants",
-      "opponent_abbr": "SF",
-      "throwing_hand": "R",
-      "home_away": "away",
-      "venue_name": "Oracle Park",
-      "projected_k": 4.353342235970254,
-      "features": {
-        "rest_days": 5,
-        "days_since_last_start": 6,
-        "prior_start_strikeouts": 2,
-        "prior_start_pitches": 63,
-        "prior_start_batters_faced": 17,
-        "avg_k_l3": 4.666666666666667,
-        "avg_k_l5": 5.2,
-        "avg_k_l10": 5.5,
-        "avg_pitches_l5": 69.2,
-        "avg_bf_l5": 16.6,
-        "k_per_bf_l5": 0.3132530120481928,
-        "swstr_l5": 0.1069364161849711,
-        "csw_l5": 0.2774566473988439,
-        "whiff_l5": 0.22560975609756098,
-        "velo_l3": 89.03885705725948,
-        "season_velo_prior": 89.1507727002447,
-        "velo_delta_l3_vs_season": -0.11191564298522394,
-        "opponent_k_rate_season_prior": 0.21410669530970283,
-        "opponent_k_rate_l14d": 0.2167381974248927,
-        "opponent_k_rate_l30d": 0.22989593188268684,
-        "opponent_k_rate_vs_hand_season_prior": 0.20503778337531486,
-        "opponent_k_rate_vs_hand_l30d": 0.21944035346097202,
-        "opponent_whiff_rate_l14d": 0.2386780905752754,
-        "opponent_contact_rate_l14d": 0.7613219094247246
-      },
-      "recent_starts": [
-        {
-          "game_date": "2026-09-07",
-          "opponent": "Washington Nationals",
-          "opponent_abbr": "WSH",
-          "home_away": "home",
-          "strikeouts": 2,
-          "pitches": 63,
-          "batters_faced": 17
-        },
-        {
-          "game_date": "2026-04-12",
-          "opponent": "Colorado Rockies",
-          "opponent_abbr": "COL",
-          "home_away": "home",
-          "strikeouts": 4,
-          "pitches": 46,
-          "batters_faced": 9
-        },
-        {
-          "game_date": "2026-04-07",
-          "opponent": "Pittsburgh Pirates",
-          "opponent_abbr": "PIT",
-          "home_away": "away",
-          "strikeouts": 8,
-          "pitches": 86,
-          "batters_faced": 20
-        },
-        {
-          "game_date": "2026-04-01",
-          "opponent": "San Francisco Giants",
-          "opponent_abbr": "SF",
-          "home_away": "home",
-          "strikeouts": 8,
-          "pitches": 82,
-          "batters_faced": 18
-        },
-        {
-          "game_date": "2026-03-26",
-          "opponent": "Detroit Tigers",
-          "opponent_abbr": "DET",
-          "home_away": "home",
-          "strikeouts": 4,
-          "pitches": 69,
-          "batters_faced": 19
-        }
-      ]
-    },
-    {
-      "analysis_key": "823171:657277",
-      "game_pk": 823171,
-      "game_datetime": "2026-09-13T23:20:00Z",
-      "pitcher_id": 657277,
-      "pitcher_name": "Logan Webb",
-      "team": "San Francisco Giants",
-      "team_abbr": "SF",
-      "opponent": "San Diego Padres",
-      "opponent_abbr": "SD",
-      "throwing_hand": "R",
-      "home_away": "home",
-      "venue_name": "Oracle Park",
-      "projected_k": 4.9952358264103385,
-      "features": {
-        "rest_days": 5,
-        "days_since_last_start": 6,
-        "prior_start_strikeouts": 8,
-        "prior_start_pitches": 99,
-        "prior_start_batters_faced": 23,
-        "avg_k_l3": 5.0,
-        "avg_k_l5": 4.8,
-        "avg_k_l10": 4.7,
-        "avg_pitches_l5": 82.2,
-        "avg_bf_l5": 21.2,
-        "k_per_bf_l5": 0.22641509433962265,
-        "swstr_l5": 0.12135922330097088,
-        "csw_l5": 0.3058252427184466,
-        "whiff_l5": 0.26595744680851063,
-        "velo_l3": 88.91595494997557,
-        "season_velo_prior": 88.76221048852868,
-        "velo_delta_l3_vs_season": 0.15374446144689102,
-        "opponent_k_rate_season_prior": 0.2151120751988431,
-        "opponent_k_rate_l14d": 0.2012987012987013,
-        "opponent_k_rate_l30d": 0.2054655870445344,
-        "opponent_k_rate_vs_hand_season_prior": 0.2138657520823126,
-        "opponent_k_rate_vs_hand_l30d": 0.1925373134328358,
-        "opponent_whiff_rate_l14d": 0.2462253193960511,
-        "opponent_contact_rate_l14d": 0.7537746806039489
-      },
-      "recent_starts": [
-        {
-          "game_date": "2026-09-07",
-          "opponent": "St. Louis Cardinals",
-          "opponent_abbr": "STL",
-          "home_away": "home",
-          "strikeouts": 8,
-          "pitches": 99,
-          "batters_faced": 23
-        },
-        {
-          "game_date": "2026-09-01",
-          "opponent": "Pittsburgh Pirates",
-          "opponent_abbr": "PIT",
-          "home_away": "away",
-          "strikeouts": 1,
-          "pitches": 65,
-          "batters_faced": 18
-        },
-        {
-          "game_date": "2026-08-26",
-          "opponent": "Cincinnati Reds",
-          "opponent_abbr": "CIN",
-          "home_away": "home",
-          "strikeouts": 6,
-          "pitches": 97,
-          "batters_faced": 25
-        },
-        {
-          "game_date": "2026-08-21",
-          "opponent": "Boston Red Sox",
-          "opponent_abbr": "BOS",
-          "home_away": "away",
-          "strikeouts": 2,
-          "pitches": 70,
-          "batters_faced": 18
-        },
-        {
-          "game_date": "2026-08-15",
-          "opponent": "Colorado Rockies",
-          "opponent_abbr": "COL",
-          "home_away": "home",
-          "strikeouts": 7,
-          "pitches": 80,
-          "batters_faced": 22
-        }
-      ]
-    }
-  ],
-  "markets": [
-    {
-      "game_pk": 823171,
-      "game_datetime": "2026-09-13T23:20:00Z",
-      "pitcher_id": 601713,
-      "pitcher_name": "Nick Pivetta",
-      "team": "San Diego Padres",
-      "team_abbr": "SD",
-      "opponent": "San Francisco Giants",
-      "opponent_abbr": "SF",
-      "throwing_hand": "R",
-      "projected_k": 4.353342235970254,
-      "sportsbook": "Pinnacle",
-      "side": "Under",
-      "line": 4.5,
-      "american_odds": -112,
-      "model_probability": 0.5601481064944956,
-      "market_fair_probability": 0.4939310568053083,
-      "edge_pp": 6.621704968918735,
-      "ev": 0.06028026441485146,
-      "research_candidate": true,
-      "quote_last_seen_at": "2026-09-14T00:14:31.690413Z",
-      "quote_source_updated_at": "2026-09-13T23:16:17Z",
-      "analysis_key": "823171:601713"
-    },
-    {
-      "game_pk": 823171,
-      "game_datetime": "2026-09-13T23:20:00Z",
-      "pitcher_id": 657277,
-      "pitcher_name": "Logan Webb",
-      "team": "San Francisco Giants",
-      "team_abbr": "SF",
-      "opponent": "San Diego Padres",
-      "opponent_abbr": "SD",
-      "throwing_hand": "R",
-      "projected_k": 4.9952358264103385,
-      "sportsbook": "Pinnacle",
-      "side": "Over",
-      "line": 4.5,
-      "american_odds": -138,
-      "model_probability": 0.5586703600415147,
-      "market_fair_probability": 0.5418848167539267,
-      "edge_pp": 1.6785543287587967,
-      "ev": -0.036495867598722254,
-      "research_candidate": false,
-      "quote_last_seen_at": "2026-09-14T00:14:31.690413Z",
-      "quote_source_updated_at": "2026-09-13T23:16:17Z",
-      "analysis_key": "823171:657277"
-    },
-    {
-      "game_pk": 823171,
-      "game_datetime": "2026-09-13T23:20:00Z",
-      "pitcher_id": 657277,
-      "pitcher_name": "Logan Webb",
-      "team": "San Francisco Giants",
-      "team_abbr": "SF",
-      "opponent": "San Diego Padres",
-      "opponent_abbr": "SD",
-      "throwing_hand": "R",
-      "projected_k": 4.9952358264103385,
-      "sportsbook": "Pinnacle",
-      "side": "Under",
-      "line": 4.5,
-      "american_odds": 104,
-      "model_probability": 0.4413296399584853,
-      "market_fair_probability": 0.4581151832460733,
-      "edge_pp": -1.6785543287588023,
-      "ev": -0.09968753448469003,
-      "research_candidate": false,
-      "quote_last_seen_at": "2026-09-14T00:14:31.690413Z",
-      "quote_source_updated_at": "2026-09-13T23:16:17Z",
-      "analysis_key": "823171:657277"
-    },
-    {
-      "game_pk": 823171,
-      "game_datetime": "2026-09-13T23:20:00Z",
-      "pitcher_id": 601713,
-      "pitcher_name": "Nick Pivetta",
-      "team": "San Diego Padres",
-      "team_abbr": "SD",
-      "opponent": "San Francisco Giants",
-      "opponent_abbr": "SF",
-      "throwing_hand": "R",
-      "projected_k": 4.353342235970254,
-      "sportsbook": "Pinnacle",
-      "side": "Over",
-      "line": 4.5,
-      "american_odds": -118,
-      "model_probability": 0.43985189350550435,
-      "market_fair_probability": 0.5060689431946916,
-      "edge_pp": -6.6217049689187295,
-      "ev": -0.18739210052810795,
-      "research_candidate": false,
-      "quote_last_seen_at": "2026-09-14T00:14:31.690413Z",
-      "quote_source_updated_at": "2026-09-13T23:16:17Z",
-      "analysis_key": "823171:601713"
-    }
-  ]
+  "players": [],
+  "markets": []
 }
