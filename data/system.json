@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
   "sample_data": false,
-  "generated_at": "2026-09-15T14:19:23.173979Z",
+  "generated_at": "2026-09-15T15:00:46.670727Z",
   "timezone": "America/New_York",
   "overall_status": "attention",
   "api_usage": {
-    "credits_remaining": 892,
+    "credits_remaining": 889,
     "last_request_cost": 3,
-    "last_collector_at": "2026-09-15T00:41:16.168385Z",
-    "rows_returned": 8
+    "last_collector_at": "2026-09-15T14:59:24.883740Z",
+    "rows_returned": 26
   },
   "model": {
     "model_version": "MLB_K_v0.1",
@@ -24,13 +24,13 @@
     "last_result_date": "2026-09-13"
   },
   "data_quality": {
-    "pricing_finished_at": "2026-09-15T00:41:26.975682Z",
-    "pricing_target_date": "2026-09-14",
-    "matched_markets": 18,
-    "sides_priced": 36,
-    "research_candidates": 13,
-    "unmatched_market_names": 1,
-    "unmatched_live_pitchers": 1,
+    "pricing_finished_at": "2026-09-15T14:59:46.537073Z",
+    "pricing_target_date": "2026-09-15",
+    "matched_markets": 26,
+    "sides_priced": 52,
+    "research_candidates": 11,
+    "unmatched_market_names": 0,
+    "unmatched_live_pitchers": 3,
     "pricing_status": "success",
     "projection_result_rows": 199,
     "projection_settled_rows": 198,
@@ -40,17 +40,17 @@
   "components": [
     {
       "name": "Odds Collector",
-      "started_at": "2026-09-15T14:18:32.017648Z",
-      "finished_at": "2026-09-15T14:18:35.486078Z",
-      "status": "failed",
-      "error_message": "503 Server Error: Service Unavailable for url: https://parlay-api.com/v1/sports/baseball_mlb/props?markets=player_strikeouts&bookmakers=pinnacle&limit=1000&maxAgeSec=3600",
-      "rows": 0,
-      "credits_remaining": null
+      "started_at": "2026-09-15T14:59:12.729693Z",
+      "finished_at": "2026-09-15T14:59:24.883740Z",
+      "status": "success",
+      "error_message": null,
+      "rows": 26,
+      "credits_remaining": 889
     },
     {
       "name": "Live Projections",
-      "started_at": "2026-09-15T14:18:27.193819Z",
-      "finished_at": "2026-09-15T14:18:30.096335Z",
+      "started_at": "2026-09-15T14:59:06.614727Z",
+      "finished_at": "2026-09-15T14:59:09.839744Z",
       "status": "success",
       "error_message": null,
       "rows": 29,
@@ -58,12 +58,12 @@
     },
     {
       "name": "Market Pricing",
-      "started_at": "2026-09-15T00:41:21.293558Z",
-      "finished_at": "2026-09-15T00:41:26.975682Z",
+      "started_at": "2026-09-15T14:59:39.082589Z",
+      "finished_at": "2026-09-15T14:59:46.537073Z",
       "status": "success",
       "error_message": null,
-      "rows": 36,
-      "research_candidates": 13
+      "rows": 52,
+      "research_candidates": 11
     },
     {
       "name": "Shadow Settlement",
@@ -89,12 +89,12 @@
     {
       "name": "Daily MLB K Today Pipeline",
       "status": "completed",
-      "conclusion": "failure",
+      "conclusion": "success",
       "event": "repository_dispatch",
-      "created_at": "2026-09-15T14:17:07Z",
-      "updated_at": "2026-09-15T14:18:39Z",
-      "run_number": 25,
-      "html_url": "https://github.com/marcg129/sports-betting-command-center/actions/runs/34980586512"
+      "created_at": "2026-09-15T14:57:15Z",
+      "updated_at": "2026-09-15T14:59:54Z",
+      "run_number": 26,
+      "html_url": "https://github.com/marcg129/sports-betting-command-center/actions/runs/34985126269"
     },
     {
       "name": "MLB Pitcher K Odds Collector",
@@ -126,7 +126,7 @@
     {
       "name": "Morning Today pipeline",
       "time_et": "10:17 AM",
-      "purpose": "Refresh features, score pitchers, collect odds, price market. Last start 10:17 AM ET via repository_dispatch \u00b7 delay 1 min \u00b7 failed"
+      "purpose": "Refresh features, score pitchers, collect odds, price market. Last start 10:58 AM ET via repository_dispatch \u00b7 delay 41 min \u00b7 success"
     },
     {
       "name": "Market refresh",
@@ -140,15 +140,15 @@
     }
   ],
   "pipeline_timing": {
-    "pipeline_run_id": "4d443c87-993c-4fb3-8aa6-957de2987a91",
+    "pipeline_run_id": "b9c8dad5-218e-480e-9c21-85c2fb2f0ad4",
     "target_date": "2026-09-15",
     "expected_start_at": "2026-09-15T14:17:00Z",
-    "started_at": "2026-09-15T14:17:48.709833Z",
-    "finished_at": "2026-09-15T14:18:36.436061Z",
+    "started_at": "2026-09-15T14:58:01.274310Z",
+    "finished_at": "2026-09-15T14:59:50.607972Z",
     "trigger_source": "repository_dispatch",
-    "github_run_id": "34980586512",
-    "delay_minutes": 0.81183055,
-    "status": "failed",
-    "error_message": "GitHub workflow failed; inspect Actions run 34980586512"
+    "github_run_id": "34985126269",
+    "delay_minutes": 41.021238499999995,
+    "status": "success",
+    "error_message": null
   }
 }
