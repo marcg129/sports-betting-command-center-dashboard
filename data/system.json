@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "sample_data": false,
-  "generated_at": "2026-09-18T00:24:23.593379Z",
+  "generated_at": "2026-09-18T14:19:42.421786Z",
   "timezone": "America/New_York",
   "overall_status": "attention",
   "api_usage": {
@@ -14,7 +14,7 @@
     "model_version": "MLB_K_v0.1",
     "point_model": "poisson",
     "distribution": "poisson",
-    "trained_through": "2026-09-16",
+    "trained_through": "2026-09-17",
     "settled_projections": 300,
     "mae": 1.7259616239511377,
     "rmse": 2.133584357750445,
@@ -40,21 +40,21 @@
   "components": [
     {
       "name": "Odds Collector",
-      "started_at": "2026-09-18T00:23:20.947163Z",
-      "finished_at": "2026-09-18T00:23:29.492735Z",
-      "status": "success",
-      "error_message": null,
-      "rows": 3,
-      "credits_remaining": 865
+      "started_at": "2026-09-18T14:18:45.102749Z",
+      "finished_at": "2026-09-18T14:18:49.498234Z",
+      "status": "failed",
+      "error_message": "503 Server Error: Service Unavailable for url: https://parlay-api.com/v1/sports/baseball_mlb/props?markets=player_strikeouts&bookmakers=pinnacle&limit=1000&maxAgeSec=3600",
+      "rows": 0,
+      "credits_remaining": null
     },
     {
       "name": "Live Projections",
-      "started_at": "2026-09-17T14:58:19.808257Z",
-      "finished_at": "2026-09-17T14:58:21.555710Z",
+      "started_at": "2026-09-18T14:18:40.241647Z",
+      "finished_at": "2026-09-18T14:18:42.778127Z",
       "status": "success",
       "error_message": null,
-      "rows": 16,
-      "trained_through": "2026-09-16"
+      "rows": 24,
+      "trained_through": "2026-09-17"
     },
     {
       "name": "Market Pricing",
@@ -89,12 +89,12 @@
     {
       "name": "Daily MLB K Today Pipeline",
       "status": "completed",
-      "conclusion": "success",
-      "event": "schedule",
-      "created_at": "2026-09-17T18:18:24Z",
-      "updated_at": "2026-09-17T18:19:05Z",
-      "run_number": 33,
-      "html_url": "https://github.com/marcg129/sports-betting-command-center/actions/runs/35258014959"
+      "conclusion": "failure",
+      "event": "repository_dispatch",
+      "created_at": "2026-09-18T14:17:06Z",
+      "updated_at": "2026-09-18T14:18:54Z",
+      "run_number": 34,
+      "html_url": "https://github.com/marcg129/sports-betting-command-center/actions/runs/35355269088"
     },
     {
       "name": "MLB Pitcher K Odds Collector",
@@ -126,7 +126,7 @@
     {
       "name": "Morning Today pipeline",
       "time_et": "10:17 AM",
-      "purpose": "Refresh features, score pitchers, collect odds, price market. Last start 10:57 AM ET via repository_dispatch \u00b7 delay 41 min \u00b7 success"
+      "purpose": "Refresh features, score pitchers, collect odds, price market. Last start 10:17 AM ET via repository_dispatch \u00b7 delay 1 min \u00b7 failed"
     },
     {
       "name": "Market refresh",
@@ -140,15 +140,15 @@
     }
   ],
   "pipeline_timing": {
-    "pipeline_run_id": "652fee6d-d33a-4be4-b56b-1611aa3da8f0",
-    "target_date": "2026-09-17",
-    "expected_start_at": "2026-09-17T14:17:00Z",
-    "started_at": "2026-09-17T14:57:50.534584Z",
-    "finished_at": "2026-09-17T14:58:35.505592Z",
+    "pipeline_run_id": "9ab647ba-c39f-444f-8bcd-459659120303",
+    "target_date": "2026-09-18",
+    "expected_start_at": "2026-09-18T14:17:00Z",
+    "started_at": "2026-09-18T14:17:50.137397Z",
+    "finished_at": "2026-09-18T14:18:51.019432Z",
     "trigger_source": "repository_dispatch",
-    "github_run_id": "35237015613",
-    "delay_minutes": 40.84224306666667,
-    "status": "success",
-    "error_message": null
+    "github_run_id": "35355269088",
+    "delay_minutes": 0.8356232833333334,
+    "status": "failed",
+    "error_message": "GitHub workflow failed; inspect Actions run 35355269088"
   }
 }
