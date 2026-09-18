@@ -1,45 +1,45 @@
 {
   "schema_version": 1,
   "sample_data": false,
-  "generated_at": "2026-09-17T21:27:08.814953Z",
+  "generated_at": "2026-09-18T00:24:17.355847Z",
   "target_date": "2026-09-17",
   "timezone": "America/New_York",
   "model_version": "MLB_K_v0.1",
   "summary": {
-    "pitchers_priced": 2,
-    "sides_priced": 4,
-    "research_candidates": 1,
+    "pitchers_priced": 5,
+    "sides_priced": 10,
+    "research_candidates": 4,
     "unmatched_market_names": 0,
-    "unmatched_live_pitchers": 14,
-    "quotes_considered": 4,
-    "quote_pairs_found": 2,
+    "unmatched_live_pitchers": 11,
+    "quotes_considered": 10,
+    "quote_pairs_found": 5,
     "min_edge": 0.03,
     "min_ev": 0.02,
     "max_quote_age_minutes": 180,
     "edge_buckets": {
       "0_3": 1,
       "3_5": 0,
-      "5_10": 1,
-      "10_plus": 0
+      "5_10": 3,
+      "10_plus": 1
     },
     "candidate_sides": {
-      "over": 1,
-      "under": 0
+      "over": 2,
+      "under": 2
     }
   },
   "freshness": {
-    "latest_quote_seen_at": "2026-09-17T21:26:12.737463Z",
-    "collector_finished_at": "2026-09-17T21:26:13.494667Z",
-    "credits_remaining": 868,
+    "latest_quote_seen_at": "2026-09-18T00:23:28.804730Z",
+    "collector_finished_at": "2026-09-18T00:23:29.492735Z",
+    "credits_remaining": 865,
     "live_scoring_finished_at": "2026-09-17T14:58:21.555710Z",
-    "market_pricing_finished_at": "2026-09-17T21:26:19.257135Z"
+    "market_pricing_finished_at": "2026-09-18T00:23:34.471102Z"
   },
   "recent_runs": [
     {
       "name": "Odds Collector",
-      "finished_at": "2026-09-17T21:26:13.494667Z",
+      "finished_at": "2026-09-18T00:23:29.492735Z",
       "status": "success",
-      "detail": "2 quotes"
+      "detail": "3 quotes"
     },
     {
       "name": "Live Projections",
@@ -49,9 +49,9 @@
     },
     {
       "name": "Market Pricing",
-      "finished_at": "2026-09-17T21:26:19.257135Z",
+      "finished_at": "2026-09-18T00:23:34.471102Z",
       "status": "success",
-      "detail": "4 sides \u00b7 1 candidates"
+      "detail": "10 sides \u00b7 4 candidates"
     }
   ],
   "issues": [
@@ -120,20 +120,6 @@
     },
     {
       "issue_type": "live_pitcher_without_fresh_market",
-      "player_name": "Sonny Gray",
-      "sportsbook": null,
-      "line": null,
-      "detail": "Scored probable starter had no fresh two-sided pitcher-K market quote."
-    },
-    {
-      "issue_type": "live_pitcher_without_fresh_market",
-      "player_name": "Taj Bradley",
-      "sportsbook": null,
-      "line": null,
-      "detail": "Scored probable starter had no fresh two-sided pitcher-K market quote."
-    },
-    {
-      "issue_type": "live_pitcher_without_fresh_market",
       "player_name": "Tanner Gordon",
       "sportsbook": null,
       "line": null,
@@ -145,16 +131,97 @@
       "sportsbook": null,
       "line": null,
       "detail": "Scored probable starter had no fresh two-sided pitcher-K market quote."
-    },
-    {
-      "issue_type": "live_pitcher_without_fresh_market",
-      "player_name": "Walbert Ure\u00f1a",
-      "sportsbook": null,
-      "line": null,
-      "detail": "Scored probable starter had no fresh two-sided pitcher-K market quote."
     }
   ],
   "players": [
+    {
+      "analysis_key": "822845:543243",
+      "game_pk": 822845,
+      "game_datetime": "2026-09-18T00:05:00Z",
+      "pitcher_id": 543243,
+      "pitcher_name": "Sonny Gray",
+      "team": "Boston Red Sox",
+      "team_abbr": "BOS",
+      "opponent": "Texas Rangers",
+      "opponent_abbr": "TEX",
+      "throwing_hand": "R",
+      "home_away": "away",
+      "venue_name": "Globe Life Field",
+      "projected_k": 4.982796946330271,
+      "features": {
+        "rest_days": 5,
+        "days_since_last_start": 6,
+        "prior_start_strikeouts": 5,
+        "prior_start_pitches": 90,
+        "prior_start_batters_faced": 25,
+        "avg_k_l3": 5.666666666666667,
+        "avg_k_l5": 6.0,
+        "avg_k_l10": 5.5,
+        "avg_pitches_l5": 91.6,
+        "avg_bf_l5": 25.2,
+        "k_per_bf_l5": 0.23809523809523808,
+        "swstr_l5": 0.11135371179039301,
+        "csw_l5": 0.27729257641921395,
+        "whiff_l5": 0.24285714285714285,
+        "velo_l3": 87.10731624331203,
+        "season_velo_prior": 87.4067135971056,
+        "velo_delta_l3_vs_season": -0.2993973537935659,
+        "opponent_k_rate_season_prior": 0.22801474460242233,
+        "opponent_k_rate_l14d": 0.24183006535947713,
+        "opponent_k_rate_l30d": 0.22665369649805447,
+        "opponent_k_rate_vs_hand_season_prior": 0.22402597402597402,
+        "opponent_k_rate_vs_hand_l30d": 0.24054982817869416,
+        "opponent_whiff_rate_l14d": 0.2858757062146893,
+        "opponent_contact_rate_l14d": 0.7141242937853107
+      },
+      "recent_starts": [
+        {
+          "game_date": "2026-09-11",
+          "opponent": "Kansas City Royals",
+          "opponent_abbr": "KC",
+          "home_away": "home",
+          "strikeouts": 5,
+          "pitches": 90,
+          "batters_faced": 25
+        },
+        {
+          "game_date": "2026-09-05",
+          "opponent": "Baltimore Orioles",
+          "opponent_abbr": "BAL",
+          "home_away": "away",
+          "strikeouts": 7,
+          "pitches": 92,
+          "batters_faced": 25
+        },
+        {
+          "game_date": "2026-08-26",
+          "opponent": "Miami Marlins",
+          "opponent_abbr": "MIA",
+          "home_away": "away",
+          "strikeouts": 5,
+          "pitches": 93,
+          "batters_faced": 23
+        },
+        {
+          "game_date": "2026-08-21",
+          "opponent": "San Francisco Giants",
+          "opponent_abbr": "SF",
+          "home_away": "home",
+          "strikeouts": 6,
+          "pitches": 97,
+          "batters_faced": 27
+        },
+        {
+          "game_date": "2026-08-15",
+          "opponent": "Pittsburgh Pirates",
+          "opponent_abbr": "PIT",
+          "home_away": "away",
+          "strikeouts": 7,
+          "pitches": 86,
+          "batters_faced": 26
+        }
+      ]
+    },
     {
       "analysis_key": "824548:607200",
       "game_pk": 824548,
@@ -240,6 +307,182 @@
           "strikeouts": 6,
           "pitches": 64,
           "batters_faced": 15
+        }
+      ]
+    },
+    {
+      "analysis_key": "823978:671737",
+      "game_pk": 823978,
+      "game_datetime": "2026-09-18T01:38:00Z",
+      "pitcher_id": 671737,
+      "pitcher_name": "Taj Bradley",
+      "team": "Minnesota Twins",
+      "team_abbr": "MIN",
+      "opponent": "Los Angeles Angels",
+      "opponent_abbr": "LAA",
+      "throwing_hand": "R",
+      "home_away": "away",
+      "venue_name": "Angel Stadium",
+      "projected_k": 6.848068930049681,
+      "features": {
+        "rest_days": 5,
+        "days_since_last_start": 6,
+        "prior_start_strikeouts": 6,
+        "prior_start_pitches": 94,
+        "prior_start_batters_faced": 22,
+        "avg_k_l3": 7.0,
+        "avg_k_l5": 7.8,
+        "avg_k_l10": 6.6,
+        "avg_pitches_l5": 93.0,
+        "avg_bf_l5": 23.6,
+        "k_per_bf_l5": 0.3305084745762712,
+        "swstr_l5": 0.15483870967741936,
+        "csw_l5": 0.32688172043010755,
+        "whiff_l5": 0.3257918552036199,
+        "velo_l3": 93.47323513366068,
+        "season_velo_prior": 92.94823908729474,
+        "velo_delta_l3_vs_season": 0.524996046365942,
+        "opponent_k_rate_season_prior": 0.25342225342225344,
+        "opponent_k_rate_l14d": 0.27601809954751133,
+        "opponent_k_rate_l30d": 0.26129666011787817,
+        "opponent_k_rate_vs_hand_season_prior": 0.2553930076865857,
+        "opponent_k_rate_vs_hand_l30d": 0.2824773413897281,
+        "opponent_whiff_rate_l14d": 0.2971698113207547,
+        "opponent_contact_rate_l14d": 0.7028301886792453
+      },
+      "recent_starts": [
+        {
+          "game_date": "2026-09-11",
+          "opponent": "Cleveland Guardians",
+          "opponent_abbr": "CLE",
+          "home_away": "home",
+          "strikeouts": 6,
+          "pitches": 94,
+          "batters_faced": 22
+        },
+        {
+          "game_date": "2026-09-05",
+          "opponent": "Chicago White Sox",
+          "opponent_abbr": "CWS",
+          "home_away": "away",
+          "strikeouts": 6,
+          "pitches": 80,
+          "batters_faced": 21
+        },
+        {
+          "game_date": "2026-08-31",
+          "opponent": "Detroit Tigers",
+          "opponent_abbr": "DET",
+          "home_away": "home",
+          "strikeouts": 9,
+          "pitches": 104,
+          "batters_faced": 27
+        },
+        {
+          "game_date": "2026-08-25",
+          "opponent": "Athletics",
+          "opponent_abbr": "ATH",
+          "home_away": "away",
+          "strikeouts": 11,
+          "pitches": 99,
+          "batters_faced": 28
+        },
+        {
+          "game_date": "2026-08-19",
+          "opponent": "Atlanta Braves",
+          "opponent_abbr": "ATL",
+          "home_away": "home",
+          "strikeouts": 7,
+          "pitches": 88,
+          "batters_faced": 20
+        }
+      ]
+    },
+    {
+      "analysis_key": "823978:700712",
+      "game_pk": 823978,
+      "game_datetime": "2026-09-18T01:38:00Z",
+      "pitcher_id": 700712,
+      "pitcher_name": "Walbert Ure\u00f1a",
+      "team": "Los Angeles Angels",
+      "team_abbr": "LAA",
+      "opponent": "Minnesota Twins",
+      "opponent_abbr": "MIN",
+      "throwing_hand": "R",
+      "home_away": "home",
+      "venue_name": "Angel Stadium",
+      "projected_k": 5.556981484123597,
+      "features": {
+        "rest_days": 4,
+        "days_since_last_start": 5,
+        "prior_start_strikeouts": 7,
+        "prior_start_pitches": 101,
+        "prior_start_batters_faced": 28,
+        "avg_k_l3": 6.333333333333333,
+        "avg_k_l5": 5.8,
+        "avg_k_l10": 5.3,
+        "avg_pitches_l5": 93.4,
+        "avg_bf_l5": 24.2,
+        "k_per_bf_l5": 0.2396694214876033,
+        "swstr_l5": 0.1271186440677966,
+        "csw_l5": 0.2711864406779661,
+        "whiff_l5": 0.2575107296137339,
+        "velo_l3": 95.0146023023355,
+        "season_velo_prior": 94.0234464829028,
+        "velo_delta_l3_vs_season": 0.9911558194327057,
+        "opponent_k_rate_season_prior": 0.21048975338659257,
+        "opponent_k_rate_l14d": 0.2237442922374429,
+        "opponent_k_rate_l30d": 0.19135802469135801,
+        "opponent_k_rate_vs_hand_season_prior": 0.20467689212974605,
+        "opponent_k_rate_vs_hand_l30d": 0.17182662538699692,
+        "opponent_whiff_rate_l14d": 0.24078624078624078,
+        "opponent_contact_rate_l14d": 0.7592137592137592
+      },
+      "recent_starts": [
+        {
+          "game_date": "2026-09-12",
+          "opponent": "Washington Nationals",
+          "opponent_abbr": "WSH",
+          "home_away": "away",
+          "strikeouts": 7,
+          "pitches": 101,
+          "batters_faced": 28
+        },
+        {
+          "game_date": "2026-09-06",
+          "opponent": "Pittsburgh Pirates",
+          "opponent_abbr": "PIT",
+          "home_away": "away",
+          "strikeouts": 4,
+          "pitches": 88,
+          "batters_faced": 27
+        },
+        {
+          "game_date": "2026-08-31",
+          "opponent": "New York Yankees",
+          "opponent_abbr": "NYY",
+          "home_away": "home",
+          "strikeouts": 8,
+          "pitches": 95,
+          "batters_faced": 25
+        },
+        {
+          "game_date": "2026-08-25",
+          "opponent": "Cleveland Guardians",
+          "opponent_abbr": "CLE",
+          "home_away": "home",
+          "strikeouts": 3,
+          "pitches": 89,
+          "batters_faced": 21
+        },
+        {
+          "game_date": "2026-08-19",
+          "opponent": "Houston Astros",
+          "opponent_abbr": "HOU",
+          "home_away": "away",
+          "strikeouts": 7,
+          "pitches": 94,
+          "batters_faced": 20
         }
       ]
     },
@@ -334,6 +577,30 @@
   ],
   "markets": [
     {
+      "game_pk": 822845,
+      "game_datetime": "2026-09-18T00:05:00Z",
+      "pitcher_id": 543243,
+      "pitcher_name": "Sonny Gray",
+      "team": "Boston Red Sox",
+      "team_abbr": "BOS",
+      "opponent": "Texas Rangers",
+      "opponent_abbr": "TEX",
+      "throwing_hand": "R",
+      "projected_k": 4.982796946330271,
+      "sportsbook": "Pinnacle",
+      "side": "Under",
+      "line": 5.5,
+      "american_odds": -114,
+      "model_probability": 0.6189791995836573,
+      "market_fair_probability": 0.49797767351561234,
+      "edge_pp": 12.100152606804498,
+      "ev": 0.16194342060404443,
+      "research_candidate": true,
+      "quote_last_seen_at": "2026-09-18T00:23:28.804730Z",
+      "quote_source_updated_at": "2026-09-17T23:25:52Z",
+      "analysis_key": "822845:543243"
+    },
+    {
       "game_pk": 824548,
       "game_datetime": "2026-09-17T23:40:00Z",
       "pitcher_id": 607200,
@@ -356,6 +623,54 @@
       "quote_last_seen_at": "2026-09-17T21:26:12.737463Z",
       "quote_source_updated_at": "2026-09-17T20:39:46Z",
       "analysis_key": "824548:607200"
+    },
+    {
+      "game_pk": 823978,
+      "game_datetime": "2026-09-18T01:38:00Z",
+      "pitcher_id": 671737,
+      "pitcher_name": "Taj Bradley",
+      "team": "Minnesota Twins",
+      "team_abbr": "MIN",
+      "opponent": "Los Angeles Angels",
+      "opponent_abbr": "LAA",
+      "throwing_hand": "R",
+      "projected_k": 6.848068930049681,
+      "sportsbook": "Pinnacle",
+      "side": "Under",
+      "line": 6.5,
+      "american_odds": 130,
+      "model_probability": 0.47258571471193467,
+      "market_fair_probability": 0.4069160828737517,
+      "edge_pp": 6.566963183818297,
+      "ev": 0.08694714383744961,
+      "research_candidate": true,
+      "quote_last_seen_at": "2026-09-18T00:23:28.804730Z",
+      "quote_source_updated_at": "2026-09-18T00:11:10Z",
+      "analysis_key": "823978:671737"
+    },
+    {
+      "game_pk": 823978,
+      "game_datetime": "2026-09-18T01:38:00Z",
+      "pitcher_id": 700712,
+      "pitcher_name": "Walbert Ure\u00f1a",
+      "team": "Los Angeles Angels",
+      "team_abbr": "LAA",
+      "opponent": "Minnesota Twins",
+      "opponent_abbr": "MIN",
+      "throwing_hand": "R",
+      "projected_k": 5.556981484123597,
+      "sportsbook": "Pinnacle",
+      "side": "Over",
+      "line": 4.5,
+      "american_odds": -170,
+      "model_probability": 0.6512915255784986,
+      "market_fair_probability": 0.58835188290898,
+      "edge_pp": 6.293964266951857,
+      "ev": 0.034403996127166714,
+      "research_candidate": true,
+      "quote_last_seen_at": "2026-09-18T00:23:28.804730Z",
+      "quote_source_updated_at": "2026-09-18T00:11:03Z",
+      "analysis_key": "823978:700712"
     },
     {
       "game_pk": 823573,
@@ -406,6 +721,54 @@
       "analysis_key": "823573:605400"
     },
     {
+      "game_pk": 823978,
+      "game_datetime": "2026-09-18T01:38:00Z",
+      "pitcher_id": 700712,
+      "pitcher_name": "Walbert Ure\u00f1a",
+      "team": "Los Angeles Angels",
+      "team_abbr": "LAA",
+      "opponent": "Minnesota Twins",
+      "opponent_abbr": "MIN",
+      "throwing_hand": "R",
+      "projected_k": 5.556981484123597,
+      "sportsbook": "Pinnacle",
+      "side": "Under",
+      "line": 4.5,
+      "american_odds": 127,
+      "model_probability": 0.34870847442150144,
+      "market_fair_probability": 0.41164811709101995,
+      "edge_pp": -6.293964266951852,
+      "ev": -0.20843176306319178,
+      "research_candidate": false,
+      "quote_last_seen_at": "2026-09-18T00:23:28.804730Z",
+      "quote_source_updated_at": "2026-09-18T00:11:03Z",
+      "analysis_key": "823978:700712"
+    },
+    {
+      "game_pk": 823978,
+      "game_datetime": "2026-09-18T01:38:00Z",
+      "pitcher_id": 671737,
+      "pitcher_name": "Taj Bradley",
+      "team": "Minnesota Twins",
+      "team_abbr": "MIN",
+      "opponent": "Los Angeles Angels",
+      "opponent_abbr": "LAA",
+      "throwing_hand": "R",
+      "projected_k": 6.848068930049681,
+      "sportsbook": "Pinnacle",
+      "side": "Over",
+      "line": 6.5,
+      "american_odds": -173,
+      "model_probability": 0.5274142852880653,
+      "market_fair_probability": 0.5930839171262483,
+      "edge_pp": -6.566963183818297,
+      "ev": -0.16772179831544776,
+      "research_candidate": false,
+      "quote_last_seen_at": "2026-09-18T00:23:28.804730Z",
+      "quote_source_updated_at": "2026-09-18T00:11:10Z",
+      "analysis_key": "823978:671737"
+    },
+    {
       "game_pk": 824548,
       "game_datetime": "2026-09-17T23:40:00Z",
       "pitcher_id": 607200,
@@ -428,6 +791,30 @@
       "quote_last_seen_at": "2026-09-17T21:26:12.737463Z",
       "quote_source_updated_at": "2026-09-17T20:39:46Z",
       "analysis_key": "824548:607200"
+    },
+    {
+      "game_pk": 822845,
+      "game_datetime": "2026-09-18T00:05:00Z",
+      "pitcher_id": 543243,
+      "pitcher_name": "Sonny Gray",
+      "team": "Boston Red Sox",
+      "team_abbr": "BOS",
+      "opponent": "Texas Rangers",
+      "opponent_abbr": "TEX",
+      "throwing_hand": "R",
+      "projected_k": 4.982796946330271,
+      "sportsbook": "Pinnacle",
+      "side": "Over",
+      "line": 5.5,
+      "american_odds": -116,
+      "model_probability": 0.3810208004163427,
+      "market_fair_probability": 0.5020223264843877,
+      "edge_pp": -12.100152606804503,
+      "ev": -0.2905129791895412,
+      "research_candidate": false,
+      "quote_last_seen_at": "2026-09-18T00:23:28.804730Z",
+      "quote_source_updated_at": "2026-09-17T23:25:52Z",
+      "analysis_key": "822845:543243"
     }
   ]
 }
