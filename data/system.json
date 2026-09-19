@@ -1,20 +1,20 @@
 {
   "schema_version": 1,
   "sample_data": false,
-  "generated_at": "2026-09-19T00:24:22.589969Z",
+  "generated_at": "2026-09-19T14:21:31.944625Z",
   "timezone": "America/New_York",
-  "overall_status": "attention",
+  "overall_status": "healthy",
   "api_usage": {
-    "credits_remaining": 856,
+    "credits_remaining": 853,
     "last_request_cost": 3,
-    "last_collector_at": "2026-09-19T00:23:19.610747Z",
-    "rows_returned": 15
+    "last_collector_at": "2026-09-19T14:20:31.279079Z",
+    "rows_returned": 27
   },
   "model": {
     "model_version": "MLB_K_v0.1",
     "point_model": "poisson",
     "distribution": "poisson",
-    "trained_through": "2026-09-17",
+    "trained_through": "2026-09-18",
     "settled_projections": 332,
     "mae": 1.7652659418122905,
     "rmse": 2.1680374139662146,
@@ -24,13 +24,13 @@
     "last_result_date": "2026-09-17"
   },
   "data_quality": {
-    "pricing_finished_at": "2026-09-19T00:23:27.477774Z",
-    "pricing_target_date": "2026-09-18",
-    "matched_markets": 12,
-    "sides_priced": 24,
-    "research_candidates": 7,
-    "unmatched_market_names": 3,
-    "unmatched_live_pitchers": 12,
+    "pricing_finished_at": "2026-09-19T14:20:37.971938Z",
+    "pricing_target_date": "2026-09-19",
+    "matched_markets": 27,
+    "sides_priced": 54,
+    "research_candidates": 21,
+    "unmatched_market_names": 0,
+    "unmatched_live_pitchers": 1,
     "pricing_status": "success",
     "projection_result_rows": 336,
     "projection_settled_rows": 332,
@@ -40,30 +40,30 @@
   "components": [
     {
       "name": "Odds Collector",
-      "started_at": "2026-09-19T00:23:08.726410Z",
-      "finished_at": "2026-09-19T00:23:19.610747Z",
+      "started_at": "2026-09-19T14:20:25.689448Z",
+      "finished_at": "2026-09-19T14:20:31.279079Z",
       "status": "success",
       "error_message": null,
-      "rows": 15,
-      "credits_remaining": 856
+      "rows": 27,
+      "credits_remaining": 853
     },
     {
       "name": "Live Projections",
-      "started_at": "2026-09-18T14:58:41.932247Z",
-      "finished_at": "2026-09-18T14:58:44.641719Z",
+      "started_at": "2026-09-19T14:20:21.470074Z",
+      "finished_at": "2026-09-19T14:20:23.928020Z",
       "status": "success",
       "error_message": null,
-      "rows": 24,
-      "trained_through": "2026-09-17"
+      "rows": 28,
+      "trained_through": "2026-09-18"
     },
     {
       "name": "Market Pricing",
-      "started_at": "2026-09-19T00:23:23.760434Z",
-      "finished_at": "2026-09-19T00:23:27.477774Z",
+      "started_at": "2026-09-19T14:20:35.686659Z",
+      "finished_at": "2026-09-19T14:20:37.971938Z",
       "status": "success",
       "error_message": null,
-      "rows": 24,
-      "research_candidates": 7
+      "rows": 54,
+      "research_candidates": 21
     },
     {
       "name": "Shadow Settlement",
@@ -90,11 +90,11 @@
       "name": "Daily MLB K Today Pipeline",
       "status": "completed",
       "conclusion": "success",
-      "event": "schedule",
-      "created_at": "2026-09-18T17:42:26Z",
-      "updated_at": "2026-09-18T17:43:11Z",
-      "run_number": 36,
-      "html_url": "https://github.com/marcg129/sports-betting-command-center/actions/runs/35375915692"
+      "event": "repository_dispatch",
+      "created_at": "2026-09-19T14:17:05Z",
+      "updated_at": "2026-09-19T14:20:42Z",
+      "run_number": 37,
+      "html_url": "https://github.com/marcg129/sports-betting-command-center/actions/runs/35448262485"
     },
     {
       "name": "MLB Pitcher K Odds Collector",
@@ -126,7 +126,7 @@
     {
       "name": "Morning Today pipeline",
       "time_et": "10:17 AM",
-      "purpose": "Refresh features, score pitchers, collect odds, price market. Last start 10:57 AM ET via repository_dispatch \u00b7 delay 41 min \u00b7 success"
+      "purpose": "Refresh features, score pitchers, collect odds, price market. Last start 10:19 AM ET via repository_dispatch \u00b7 delay 3 min \u00b7 success"
     },
     {
       "name": "Market refresh",
@@ -140,14 +140,14 @@
     }
   ],
   "pipeline_timing": {
-    "pipeline_run_id": "21b90ded-17d9-4ff8-9c21-3c43fe529e5b",
-    "target_date": "2026-09-18",
-    "expected_start_at": "2026-09-18T14:17:00Z",
-    "started_at": "2026-09-18T14:57:56.244168Z",
-    "finished_at": "2026-09-18T14:59:14.364750Z",
+    "pipeline_run_id": "519f2b8a-b1e3-4d9b-9fe8-046b67776a38",
+    "target_date": "2026-09-19",
+    "expected_start_at": "2026-09-19T14:17:00Z",
+    "started_at": "2026-09-19T14:19:50.069747Z",
+    "finished_at": "2026-09-19T14:20:40.092416Z",
     "trigger_source": "repository_dispatch",
-    "github_run_id": "35359424233",
-    "delay_minutes": 40.9374028,
+    "github_run_id": "35448262485",
+    "delay_minutes": 2.8344957833333333,
     "status": "success",
     "error_message": null
   }
