@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "sample_data": false,
-  "generated_at": "2026-09-22T14:19:59.915890Z",
+  "generated_at": "2026-09-22T14:58:51.492145Z",
   "timezone": "America/New_York",
   "overall_status": "attention",
   "api_usage": {
@@ -91,10 +91,10 @@
       "status": "completed",
       "conclusion": "success",
       "event": "repository_dispatch",
-      "created_at": "2026-09-22T14:17:07Z",
-      "updated_at": "2026-09-22T14:19:08Z",
-      "run_number": 46,
-      "html_url": "https://github.com/marcg129/sports-betting-command-center/actions/runs/35739235711"
+      "created_at": "2026-09-22T14:57:15Z",
+      "updated_at": "2026-09-22T14:58:03Z",
+      "run_number": 47,
+      "html_url": "https://github.com/marcg129/sports-betting-command-center/actions/runs/35743918324"
     },
     {
       "name": "MLB Pitcher K Odds Collector",
