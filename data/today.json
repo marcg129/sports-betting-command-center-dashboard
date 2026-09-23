@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "sample_data": false,
-  "generated_at": "2026-09-22T18:09:36.873507Z",
+  "generated_at": "2026-09-23T00:24:14.689982Z",
   "target_date": "2026-09-22",
   "timezone": "America/New_York",
   "model_version": "MLB_K_v0.1",
@@ -199,7 +199,9 @@
         "avg_k_l3": 8.333333333333334,
         "avg_k_l5": 7.6,
         "avg_k_l10": 7.9,
+        "avg_pitches_l3": 94.33333333333333,
         "avg_pitches_l5": 95.6,
+        "avg_bf_l3": 23.333333333333332,
         "avg_bf_l5": 22.8,
         "k_per_bf_l5": 0.3333333333333333,
         "swstr_l5": 0.1694560669456067,
@@ -216,6 +218,7 @@
         "opponent_whiff_rate_l14d": 0.2122905027932961,
         "opponent_contact_rate_l14d": 0.7877094972067039
       },
+      "context_signals": [],
       "recent_starts": [
         {
           "game_date": "2026-09-13",
@@ -287,7 +290,9 @@
         "avg_k_l3": 5.0,
         "avg_k_l5": 3.8,
         "avg_k_l10": 4.2,
+        "avg_pitches_l3": 70.0,
         "avg_pitches_l5": 61.6,
+        "avg_bf_l3": 17.333333333333332,
         "avg_bf_l5": 15.2,
         "k_per_bf_l5": 0.25,
         "swstr_l5": 0.1461038961038961,
@@ -304,6 +309,7 @@
         "opponent_whiff_rate_l14d": 0.22992700729927007,
         "opponent_contact_rate_l14d": 0.7700729927007299
       },
+      "context_signals": [],
       "recent_starts": [
         {
           "game_date": "2026-09-18",
@@ -375,7 +381,9 @@
         "avg_k_l3": 4.0,
         "avg_k_l5": 3.4,
         "avg_k_l10": 3.5,
+        "avg_pitches_l3": 77.33333333333333,
         "avg_pitches_l5": 83.6,
+        "avg_bf_l3": 20.666666666666668,
         "avg_bf_l5": 21.2,
         "k_per_bf_l5": 0.16037735849056603,
         "swstr_l5": 0.10287081339712918,
@@ -392,6 +400,7 @@
         "opponent_whiff_rate_l14d": 0.22663802363050484,
         "opponent_contact_rate_l14d": 0.7733619763694952
       },
+      "context_signals": [],
       "recent_starts": [
         {
           "game_date": "2026-09-02",
@@ -463,7 +472,9 @@
         "avg_k_l3": 9.333333333333334,
         "avg_k_l5": 7.4,
         "avg_k_l10": 6.5,
+        "avg_pitches_l3": 98.33333333333333,
         "avg_pitches_l5": 96.8,
+        "avg_bf_l3": 25.0,
         "avg_bf_l5": 23.8,
         "k_per_bf_l5": 0.31092436974789917,
         "swstr_l5": 0.17355371900826447,
@@ -480,6 +491,7 @@
         "opponent_whiff_rate_l14d": 0.26595744680851063,
         "opponent_contact_rate_l14d": 0.7340425531914894
       },
+      "context_signals": [],
       "recent_starts": [
         {
           "game_date": "2026-09-15",
@@ -551,7 +563,9 @@
         "avg_k_l3": 4.0,
         "avg_k_l5": 3.8,
         "avg_k_l10": 5.1,
+        "avg_pitches_l3": 71.33333333333333,
         "avg_pitches_l5": 80.4,
+        "avg_bf_l3": 22.666666666666668,
         "avg_bf_l5": 24.0,
         "k_per_bf_l5": 0.15833333333333333,
         "swstr_l5": 0.09203980099502487,
@@ -568,6 +582,7 @@
         "opponent_whiff_rate_l14d": 0.29806598407281,
         "opponent_contact_rate_l14d": 0.7019340159271901
       },
+      "context_signals": [],
       "recent_starts": [
         {
           "game_date": "2026-09-15",
@@ -639,7 +654,9 @@
         "avg_k_l3": 2.6666666666666665,
         "avg_k_l5": 3.4,
         "avg_k_l10": 4.1,
+        "avg_pitches_l3": 71.66666666666667,
         "avg_pitches_l5": 80.6,
+        "avg_bf_l3": 19.333333333333332,
         "avg_bf_l5": 20.8,
         "k_per_bf_l5": 0.16346153846153846,
         "swstr_l5": 0.08933002481389578,
@@ -656,6 +673,7 @@
         "opponent_whiff_rate_l14d": 0.25868725868725867,
         "opponent_contact_rate_l14d": 0.7413127413127414
       },
+      "context_signals": [],
       "recent_starts": [
         {
           "game_date": "2026-09-16",
@@ -727,7 +745,9 @@
         "avg_k_l3": 7.0,
         "avg_k_l5": 8.2,
         "avg_k_l10": 7.0,
+        "avg_pitches_l3": 90.66666666666667,
         "avg_pitches_l5": 95.0,
+        "avg_bf_l3": 23.333333333333332,
         "avg_bf_l5": 25.0,
         "k_per_bf_l5": 0.328,
         "swstr_l5": 0.16842105263157894,
@@ -744,6 +764,7 @@
         "opponent_whiff_rate_l14d": 0.288135593220339,
         "opponent_contact_rate_l14d": 0.711864406779661
       },
+      "context_signals": [],
       "recent_starts": [
         {
           "game_date": "2026-09-17",
@@ -815,7 +836,9 @@
         "avg_k_l3": 8.333333333333334,
         "avg_k_l5": 6.8,
         "avg_k_l10": 7.0,
+        "avg_pitches_l3": 94.66666666666667,
         "avg_pitches_l5": 96.6,
+        "avg_bf_l3": 24.666666666666668,
         "avg_bf_l5": 24.0,
         "k_per_bf_l5": 0.2833333333333333,
         "swstr_l5": 0.12008281573498965,
@@ -832,6 +855,7 @@
         "opponent_whiff_rate_l14d": 0.24161073825503357,
         "opponent_contact_rate_l14d": 0.7583892617449665
       },
+      "context_signals": [],
       "recent_starts": [
         {
           "game_date": "2026-09-16",
@@ -903,7 +927,9 @@
         "avg_k_l3": 3.3333333333333335,
         "avg_k_l5": 3.6,
         "avg_k_l10": 3.9,
+        "avg_pitches_l3": 76.66666666666667,
         "avg_pitches_l5": 79.4,
+        "avg_bf_l3": 21.333333333333332,
         "avg_bf_l5": 21.6,
         "k_per_bf_l5": 0.16666666666666666,
         "swstr_l5": 0.08816120906801007,
@@ -920,6 +946,7 @@
         "opponent_whiff_rate_l14d": 0.25670945157526254,
         "opponent_contact_rate_l14d": 0.7432905484247374
       },
+      "context_signals": [],
       "recent_starts": [
         {
           "game_date": "2026-09-16",
@@ -991,7 +1018,9 @@
         "avg_k_l3": 5.333333333333333,
         "avg_k_l5": 4.8,
         "avg_k_l10": 4.0,
+        "avg_pitches_l3": 80.33333333333333,
         "avg_pitches_l5": 79.8,
+        "avg_bf_l3": 19.333333333333332,
         "avg_bf_l5": 20.6,
         "k_per_bf_l5": 0.23300970873786409,
         "swstr_l5": 0.12781954887218044,
@@ -1008,6 +1037,7 @@
         "opponent_whiff_rate_l14d": 0.27006507592190887,
         "opponent_contact_rate_l14d": 0.7299349240780911
       },
+      "context_signals": [],
       "recent_starts": [
         {
           "game_date": "2026-09-16",
@@ -1079,7 +1109,9 @@
         "avg_k_l3": 2.0,
         "avg_k_l5": 2.2,
         "avg_k_l10": 2.3,
+        "avg_pitches_l3": 74.33333333333333,
         "avg_pitches_l5": 70.4,
+        "avg_bf_l3": 20.666666666666668,
         "avg_bf_l5": 18.8,
         "k_per_bf_l5": 0.11702127659574468,
         "swstr_l5": 0.05965909090909091,
@@ -1096,6 +1128,7 @@
         "opponent_whiff_rate_l14d": 0.3048128342245989,
         "opponent_contact_rate_l14d": 0.6951871657754011
       },
+      "context_signals": [],
       "recent_starts": [
         {
           "game_date": "2026-09-16",
@@ -1167,7 +1200,9 @@
         "avg_k_l3": 6.666666666666667,
         "avg_k_l5": 5.4,
         "avg_k_l10": 5.6,
+        "avg_pitches_l3": 94.66666666666667,
         "avg_pitches_l5": 89.6,
+        "avg_bf_l3": 22.666666666666668,
         "avg_bf_l5": 20.8,
         "k_per_bf_l5": 0.25961538461538464,
         "swstr_l5": 0.14508928571428573,
@@ -1184,6 +1219,7 @@
         "opponent_whiff_rate_l14d": 0.20828105395232122,
         "opponent_contact_rate_l14d": 0.7917189460476788
       },
+      "context_signals": [],
       "recent_starts": [
         {
           "game_date": "2026-09-16",
@@ -1255,7 +1291,9 @@
         "avg_k_l3": 7.666666666666667,
         "avg_k_l5": 6.6,
         "avg_k_l10": 6.0,
+        "avg_pitches_l3": 98.66666666666667,
         "avg_pitches_l5": 101.4,
+        "avg_bf_l3": 25.0,
         "avg_bf_l5": 25.0,
         "k_per_bf_l5": 0.264,
         "swstr_l5": 0.15779092702169625,
@@ -1272,6 +1310,7 @@
         "opponent_whiff_rate_l14d": 0.2680272108843537,
         "opponent_contact_rate_l14d": 0.7319727891156462
       },
+      "context_signals": [],
       "recent_starts": [
         {
           "game_date": "2026-09-16",
@@ -1343,7 +1382,9 @@
         "avg_k_l3": 5.0,
         "avg_k_l5": 5.6,
         "avg_k_l10": 3.9,
+        "avg_pitches_l3": 81.0,
         "avg_pitches_l5": 84.0,
+        "avg_bf_l3": 21.0,
         "avg_bf_l5": 19.8,
         "k_per_bf_l5": 0.2828282828282828,
         "swstr_l5": 0.18571428571428572,
@@ -1360,6 +1401,7 @@
         "opponent_whiff_rate_l14d": 0.224373576309795,
         "opponent_contact_rate_l14d": 0.7756264236902051
       },
+      "context_signals": [],
       "recent_starts": [
         {
           "game_date": "2026-09-16",
@@ -1432,7 +1474,54 @@
       "research_candidate": true,
       "quote_last_seen_at": "2026-09-22T14:18:46.385526Z",
       "quote_source_updated_at": "2026-09-22T13:51:39Z",
-      "analysis_key": "824709:801139"
+      "analysis_key": "824709:801139",
+      "context": {
+        "status": "clear",
+        "probability_distribution": "poisson",
+        "probability_alpha": 0.0,
+        "base_projected_mean": 7.353532272838449,
+        "base_side_probability": 0.7421515251951833,
+        "baseline_opportunity": {
+          "baseline_bf": 23.013333333333335,
+          "baseline_pitches": 95.09333333333333,
+          "pitches_per_bf": 4.132097334878331
+        },
+        "market_implied_mean": 5.289762626070617,
+        "market_implied_opportunity_ratio": 0.7193498892510849,
+        "market_implied_bf": 16.554638784631635,
+        "market_over_probability": 0.4347452530286107,
+        "scenarios": [
+          {
+            "workload_ratio": 1.0,
+            "expected_bf": 23.013333333333335,
+            "projected_mean": 7.353532272838449,
+            "over_probability": 0.7421515251951831
+          },
+          {
+            "workload_ratio": 0.9,
+            "expected_bf": 20.712000000000003,
+            "projected_mean": 6.618179045554604,
+            "over_probability": 0.6479021304575628
+          },
+          {
+            "workload_ratio": 0.8,
+            "expected_bf": 18.410666666666668,
+            "projected_mean": 5.88282581827076,
+            "over_probability": 0.53532062270091
+          },
+          {
+            "workload_ratio": 0.7,
+            "expected_bf": 16.109333333333336,
+            "projected_mean": 5.147472590986914,
+            "over_probability": 0.4098974975327285
+          }
+        ],
+        "signals": [],
+        "explicit_workload": null,
+        "context_adjusted_mean": null,
+        "context_adjusted_side_probability": null,
+        "guardrail": "Qualitative context never changes the central projection. Only explicit expected pitch-count or batters-faced evidence may create a context-adjusted projection."
+      }
     },
     {
       "game_pk": 823412,
@@ -1456,7 +1545,54 @@
       "research_candidate": true,
       "quote_last_seen_at": "2026-09-22T14:18:46.385526Z",
       "quote_source_updated_at": "2026-09-22T13:51:39Z",
-      "analysis_key": "823412:669160"
+      "analysis_key": "823412:669160",
+      "context": {
+        "status": "clear",
+        "probability_distribution": "poisson",
+        "probability_alpha": 0.0,
+        "base_projected_mean": 4.254602114501879,
+        "base_side_probability": 0.6146277570374937,
+        "baseline_opportunity": {
+          "baseline_bf": 16.053333333333335,
+          "baseline_pitches": 64.96000000000001,
+          "pitches_per_bf": 4.046511627906977
+        },
+        "market_implied_mean": 3.4977038478742317,
+        "market_implied_opportunity_ratio": 0.8220989304622052,
+        "market_implied_bf": 13.1974281636866,
+        "market_over_probability": 0.4628717746700807,
+        "scenarios": [
+          {
+            "workload_ratio": 1.0,
+            "expected_bf": 16.053333333333335,
+            "projected_mean": 4.254602114501879,
+            "over_probability": 0.6146277570374938
+          },
+          {
+            "workload_ratio": 0.9,
+            "expected_bf": 14.448000000000002,
+            "projected_mean": 3.8291419030516916,
+            "over_probability": 0.5324588196077289
+          },
+          {
+            "workload_ratio": 0.8,
+            "expected_bf": 12.842666666666668,
+            "projected_mean": 3.403681691601504,
+            "over_probability": 0.4424476509456466
+          },
+          {
+            "workload_ratio": 0.7,
+            "expected_bf": 11.237333333333334,
+            "projected_mean": 2.978221480151315,
+            "over_probability": 0.34788894129905074
+          }
+        ],
+        "signals": [],
+        "explicit_workload": null,
+        "context_adjusted_mean": null,
+        "context_adjusted_side_probability": null,
+        "guardrail": "Qualitative context never changes the central projection. Only explicit expected pitch-count or batters-faced evidence may create a context-adjusted projection."
+      }
     },
     {
       "game_pk": 824867,
@@ -1480,7 +1616,54 @@
       "research_candidate": true,
       "quote_last_seen_at": "2026-09-22T14:18:46.385526Z",
       "quote_source_updated_at": "2026-09-22T13:51:39Z",
-      "analysis_key": "824867:682227"
+      "analysis_key": "824867:682227",
+      "context": {
+        "status": "clear",
+        "probability_distribution": "poisson",
+        "probability_alpha": 0.0,
+        "base_projected_mean": 3.645809928932914,
+        "base_side_probability": 0.7052817161646763,
+        "baseline_opportunity": {
+          "baseline_bf": 20.986666666666665,
+          "baseline_pitches": 81.09333333333333,
+          "pitches_per_bf": 3.8640406607369764
+        },
+        "market_implied_mean": 2.9236436021753116,
+        "market_implied_opportunity_ratio": 0.8019188216515247,
+        "market_implied_bf": 16.829603003726664,
+        "market_over_probability": 0.5594871427548169,
+        "scenarios": [
+          {
+            "workload_ratio": 1.0,
+            "expected_bf": 20.986666666666665,
+            "projected_mean": 3.645809928932914,
+            "over_probability": 0.7052817161646763
+          },
+          {
+            "workload_ratio": 0.9,
+            "expected_bf": 18.887999999999998,
+            "projected_mean": 3.2812289360396227,
+            "over_probability": 0.6367898310421996
+          },
+          {
+            "workload_ratio": 0.8,
+            "expected_bf": 16.78933333333333,
+            "projected_mean": 2.9166479431463315,
+            "over_probability": 0.5578787045270873
+          },
+          {
+            "workload_ratio": 0.7,
+            "expected_bf": 14.690666666666663,
+            "projected_mean": 2.5520669502530398,
+            "over_probability": 0.46947167427463166
+          }
+        ],
+        "signals": [],
+        "explicit_workload": null,
+        "context_adjusted_mean": null,
+        "context_adjusted_side_probability": null,
+        "guardrail": "Qualitative context never changes the central projection. Only explicit expected pitch-count or batters-faced evidence may create a context-adjusted projection."
+      }
     },
     {
       "game_pk": 823089,
@@ -1504,7 +1687,54 @@
       "research_candidate": true,
       "quote_last_seen_at": "2026-09-22T14:18:46.385526Z",
       "quote_source_updated_at": "2026-09-22T14:06:44Z",
-      "analysis_key": "823089:669302"
+      "analysis_key": "823089:669302",
+      "context": {
+        "status": "clear",
+        "probability_distribution": "poisson",
+        "probability_alpha": 0.0,
+        "base_projected_mean": 6.804699276444592,
+        "base_side_probability": 0.5208022836328263,
+        "baseline_opportunity": {
+          "baseline_bf": 24.28,
+          "baseline_pitches": 97.41333333333333,
+          "pitches_per_bf": 4.0120812740252605
+        },
+        "market_implied_mean": 6.231689948702618,
+        "market_implied_opportunity_ratio": 0.9157921159388299,
+        "market_implied_bf": 22.235432574994793,
+        "market_over_probability": 0.43085761181780885,
+        "scenarios": [
+          {
+            "workload_ratio": 1.0,
+            "expected_bf": 24.28,
+            "projected_mean": 6.804699276444592,
+            "over_probability": 0.5208022836328264
+          },
+          {
+            "workload_ratio": 0.9,
+            "expected_bf": 21.852,
+            "projected_mean": 6.1242293488001325,
+            "over_probability": 0.4136428623213013
+          },
+          {
+            "workload_ratio": 0.8,
+            "expected_bf": 19.424000000000003,
+            "projected_mean": 5.443759421155674,
+            "over_probability": 0.3051511279821783
+          },
+          {
+            "workload_ratio": 0.7,
+            "expected_bf": 16.996,
+            "projected_mean": 4.7632894935112144,
+            "over_probability": 0.204087132481216
+          }
+        ],
+        "signals": [],
+        "explicit_workload": null,
+        "context_adjusted_mean": null,
+        "context_adjusted_side_probability": null,
+        "guardrail": "Qualitative context never changes the central projection. Only explicit expected pitch-count or batters-faced evidence may create a context-adjusted projection."
+      }
     },
     {
       "game_pk": 822840,
@@ -1528,7 +1758,54 @@
       "research_candidate": true,
       "quote_last_seen_at": "2026-09-22T14:18:46.385526Z",
       "quote_source_updated_at": "2026-09-22T13:51:39Z",
-      "analysis_key": "822840:640455"
+      "analysis_key": "822840:640455",
+      "context": {
+        "status": "clear",
+        "probability_distribution": "poisson",
+        "probability_alpha": 0.0,
+        "base_projected_mean": 4.306643414492109,
+        "base_side_probability": 0.569154340047592,
+        "baseline_opportunity": {
+          "baseline_bf": 23.46666666666667,
+          "baseline_pitches": 76.77333333333334,
+          "pitches_per_bf": 3.271590909090909
+        },
+        "market_implied_mean": 4.692724933869753,
+        "market_implied_opportunity_ratio": 1.0896478956392017,
+        "market_implied_bf": 25.570403950999935,
+        "market_over_probability": 0.5040451438048623,
+        "scenarios": [
+          {
+            "workload_ratio": 1.0,
+            "expected_bf": 23.46666666666667,
+            "projected_mean": 4.306643414492109,
+            "over_probability": 0.430845659952408
+          },
+          {
+            "workload_ratio": 0.9,
+            "expected_bf": 21.12,
+            "projected_mean": 3.8759790730428985,
+            "over_probability": 0.34694925570293994
+          },
+          {
+            "workload_ratio": 0.8,
+            "expected_bf": 18.773333333333337,
+            "projected_mean": 3.4453147315936876,
+            "over_probability": 0.26427170623833995
+          },
+          {
+            "workload_ratio": 0.7,
+            "expected_bf": 16.426666666666666,
+            "projected_mean": 3.0146503901444763,
+            "over_probability": 0.18720446187676856
+          }
+        ],
+        "signals": [],
+        "explicit_workload": null,
+        "context_adjusted_mean": null,
+        "context_adjusted_side_probability": null,
+        "guardrail": "Qualitative context never changes the central projection. Only explicit expected pitch-count or batters-faced evidence may create a context-adjusted projection."
+      }
     },
     {
       "game_pk": 824061,
@@ -1552,7 +1829,54 @@
       "research_candidate": false,
       "quote_last_seen_at": "2026-09-22T14:18:46.385526Z",
       "quote_source_updated_at": "2026-09-22T13:51:39Z",
-      "analysis_key": "824061:641743"
+      "analysis_key": "824061:641743",
+      "context": {
+        "status": "clear",
+        "probability_distribution": "poisson",
+        "probability_alpha": 0.0,
+        "base_projected_mean": 3.6709110924570174,
+        "base_side_probability": 0.4997587672155477,
+        "baseline_opportunity": {
+          "baseline_bf": 20.213333333333335,
+          "baseline_pitches": 77.02666666666667,
+          "pitches_per_bf": 3.8106860158311346
+        },
+        "market_implied_mean": 3.520302682682563,
+        "market_implied_opportunity_ratio": 0.9589724714161767,
+        "market_implied_bf": 19.384030222225654,
+        "market_over_probability": 0.4677419354838709,
+        "scenarios": [
+          {
+            "workload_ratio": 1.0,
+            "expected_bf": 20.213333333333335,
+            "projected_mean": 3.6709110924570174,
+            "over_probability": 0.4997587672155475
+          },
+          {
+            "workload_ratio": 0.9,
+            "expected_bf": 18.192,
+            "projected_mean": 3.3038199832113158,
+            "over_probability": 0.4205055345539571
+          },
+          {
+            "workload_ratio": 0.8,
+            "expected_bf": 16.17066666666667,
+            "projected_mean": 2.936728873965614,
+            "over_probability": 0.3385959194262235
+          },
+          {
+            "workload_ratio": 0.7,
+            "expected_bf": 14.149333333333333,
+            "projected_mean": 2.569637764719912,
+            "over_probability": 0.2574082373800186
+          }
+        ],
+        "signals": [],
+        "explicit_workload": null,
+        "context_adjusted_mean": null,
+        "context_adjusted_side_probability": null,
+        "guardrail": "Qualitative context never changes the central projection. Only explicit expected pitch-count or batters-faced evidence may create a context-adjusted projection."
+      }
     },
     {
       "game_pk": 823166,
@@ -1576,7 +1900,54 @@
       "research_candidate": false,
       "quote_last_seen_at": "2026-09-22T14:18:46.385526Z",
       "quote_source_updated_at": "2026-09-22T14:06:44Z",
-      "analysis_key": "823166:671737"
+      "analysis_key": "823166:671737",
+      "context": {
+        "status": "clear",
+        "probability_distribution": "poisson",
+        "probability_alpha": 0.0,
+        "base_projected_mean": 6.345461470303546,
+        "base_side_probability": 0.44900800590880574,
+        "baseline_opportunity": {
+          "baseline_bf": 24.333333333333336,
+          "baseline_pitches": 93.26666666666668,
+          "pitches_per_bf": 3.8328767123287673
+        },
+        "market_implied_mean": 6.155605406769238,
+        "market_implied_opportunity_ratio": 0.9700800226393581,
+        "market_implied_bf": 23.60528055089105,
+        "market_over_probability": 0.4186744608578877,
+        "scenarios": [
+          {
+            "workload_ratio": 1.0,
+            "expected_bf": 24.333333333333336,
+            "projected_mean": 6.345461470303546,
+            "over_probability": 0.4490080059088061
+          },
+          {
+            "workload_ratio": 0.9,
+            "expected_bf": 21.900000000000002,
+            "projected_mean": 5.710915323273191,
+            "over_probability": 0.34737375623504485
+          },
+          {
+            "workload_ratio": 0.8,
+            "expected_bf": 19.46666666666667,
+            "projected_mean": 5.076369176242837,
+            "over_probability": 0.24906655444267153
+          },
+          {
+            "workload_ratio": 0.7,
+            "expected_bf": 17.033333333333335,
+            "projected_mean": 4.441823029212482,
+            "over_probability": 0.1615688218262826
+          }
+        ],
+        "signals": [],
+        "explicit_workload": null,
+        "context_adjusted_mean": null,
+        "context_adjusted_side_probability": null,
+        "guardrail": "Qualitative context never changes the central projection. Only explicit expected pitch-count or batters-faced evidence may create a context-adjusted projection."
+      }
     },
     {
       "game_pk": 824709,
@@ -1600,7 +1971,54 @@
       "research_candidate": false,
       "quote_last_seen_at": "2026-09-22T14:18:46.385526Z",
       "quote_source_updated_at": "2026-09-22T14:06:44Z",
-      "analysis_key": "824709:800048"
+      "analysis_key": "824709:800048",
+      "context": {
+        "status": "clear",
+        "probability_distribution": "poisson",
+        "probability_alpha": 0.0,
+        "base_projected_mean": 5.7119879829408635,
+        "base_side_probability": 0.49297513453130337,
+        "baseline_opportunity": {
+          "baseline_bf": 24.266666666666666,
+          "baseline_pitches": 95.82666666666665,
+          "pitches_per_bf": 3.9489010989010986
+        },
+        "market_implied_mean": 5.876636368277666,
+        "market_implied_opportunity_ratio": 1.0288250580758456,
+        "market_implied_bf": 24.96615474264052,
+        "market_over_probability": 0.5343073571442847,
+        "scenarios": [
+          {
+            "workload_ratio": 1.0,
+            "expected_bf": 24.266666666666666,
+            "projected_mean": 5.7119879829408635,
+            "over_probability": 0.5070248654686965
+          },
+          {
+            "workload_ratio": 0.9,
+            "expected_bf": 21.84,
+            "projected_mean": 5.140789184646778,
+            "over_probability": 0.4087271661231359
+          },
+          {
+            "workload_ratio": 0.8,
+            "expected_bf": 19.413333333333334,
+            "projected_mean": 4.569590386352691,
+            "over_probability": 0.3090011868579798
+          },
+          {
+            "workload_ratio": 0.7,
+            "expected_bf": 16.986666666666665,
+            "projected_mean": 3.9983915880586043,
+            "over_probability": 0.21461827928355035
+          }
+        ],
+        "signals": [],
+        "explicit_workload": null,
+        "context_adjusted_mean": null,
+        "context_adjusted_side_probability": null,
+        "guardrail": "Qualitative context never changes the central projection. Only explicit expected pitch-count or batters-faced evidence may create a context-adjusted projection."
+      }
     },
     {
       "game_pk": 823543,
@@ -1624,7 +2042,54 @@
       "research_candidate": false,
       "quote_last_seen_at": "2026-09-22T14:18:46.385526Z",
       "quote_source_updated_at": "2026-09-22T13:51:39Z",
-      "analysis_key": "823543:607259"
+      "analysis_key": "823543:607259",
+      "context": {
+        "status": "clear",
+        "probability_distribution": "poisson",
+        "probability_alpha": 0.0,
+        "base_projected_mean": 3.898399831569964,
+        "base_side_probability": 0.546432952397143,
+        "baseline_opportunity": {
+          "baseline_bf": 21.493333333333332,
+          "baseline_pitches": 78.30666666666667,
+          "pitches_per_bf": 3.6433002481389583
+        },
+        "market_implied_mean": 3.8281546187613857,
+        "market_implied_opportunity_ratio": 0.9819810137893709,
+        "market_implied_bf": 21.106045256379545,
+        "market_over_probability": 0.532258064516129,
+        "scenarios": [
+          {
+            "workload_ratio": 1.0,
+            "expected_bf": 21.493333333333332,
+            "projected_mean": 3.898399831569964,
+            "over_probability": 0.5464329523971432
+          },
+          {
+            "workload_ratio": 0.9,
+            "expected_bf": 19.344,
+            "projected_mean": 3.5085598484129674,
+            "over_probability": 0.46521328860775507
+          },
+          {
+            "workload_ratio": 0.8,
+            "expected_bf": 17.194666666666667,
+            "projected_mean": 3.1187198652559713,
+            "over_probability": 0.3793459140426471
+          },
+          {
+            "workload_ratio": 0.7,
+            "expected_bf": 15.045333333333332,
+            "projected_mean": 2.728879882098975,
+            "over_probability": 0.2922847684943471
+          }
+        ],
+        "signals": [],
+        "explicit_workload": null,
+        "context_adjusted_mean": null,
+        "context_adjusted_side_probability": null,
+        "guardrail": "Qualitative context never changes the central projection. Only explicit expected pitch-count or batters-faced evidence may create a context-adjusted projection."
+      }
     },
     {
       "game_pk": 823166,
@@ -1648,7 +2113,54 @@
       "research_candidate": false,
       "quote_last_seen_at": "2026-09-22T14:18:46.385526Z",
       "quote_source_updated_at": "2026-09-22T13:51:39Z",
-      "analysis_key": "823166:683627"
+      "analysis_key": "823166:683627",
+      "context": {
+        "status": "clear",
+        "probability_distribution": "poisson",
+        "probability_alpha": 0.0,
+        "base_projected_mean": 4.068250379623171,
+        "base_side_probability": 0.5797487281530697,
+        "baseline_opportunity": {
+          "baseline_bf": 20.093333333333334,
+          "baseline_pitches": 80.01333333333332,
+          "pitches_per_bf": 3.9820836098208354
+        },
+        "market_implied_mean": 4.011550976197601,
+        "market_implied_opportunity_ratio": 0.9860629513587553,
+        "market_implied_bf": 19.813291569301924,
+        "market_over_probability": 0.5687832924663905,
+        "scenarios": [
+          {
+            "workload_ratio": 1.0,
+            "expected_bf": 20.093333333333334,
+            "projected_mean": 4.068250379623171,
+            "over_probability": 0.5797487281530697
+          },
+          {
+            "workload_ratio": 0.9,
+            "expected_bf": 18.084,
+            "projected_mean": 3.661425341660854,
+            "over_probability": 0.4977664399026643
+          },
+          {
+            "workload_ratio": 0.8,
+            "expected_bf": 16.07466666666667,
+            "projected_mean": 3.254600303698537,
+            "over_probability": 0.40961271035859403
+          },
+          {
+            "workload_ratio": 0.7,
+            "expected_bf": 14.065333333333333,
+            "projected_mean": 2.8477752657362196,
+            "over_probability": 0.3187084065828781
+          }
+        ],
+        "signals": [],
+        "explicit_workload": null,
+        "context_adjusted_mean": null,
+        "context_adjusted_side_probability": null,
+        "guardrail": "Qualitative context never changes the central projection. Only explicit expected pitch-count or batters-faced evidence may create a context-adjusted projection."
+      }
     },
     {
       "game_pk": 824061,
@@ -1672,7 +2184,54 @@
       "research_candidate": false,
       "quote_last_seen_at": "2026-09-22T14:18:46.385526Z",
       "quote_source_updated_at": "2026-09-22T13:51:40Z",
-      "analysis_key": "824061:663738"
+      "analysis_key": "824061:663738",
+      "context": {
+        "status": "clear",
+        "probability_distribution": "poisson",
+        "probability_alpha": 0.0,
+        "base_projected_mean": 3.3974890125515342,
+        "base_side_probability": 0.5589060811856578,
+        "baseline_opportunity": {
+          "baseline_bf": 19.546666666666667,
+          "baseline_pitches": 71.97333333333333,
+          "pitches_per_bf": 3.68212824010914
+        },
+        "market_implied_mean": 3.4333790616479396,
+        "market_implied_opportunity_ratio": 1.010563698355996,
+        "market_implied_bf": 19.753151757198534,
+        "market_over_probability": 0.4489255225198705,
+        "scenarios": [
+          {
+            "workload_ratio": 1.0,
+            "expected_bf": 19.546666666666667,
+            "projected_mean": 3.3974890125515342,
+            "over_probability": 0.44109391881434235
+          },
+          {
+            "workload_ratio": 0.9,
+            "expected_bf": 17.592000000000002,
+            "projected_mean": 3.057740111296381,
+            "over_probability": 0.36570193729824546
+          },
+          {
+            "workload_ratio": 0.8,
+            "expected_bf": 15.637333333333334,
+            "projected_mean": 2.7179912100412276,
+            "over_probability": 0.2898781840945848
+          },
+          {
+            "workload_ratio": 0.7,
+            "expected_bf": 13.682666666666666,
+            "projected_mean": 2.378242308786074,
+            "over_probability": 0.2167419562186823
+          }
+        ],
+        "signals": [],
+        "explicit_workload": null,
+        "context_adjusted_mean": null,
+        "context_adjusted_side_probability": null,
+        "guardrail": "Qualitative context never changes the central projection. Only explicit expected pitch-count or batters-faced evidence may create a context-adjusted projection."
+      }
     },
     {
       "game_pk": 823543,
@@ -1696,7 +2255,54 @@
       "research_candidate": false,
       "quote_last_seen_at": "2026-09-22T14:18:46.385526Z",
       "quote_source_updated_at": "2026-09-22T13:51:39Z",
-      "analysis_key": "823543:607074"
+      "analysis_key": "823543:607074",
+      "context": {
+        "status": "clear",
+        "probability_distribution": "poisson",
+        "probability_alpha": 0.0,
+        "base_projected_mean": 5.102949013329494,
+        "base_side_probability": 0.5773812333474289,
+        "baseline_opportunity": {
+          "baseline_bf": 21.546666666666667,
+          "baseline_pitches": 91.62666666666667,
+          "pitches_per_bf": 4.252475247524752
+        },
+        "market_implied_mean": 5.0689749742659735,
+        "market_implied_opportunity_ratio": 0.9933422734628984,
+        "market_implied_bf": 21.403214852213917,
+        "market_over_probability": 0.5715249662618084,
+        "scenarios": [
+          {
+            "workload_ratio": 1.0,
+            "expected_bf": 21.546666666666667,
+            "projected_mean": 5.102949013329494,
+            "over_probability": 0.5773812333474289
+          },
+          {
+            "workload_ratio": 0.9,
+            "expected_bf": 19.392,
+            "projected_mean": 4.592654111996544,
+            "over_probability": 0.4853877837668958
+          },
+          {
+            "workload_ratio": 0.8,
+            "expected_bf": 17.237333333333336,
+            "projected_mean": 4.082359210663595,
+            "over_probability": 0.3872488213190998
+          },
+          {
+            "workload_ratio": 0.7,
+            "expected_bf": 15.082666666666666,
+            "projected_mean": 3.5720643093306452,
+            "over_probability": 0.28822811902662243
+          }
+        ],
+        "signals": [],
+        "explicit_workload": null,
+        "context_adjusted_mean": null,
+        "context_adjusted_side_probability": null,
+        "guardrail": "Qualitative context never changes the central projection. Only explicit expected pitch-count or batters-faced evidence may create a context-adjusted projection."
+      }
     },
     {
       "game_pk": 823412,
@@ -1720,7 +2326,54 @@
       "research_candidate": false,
       "quote_last_seen_at": "2026-09-22T14:18:46.385526Z",
       "quote_source_updated_at": "2026-09-22T13:51:39Z",
-      "analysis_key": "823412:554430"
+      "analysis_key": "823412:554430",
+      "context": {
+        "status": "clear",
+        "probability_distribution": "poisson",
+        "probability_alpha": 0.0,
+        "base_projected_mean": 6.489452759221814,
+        "base_side_probability": 0.5281853026070312,
+        "baseline_opportunity": {
+          "baseline_bf": 25.0,
+          "baseline_pitches": 100.30666666666667,
+          "pitches_per_bf": 4.012266666666667
+        },
+        "market_implied_mean": 6.516931707773097,
+        "market_implied_opportunity_ratio": 1.0042344015082372,
+        "market_implied_bf": 25.10586003770593,
+        "market_over_probability": 0.47614107883817425,
+        "scenarios": [
+          {
+            "workload_ratio": 1.0,
+            "expected_bf": 25.0,
+            "projected_mean": 6.489452759221814,
+            "over_probability": 0.4718146973929692
+          },
+          {
+            "workload_ratio": 0.9,
+            "expected_bf": 22.5,
+            "projected_mean": 5.840507483299633,
+            "over_probability": 0.36809736322742287
+          },
+          {
+            "workload_ratio": 0.8,
+            "expected_bf": 20.0,
+            "projected_mean": 5.191562207377451,
+            "over_probability": 0.26632933251119717
+          },
+          {
+            "workload_ratio": 0.7,
+            "expected_bf": 17.5,
+            "projected_mean": 4.54261693145527,
+            "over_probability": 0.1744479824018433
+          }
+        ],
+        "signals": [],
+        "explicit_workload": null,
+        "context_adjusted_mean": null,
+        "context_adjusted_side_probability": null,
+        "guardrail": "Qualitative context never changes the central projection. Only explicit expected pitch-count or batters-faced evidence may create a context-adjusted projection."
+      }
     },
     {
       "game_pk": 823089,
@@ -1744,7 +2397,54 @@
       "research_candidate": false,
       "quote_last_seen_at": "2026-09-22T14:18:46.385526Z",
       "quote_source_updated_at": "2026-09-22T13:51:39Z",
-      "analysis_key": "823089:664299"
+      "analysis_key": "823089:664299",
+      "context": {
+        "status": "clear",
+        "probability_distribution": "poisson",
+        "probability_alpha": 0.0,
+        "base_projected_mean": 4.382090300668481,
+        "base_side_probability": 0.5546205022491237,
+        "baseline_opportunity": {
+          "baseline_bf": 20.28,
+          "baseline_pitches": 82.8,
+          "pitches_per_bf": 4.0828402366863905
+        },
+        "market_implied_mean": 4.403244579213702,
+        "market_implied_opportunity_ratio": 1.0048274401241786,
+        "market_implied_bf": 20.377900485718342,
+        "market_over_probability": 0.449438202247191,
+        "scenarios": [
+          {
+            "workload_ratio": 1.0,
+            "expected_bf": 20.28,
+            "projected_mean": 4.382090300668481,
+            "over_probability": 0.4453794977508764
+          },
+          {
+            "workload_ratio": 0.9,
+            "expected_bf": 18.252000000000002,
+            "projected_mean": 3.943881270601633,
+            "over_probability": 0.3602007760876182
+          },
+          {
+            "workload_ratio": 0.8,
+            "expected_bf": 16.224,
+            "projected_mean": 3.505672240534785,
+            "over_probability": 0.2756264675533069
+          },
+          {
+            "workload_ratio": 0.7,
+            "expected_bf": 14.196,
+            "projected_mean": 3.0674632104679365,
+            "over_probability": 0.1961972683480081
+          }
+        ],
+        "signals": [],
+        "explicit_workload": null,
+        "context_adjusted_mean": null,
+        "context_adjusted_side_probability": null,
+        "guardrail": "Qualitative context never changes the central projection. Only explicit expected pitch-count or batters-faced evidence may create a context-adjusted projection."
+      }
     },
     {
       "game_pk": 823089,
@@ -1768,7 +2468,54 @@
       "research_candidate": false,
       "quote_last_seen_at": "2026-09-22T14:18:46.385526Z",
       "quote_source_updated_at": "2026-09-22T13:51:39Z",
-      "analysis_key": "823089:664299"
+      "analysis_key": "823089:664299",
+      "context": {
+        "status": "clear",
+        "probability_distribution": "poisson",
+        "probability_alpha": 0.0,
+        "base_projected_mean": 4.382090300668481,
+        "base_side_probability": 0.44537949775087626,
+        "baseline_opportunity": {
+          "baseline_bf": 20.28,
+          "baseline_pitches": 82.8,
+          "pitches_per_bf": 4.0828402366863905
+        },
+        "market_implied_mean": 4.403244579213702,
+        "market_implied_opportunity_ratio": 1.0048274401241786,
+        "market_implied_bf": 20.377900485718342,
+        "market_over_probability": 0.449438202247191,
+        "scenarios": [
+          {
+            "workload_ratio": 1.0,
+            "expected_bf": 20.28,
+            "projected_mean": 4.382090300668481,
+            "over_probability": 0.4453794977508764
+          },
+          {
+            "workload_ratio": 0.9,
+            "expected_bf": 18.252000000000002,
+            "projected_mean": 3.943881270601633,
+            "over_probability": 0.3602007760876182
+          },
+          {
+            "workload_ratio": 0.8,
+            "expected_bf": 16.224,
+            "projected_mean": 3.505672240534785,
+            "over_probability": 0.2756264675533069
+          },
+          {
+            "workload_ratio": 0.7,
+            "expected_bf": 14.196,
+            "projected_mean": 3.0674632104679365,
+            "over_probability": 0.1961972683480081
+          }
+        ],
+        "signals": [],
+        "explicit_workload": null,
+        "context_adjusted_mean": null,
+        "context_adjusted_side_probability": null,
+        "guardrail": "Qualitative context never changes the central projection. Only explicit expected pitch-count or batters-faced evidence may create a context-adjusted projection."
+      }
     },
     {
       "game_pk": 823412,
@@ -1792,7 +2539,54 @@
       "research_candidate": false,
       "quote_last_seen_at": "2026-09-22T14:18:46.385526Z",
       "quote_source_updated_at": "2026-09-22T13:51:39Z",
-      "analysis_key": "823412:554430"
+      "analysis_key": "823412:554430",
+      "context": {
+        "status": "clear",
+        "probability_distribution": "poisson",
+        "probability_alpha": 0.0,
+        "base_projected_mean": 6.489452759221814,
+        "base_side_probability": 0.4718146973929688,
+        "baseline_opportunity": {
+          "baseline_bf": 25.0,
+          "baseline_pitches": 100.30666666666667,
+          "pitches_per_bf": 4.012266666666667
+        },
+        "market_implied_mean": 6.516931707773097,
+        "market_implied_opportunity_ratio": 1.0042344015082372,
+        "market_implied_bf": 25.10586003770593,
+        "market_over_probability": 0.47614107883817425,
+        "scenarios": [
+          {
+            "workload_ratio": 1.0,
+            "expected_bf": 25.0,
+            "projected_mean": 6.489452759221814,
+            "over_probability": 0.4718146973929692
+          },
+          {
+            "workload_ratio": 0.9,
+            "expected_bf": 22.5,
+            "projected_mean": 5.840507483299633,
+            "over_probability": 0.36809736322742287
+          },
+          {
+            "workload_ratio": 0.8,
+            "expected_bf": 20.0,
+            "projected_mean": 5.191562207377451,
+            "over_probability": 0.26632933251119717
+          },
+          {
+            "workload_ratio": 0.7,
+            "expected_bf": 17.5,
+            "projected_mean": 4.54261693145527,
+            "over_probability": 0.1744479824018433
+          }
+        ],
+        "signals": [],
+        "explicit_workload": null,
+        "context_adjusted_mean": null,
+        "context_adjusted_side_probability": null,
+        "guardrail": "Qualitative context never changes the central projection. Only explicit expected pitch-count or batters-faced evidence may create a context-adjusted projection."
+      }
     },
     {
       "game_pk": 823543,
@@ -1816,7 +2610,54 @@
       "research_candidate": false,
       "quote_last_seen_at": "2026-09-22T14:18:46.385526Z",
       "quote_source_updated_at": "2026-09-22T13:51:39Z",
-      "analysis_key": "823543:607074"
+      "analysis_key": "823543:607074",
+      "context": {
+        "status": "clear",
+        "probability_distribution": "poisson",
+        "probability_alpha": 0.0,
+        "base_projected_mean": 5.102949013329494,
+        "base_side_probability": 0.42261876665257114,
+        "baseline_opportunity": {
+          "baseline_bf": 21.546666666666667,
+          "baseline_pitches": 91.62666666666667,
+          "pitches_per_bf": 4.252475247524752
+        },
+        "market_implied_mean": 5.0689749742659735,
+        "market_implied_opportunity_ratio": 0.9933422734628984,
+        "market_implied_bf": 21.403214852213917,
+        "market_over_probability": 0.5715249662618085,
+        "scenarios": [
+          {
+            "workload_ratio": 1.0,
+            "expected_bf": 21.546666666666667,
+            "projected_mean": 5.102949013329494,
+            "over_probability": 0.5773812333474289
+          },
+          {
+            "workload_ratio": 0.9,
+            "expected_bf": 19.392,
+            "projected_mean": 4.592654111996544,
+            "over_probability": 0.4853877837668958
+          },
+          {
+            "workload_ratio": 0.8,
+            "expected_bf": 17.237333333333336,
+            "projected_mean": 4.082359210663595,
+            "over_probability": 0.3872488213190998
+          },
+          {
+            "workload_ratio": 0.7,
+            "expected_bf": 15.082666666666666,
+            "projected_mean": 3.5720643093306452,
+            "over_probability": 0.28822811902662243
+          }
+        ],
+        "signals": [],
+        "explicit_workload": null,
+        "context_adjusted_mean": null,
+        "context_adjusted_side_probability": null,
+        "guardrail": "Qualitative context never changes the central projection. Only explicit expected pitch-count or batters-faced evidence may create a context-adjusted projection."
+      }
     },
     {
       "game_pk": 824061,
@@ -1840,7 +2681,54 @@
       "research_candidate": false,
       "quote_last_seen_at": "2026-09-22T14:18:46.385526Z",
       "quote_source_updated_at": "2026-09-22T13:51:40Z",
-      "analysis_key": "824061:663738"
+      "analysis_key": "824061:663738",
+      "context": {
+        "status": "clear",
+        "probability_distribution": "poisson",
+        "probability_alpha": 0.0,
+        "base_projected_mean": 3.3974890125515342,
+        "base_side_probability": 0.44109391881434223,
+        "baseline_opportunity": {
+          "baseline_bf": 19.546666666666667,
+          "baseline_pitches": 71.97333333333333,
+          "pitches_per_bf": 3.68212824010914
+        },
+        "market_implied_mean": 3.4333790616479387,
+        "market_implied_opportunity_ratio": 1.0105636983559958,
+        "market_implied_bf": 19.75315175719853,
+        "market_over_probability": 0.44892552251987045,
+        "scenarios": [
+          {
+            "workload_ratio": 1.0,
+            "expected_bf": 19.546666666666667,
+            "projected_mean": 3.3974890125515342,
+            "over_probability": 0.44109391881434235
+          },
+          {
+            "workload_ratio": 0.9,
+            "expected_bf": 17.592000000000002,
+            "projected_mean": 3.057740111296381,
+            "over_probability": 0.36570193729824546
+          },
+          {
+            "workload_ratio": 0.8,
+            "expected_bf": 15.637333333333334,
+            "projected_mean": 2.7179912100412276,
+            "over_probability": 0.2898781840945848
+          },
+          {
+            "workload_ratio": 0.7,
+            "expected_bf": 13.682666666666666,
+            "projected_mean": 2.378242308786074,
+            "over_probability": 0.2167419562186823
+          }
+        ],
+        "signals": [],
+        "explicit_workload": null,
+        "context_adjusted_mean": null,
+        "context_adjusted_side_probability": null,
+        "guardrail": "Qualitative context never changes the central projection. Only explicit expected pitch-count or batters-faced evidence may create a context-adjusted projection."
+      }
     },
     {
       "game_pk": 823166,
@@ -1864,7 +2752,54 @@
       "research_candidate": false,
       "quote_last_seen_at": "2026-09-22T14:18:46.385526Z",
       "quote_source_updated_at": "2026-09-22T13:51:39Z",
-      "analysis_key": "823166:683627"
+      "analysis_key": "823166:683627",
+      "context": {
+        "status": "clear",
+        "probability_distribution": "poisson",
+        "probability_alpha": 0.0,
+        "base_projected_mean": 4.068250379623171,
+        "base_side_probability": 0.42025127184693034,
+        "baseline_opportunity": {
+          "baseline_bf": 20.093333333333334,
+          "baseline_pitches": 80.01333333333332,
+          "pitches_per_bf": 3.9820836098208354
+        },
+        "market_implied_mean": 4.011550976197601,
+        "market_implied_opportunity_ratio": 0.9860629513587553,
+        "market_implied_bf": 19.813291569301924,
+        "market_over_probability": 0.5687832924663905,
+        "scenarios": [
+          {
+            "workload_ratio": 1.0,
+            "expected_bf": 20.093333333333334,
+            "projected_mean": 4.068250379623171,
+            "over_probability": 0.5797487281530697
+          },
+          {
+            "workload_ratio": 0.9,
+            "expected_bf": 18.084,
+            "projected_mean": 3.661425341660854,
+            "over_probability": 0.4977664399026643
+          },
+          {
+            "workload_ratio": 0.8,
+            "expected_bf": 16.07466666666667,
+            "projected_mean": 3.254600303698537,
+            "over_probability": 0.40961271035859403
+          },
+          {
+            "workload_ratio": 0.7,
+            "expected_bf": 14.065333333333333,
+            "projected_mean": 2.8477752657362196,
+            "over_probability": 0.3187084065828781
+          }
+        ],
+        "signals": [],
+        "explicit_workload": null,
+        "context_adjusted_mean": null,
+        "context_adjusted_side_probability": null,
+        "guardrail": "Qualitative context never changes the central projection. Only explicit expected pitch-count or batters-faced evidence may create a context-adjusted projection."
+      }
     },
     {
       "game_pk": 823543,
@@ -1888,7 +2823,54 @@
       "research_candidate": false,
       "quote_last_seen_at": "2026-09-22T14:18:46.385526Z",
       "quote_source_updated_at": "2026-09-22T13:51:39Z",
-      "analysis_key": "823543:607259"
+      "analysis_key": "823543:607259",
+      "context": {
+        "status": "clear",
+        "probability_distribution": "poisson",
+        "probability_alpha": 0.0,
+        "base_projected_mean": 3.898399831569964,
+        "base_side_probability": 0.45356704760285704,
+        "baseline_opportunity": {
+          "baseline_bf": 21.493333333333332,
+          "baseline_pitches": 78.30666666666667,
+          "pitches_per_bf": 3.6433002481389583
+        },
+        "market_implied_mean": 3.8281546187613857,
+        "market_implied_opportunity_ratio": 0.9819810137893709,
+        "market_implied_bf": 21.106045256379545,
+        "market_over_probability": 0.5322580645161291,
+        "scenarios": [
+          {
+            "workload_ratio": 1.0,
+            "expected_bf": 21.493333333333332,
+            "projected_mean": 3.898399831569964,
+            "over_probability": 0.5464329523971432
+          },
+          {
+            "workload_ratio": 0.9,
+            "expected_bf": 19.344,
+            "projected_mean": 3.5085598484129674,
+            "over_probability": 0.46521328860775507
+          },
+          {
+            "workload_ratio": 0.8,
+            "expected_bf": 17.194666666666667,
+            "projected_mean": 3.1187198652559713,
+            "over_probability": 0.3793459140426471
+          },
+          {
+            "workload_ratio": 0.7,
+            "expected_bf": 15.045333333333332,
+            "projected_mean": 2.728879882098975,
+            "over_probability": 0.2922847684943471
+          }
+        ],
+        "signals": [],
+        "explicit_workload": null,
+        "context_adjusted_mean": null,
+        "context_adjusted_side_probability": null,
+        "guardrail": "Qualitative context never changes the central projection. Only explicit expected pitch-count or batters-faced evidence may create a context-adjusted projection."
+      }
     },
     {
       "game_pk": 824709,
@@ -1912,7 +2894,54 @@
       "research_candidate": false,
       "quote_last_seen_at": "2026-09-22T14:18:46.385526Z",
       "quote_source_updated_at": "2026-09-22T14:06:44Z",
-      "analysis_key": "824709:800048"
+      "analysis_key": "824709:800048",
+      "context": {
+        "status": "clear",
+        "probability_distribution": "poisson",
+        "probability_alpha": 0.0,
+        "base_projected_mean": 5.7119879829408635,
+        "base_side_probability": 0.5070248654686966,
+        "baseline_opportunity": {
+          "baseline_bf": 24.266666666666666,
+          "baseline_pitches": 95.82666666666665,
+          "pitches_per_bf": 3.9489010989010986
+        },
+        "market_implied_mean": 5.876636368277667,
+        "market_implied_opportunity_ratio": 1.0288250580758458,
+        "market_implied_bf": 24.966154742640523,
+        "market_over_probability": 0.5343073571442848,
+        "scenarios": [
+          {
+            "workload_ratio": 1.0,
+            "expected_bf": 24.266666666666666,
+            "projected_mean": 5.7119879829408635,
+            "over_probability": 0.5070248654686965
+          },
+          {
+            "workload_ratio": 0.9,
+            "expected_bf": 21.84,
+            "projected_mean": 5.140789184646778,
+            "over_probability": 0.4087271661231359
+          },
+          {
+            "workload_ratio": 0.8,
+            "expected_bf": 19.413333333333334,
+            "projected_mean": 4.569590386352691,
+            "over_probability": 0.3090011868579798
+          },
+          {
+            "workload_ratio": 0.7,
+            "expected_bf": 16.986666666666665,
+            "projected_mean": 3.9983915880586043,
+            "over_probability": 0.21461827928355035
+          }
+        ],
+        "signals": [],
+        "explicit_workload": null,
+        "context_adjusted_mean": null,
+        "context_adjusted_side_probability": null,
+        "guardrail": "Qualitative context never changes the central projection. Only explicit expected pitch-count or batters-faced evidence may create a context-adjusted projection."
+      }
     },
     {
       "game_pk": 823166,
@@ -1936,7 +2965,54 @@
       "research_candidate": false,
       "quote_last_seen_at": "2026-09-22T14:18:46.385526Z",
       "quote_source_updated_at": "2026-09-22T14:06:44Z",
-      "analysis_key": "823166:671737"
+      "analysis_key": "823166:671737",
+      "context": {
+        "status": "clear",
+        "probability_distribution": "poisson",
+        "probability_alpha": 0.0,
+        "base_projected_mean": 6.345461470303546,
+        "base_side_probability": 0.5509919940911943,
+        "baseline_opportunity": {
+          "baseline_bf": 24.333333333333336,
+          "baseline_pitches": 93.26666666666668,
+          "pitches_per_bf": 3.8328767123287673
+        },
+        "market_implied_mean": 6.155605406769238,
+        "market_implied_opportunity_ratio": 0.9700800226393581,
+        "market_implied_bf": 23.60528055089105,
+        "market_over_probability": 0.41867446085788773,
+        "scenarios": [
+          {
+            "workload_ratio": 1.0,
+            "expected_bf": 24.333333333333336,
+            "projected_mean": 6.345461470303546,
+            "over_probability": 0.4490080059088061
+          },
+          {
+            "workload_ratio": 0.9,
+            "expected_bf": 21.900000000000002,
+            "projected_mean": 5.710915323273191,
+            "over_probability": 0.34737375623504485
+          },
+          {
+            "workload_ratio": 0.8,
+            "expected_bf": 19.46666666666667,
+            "projected_mean": 5.076369176242837,
+            "over_probability": 0.24906655444267153
+          },
+          {
+            "workload_ratio": 0.7,
+            "expected_bf": 17.033333333333335,
+            "projected_mean": 4.441823029212482,
+            "over_probability": 0.1615688218262826
+          }
+        ],
+        "signals": [],
+        "explicit_workload": null,
+        "context_adjusted_mean": null,
+        "context_adjusted_side_probability": null,
+        "guardrail": "Qualitative context never changes the central projection. Only explicit expected pitch-count or batters-faced evidence may create a context-adjusted projection."
+      }
     },
     {
       "game_pk": 824061,
@@ -1960,7 +3036,54 @@
       "research_candidate": false,
       "quote_last_seen_at": "2026-09-22T14:18:46.385526Z",
       "quote_source_updated_at": "2026-09-22T13:51:39Z",
-      "analysis_key": "824061:641743"
+      "analysis_key": "824061:641743",
+      "context": {
+        "status": "clear",
+        "probability_distribution": "poisson",
+        "probability_alpha": 0.0,
+        "base_projected_mean": 3.6709110924570174,
+        "base_side_probability": 0.5002412327844523,
+        "baseline_opportunity": {
+          "baseline_bf": 20.213333333333335,
+          "baseline_pitches": 77.02666666666667,
+          "pitches_per_bf": 3.8106860158311346
+        },
+        "market_implied_mean": 3.520302682682563,
+        "market_implied_opportunity_ratio": 0.9589724714161767,
+        "market_implied_bf": 19.384030222225654,
+        "market_over_probability": 0.467741935483871,
+        "scenarios": [
+          {
+            "workload_ratio": 1.0,
+            "expected_bf": 20.213333333333335,
+            "projected_mean": 3.6709110924570174,
+            "over_probability": 0.4997587672155475
+          },
+          {
+            "workload_ratio": 0.9,
+            "expected_bf": 18.192,
+            "projected_mean": 3.3038199832113158,
+            "over_probability": 0.4205055345539571
+          },
+          {
+            "workload_ratio": 0.8,
+            "expected_bf": 16.17066666666667,
+            "projected_mean": 2.936728873965614,
+            "over_probability": 0.3385959194262235
+          },
+          {
+            "workload_ratio": 0.7,
+            "expected_bf": 14.149333333333333,
+            "projected_mean": 2.569637764719912,
+            "over_probability": 0.2574082373800186
+          }
+        ],
+        "signals": [],
+        "explicit_workload": null,
+        "context_adjusted_mean": null,
+        "context_adjusted_side_probability": null,
+        "guardrail": "Qualitative context never changes the central projection. Only explicit expected pitch-count or batters-faced evidence may create a context-adjusted projection."
+      }
     },
     {
       "game_pk": 822840,
@@ -1984,7 +3107,54 @@
       "research_candidate": false,
       "quote_last_seen_at": "2026-09-22T14:18:46.385526Z",
       "quote_source_updated_at": "2026-09-22T13:51:39Z",
-      "analysis_key": "822840:640455"
+      "analysis_key": "822840:640455",
+      "context": {
+        "status": "clear",
+        "probability_distribution": "poisson",
+        "probability_alpha": 0.0,
+        "base_projected_mean": 4.306643414492109,
+        "base_side_probability": 0.430845659952408,
+        "baseline_opportunity": {
+          "baseline_bf": 23.46666666666667,
+          "baseline_pitches": 76.77333333333334,
+          "pitches_per_bf": 3.271590909090909
+        },
+        "market_implied_mean": 4.692724933869753,
+        "market_implied_opportunity_ratio": 1.0896478956392017,
+        "market_implied_bf": 25.570403950999935,
+        "market_over_probability": 0.5040451438048622,
+        "scenarios": [
+          {
+            "workload_ratio": 1.0,
+            "expected_bf": 23.46666666666667,
+            "projected_mean": 4.306643414492109,
+            "over_probability": 0.430845659952408
+          },
+          {
+            "workload_ratio": 0.9,
+            "expected_bf": 21.12,
+            "projected_mean": 3.8759790730428985,
+            "over_probability": 0.34694925570293994
+          },
+          {
+            "workload_ratio": 0.8,
+            "expected_bf": 18.773333333333337,
+            "projected_mean": 3.4453147315936876,
+            "over_probability": 0.26427170623833995
+          },
+          {
+            "workload_ratio": 0.7,
+            "expected_bf": 16.426666666666666,
+            "projected_mean": 3.0146503901444763,
+            "over_probability": 0.18720446187676856
+          }
+        ],
+        "signals": [],
+        "explicit_workload": null,
+        "context_adjusted_mean": null,
+        "context_adjusted_side_probability": null,
+        "guardrail": "Qualitative context never changes the central projection. Only explicit expected pitch-count or batters-faced evidence may create a context-adjusted projection."
+      }
     },
     {
       "game_pk": 823089,
@@ -2008,7 +3178,54 @@
       "research_candidate": false,
       "quote_last_seen_at": "2026-09-22T14:18:46.385526Z",
       "quote_source_updated_at": "2026-09-22T14:06:44Z",
-      "analysis_key": "823089:669302"
+      "analysis_key": "823089:669302",
+      "context": {
+        "status": "clear",
+        "probability_distribution": "poisson",
+        "probability_alpha": 0.0,
+        "base_projected_mean": 6.804699276444592,
+        "base_side_probability": 0.4791977163671737,
+        "baseline_opportunity": {
+          "baseline_bf": 24.28,
+          "baseline_pitches": 97.41333333333333,
+          "pitches_per_bf": 4.0120812740252605
+        },
+        "market_implied_mean": 6.231689948702618,
+        "market_implied_opportunity_ratio": 0.9157921159388299,
+        "market_implied_bf": 22.235432574994793,
+        "market_over_probability": 0.4308576118178087,
+        "scenarios": [
+          {
+            "workload_ratio": 1.0,
+            "expected_bf": 24.28,
+            "projected_mean": 6.804699276444592,
+            "over_probability": 0.5208022836328264
+          },
+          {
+            "workload_ratio": 0.9,
+            "expected_bf": 21.852,
+            "projected_mean": 6.1242293488001325,
+            "over_probability": 0.4136428623213013
+          },
+          {
+            "workload_ratio": 0.8,
+            "expected_bf": 19.424000000000003,
+            "projected_mean": 5.443759421155674,
+            "over_probability": 0.3051511279821783
+          },
+          {
+            "workload_ratio": 0.7,
+            "expected_bf": 16.996,
+            "projected_mean": 4.7632894935112144,
+            "over_probability": 0.204087132481216
+          }
+        ],
+        "signals": [],
+        "explicit_workload": null,
+        "context_adjusted_mean": null,
+        "context_adjusted_side_probability": null,
+        "guardrail": "Qualitative context never changes the central projection. Only explicit expected pitch-count or batters-faced evidence may create a context-adjusted projection."
+      }
     },
     {
       "game_pk": 824867,
@@ -2032,7 +3249,54 @@
       "research_candidate": false,
       "quote_last_seen_at": "2026-09-22T14:18:46.385526Z",
       "quote_source_updated_at": "2026-09-22T13:51:39Z",
-      "analysis_key": "824867:682227"
+      "analysis_key": "824867:682227",
+      "context": {
+        "status": "clear",
+        "probability_distribution": "poisson",
+        "probability_alpha": 0.0,
+        "base_projected_mean": 3.645809928932914,
+        "base_side_probability": 0.2947182838353237,
+        "baseline_opportunity": {
+          "baseline_bf": 20.986666666666665,
+          "baseline_pitches": 81.09333333333333,
+          "pitches_per_bf": 3.8640406607369764
+        },
+        "market_implied_mean": 2.9236436021753116,
+        "market_implied_opportunity_ratio": 0.8019188216515247,
+        "market_implied_bf": 16.829603003726664,
+        "market_over_probability": 0.559487142754817,
+        "scenarios": [
+          {
+            "workload_ratio": 1.0,
+            "expected_bf": 20.986666666666665,
+            "projected_mean": 3.645809928932914,
+            "over_probability": 0.7052817161646763
+          },
+          {
+            "workload_ratio": 0.9,
+            "expected_bf": 18.887999999999998,
+            "projected_mean": 3.2812289360396227,
+            "over_probability": 0.6367898310421996
+          },
+          {
+            "workload_ratio": 0.8,
+            "expected_bf": 16.78933333333333,
+            "projected_mean": 2.9166479431463315,
+            "over_probability": 0.5578787045270873
+          },
+          {
+            "workload_ratio": 0.7,
+            "expected_bf": 14.690666666666663,
+            "projected_mean": 2.5520669502530398,
+            "over_probability": 0.46947167427463166
+          }
+        ],
+        "signals": [],
+        "explicit_workload": null,
+        "context_adjusted_mean": null,
+        "context_adjusted_side_probability": null,
+        "guardrail": "Qualitative context never changes the central projection. Only explicit expected pitch-count or batters-faced evidence may create a context-adjusted projection."
+      }
     },
     {
       "game_pk": 823412,
@@ -2056,7 +3320,54 @@
       "research_candidate": false,
       "quote_last_seen_at": "2026-09-22T14:18:46.385526Z",
       "quote_source_updated_at": "2026-09-22T13:51:39Z",
-      "analysis_key": "823412:669160"
+      "analysis_key": "823412:669160",
+      "context": {
+        "status": "clear",
+        "probability_distribution": "poisson",
+        "probability_alpha": 0.0,
+        "base_projected_mean": 4.254602114501879,
+        "base_side_probability": 0.3853722429625063,
+        "baseline_opportunity": {
+          "baseline_bf": 16.053333333333335,
+          "baseline_pitches": 64.96000000000001,
+          "pitches_per_bf": 4.046511627906977
+        },
+        "market_implied_mean": 3.4977038478742326,
+        "market_implied_opportunity_ratio": 0.8220989304622054,
+        "market_implied_bf": 13.197428163686604,
+        "market_over_probability": 0.4628717746700808,
+        "scenarios": [
+          {
+            "workload_ratio": 1.0,
+            "expected_bf": 16.053333333333335,
+            "projected_mean": 4.254602114501879,
+            "over_probability": 0.6146277570374938
+          },
+          {
+            "workload_ratio": 0.9,
+            "expected_bf": 14.448000000000002,
+            "projected_mean": 3.8291419030516916,
+            "over_probability": 0.5324588196077289
+          },
+          {
+            "workload_ratio": 0.8,
+            "expected_bf": 12.842666666666668,
+            "projected_mean": 3.403681691601504,
+            "over_probability": 0.4424476509456466
+          },
+          {
+            "workload_ratio": 0.7,
+            "expected_bf": 11.237333333333334,
+            "projected_mean": 2.978221480151315,
+            "over_probability": 0.34788894129905074
+          }
+        ],
+        "signals": [],
+        "explicit_workload": null,
+        "context_adjusted_mean": null,
+        "context_adjusted_side_probability": null,
+        "guardrail": "Qualitative context never changes the central projection. Only explicit expected pitch-count or batters-faced evidence may create a context-adjusted projection."
+      }
     },
     {
       "game_pk": 824709,
@@ -2080,7 +3391,54 @@
       "research_candidate": false,
       "quote_last_seen_at": "2026-09-22T14:18:46.385526Z",
       "quote_source_updated_at": "2026-09-22T13:51:39Z",
-      "analysis_key": "824709:801139"
+      "analysis_key": "824709:801139",
+      "context": {
+        "status": "clear",
+        "probability_distribution": "poisson",
+        "probability_alpha": 0.0,
+        "base_projected_mean": 7.353532272838449,
+        "base_side_probability": 0.25784847480481665,
+        "baseline_opportunity": {
+          "baseline_bf": 23.013333333333335,
+          "baseline_pitches": 95.09333333333333,
+          "pitches_per_bf": 4.132097334878331
+        },
+        "market_implied_mean": 5.289762626070619,
+        "market_implied_opportunity_ratio": 0.7193498892510851,
+        "market_implied_bf": 16.554638784631642,
+        "market_over_probability": 0.4347452530286108,
+        "scenarios": [
+          {
+            "workload_ratio": 1.0,
+            "expected_bf": 23.013333333333335,
+            "projected_mean": 7.353532272838449,
+            "over_probability": 0.7421515251951831
+          },
+          {
+            "workload_ratio": 0.9,
+            "expected_bf": 20.712000000000003,
+            "projected_mean": 6.618179045554604,
+            "over_probability": 0.6479021304575628
+          },
+          {
+            "workload_ratio": 0.8,
+            "expected_bf": 18.410666666666668,
+            "projected_mean": 5.88282581827076,
+            "over_probability": 0.53532062270091
+          },
+          {
+            "workload_ratio": 0.7,
+            "expected_bf": 16.109333333333336,
+            "projected_mean": 5.147472590986914,
+            "over_probability": 0.4098974975327285
+          }
+        ],
+        "signals": [],
+        "explicit_workload": null,
+        "context_adjusted_mean": null,
+        "context_adjusted_side_probability": null,
+        "guardrail": "Qualitative context never changes the central projection. Only explicit expected pitch-count or batters-faced evidence may create a context-adjusted projection."
+      }
     }
   ]
 }

@@ -86,6 +86,176 @@ function paProbabilityBars(market) {
     </div>`;
 }
 
+function paEscape(value) {
+  return String(value ?? '')
+    .replaceAll('&', '&amp;')
+    .replaceAll('<', '&lt;')
+    .replaceAll('>', '&gt;')
+    .replaceAll('"', '&quot;')
+    .replaceAll("'", '&#039;');
+}
+
+function paSafeUrl(value) {
+  try {
+    const url = new URL(String(value || ''));
+    return ['http:', 'https:'].includes(url.protocol) ? url.href : '';
+  } catch {
+    return '';
+  }
+}
+
+function paContextStatusLabel(status) {
+  const labels = {
+    clear: 'CLEAR',
+    watch: 'WATCH',
+    material: 'MATERIAL',
+    numeric_limit: 'NUMERIC LIMIT',
+  };
+  return labels[status] || 'UNAVAILABLE';
+}
+
+function paContextGapText(ratio) {
+  if (ratio === null || ratio === undefined || Number.isNaN(Number(ratio))) return '—';
+  const delta = (Number(ratio) - 1) * 100;
+  if (Math.abs(delta) < 0.5) return '≈ normal opportunity';
+  return `${Math.abs(delta).toFixed(0)}% ${delta < 0 ? 'less' : 'more'} opportunity`;
+}
+
+function paContextSignalList(signals) {
+  if (!signals?.length) {
+    return `<div class="pa-context-empty">No structured pregame workload signal is stored for this pitcher/game.</div>`;
+  }
+  return `
+    <div class="pa-context-signals">
+      ${signals.map((signal) => {
+        const safeUrl = paSafeUrl(signal.source_url);
+        const source = signal.source_name
+          ? (safeUrl
+            ? `<a href="${paEscape(safeUrl)}" target="_blank" rel="noopener noreferrer">${paEscape(signal.source_name)} ↗</a>`
+            : `<span>${paEscape(signal.source_name)}</span>`)
+          : '';
+        return `
+          <div class="pa-context-signal">
+            <div>
+              <span class="pa-context-signal-type">${paEscape(String(signal.signal_type || '').replaceAll('_', ' '))}</span>
+              <span class="pa-context-signal-severity">${paEscape(signal.severity || 'watch')}</span>
+            </div>
+            <p>${paEscape(signal.evidence_summary || 'Structured context signal')}</p>
+            ${source ? `<small>${source}</small>` : ''}
+          </div>`;
+      }).join('')}
+    </div>`;
+}
+
+function paContextSection(market) {
+  const context = market?.context;
+  if (!context) {
+    return `
+      <section class="pa-section pa-context">
+        <div class="pa-section-heading">
+          <div>
+            <h3>Pregame Context</h3>
+            <p>Workload diagnostics are unavailable in this snapshot.</p>
+          </div>
+        </div>
+      </section>`;
+  }
+
+  const baseline = context.baseline_opportunity || {};
+  const ratio = context.market_implied_opportunity_ratio;
+  const status = context.status || 'clear';
+  const adjusted = context.context_adjusted_mean;
+  const explicit = context.explicit_workload;
+  const selectedSide = String(market.side || 'Over');
+  const scenarioRows = (context.scenarios || []).map((scenario) => {
+    const over = Number(scenario.over_probability);
+    const sideProb = selectedSide.toLowerCase() === 'under' ? 1 - over : over;
+    return `
+      <tr>
+        <td>${Math.round(Number(scenario.workload_ratio) * 100)}%</td>
+        <td>${paNumber(scenario.expected_bf, 1)}</td>
+        <td>${paNumber(scenario.projected_mean, 2)}</td>
+        <td>${paPercent(sideProb, 1)}</td>
+      </tr>`;
+  }).join('');
+
+  const adjustedCard = adjusted === null || adjusted === undefined ? '' : `
+    <div class="pa-context-adjusted">
+      <div>
+        <span>Context-adjusted projection</span>
+        <strong>${paNumber(adjusted, 2)} K</strong>
+      </div>
+      <div>
+        <span>${selectedSide} ${Number(market.line).toFixed(1)}</span>
+        <strong>${paPercent(context.context_adjusted_side_probability)}</strong>
+      </div>
+      <p>
+        Based only on explicit quantitative workload evidence
+        ${explicit?.expected_pitches ? `· ~${paNumber(explicit.expected_pitches, 0)} pitches` : ''}
+        ${explicit?.expected_bf ? `· ~${paNumber(explicit.expected_bf, 1)} BF` : ''}.
+      </p>
+    </div>`;
+
+  return `
+    <section class="pa-section pa-context">
+      <div class="pa-section-heading pa-context-heading">
+        <div>
+          <h3>Pregame Context</h3>
+          <p>Opportunity diagnostics layered on top of the unchanged base MLB K model.</p>
+        </div>
+        <span class="pa-context-status ${status}">${paContextStatusLabel(status)}</span>
+      </div>
+
+      <div class="pa-context-metrics">
+        <div>
+          <span>Base model K</span>
+          <strong>${paNumber(context.base_projected_mean, 2)}</strong>
+        </div>
+        <div>
+          <span>Market-implied K</span>
+          <strong>${paNumber(context.market_implied_mean, 2)}</strong>
+          <small>Probability-equivalent mean</small>
+        </div>
+        <div>
+          <span>Opportunity gap</span>
+          <strong>${paContextGapText(ratio)}</strong>
+          <small>Skill held constant</small>
+        </div>
+        <div>
+          <span>Baseline BF</span>
+          <strong>${paNumber(baseline.baseline_bf, 1)}</strong>
+          <small>Recent workload estimate</small>
+        </div>
+      </div>
+
+      ${adjustedCard}
+
+      <div class="pa-context-subhead">
+        <strong>Context evidence</strong>
+        <span>Auditable signals only</span>
+      </div>
+      ${paContextSignalList(context.signals || [])}
+
+      <div class="pa-context-subhead">
+        <strong>Workload scenarios</strong>
+        <span>What the selected side looks like if opportunity changes</span>
+      </div>
+      <div class="pa-scenario-wrap">
+        <table class="pa-scenario-table">
+          <thead>
+            <tr><th>Workload</th><th>BF</th><th>Proj K</th><th>${paEscape(selectedSide)} Prob.</th></tr>
+          </thead>
+          <tbody>${scenarioRows}</tbody>
+        </table>
+      </div>
+
+      <div class="pa-context-guardrail">
+        <strong>Guardrail:</strong> qualitative context flags risk and scenarios only. It does not change the central projection.
+        A context-adjusted projection appears only when explicit expected pitch-count or batters-faced evidence is stored.
+      </div>
+    </section>`;
+}
+
 function paRender(market) {
   const player = paFindPlayer(market);
   const f = player?.features || {};
@@ -144,6 +314,8 @@ function paRender(market) {
       </div>
       ${paProbabilityBars(market)}
     </section>
+
+    ${paContextSection(market)}
 
     <section class="pa-section">
       <div class="pa-section-heading">
@@ -212,9 +384,9 @@ function paRender(market) {
     </section>
 
     <div class="pa-footnote">
-      <strong>How to read this:</strong> these values describe the pregame information available to MLB_K_v0.1.
-      They do not prove that any single statistic caused the projection or that the listed edge is a profitable wager.
-      Shadow results and CLV remain the validation layer.
+      <strong>How to read this:</strong> the base MLB_K_v0.1 projection remains separate from the Pregame Context layer.
+      Context can explain opportunity risk and show scenarios, but qualitative context does not rewrite the model.
+      These values do not prove that the listed edge is a profitable wager; shadow results and CLV remain the validation layer.
     </div>
   `;
 }
