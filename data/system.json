@@ -1,20 +1,20 @@
 {
   "schema_version": 1,
   "sample_data": false,
-  "generated_at": "2026-09-25T00:36:13.221112Z",
+  "generated_at": "2026-09-25T14:19:45.206140Z",
   "timezone": "America/New_York",
   "overall_status": "attention",
   "api_usage": {
-    "credits_remaining": 814,
+    "credits_remaining": 811,
     "last_request_cost": 3,
-    "last_collector_at": "2026-09-24T21:33:48.596164Z",
-    "rows_returned": 10
+    "last_collector_at": "2026-09-25T14:18:33.865951Z",
+    "rows_returned": 22
   },
   "model": {
     "model_version": "MLB_K_v0.1",
     "point_model": "poisson",
     "distribution": "poisson",
-    "trained_through": "2026-09-23",
+    "trained_through": "2026-09-24",
     "settled_projections": 530,
     "mae": 1.801213538161051,
     "rmse": 2.2035351747892644,
@@ -24,13 +24,13 @@
     "last_result_date": "2026-09-23"
   },
   "data_quality": {
-    "pricing_finished_at": "2026-09-24T21:33:57.648974Z",
-    "pricing_target_date": "2026-09-24",
-    "matched_markets": 10,
-    "sides_priced": 20,
-    "research_candidates": 8,
+    "pricing_finished_at": "2026-09-25T14:18:41.013694Z",
+    "pricing_target_date": "2026-09-25",
+    "matched_markets": 22,
+    "sides_priced": 44,
+    "research_candidates": 19,
     "unmatched_market_names": 0,
-    "unmatched_live_pitchers": 12,
+    "unmatched_live_pitchers": 4,
     "pricing_status": "success",
     "projection_result_rows": 538,
     "projection_settled_rows": 530,
@@ -40,30 +40,30 @@
   "components": [
     {
       "name": "Odds Collector",
-      "started_at": "2026-09-25T00:35:20.948091Z",
-      "finished_at": "2026-09-25T00:35:27.550607Z",
-      "status": "failed",
-      "error_message": "503 Server Error: Service Unavailable for url: https://parlay-api.com/v1/sports/baseball_mlb/props?markets=player_strikeouts&bookmakers=pinnacle&limit=1000&maxAgeSec=3600",
-      "rows": 0,
-      "credits_remaining": null
-    },
-    {
-      "name": "Live Projections",
-      "started_at": "2026-09-24T14:58:41.351317Z",
-      "finished_at": "2026-09-24T14:58:43.396520Z",
+      "started_at": "2026-09-25T14:18:29.968370Z",
+      "finished_at": "2026-09-25T14:18:33.865951Z",
       "status": "success",
       "error_message": null,
       "rows": 22,
-      "trained_through": "2026-09-23"
+      "credits_remaining": 811
+    },
+    {
+      "name": "Live Projections",
+      "started_at": "2026-09-25T14:18:25.095581Z",
+      "finished_at": "2026-09-25T14:18:27.832400Z",
+      "status": "success",
+      "error_message": null,
+      "rows": 26,
+      "trained_through": "2026-09-24"
     },
     {
       "name": "Market Pricing",
-      "started_at": "2026-09-24T21:33:53.554780Z",
-      "finished_at": "2026-09-24T21:33:57.648974Z",
+      "started_at": "2026-09-25T14:18:38.697317Z",
+      "finished_at": "2026-09-25T14:18:41.013694Z",
       "status": "success",
       "error_message": null,
-      "rows": 20,
-      "research_candidates": 8
+      "rows": 44,
+      "research_candidates": 19
     },
     {
       "name": "Shadow Settlement",
@@ -90,11 +90,11 @@
       "name": "Daily MLB K Today Pipeline",
       "status": "completed",
       "conclusion": "success",
-      "event": "schedule",
-      "created_at": "2026-09-24T18:26:49Z",
-      "updated_at": "2026-09-24T18:27:36Z",
-      "run_number": 54,
-      "html_url": "https://github.com/marcg129/sports-betting-command-center/actions/runs/36041283802"
+      "event": "repository_dispatch",
+      "created_at": "2026-09-25T14:17:06Z",
+      "updated_at": "2026-09-25T14:18:47Z",
+      "run_number": 55,
+      "html_url": "https://github.com/marcg129/sports-betting-command-center/actions/runs/36146445853"
     },
     {
       "name": "MLB Pitcher K Odds Collector",
@@ -126,7 +126,7 @@
     {
       "name": "Morning Today pipeline",
       "time_et": "10:17 AM",
-      "purpose": "Refresh features, score pitchers, collect odds, price market. Last start 10:58 AM ET via repository_dispatch \u00b7 delay 41 min \u00b7 success"
+      "purpose": "Refresh features, score pitchers, collect odds, price market. Last start 10:17 AM ET via repository_dispatch \u00b7 delay 1 min \u00b7 success"
     },
     {
       "name": "Market refresh",
@@ -140,14 +140,14 @@
     }
   ],
   "pipeline_timing": {
-    "pipeline_run_id": "7b3e7a2e-f310-46a0-9ed0-0a360a71643a",
-    "target_date": "2026-09-24",
-    "expected_start_at": "2026-09-24T14:17:00Z",
-    "started_at": "2026-09-24T14:58:04.772016Z",
-    "finished_at": "2026-09-24T14:59:13.194135Z",
+    "pipeline_run_id": "60129921-a627-47ba-aaef-39f1ed8c3fa0",
+    "target_date": "2026-09-25",
+    "expected_start_at": "2026-09-25T14:17:00Z",
+    "started_at": "2026-09-25T14:17:45.623278Z",
+    "finished_at": "2026-09-25T14:18:43.294654Z",
     "trigger_source": "repository_dispatch",
-    "github_run_id": "36016559842",
-    "delay_minutes": 41.0795336,
+    "github_run_id": "36146445853",
+    "delay_minutes": 0.7603879666666666,
     "status": "success",
     "error_message": null
   }
