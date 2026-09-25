@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "sample_data": false,
-  "generated_at": "2026-09-25T18:42:59.344341Z",
+  "generated_at": "2026-09-25T21:38:43.652036Z",
   "timezone": "America/New_York",
   "overall_status": "attention",
   "api_usage": {
@@ -40,12 +40,12 @@
   "components": [
     {
       "name": "Odds Collector",
-      "started_at": "2026-09-25T14:18:29.968370Z",
-      "finished_at": "2026-09-25T14:18:33.865951Z",
-      "status": "success",
-      "error_message": null,
-      "rows": 22,
-      "credits_remaining": 811
+      "started_at": "2026-09-25T21:37:52.901581Z",
+      "finished_at": "2026-09-25T21:38:00.693789Z",
+      "status": "failed",
+      "error_message": "503 Server Error: Service Unavailable for url: https://parlay-api.com/v1/sports/baseball_mlb/props?markets=player_strikeouts&bookmakers=pinnacle&limit=1000&maxAgeSec=3600",
+      "rows": 0,
+      "credits_remaining": null
     },
     {
       "name": "Live Projections",
@@ -101,10 +101,10 @@
       "status": "completed",
       "conclusion": "failure",
       "event": "schedule",
-      "created_at": "2026-09-25T00:34:32Z",
-      "updated_at": "2026-09-25T00:35:31Z",
-      "run_number": 51,
-      "html_url": "https://github.com/marcg129/sports-betting-command-center/actions/runs/36078164116"
+      "created_at": "2026-09-25T21:37:39Z",
+      "updated_at": "2026-09-25T21:38:03Z",
+      "run_number": 52,
+      "html_url": "https://github.com/marcg129/sports-betting-command-center/actions/runs/36192563806"
     },
     {
       "name": "Settle MLB K Shadow Results",
