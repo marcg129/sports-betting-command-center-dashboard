@@ -1,20 +1,20 @@
 {
   "schema_version": 1,
   "sample_data": false,
-  "generated_at": "2026-09-26T00:40:04.268372Z",
+  "generated_at": "2026-09-26T14:19:47.410000Z",
   "timezone": "America/New_York",
   "overall_status": "healthy",
   "api_usage": {
-    "credits_remaining": 808,
+    "credits_remaining": 805,
     "last_request_cost": 3,
-    "last_collector_at": "2026-09-26T00:38:57.877370Z",
-    "rows_returned": 8
+    "last_collector_at": "2026-09-26T14:18:36.849260Z",
+    "rows_returned": 18
   },
   "model": {
     "model_version": "MLB_K_v0.1",
     "point_model": "poisson",
     "distribution": "poisson",
-    "trained_through": "2026-09-24",
+    "trained_through": "2026-09-25",
     "settled_projections": 574,
     "mae": 1.8307281885749702,
     "rmse": 2.221014510117191,
@@ -24,13 +24,13 @@
     "last_result_date": "2026-09-24"
   },
   "data_quality": {
-    "pricing_finished_at": "2026-09-26T00:39:08.492659Z",
-    "pricing_target_date": "2026-09-25",
-    "matched_markets": 8,
-    "sides_priced": 16,
-    "research_candidates": 6,
-    "unmatched_market_names": 0,
-    "unmatched_live_pitchers": 18,
+    "pricing_finished_at": "2026-09-26T14:18:45.852719Z",
+    "pricing_target_date": "2026-09-26",
+    "matched_markets": 17,
+    "sides_priced": 34,
+    "research_candidates": 12,
+    "unmatched_market_names": 1,
+    "unmatched_live_pitchers": 5,
     "pricing_status": "success",
     "projection_result_rows": 582,
     "projection_settled_rows": 574,
@@ -40,30 +40,30 @@
   "components": [
     {
       "name": "Odds Collector",
-      "started_at": "2026-09-26T00:38:50.796014Z",
-      "finished_at": "2026-09-26T00:38:57.877370Z",
+      "started_at": "2026-09-26T14:18:31.976293Z",
+      "finished_at": "2026-09-26T14:18:36.849260Z",
       "status": "success",
       "error_message": null,
-      "rows": 8,
-      "credits_remaining": 808
+      "rows": 18,
+      "credits_remaining": 805
     },
     {
       "name": "Live Projections",
-      "started_at": "2026-09-25T14:18:25.095581Z",
-      "finished_at": "2026-09-25T14:18:27.832400Z",
+      "started_at": "2026-09-26T14:18:27.529051Z",
+      "finished_at": "2026-09-26T14:18:29.993788Z",
       "status": "success",
       "error_message": null,
-      "rows": 26,
-      "trained_through": "2026-09-24"
+      "rows": 22,
+      "trained_through": "2026-09-25"
     },
     {
       "name": "Market Pricing",
-      "started_at": "2026-09-26T00:39:03.299631Z",
-      "finished_at": "2026-09-26T00:39:08.492659Z",
+      "started_at": "2026-09-26T14:18:42.737451Z",
+      "finished_at": "2026-09-26T14:18:45.852719Z",
       "status": "success",
       "error_message": null,
-      "rows": 16,
-      "research_candidates": 6
+      "rows": 34,
+      "research_candidates": 12
     },
     {
       "name": "Shadow Settlement",
@@ -90,11 +90,11 @@
       "name": "Daily MLB K Today Pipeline",
       "status": "completed",
       "conclusion": "success",
-      "event": "schedule",
-      "created_at": "2026-09-25T18:41:06Z",
-      "updated_at": "2026-09-25T18:41:56Z",
-      "run_number": 57,
-      "html_url": "https://github.com/marcg129/sports-betting-command-center/actions/runs/36174985831"
+      "event": "repository_dispatch",
+      "created_at": "2026-09-26T14:17:06Z",
+      "updated_at": "2026-09-26T14:18:51Z",
+      "run_number": 58,
+      "html_url": "https://github.com/marcg129/sports-betting-command-center/actions/runs/36247983712"
     },
     {
       "name": "MLB Pitcher K Odds Collector",
@@ -140,14 +140,14 @@
     }
   ],
   "pipeline_timing": {
-    "pipeline_run_id": "60129921-a627-47ba-aaef-39f1ed8c3fa0",
-    "target_date": "2026-09-25",
-    "expected_start_at": "2026-09-25T14:17:00Z",
-    "started_at": "2026-09-25T14:17:45.623278Z",
-    "finished_at": "2026-09-25T14:18:43.294654Z",
+    "pipeline_run_id": "c9a6a2bc-f1f6-428a-b5ff-32a80a88f7c2",
+    "target_date": "2026-09-26",
+    "expected_start_at": "2026-09-26T14:17:00Z",
+    "started_at": "2026-09-26T14:17:45.057123Z",
+    "finished_at": "2026-09-26T14:18:48.314059Z",
     "trigger_source": "repository_dispatch",
-    "github_run_id": "36146445853",
-    "delay_minutes": 0.7603879666666666,
+    "github_run_id": "36247983712",
+    "delay_minutes": 0.75095205,
     "status": "success",
     "error_message": null
   }
