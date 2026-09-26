@@ -1,45 +1,45 @@
 {
   "schema_version": 1,
   "sample_data": false,
-  "generated_at": "2026-09-26T17:47:46.723384Z",
+  "generated_at": "2026-09-26T21:14:49.611470Z",
   "target_date": "2026-09-26",
   "timezone": "America/New_York",
   "model_version": "MLB_K_v0.1",
   "summary": {
-    "pitchers_priced": 17,
-    "sides_priced": 34,
-    "research_candidates": 12,
-    "unmatched_market_names": 1,
-    "unmatched_live_pitchers": 5,
-    "quotes_considered": 36,
-    "quote_pairs_found": 18,
+    "pitchers_priced": 13,
+    "sides_priced": 26,
+    "research_candidates": 8,
+    "unmatched_market_names": 0,
+    "unmatched_live_pitchers": 9,
+    "quotes_considered": 26,
+    "quote_pairs_found": 13,
     "min_edge": 0.03,
     "min_ev": 0.02,
     "max_quote_age_minutes": 180,
     "edge_buckets": {
       "0_3": 5,
-      "3_5": 1,
-      "5_10": 5,
-      "10_plus": 6
+      "3_5": 0,
+      "5_10": 3,
+      "10_plus": 5
     },
     "candidate_sides": {
-      "over": 6,
-      "under": 6
+      "over": 5,
+      "under": 3
     }
   },
   "freshness": {
-    "latest_quote_seen_at": "2026-09-26T14:18:34.514179Z",
-    "collector_finished_at": "2026-09-26T14:18:36.849260Z",
-    "credits_remaining": 805,
+    "latest_quote_seen_at": "2026-09-26T21:13:51.451367Z",
+    "collector_finished_at": "2026-09-26T21:13:55.466191Z",
+    "credits_remaining": 802,
     "live_scoring_finished_at": "2026-09-26T14:18:29.993788Z",
-    "market_pricing_finished_at": "2026-09-26T14:18:45.852719Z"
+    "market_pricing_finished_at": "2026-09-26T21:14:05.875035Z"
   },
   "recent_runs": [
     {
       "name": "Odds Collector",
-      "finished_at": "2026-09-26T14:18:36.849260Z",
+      "finished_at": "2026-09-26T21:13:55.466191Z",
       "status": "success",
-      "detail": "18 quotes"
+      "detail": "13 quotes"
     },
     {
       "name": "Live Projections",
@@ -49,12 +49,19 @@
     },
     {
       "name": "Market Pricing",
-      "finished_at": "2026-09-26T14:18:45.852719Z",
+      "finished_at": "2026-09-26T21:14:05.875035Z",
       "status": "success",
-      "detail": "34 sides \u00b7 12 candidates"
+      "detail": "26 sides \u00b7 8 candidates"
     }
   ],
   "issues": [
+    {
+      "issue_type": "live_pitcher_without_fresh_market",
+      "player_name": "Blake Snell",
+      "sportsbook": null,
+      "line": null,
+      "detail": "Scored probable starter had no fresh two-sided pitcher-K market quote."
+    },
     {
       "issue_type": "live_pitcher_without_fresh_market",
       "player_name": "Brent Suter",
@@ -65,6 +72,20 @@
     {
       "issue_type": "live_pitcher_without_fresh_market",
       "player_name": "Connelly Early",
+      "sportsbook": null,
+      "line": null,
+      "detail": "Scored probable starter had no fresh two-sided pitcher-K market quote."
+    },
+    {
+      "issue_type": "live_pitcher_without_fresh_market",
+      "player_name": "Griffin Jax",
+      "sportsbook": null,
+      "line": null,
+      "detail": "Scored probable starter had no fresh two-sided pitcher-K market quote."
+    },
+    {
+      "issue_type": "live_pitcher_without_fresh_market",
+      "player_name": "Jonah Tong",
       "sportsbook": null,
       "line": null,
       "detail": "Scored probable starter had no fresh two-sided pitcher-K market quote."
@@ -91,11 +112,11 @@
       "detail": "Scored probable starter had no fresh two-sided pitcher-K market quote."
     },
     {
-      "issue_type": "market_name_not_live_scored",
-      "player_name": "Matthew Wilkinson",
-      "sportsbook": "Pinnacle",
-      "line": 3.5,
-      "detail": "Fresh two-sided market quote had no uniquely scored probable starter for the target date."
+      "issue_type": "live_pitcher_without_fresh_market",
+      "player_name": "Trey Yesavage",
+      "sportsbook": null,
+      "line": null,
+      "detail": "Scored probable starter had no fresh two-sided pitcher-K market quote."
     }
   ],
   "players": [
@@ -191,97 +212,6 @@
       ]
     },
     {
-      "analysis_key": "823165:605483",
-      "game_pk": 823165,
-      "game_datetime": "2026-09-26T20:05:00Z",
-      "pitcher_id": 605483,
-      "pitcher_name": "Blake Snell",
-      "team": "Los Angeles Dodgers",
-      "team_abbr": "LAD",
-      "opponent": "San Francisco Giants",
-      "opponent_abbr": "SF",
-      "throwing_hand": "L",
-      "home_away": "away",
-      "venue_name": "Oracle Park",
-      "projected_k": 5.444696725223476,
-      "features": {
-        "rest_days": 9,
-        "days_since_last_start": 10,
-        "prior_start_strikeouts": 1,
-        "prior_start_pitches": 19,
-        "prior_start_batters_faced": 3,
-        "avg_k_l3": 5.333333333333333,
-        "avg_k_l5": 6.4,
-        "avg_k_l10": 6.9,
-        "avg_pitches_l3": 73.33333333333333,
-        "avg_pitches_l5": 82.6,
-        "avg_bf_l3": 16.0,
-        "avg_bf_l5": 18.8,
-        "k_per_bf_l5": 0.3404255319148936,
-        "swstr_l5": 0.16908212560386474,
-        "csw_l5": 0.321256038647343,
-        "whiff_l5": 0.35353535353535354,
-        "velo_l3": 88.44413375021713,
-        "season_velo_prior": 89.27067101921558,
-        "velo_delta_l3_vs_season": -0.8265372689984503,
-        "opponent_k_rate_season_prior": 0.21955288621955288,
-        "opponent_k_rate_l14d": 0.2895927601809955,
-        "opponent_k_rate_l30d": 0.24951076320939333,
-        "opponent_k_rate_vs_hand_season_prior": 0.2361419068736142,
-        "opponent_k_rate_vs_hand_l30d": 0.24242424242424243,
-        "opponent_whiff_rate_l14d": 0.2993939393939394,
-        "opponent_contact_rate_l14d": 0.7006060606060607
-      },
-      "context_signals": [],
-      "recent_starts": [
-        {
-          "game_date": "2026-09-16",
-          "opponent": "Cincinnati Reds",
-          "opponent_abbr": "CIN",
-          "home_away": "away",
-          "strikeouts": 1,
-          "pitches": 19,
-          "batters_faced": 3
-        },
-        {
-          "game_date": "2026-09-11",
-          "opponent": "Miami Marlins",
-          "opponent_abbr": "MIA",
-          "home_away": "away",
-          "strikeouts": 8,
-          "pitches": 101,
-          "batters_faced": 22
-        },
-        {
-          "game_date": "2026-09-04",
-          "opponent": "Washington Nationals",
-          "opponent_abbr": "WSH",
-          "home_away": "home",
-          "strikeouts": 7,
-          "pitches": 100,
-          "batters_faced": 23
-        },
-        {
-          "game_date": "2026-08-29",
-          "opponent": "Detroit Tigers",
-          "opponent_abbr": "DET",
-          "home_away": "away",
-          "strikeouts": 10,
-          "pitches": 99,
-          "batters_faced": 22
-        },
-        {
-          "game_date": "2026-08-23",
-          "opponent": "Pittsburgh Pirates",
-          "opponent_abbr": "PIT",
-          "home_away": "home",
-          "strikeouts": 6,
-          "pitches": 94,
-          "batters_faced": 24
-        }
-      ]
-    },
-    {
       "analysis_key": "823733:669160",
       "game_pk": 823733,
       "game_datetime": "2026-09-26T23:10:00Z",
@@ -369,370 +299,6 @@
           "strikeouts": 4,
           "pitches": 97,
           "batters_faced": 23
-        }
-      ]
-    },
-    {
-      "analysis_key": "823083:807739",
-      "game_pk": 823083,
-      "game_datetime": "2026-09-27T01:40:00Z",
-      "pitcher_id": 807739,
-      "pitcher_name": "Kade Anderson",
-      "team": "Seattle Mariners",
-      "team_abbr": "SEA",
-      "opponent": "Los Angeles Angels",
-      "opponent_abbr": "LAA",
-      "throwing_hand": "L",
-      "home_away": "home",
-      "venue_name": "T-Mobile Park",
-      "projected_k": 5.383198376402285,
-      "features": {
-        "rest_days": 5,
-        "days_since_last_start": 6,
-        "prior_start_strikeouts": 7,
-        "prior_start_pitches": 84,
-        "prior_start_batters_faced": 24,
-        "avg_k_l3": 5.666666666666667,
-        "avg_k_l5": 4.6,
-        "avg_k_l10": 4.666666666666667,
-        "avg_pitches_l3": 79.0,
-        "avg_pitches_l5": 80.2,
-        "avg_bf_l3": 22.666666666666668,
-        "avg_bf_l5": 21.8,
-        "k_per_bf_l5": 0.21100917431192662,
-        "swstr_l5": 0.12718204488778054,
-        "csw_l5": 0.2518703241895262,
-        "whiff_l5": 0.22972972972972974,
-        "velo_l3": 88.57770429159318,
-        "season_velo_prior": 88.6396798792966,
-        "velo_delta_l3_vs_season": -0.06197558770341516,
-        "opponent_k_rate_season_prior": 0.25411334552102377,
-        "opponent_k_rate_l14d": 0.2677165354330709,
-        "opponent_k_rate_l30d": 0.2697768762677485,
-        "opponent_k_rate_vs_hand_season_prior": 0.24928856004553215,
-        "opponent_k_rate_vs_hand_l30d": 0.24731182795698925,
-        "opponent_whiff_rate_l14d": 0.3002092050209205,
-        "opponent_contact_rate_l14d": 0.6997907949790795
-      },
-      "context_signals": [],
-      "recent_starts": [
-        {
-          "game_date": "2026-09-20",
-          "opponent": "Colorado Rockies",
-          "opponent_abbr": "COL",
-          "home_away": "away",
-          "strikeouts": 7,
-          "pitches": 84,
-          "batters_faced": 24
-        },
-        {
-          "game_date": "2026-09-14",
-          "opponent": "Los Angeles Angels",
-          "opponent_abbr": "LAA",
-          "home_away": "away",
-          "strikeouts": 5,
-          "pitches": 72,
-          "batters_faced": 20
-        },
-        {
-          "game_date": "2026-09-09",
-          "opponent": "Texas Rangers",
-          "opponent_abbr": "TEX",
-          "home_away": "home",
-          "strikeouts": 5,
-          "pitches": 81,
-          "batters_faced": 24
-        },
-        {
-          "game_date": "2026-09-03",
-          "opponent": "Athletics",
-          "opponent_abbr": "ATH",
-          "home_away": "home",
-          "strikeouts": 3,
-          "pitches": 79,
-          "batters_faced": 22
-        },
-        {
-          "game_date": "2026-08-29",
-          "opponent": "Toronto Blue Jays",
-          "opponent_abbr": "TOR",
-          "home_away": "away",
-          "strikeouts": 3,
-          "pitches": 85,
-          "batters_faced": 19
-        }
-      ]
-    },
-    {
-      "analysis_key": "824543:663436",
-      "game_pk": 824543,
-      "game_datetime": "2026-09-26T23:10:00Z",
-      "pitcher_id": 663436,
-      "pitcher_name": "Davis Martin",
-      "team": "Chicago White Sox",
-      "team_abbr": "CWS",
-      "opponent": "Colorado Rockies",
-      "opponent_abbr": "COL",
-      "throwing_hand": "R",
-      "home_away": "home",
-      "venue_name": "Rate Field",
-      "projected_k": 3.7073836104610245,
-      "features": {
-        "rest_days": 5,
-        "days_since_last_start": 6,
-        "prior_start_strikeouts": 6,
-        "prior_start_pitches": 70,
-        "prior_start_batters_faced": 18,
-        "avg_k_l3": 3.3333333333333335,
-        "avg_k_l5": 2.8,
-        "avg_k_l10": 3.1,
-        "avg_pitches_l3": 72.66666666666667,
-        "avg_pitches_l5": 55.2,
-        "avg_bf_l3": 20.0,
-        "avg_bf_l5": 15.4,
-        "k_per_bf_l5": 0.18181818181818182,
-        "swstr_l5": 0.11231884057971014,
-        "csw_l5": 0.2826086956521739,
-        "whiff_l5": 0.2421875,
-        "velo_l3": 89.45100840336136,
-        "season_velo_prior": 89.93507454384547,
-        "velo_delta_l3_vs_season": -0.4840661404841171,
-        "opponent_k_rate_season_prior": 0.22767419038272815,
-        "opponent_k_rate_l14d": 0.21169354838709678,
-        "opponent_k_rate_l30d": 0.2313649564375605,
-        "opponent_k_rate_vs_hand_season_prior": 0.2199617041646721,
-        "opponent_k_rate_vs_hand_l30d": 0.23136645962732919,
-        "opponent_whiff_rate_l14d": 0.24344176285414482,
-        "opponent_contact_rate_l14d": 0.7565582371458552
-      },
-      "context_signals": [],
-      "recent_starts": [
-        {
-          "game_date": "2026-09-20",
-          "opponent": "Detroit Tigers",
-          "opponent_abbr": "DET",
-          "home_away": "home",
-          "strikeouts": 6,
-          "pitches": 70,
-          "batters_faced": 18
-        },
-        {
-          "game_date": "2026-09-09",
-          "opponent": "Pittsburgh Pirates",
-          "opponent_abbr": "PIT",
-          "home_away": "home",
-          "strikeouts": 1,
-          "pitches": 68,
-          "batters_faced": 19
-        },
-        {
-          "game_date": "2026-09-02",
-          "opponent": "Houston Astros",
-          "opponent_abbr": "HOU",
-          "home_away": "away",
-          "strikeouts": 3,
-          "pitches": 80,
-          "batters_faced": 23
-        },
-        {
-          "game_date": "2026-08-13",
-          "opponent": "Cincinnati Reds",
-          "opponent_abbr": "CIN",
-          "home_away": "home",
-          "strikeouts": 3,
-          "pitches": 35,
-          "batters_faced": 11
-        },
-        {
-          "game_date": "2026-08-09",
-          "opponent": "Cleveland Guardians",
-          "opponent_abbr": "CLE",
-          "home_away": "home",
-          "strikeouts": 1,
-          "pitches": 23,
-          "batters_faced": 6
-        }
-      ]
-    },
-    {
-      "analysis_key": "824543:500779",
-      "game_pk": 824543,
-      "game_datetime": "2026-09-26T23:10:00Z",
-      "pitcher_id": 500779,
-      "pitcher_name": "Jose Quintana",
-      "team": "Colorado Rockies",
-      "team_abbr": "COL",
-      "opponent": "Chicago White Sox",
-      "opponent_abbr": "CWS",
-      "throwing_hand": "L",
-      "home_away": "away",
-      "venue_name": "Rate Field",
-      "projected_k": 3.154332020214441,
-      "features": {
-        "rest_days": 6,
-        "days_since_last_start": 7,
-        "prior_start_strikeouts": 2,
-        "prior_start_pitches": 70,
-        "prior_start_batters_faced": 18,
-        "avg_k_l3": 2.0,
-        "avg_k_l5": 2.0,
-        "avg_k_l10": 2.2,
-        "avg_pitches_l3": 65.66666666666667,
-        "avg_pitches_l5": 68.8,
-        "avg_bf_l3": 17.666666666666668,
-        "avg_bf_l5": 18.8,
-        "k_per_bf_l5": 0.10638297872340426,
-        "swstr_l5": 0.09565217391304348,
-        "csw_l5": 0.21739130434782608,
-        "whiff_l5": 0.19186046511627908,
-        "velo_l3": 85.13119615608979,
-        "season_velo_prior": 85.67175907284467,
-        "velo_delta_l3_vs_season": -0.5405629167548796,
-        "opponent_k_rate_season_prior": 0.24170616113744076,
-        "opponent_k_rate_l14d": 0.2622309197651663,
-        "opponent_k_rate_l30d": 0.2562862669245648,
-        "opponent_k_rate_vs_hand_season_prior": 0.24563380281690142,
-        "opponent_k_rate_vs_hand_l30d": 0.25461254612546125,
-        "opponent_whiff_rate_l14d": 0.28555555555555556,
-        "opponent_contact_rate_l14d": 0.7144444444444444
-      },
-      "context_signals": [],
-      "recent_starts": [
-        {
-          "game_date": "2026-09-19",
-          "opponent": "Seattle Mariners",
-          "opponent_abbr": "SEA",
-          "home_away": "home",
-          "strikeouts": 2,
-          "pitches": 70,
-          "batters_faced": 18
-        },
-        {
-          "game_date": "2026-05-24",
-          "opponent": "Arizona Diamondbacks",
-          "opponent_abbr": "ARI",
-          "home_away": "away",
-          "strikeouts": 0,
-          "pitches": 33,
-          "batters_faced": 10
-        },
-        {
-          "game_date": "2026-05-18",
-          "opponent": "Texas Rangers",
-          "opponent_abbr": "TEX",
-          "home_away": "home",
-          "strikeouts": 4,
-          "pitches": 94,
-          "batters_faced": 25
-        },
-        {
-          "game_date": "2026-05-13",
-          "opponent": "Pittsburgh Pirates",
-          "opponent_abbr": "PIT",
-          "home_away": "away",
-          "strikeouts": 2,
-          "pitches": 73,
-          "batters_faced": 19
-        },
-        {
-          "game_date": "2026-05-07",
-          "opponent": "New York Mets",
-          "opponent_abbr": "NYM",
-          "home_away": "home",
-          "strikeouts": 2,
-          "pitches": 74,
-          "batters_faced": 22
-        }
-      ]
-    },
-    {
-      "analysis_key": "822759:702056",
-      "game_pk": 822759,
-      "game_datetime": "2026-09-26T19:07:00Z",
-      "pitcher_id": 702056,
-      "pitcher_name": "Trey Yesavage",
-      "team": "Toronto Blue Jays",
-      "team_abbr": "TOR",
-      "opponent": "Cincinnati Reds",
-      "opponent_abbr": "CIN",
-      "throwing_hand": "R",
-      "home_away": "home",
-      "venue_name": "Rogers Centre",
-      "projected_k": 4.455892043625318,
-      "features": {
-        "rest_days": 4,
-        "days_since_last_start": 5,
-        "prior_start_strikeouts": 3,
-        "prior_start_pitches": 40,
-        "prior_start_batters_faced": 7,
-        "avg_k_l3": 2.3333333333333335,
-        "avg_k_l5": 5.0,
-        "avg_k_l10": 4.7,
-        "avg_pitches_l3": 54.666666666666664,
-        "avg_pitches_l5": 70.4,
-        "avg_bf_l3": 13.333333333333334,
-        "avg_bf_l5": 16.4,
-        "k_per_bf_l5": 0.3048780487804878,
-        "swstr_l5": 0.1590909090909091,
-        "csw_l5": 0.32954545454545453,
-        "whiff_l5": 0.32748538011695905,
-        "velo_l3": 88.75656898307243,
-        "season_velo_prior": 89.31885288340125,
-        "velo_delta_l3_vs_season": -0.562283900328822,
-        "opponent_k_rate_season_prior": 0.2548888517466154,
-        "opponent_k_rate_l14d": 0.259656652360515,
-        "opponent_k_rate_l30d": 0.2649214659685864,
-        "opponent_k_rate_vs_hand_season_prior": 0.2553575456801263,
-        "opponent_k_rate_vs_hand_l30d": 0.2625,
-        "opponent_whiff_rate_l14d": 0.2631578947368421,
-        "opponent_contact_rate_l14d": 0.736842105263158
-      },
-      "context_signals": [],
-      "recent_starts": [
-        {
-          "game_date": "2026-09-21",
-          "opponent": "Baltimore Orioles",
-          "opponent_abbr": "BAL",
-          "home_away": "away",
-          "strikeouts": 3,
-          "pitches": 40,
-          "batters_faced": 7
-        },
-        {
-          "game_date": "2026-08-04",
-          "opponent": "Houston Astros",
-          "opponent_abbr": "HOU",
-          "home_away": "away",
-          "strikeouts": 0,
-          "pitches": 27,
-          "batters_faced": 7
-        },
-        {
-          "game_date": "2026-07-29",
-          "opponent": "Washington Nationals",
-          "opponent_abbr": "WSH",
-          "home_away": "away",
-          "strikeouts": 4,
-          "pitches": 97,
-          "batters_faced": 26
-        },
-        {
-          "game_date": "2026-07-24",
-          "opponent": "Boston Red Sox",
-          "opponent_abbr": "BOS",
-          "home_away": "away",
-          "strikeouts": 9,
-          "pitches": 93,
-          "batters_faced": 18
-        },
-        {
-          "game_date": "2026-07-19",
-          "opponent": "Chicago White Sox",
-          "opponent_abbr": "CWS",
-          "home_away": "home",
-          "strikeouts": 9,
-          "pitches": 95,
-          "batters_faced": 24
         }
       ]
     },
@@ -828,6 +394,188 @@
       ]
     },
     {
+      "analysis_key": "823083:807739",
+      "game_pk": 823083,
+      "game_datetime": "2026-09-27T01:40:00Z",
+      "pitcher_id": 807739,
+      "pitcher_name": "Kade Anderson",
+      "team": "Seattle Mariners",
+      "team_abbr": "SEA",
+      "opponent": "Los Angeles Angels",
+      "opponent_abbr": "LAA",
+      "throwing_hand": "L",
+      "home_away": "home",
+      "venue_name": "T-Mobile Park",
+      "projected_k": 5.383198376402285,
+      "features": {
+        "rest_days": 5,
+        "days_since_last_start": 6,
+        "prior_start_strikeouts": 7,
+        "prior_start_pitches": 84,
+        "prior_start_batters_faced": 24,
+        "avg_k_l3": 5.666666666666667,
+        "avg_k_l5": 4.6,
+        "avg_k_l10": 4.666666666666667,
+        "avg_pitches_l3": 79.0,
+        "avg_pitches_l5": 80.2,
+        "avg_bf_l3": 22.666666666666668,
+        "avg_bf_l5": 21.8,
+        "k_per_bf_l5": 0.21100917431192662,
+        "swstr_l5": 0.12718204488778054,
+        "csw_l5": 0.2518703241895262,
+        "whiff_l5": 0.22972972972972974,
+        "velo_l3": 88.57770429159318,
+        "season_velo_prior": 88.6396798792966,
+        "velo_delta_l3_vs_season": -0.06197558770341516,
+        "opponent_k_rate_season_prior": 0.25411334552102377,
+        "opponent_k_rate_l14d": 0.2677165354330709,
+        "opponent_k_rate_l30d": 0.2697768762677485,
+        "opponent_k_rate_vs_hand_season_prior": 0.24928856004553215,
+        "opponent_k_rate_vs_hand_l30d": 0.24731182795698925,
+        "opponent_whiff_rate_l14d": 0.3002092050209205,
+        "opponent_contact_rate_l14d": 0.6997907949790795
+      },
+      "context_signals": [],
+      "recent_starts": [
+        {
+          "game_date": "2026-09-20",
+          "opponent": "Colorado Rockies",
+          "opponent_abbr": "COL",
+          "home_away": "away",
+          "strikeouts": 7,
+          "pitches": 84,
+          "batters_faced": 24
+        },
+        {
+          "game_date": "2026-09-14",
+          "opponent": "Los Angeles Angels",
+          "opponent_abbr": "LAA",
+          "home_away": "away",
+          "strikeouts": 5,
+          "pitches": 72,
+          "batters_faced": 20
+        },
+        {
+          "game_date": "2026-09-09",
+          "opponent": "Texas Rangers",
+          "opponent_abbr": "TEX",
+          "home_away": "home",
+          "strikeouts": 5,
+          "pitches": 81,
+          "batters_faced": 24
+        },
+        {
+          "game_date": "2026-09-03",
+          "opponent": "Athletics",
+          "opponent_abbr": "ATH",
+          "home_away": "home",
+          "strikeouts": 3,
+          "pitches": 79,
+          "batters_faced": 22
+        },
+        {
+          "game_date": "2026-08-29",
+          "opponent": "Toronto Blue Jays",
+          "opponent_abbr": "TOR",
+          "home_away": "away",
+          "strikeouts": 3,
+          "pitches": 85,
+          "batters_faced": 19
+        }
+      ]
+    },
+    {
+      "analysis_key": "824543:500779",
+      "game_pk": 824543,
+      "game_datetime": "2026-09-26T23:10:00Z",
+      "pitcher_id": 500779,
+      "pitcher_name": "Jose Quintana",
+      "team": "Colorado Rockies",
+      "team_abbr": "COL",
+      "opponent": "Chicago White Sox",
+      "opponent_abbr": "CWS",
+      "throwing_hand": "L",
+      "home_away": "away",
+      "venue_name": "Rate Field",
+      "projected_k": 3.154332020214441,
+      "features": {
+        "rest_days": 6,
+        "days_since_last_start": 7,
+        "prior_start_strikeouts": 2,
+        "prior_start_pitches": 70,
+        "prior_start_batters_faced": 18,
+        "avg_k_l3": 2.0,
+        "avg_k_l5": 2.0,
+        "avg_k_l10": 2.2,
+        "avg_pitches_l3": 65.66666666666667,
+        "avg_pitches_l5": 68.8,
+        "avg_bf_l3": 17.666666666666668,
+        "avg_bf_l5": 18.8,
+        "k_per_bf_l5": 0.10638297872340426,
+        "swstr_l5": 0.09565217391304348,
+        "csw_l5": 0.21739130434782608,
+        "whiff_l5": 0.19186046511627908,
+        "velo_l3": 85.13119615608979,
+        "season_velo_prior": 85.67175907284467,
+        "velo_delta_l3_vs_season": -0.5405629167548796,
+        "opponent_k_rate_season_prior": 0.24170616113744076,
+        "opponent_k_rate_l14d": 0.2622309197651663,
+        "opponent_k_rate_l30d": 0.2562862669245648,
+        "opponent_k_rate_vs_hand_season_prior": 0.24563380281690142,
+        "opponent_k_rate_vs_hand_l30d": 0.25461254612546125,
+        "opponent_whiff_rate_l14d": 0.28555555555555556,
+        "opponent_contact_rate_l14d": 0.7144444444444444
+      },
+      "context_signals": [],
+      "recent_starts": [
+        {
+          "game_date": "2026-09-19",
+          "opponent": "Seattle Mariners",
+          "opponent_abbr": "SEA",
+          "home_away": "home",
+          "strikeouts": 2,
+          "pitches": 70,
+          "batters_faced": 18
+        },
+        {
+          "game_date": "2026-05-24",
+          "opponent": "Arizona Diamondbacks",
+          "opponent_abbr": "ARI",
+          "home_away": "away",
+          "strikeouts": 0,
+          "pitches": 33,
+          "batters_faced": 10
+        },
+        {
+          "game_date": "2026-05-18",
+          "opponent": "Texas Rangers",
+          "opponent_abbr": "TEX",
+          "home_away": "home",
+          "strikeouts": 4,
+          "pitches": 94,
+          "batters_faced": 25
+        },
+        {
+          "game_date": "2026-05-13",
+          "opponent": "Pittsburgh Pirates",
+          "opponent_abbr": "PIT",
+          "home_away": "away",
+          "strikeouts": 2,
+          "pitches": 73,
+          "batters_faced": 19
+        },
+        {
+          "game_date": "2026-05-07",
+          "opponent": "New York Mets",
+          "opponent_abbr": "NYM",
+          "home_away": "home",
+          "strikeouts": 2,
+          "pitches": 74,
+          "batters_faced": 22
+        }
+      ]
+    },
+    {
       "analysis_key": "823733:687273",
       "game_pk": 823733,
       "game_datetime": "2026-09-26T23:10:00Z",
@@ -919,93 +667,93 @@
       ]
     },
     {
-      "analysis_key": "824949:669713",
-      "game_pk": 824949,
-      "game_datetime": "2026-09-27T01:40:00Z",
-      "pitcher_id": 669713,
-      "pitcher_name": "Hayden Wesneski",
-      "team": "Houston Astros",
-      "team_abbr": "HOU",
-      "opponent": "Athletics",
-      "opponent_abbr": "ATH",
+      "analysis_key": "824543:663436",
+      "game_pk": 824543,
+      "game_datetime": "2026-09-26T23:10:00Z",
+      "pitcher_id": 663436,
+      "pitcher_name": "Davis Martin",
+      "team": "Chicago White Sox",
+      "team_abbr": "CWS",
+      "opponent": "Colorado Rockies",
+      "opponent_abbr": "COL",
       "throwing_hand": "R",
-      "home_away": "away",
-      "venue_name": "Sutter Health Park",
-      "projected_k": 4.007910877603991,
+      "home_away": "home",
+      "venue_name": "Rate Field",
+      "projected_k": 3.7073836104610245,
       "features": {
-        "rest_days": 6,
-        "days_since_last_start": 7,
-        "prior_start_strikeouts": 3,
-        "prior_start_pitches": 79,
-        "prior_start_batters_faced": 21,
-        "avg_k_l3": 2.6666666666666665,
-        "avg_k_l5": 3.8,
-        "avg_k_l10": 4.1,
-        "avg_pitches_l3": 74.33333333333333,
-        "avg_pitches_l5": 80.8,
-        "avg_bf_l3": 20.333333333333332,
-        "avg_bf_l5": 21.2,
-        "k_per_bf_l5": 0.1792452830188679,
-        "swstr_l5": 0.08168316831683169,
-        "csw_l5": 0.2623762376237624,
-        "whiff_l5": 0.1736842105263158,
-        "velo_l3": 88.6138807278232,
-        "season_velo_prior": 88.232543138457,
-        "velo_delta_l3_vs_season": 0.381337589366197,
-        "opponent_k_rate_season_prior": 0.2237969676994067,
-        "opponent_k_rate_l14d": 0.21818181818181817,
-        "opponent_k_rate_l30d": 0.21627188465499486,
-        "opponent_k_rate_vs_hand_season_prior": 0.21533638775018085,
-        "opponent_k_rate_vs_hand_l30d": 0.2197070572569907,
-        "opponent_whiff_rate_l14d": 0.26364692218350755,
-        "opponent_contact_rate_l14d": 0.7363530778164924
+        "rest_days": 5,
+        "days_since_last_start": 6,
+        "prior_start_strikeouts": 6,
+        "prior_start_pitches": 70,
+        "prior_start_batters_faced": 18,
+        "avg_k_l3": 3.3333333333333335,
+        "avg_k_l5": 2.8,
+        "avg_k_l10": 3.1,
+        "avg_pitches_l3": 72.66666666666667,
+        "avg_pitches_l5": 55.2,
+        "avg_bf_l3": 20.0,
+        "avg_bf_l5": 15.4,
+        "k_per_bf_l5": 0.18181818181818182,
+        "swstr_l5": 0.11231884057971014,
+        "csw_l5": 0.2826086956521739,
+        "whiff_l5": 0.2421875,
+        "velo_l3": 89.45100840336136,
+        "season_velo_prior": 89.93507454384547,
+        "velo_delta_l3_vs_season": -0.4840661404841171,
+        "opponent_k_rate_season_prior": 0.22767419038272815,
+        "opponent_k_rate_l14d": 0.21169354838709678,
+        "opponent_k_rate_l30d": 0.2313649564375605,
+        "opponent_k_rate_vs_hand_season_prior": 0.2199617041646721,
+        "opponent_k_rate_vs_hand_l30d": 0.23136645962732919,
+        "opponent_whiff_rate_l14d": 0.24344176285414482,
+        "opponent_contact_rate_l14d": 0.7565582371458552
       },
       "context_signals": [],
       "recent_starts": [
         {
-          "game_date": "2026-09-19",
-          "opponent": "Atlanta Braves",
-          "opponent_abbr": "ATL",
+          "game_date": "2026-09-20",
+          "opponent": "Detroit Tigers",
+          "opponent_abbr": "DET",
           "home_away": "home",
-          "strikeouts": 3,
-          "pitches": 79,
-          "batters_faced": 21
-        },
-        {
-          "game_date": "2026-09-13",
-          "opponent": "Tampa Bay Rays",
-          "opponent_abbr": "TB",
-          "home_away": "away",
-          "strikeouts": 2,
-          "pitches": 62,
+          "strikeouts": 6,
+          "pitches": 70,
           "batters_faced": 18
         },
         {
-          "game_date": "2026-09-08",
-          "opponent": "Philadelphia Phillies",
-          "opponent_abbr": "PHI",
-          "home_away": "away",
-          "strikeouts": 3,
-          "pitches": 82,
-          "batters_faced": 22
+          "game_date": "2026-09-09",
+          "opponent": "Pittsburgh Pirates",
+          "opponent_abbr": "PIT",
+          "home_away": "home",
+          "strikeouts": 1,
+          "pitches": 68,
+          "batters_faced": 19
         },
         {
           "game_date": "2026-09-02",
-          "opponent": "Chicago White Sox",
-          "opponent_abbr": "CWS",
-          "home_away": "home",
-          "strikeouts": 5,
-          "pitches": 90,
-          "batters_faced": 25
+          "opponent": "Houston Astros",
+          "opponent_abbr": "HOU",
+          "home_away": "away",
+          "strikeouts": 3,
+          "pitches": 80,
+          "batters_faced": 23
         },
         {
-          "game_date": "2026-08-27",
-          "opponent": "New York Yankees",
-          "opponent_abbr": "NYY",
-          "home_away": "away",
-          "strikeouts": 6,
-          "pitches": 91,
-          "batters_faced": 20
+          "game_date": "2026-08-13",
+          "opponent": "Cincinnati Reds",
+          "opponent_abbr": "CIN",
+          "home_away": "home",
+          "strikeouts": 3,
+          "pitches": 35,
+          "batters_faced": 11
+        },
+        {
+          "game_date": "2026-08-09",
+          "opponent": "Cleveland Guardians",
+          "opponent_abbr": "CLE",
+          "home_away": "home",
+          "strikeouts": 1,
+          "pitches": 23,
+          "batters_faced": 6
         }
       ]
     },
@@ -1096,279 +844,6 @@
           "home_away": "home",
           "strikeouts": 2,
           "pitches": 88,
-          "batters_faced": 21
-        }
-      ]
-    },
-    {
-      "analysis_key": "823653:641927",
-      "game_pk": 823653,
-      "game_datetime": "2026-09-26T20:10:00Z",
-      "pitcher_id": 641927,
-      "pitcher_name": "Bailey Ober",
-      "team": "Minnesota Twins",
-      "team_abbr": "MIN",
-      "opponent": "Texas Rangers",
-      "opponent_abbr": "TEX",
-      "throwing_hand": "R",
-      "home_away": "home",
-      "venue_name": "Target Field",
-      "projected_k": 4.400110700475404,
-      "features": {
-        "rest_days": 10,
-        "days_since_last_start": 11,
-        "prior_start_strikeouts": 3,
-        "prior_start_pitches": 101,
-        "prior_start_batters_faced": 27,
-        "avg_k_l3": 4.666666666666667,
-        "avg_k_l5": 4.2,
-        "avg_k_l10": 3.7,
-        "avg_pitches_l3": 88.33333333333333,
-        "avg_pitches_l5": 89.2,
-        "avg_bf_l3": 22.666666666666668,
-        "avg_bf_l5": 22.0,
-        "k_per_bf_l5": 0.19090909090909092,
-        "swstr_l5": 0.1031390134529148,
-        "csw_l5": 0.2399103139013453,
-        "whiff_l5": 0.2026431718061674,
-        "velo_l3": 83.29519114411441,
-        "season_velo_prior": 83.53140190058043,
-        "velo_delta_l3_vs_season": -0.23621075646602208,
-        "opponent_k_rate_season_prior": 0.22948353668728064,
-        "opponent_k_rate_l14d": 0.2545454545454545,
-        "opponent_k_rate_l30d": 0.24173553719008264,
-        "opponent_k_rate_vs_hand_season_prior": 0.22566055701023566,
-        "opponent_k_rate_vs_hand_l30d": 0.24369747899159663,
-        "opponent_whiff_rate_l14d": 0.27409988385598144,
-        "opponent_contact_rate_l14d": 0.7259001161440186
-      },
-      "context_signals": [],
-      "recent_starts": [
-        {
-          "game_date": "2026-09-15",
-          "opponent": "New York Yankees",
-          "opponent_abbr": "NYY",
-          "home_away": "home",
-          "strikeouts": 3,
-          "pitches": 101,
-          "batters_faced": 27
-        },
-        {
-          "game_date": "2026-09-06",
-          "opponent": "Chicago White Sox",
-          "opponent_abbr": "CWS",
-          "home_away": "away",
-          "strikeouts": 6,
-          "pitches": 84,
-          "batters_faced": 21
-        },
-        {
-          "game_date": "2026-08-29",
-          "opponent": "Chicago White Sox",
-          "opponent_abbr": "CWS",
-          "home_away": "home",
-          "strikeouts": 5,
-          "pitches": 80,
-          "batters_faced": 20
-        },
-        {
-          "game_date": "2026-08-23",
-          "opponent": "San Diego Padres",
-          "opponent_abbr": "SD",
-          "home_away": "away",
-          "strikeouts": 3,
-          "pitches": 87,
-          "batters_faced": 22
-        },
-        {
-          "game_date": "2026-08-17",
-          "opponent": "Atlanta Braves",
-          "opponent_abbr": "ATL",
-          "home_away": "home",
-          "strikeouts": 4,
-          "pitches": 94,
-          "batters_faced": 20
-        }
-      ]
-    },
-    {
-      "analysis_key": "822678:804636",
-      "game_pk": 822678,
-      "game_datetime": "2026-09-26T16:35:00Z",
-      "pitcher_id": 804636,
-      "pitcher_name": "Jonah Tong",
-      "team": "New York Mets",
-      "team_abbr": "NYM",
-      "opponent": "Washington Nationals",
-      "opponent_abbr": "WSH",
-      "throwing_hand": "R",
-      "home_away": "away",
-      "venue_name": "Nationals Park",
-      "projected_k": 4.677800401115754,
-      "features": {
-        "rest_days": 5,
-        "days_since_last_start": 6,
-        "prior_start_strikeouts": 5,
-        "prior_start_pitches": 95,
-        "prior_start_batters_faced": 23,
-        "avg_k_l3": 6.0,
-        "avg_k_l5": 5.4,
-        "avg_k_l10": 5.0,
-        "avg_pitches_l3": 88.33333333333333,
-        "avg_pitches_l5": 80.6,
-        "avg_bf_l3": 22.333333333333332,
-        "avg_bf_l5": 19.8,
-        "k_per_bf_l5": 0.2727272727272727,
-        "swstr_l5": 0.13366336633663367,
-        "csw_l5": 0.29455445544554454,
-        "whiff_l5": 0.26865671641791045,
-        "velo_l3": 90.32005796932435,
-        "season_velo_prior": 90.32005796932435,
-        "velo_delta_l3_vs_season": 0.0,
-        "opponent_k_rate_season_prior": 0.21656361861373252,
-        "opponent_k_rate_l14d": 0.19806763285024154,
-        "opponent_k_rate_l30d": 0.22115384615384615,
-        "opponent_k_rate_vs_hand_season_prior": 0.20756907360111446,
-        "opponent_k_rate_vs_hand_l30d": 0.21725239616613418,
-        "opponent_whiff_rate_l14d": 0.245136186770428,
-        "opponent_contact_rate_l14d": 0.754863813229572
-      },
-      "context_signals": [],
-      "recent_starts": [
-        {
-          "game_date": "2026-09-20",
-          "opponent": "Philadelphia Phillies",
-          "opponent_abbr": "PHI",
-          "home_away": "home",
-          "strikeouts": 5,
-          "pitches": 95,
-          "batters_faced": 23
-        },
-        {
-          "game_date": "2026-09-14",
-          "opponent": "Baltimore Orioles",
-          "opponent_abbr": "BAL",
-          "home_away": "home",
-          "strikeouts": 6,
-          "pitches": 83,
-          "batters_faced": 23
-        },
-        {
-          "game_date": "2026-09-07",
-          "opponent": "Miami Marlins",
-          "opponent_abbr": "MIA",
-          "home_away": "away",
-          "strikeouts": 7,
-          "pitches": 87,
-          "batters_faced": 21
-        },
-        {
-          "game_date": "2026-03-21",
-          "opponent": "Houston Astros",
-          "opponent_abbr": "HOU",
-          "home_away": "home",
-          "strikeouts": 5,
-          "pitches": 79,
-          "batters_faced": 19
-        },
-        {
-          "game_date": "2026-03-03",
-          "opponent": "Nicaragua",
-          "opponent_abbr": "N",
-          "home_away": "home",
-          "strikeouts": 3,
-          "pitches": 54,
-          "batters_faced": 12
-        }
-      ]
-    },
-    {
-      "analysis_key": "823407:643377",
-      "game_pk": 823407,
-      "game_datetime": "2026-09-26T23:15:00Z",
-      "pitcher_id": 643377,
-      "pitcher_name": "Griffin Jax",
-      "team": "Tampa Bay Rays",
-      "team_abbr": "TB",
-      "opponent": "Philadelphia Phillies",
-      "opponent_abbr": "PHI",
-      "throwing_hand": "R",
-      "home_away": "away",
-      "venue_name": "Citizens Bank Park",
-      "projected_k": 4.707354287554994,
-      "features": {
-        "rest_days": 5,
-        "days_since_last_start": 6,
-        "prior_start_strikeouts": 5,
-        "prior_start_pitches": 74,
-        "prior_start_batters_faced": 19,
-        "avg_k_l3": 4.666666666666667,
-        "avg_k_l5": 4.6,
-        "avg_k_l10": 5.7,
-        "avg_pitches_l3": 69.0,
-        "avg_pitches_l5": 70.4,
-        "avg_bf_l3": 17.666666666666668,
-        "avg_bf_l5": 18.2,
-        "k_per_bf_l5": 0.25274725274725274,
-        "swstr_l5": 0.12215909090909091,
-        "csw_l5": 0.3153409090909091,
-        "whiff_l5": 0.25595238095238093,
-        "velo_l3": 91.39397117606073,
-        "season_velo_prior": 91.56943915709967,
-        "velo_delta_l3_vs_season": -0.1754679810389348,
-        "opponent_k_rate_season_prior": 0.2172103861517976,
-        "opponent_k_rate_l14d": 0.168141592920354,
-        "opponent_k_rate_l30d": 0.18698347107438015,
-        "opponent_k_rate_vs_hand_season_prior": 0.21737009026591853,
-        "opponent_k_rate_vs_hand_l30d": 0.19148936170212766,
-        "opponent_whiff_rate_l14d": 0.2139240506329114,
-        "opponent_contact_rate_l14d": 0.7860759493670886
-      },
-      "context_signals": [],
-      "recent_starts": [
-        {
-          "game_date": "2026-09-20",
-          "opponent": "Boston Red Sox",
-          "opponent_abbr": "BOS",
-          "home_away": "home",
-          "strikeouts": 5,
-          "pitches": 74,
-          "batters_faced": 19
-        },
-        {
-          "game_date": "2026-09-15",
-          "opponent": "Athletics",
-          "opponent_abbr": "ATH",
-          "home_away": "home",
-          "strikeouts": 7,
-          "pitches": 67,
-          "batters_faced": 17
-        },
-        {
-          "game_date": "2026-09-09",
-          "opponent": "Atlanta Braves",
-          "opponent_abbr": "ATL",
-          "home_away": "away",
-          "strikeouts": 2,
-          "pitches": 66,
-          "batters_faced": 17
-        },
-        {
-          "game_date": "2026-09-02",
-          "opponent": "New York Mets",
-          "opponent_abbr": "NYM",
-          "home_away": "home",
-          "strikeouts": 1,
-          "pitches": 63,
-          "batters_faced": 17
-        },
-        {
-          "game_date": "2026-08-02",
-          "opponent": "Chicago White Sox",
-          "opponent_abbr": "CWS",
-          "home_away": "home",
-          "strikeouts": 8,
-          "pitches": 82,
           "batters_faced": 21
         }
       ]
@@ -1556,6 +1031,188 @@
       ]
     },
     {
+      "analysis_key": "823653:641927",
+      "game_pk": 823653,
+      "game_datetime": "2026-09-26T20:10:00Z",
+      "pitcher_id": 641927,
+      "pitcher_name": "Bailey Ober",
+      "team": "Minnesota Twins",
+      "team_abbr": "MIN",
+      "opponent": "Texas Rangers",
+      "opponent_abbr": "TEX",
+      "throwing_hand": "R",
+      "home_away": "home",
+      "venue_name": "Target Field",
+      "projected_k": 4.400110700475404,
+      "features": {
+        "rest_days": 10,
+        "days_since_last_start": 11,
+        "prior_start_strikeouts": 3,
+        "prior_start_pitches": 101,
+        "prior_start_batters_faced": 27,
+        "avg_k_l3": 4.666666666666667,
+        "avg_k_l5": 4.2,
+        "avg_k_l10": 3.7,
+        "avg_pitches_l3": 88.33333333333333,
+        "avg_pitches_l5": 89.2,
+        "avg_bf_l3": 22.666666666666668,
+        "avg_bf_l5": 22.0,
+        "k_per_bf_l5": 0.19090909090909092,
+        "swstr_l5": 0.1031390134529148,
+        "csw_l5": 0.2399103139013453,
+        "whiff_l5": 0.2026431718061674,
+        "velo_l3": 83.29519114411441,
+        "season_velo_prior": 83.53140190058043,
+        "velo_delta_l3_vs_season": -0.23621075646602208,
+        "opponent_k_rate_season_prior": 0.22948353668728064,
+        "opponent_k_rate_l14d": 0.2545454545454545,
+        "opponent_k_rate_l30d": 0.24173553719008264,
+        "opponent_k_rate_vs_hand_season_prior": 0.22566055701023566,
+        "opponent_k_rate_vs_hand_l30d": 0.24369747899159663,
+        "opponent_whiff_rate_l14d": 0.27409988385598144,
+        "opponent_contact_rate_l14d": 0.7259001161440186
+      },
+      "context_signals": [],
+      "recent_starts": [
+        {
+          "game_date": "2026-09-15",
+          "opponent": "New York Yankees",
+          "opponent_abbr": "NYY",
+          "home_away": "home",
+          "strikeouts": 3,
+          "pitches": 101,
+          "batters_faced": 27
+        },
+        {
+          "game_date": "2026-09-06",
+          "opponent": "Chicago White Sox",
+          "opponent_abbr": "CWS",
+          "home_away": "away",
+          "strikeouts": 6,
+          "pitches": 84,
+          "batters_faced": 21
+        },
+        {
+          "game_date": "2026-08-29",
+          "opponent": "Chicago White Sox",
+          "opponent_abbr": "CWS",
+          "home_away": "home",
+          "strikeouts": 5,
+          "pitches": 80,
+          "batters_faced": 20
+        },
+        {
+          "game_date": "2026-08-23",
+          "opponent": "San Diego Padres",
+          "opponent_abbr": "SD",
+          "home_away": "away",
+          "strikeouts": 3,
+          "pitches": 87,
+          "batters_faced": 22
+        },
+        {
+          "game_date": "2026-08-17",
+          "opponent": "Atlanta Braves",
+          "opponent_abbr": "ATL",
+          "home_away": "home",
+          "strikeouts": 4,
+          "pitches": 94,
+          "batters_faced": 20
+        }
+      ]
+    },
+    {
+      "analysis_key": "824949:669713",
+      "game_pk": 824949,
+      "game_datetime": "2026-09-27T01:40:00Z",
+      "pitcher_id": 669713,
+      "pitcher_name": "Hayden Wesneski",
+      "team": "Houston Astros",
+      "team_abbr": "HOU",
+      "opponent": "Athletics",
+      "opponent_abbr": "ATH",
+      "throwing_hand": "R",
+      "home_away": "away",
+      "venue_name": "Sutter Health Park",
+      "projected_k": 4.007910877603991,
+      "features": {
+        "rest_days": 6,
+        "days_since_last_start": 7,
+        "prior_start_strikeouts": 3,
+        "prior_start_pitches": 79,
+        "prior_start_batters_faced": 21,
+        "avg_k_l3": 2.6666666666666665,
+        "avg_k_l5": 3.8,
+        "avg_k_l10": 4.1,
+        "avg_pitches_l3": 74.33333333333333,
+        "avg_pitches_l5": 80.8,
+        "avg_bf_l3": 20.333333333333332,
+        "avg_bf_l5": 21.2,
+        "k_per_bf_l5": 0.1792452830188679,
+        "swstr_l5": 0.08168316831683169,
+        "csw_l5": 0.2623762376237624,
+        "whiff_l5": 0.1736842105263158,
+        "velo_l3": 88.6138807278232,
+        "season_velo_prior": 88.232543138457,
+        "velo_delta_l3_vs_season": 0.381337589366197,
+        "opponent_k_rate_season_prior": 0.2237969676994067,
+        "opponent_k_rate_l14d": 0.21818181818181817,
+        "opponent_k_rate_l30d": 0.21627188465499486,
+        "opponent_k_rate_vs_hand_season_prior": 0.21533638775018085,
+        "opponent_k_rate_vs_hand_l30d": 0.2197070572569907,
+        "opponent_whiff_rate_l14d": 0.26364692218350755,
+        "opponent_contact_rate_l14d": 0.7363530778164924
+      },
+      "context_signals": [],
+      "recent_starts": [
+        {
+          "game_date": "2026-09-19",
+          "opponent": "Atlanta Braves",
+          "opponent_abbr": "ATL",
+          "home_away": "home",
+          "strikeouts": 3,
+          "pitches": 79,
+          "batters_faced": 21
+        },
+        {
+          "game_date": "2026-09-13",
+          "opponent": "Tampa Bay Rays",
+          "opponent_abbr": "TB",
+          "home_away": "away",
+          "strikeouts": 2,
+          "pitches": 62,
+          "batters_faced": 18
+        },
+        {
+          "game_date": "2026-09-08",
+          "opponent": "Philadelphia Phillies",
+          "opponent_abbr": "PHI",
+          "home_away": "away",
+          "strikeouts": 3,
+          "pitches": 82,
+          "batters_faced": 22
+        },
+        {
+          "game_date": "2026-09-02",
+          "opponent": "Chicago White Sox",
+          "opponent_abbr": "CWS",
+          "home_away": "home",
+          "strikeouts": 5,
+          "pitches": 90,
+          "batters_faced": 25
+        },
+        {
+          "game_date": "2026-08-27",
+          "opponent": "New York Yankees",
+          "opponent_abbr": "NYY",
+          "home_away": "away",
+          "strikeouts": 6,
+          "pitches": 91,
+          "batters_faced": 20
+        }
+      ]
+    },
+    {
       "analysis_key": "823245:621111",
       "game_pk": 823245,
       "game_datetime": "2026-09-27T00:40:00Z",
@@ -1662,14 +1319,14 @@
       "sportsbook": "Pinnacle",
       "side": "Over",
       "line": 3.5,
-      "american_odds": -104,
+      "american_odds": 124,
       "model_probability": 0.7134877389899177,
-      "market_fair_probability": 0.48124062031015497,
-      "edge_pp": 23.22471186797627,
-      "ev": 0.3995333125628051,
+      "market_fair_probability": 0.4175858808698393,
+      "edge_pp": 29.590185812007842,
+      "ev": 0.5982125353374157,
       "research_candidate": true,
-      "quote_last_seen_at": "2026-09-26T14:18:34.514179Z",
-      "quote_source_updated_at": "2026-09-26T13:57:06Z",
+      "quote_last_seen_at": "2026-09-26T21:13:51.451367Z",
+      "quote_source_updated_at": "2026-09-26T20:59:49Z",
       "analysis_key": "823653:543135",
       "context": {
         "status": "clear",
@@ -1682,10 +1339,10 @@
           "baseline_pitches": 90.25333333333333,
           "pitches_per_bf": 3.779452819653824
         },
-        "market_implied_mean": 3.583346334387442,
-        "market_implied_opportunity_ratio": 0.7386253284631525,
-        "market_implied_bf": 17.638372843700086,
-        "market_over_probability": 0.48124062031015497,
+        "market_implied_mean": 3.290606909566704,
+        "market_implied_opportunity_ratio": 0.6782837556329353,
+        "market_implied_bf": 16.197416084514497,
+        "market_over_probability": 0.4175858808698393,
         "scenarios": [
           {
             "workload_ratio": 1.0,
@@ -1720,77 +1377,6 @@
       }
     },
     {
-      "game_pk": 823165,
-      "game_datetime": "2026-09-26T20:05:00Z",
-      "pitcher_id": 605483,
-      "pitcher_name": "Blake Snell",
-      "team": "Los Angeles Dodgers",
-      "team_abbr": "LAD",
-      "opponent": "San Francisco Giants",
-      "opponent_abbr": "SF",
-      "throwing_hand": "L",
-      "projected_k": 5.444696725223476,
-      "sportsbook": "Pinnacle",
-      "side": "Under",
-      "line": 8.5,
-      "american_odds": -301,
-      "model_probability": 0.8989912168055896,
-      "market_fair_probability": 0.7021112217154234,
-      "edge_pp": 19.687999509016617,
-      "ev": 0.19765947280004337,
-      "research_candidate": true,
-      "quote_last_seen_at": "2026-09-26T14:18:34.514179Z",
-      "quote_source_updated_at": "2026-09-26T13:27:07Z",
-      "analysis_key": "823165:605483",
-      "context": {
-        "status": "clear",
-        "probability_distribution": "poisson",
-        "probability_alpha": 0.0,
-        "base_projected_mean": 5.444696725223476,
-        "base_side_probability": 0.8989912168055896,
-        "baseline_opportunity": {
-          "baseline_bf": 17.68,
-          "baseline_pitches": 78.89333333333333,
-          "pitches_per_bf": 4.462292609351433
-        },
-        "market_implied_mean": 7.204164544104907,
-        "market_implied_opportunity_ratio": 1.3231525845563443,
-        "market_implied_bf": 23.393337694956166,
-        "market_over_probability": 0.2978887782845766,
-        "scenarios": [
-          {
-            "workload_ratio": 1.0,
-            "expected_bf": 17.68,
-            "projected_mean": 5.444696725223476,
-            "over_probability": 0.10100878319441037
-          },
-          {
-            "workload_ratio": 0.9,
-            "expected_bf": 15.912,
-            "projected_mean": 4.900227052701129,
-            "over_probability": 0.06177510356238383
-          },
-          {
-            "workload_ratio": 0.8,
-            "expected_bf": 14.144,
-            "projected_mean": 4.3557573801787814,
-            "over_probability": 0.03394444188467705
-          },
-          {
-            "workload_ratio": 0.7,
-            "expected_bf": 12.376,
-            "projected_mean": 3.811287707656433,
-            "over_probability": 0.01625848870705818
-          }
-        ],
-        "signals": [],
-        "explicit_workload": null,
-        "context_adjusted_mean": null,
-        "context_adjusted_side_probability": null,
-        "guardrail": "Qualitative context never changes the central projection. Only explicit expected pitch-count or batters-faced evidence may create a context-adjusted projection."
-      }
-    },
-    {
       "game_pk": 823733,
       "game_datetime": "2026-09-26T23:10:00Z",
       "pitcher_id": 669160,
@@ -1804,14 +1390,14 @@
       "sportsbook": "Pinnacle",
       "side": "Over",
       "line": 3.5,
-      "american_odds": 136,
+      "american_odds": 176,
       "model_probability": 0.5792330123582399,
-      "market_fair_probability": 0.3958706356311549,
-      "edge_pp": 18.3362376727085,
-      "ev": 0.36698990916544605,
+      "market_fair_probability": 0.3386406844106464,
+      "edge_pp": 24.05923279475935,
+      "ev": 0.5986831141087419,
       "research_candidate": true,
-      "quote_last_seen_at": "2026-09-26T14:18:34.514179Z",
-      "quote_source_updated_at": "2026-09-26T13:57:06Z",
+      "quote_last_seen_at": "2026-09-26T21:13:51.451367Z",
+      "quote_source_updated_at": "2026-09-26T20:44:40Z",
       "analysis_key": "823733:669160",
       "context": {
         "status": "clear",
@@ -1824,10 +1410,10 @@
           "baseline_pitches": 66.49333333333334,
           "pitches_per_bf": 4.1011513157894735
         },
-        "market_implied_mean": 3.1927710470170556,
-        "market_implied_opportunity_ratio": 0.7853203774570503,
-        "market_implied_bf": 12.73266105317031,
-        "market_over_probability": 0.3958706356311549,
+        "market_implied_mean": 2.9369288151860893,
+        "market_implied_opportunity_ratio": 0.7223913057784961,
+        "market_implied_bf": 11.712371037688683,
+        "market_over_probability": 0.3386406844106464,
         "scenarios": [
           {
             "workload_ratio": 1.0,
@@ -1862,6 +1448,77 @@
       }
     },
     {
+      "game_pk": 824057,
+      "game_datetime": "2026-09-26T23:10:00Z",
+      "pitcher_id": 608379,
+      "pitcher_name": "Michael Wacha",
+      "team": "Kansas City Royals",
+      "team_abbr": "KC",
+      "opponent": "Cleveland Guardians",
+      "opponent_abbr": "CLE",
+      "throwing_hand": "R",
+      "projected_k": 4.588483119595801,
+      "sportsbook": "Pinnacle",
+      "side": "Over",
+      "line": 3.5,
+      "american_odds": -132,
+      "model_probability": 0.6724119264644708,
+      "market_fair_probability": 0.532258064516129,
+      "edge_pp": 14.015386194834178,
+      "ev": 0.18181506406771875,
+      "research_candidate": true,
+      "quote_last_seen_at": "2026-09-26T21:13:51.451367Z",
+      "quote_source_updated_at": "2026-09-26T20:14:37Z",
+      "analysis_key": "824057:608379",
+      "context": {
+        "status": "clear",
+        "probability_distribution": "poisson",
+        "probability_alpha": 0.0,
+        "base_projected_mean": 4.588483119595801,
+        "base_side_probability": 0.6724119264644708,
+        "baseline_opportunity": {
+          "baseline_bf": 25.226666666666667,
+          "baseline_pitches": 101.14666666666668,
+          "pitches_per_bf": 4.009513742071882
+        },
+        "market_implied_mean": 3.8281546187613857,
+        "market_implied_opportunity_ratio": 0.8342963282163295,
+        "market_implied_bf": 21.04651537313727,
+        "market_over_probability": 0.532258064516129,
+        "scenarios": [
+          {
+            "workload_ratio": 1.0,
+            "expected_bf": 25.226666666666667,
+            "projected_mean": 4.588483119595801,
+            "over_probability": 0.6724119264644708
+          },
+          {
+            "workload_ratio": 0.9,
+            "expected_bf": 22.704,
+            "projected_mean": 4.129634807636221,
+            "over_probability": 0.5914374506095419
+          },
+          {
+            "workload_ratio": 0.8,
+            "expected_bf": 20.181333333333335,
+            "projected_mean": 3.6707864956766407,
+            "over_probability": 0.49973261998584934
+          },
+          {
+            "workload_ratio": 0.7,
+            "expected_bf": 17.658666666666665,
+            "projected_mean": 3.2119381837170606,
+            "over_probability": 0.40013689642118777
+          }
+        ],
+        "signals": [],
+        "explicit_workload": null,
+        "context_adjusted_mean": null,
+        "context_adjusted_side_probability": null,
+        "guardrail": "Qualitative context never changes the central projection. Only explicit expected pitch-count or batters-faced evidence may create a context-adjusted projection."
+      }
+    },
+    {
       "game_pk": 823083,
       "game_datetime": "2026-09-27T01:40:00Z",
       "pitcher_id": 807739,
@@ -1875,14 +1532,14 @@
       "sportsbook": "Pinnacle",
       "side": "Under",
       "line": 5.5,
-      "american_odds": 138,
+      "american_odds": 123,
       "model_probability": 0.5490375675208363,
-      "market_fair_probability": 0.3952569169960474,
-      "edge_pp": 15.37806505247889,
-      "ev": 0.30670941069959046,
+      "market_fair_probability": 0.41923394524550595,
+      "edge_pp": 12.980362227533037,
+      "ev": 0.22435377557146507,
       "research_candidate": true,
-      "quote_last_seen_at": "2026-09-26T14:18:34.514179Z",
-      "quote_source_updated_at": "2026-09-26T13:26:56Z",
+      "quote_last_seen_at": "2026-09-26T21:13:51.451367Z",
+      "quote_source_updated_at": "2026-09-26T20:29:37Z",
       "analysis_key": "823083:807739",
       "context": {
         "status": "clear",
@@ -1895,10 +1552,10 @@
           "baseline_pitches": 79.72,
           "pitches_per_bf": 3.599638771824202
         },
-        "market_implied_mean": 6.323199572200894,
-        "market_implied_opportunity_ratio": 1.1746176027840969,
-        "market_implied_bf": 26.013864509658468,
-        "market_over_probability": 0.6047430830039526,
+        "market_implied_mean": 6.1670526683655496,
+        "market_implied_opportunity_ratio": 1.1456112588009681,
+        "market_implied_bf": 25.371470678245444,
+        "market_over_probability": 0.580766054754494,
         "scenarios": [
           {
             "workload_ratio": 1.0,
@@ -1935,77 +1592,6 @@
     {
       "game_pk": 824543,
       "game_datetime": "2026-09-26T23:10:00Z",
-      "pitcher_id": 663436,
-      "pitcher_name": "Davis Martin",
-      "team": "Chicago White Sox",
-      "team_abbr": "CWS",
-      "opponent": "Colorado Rockies",
-      "opponent_abbr": "COL",
-      "throwing_hand": "R",
-      "projected_k": 3.7073836104610245,
-      "sportsbook": "Pinnacle",
-      "side": "Under",
-      "line": 4.5,
-      "american_odds": -154,
-      "model_probability": 0.6857934173266701,
-      "market_fair_probability": 0.5658861733037088,
-      "edge_pp": 11.990724402296127,
-      "ev": 0.13111405866116055,
-      "research_candidate": true,
-      "quote_last_seen_at": "2026-09-26T14:18:34.514179Z",
-      "quote_source_updated_at": "2026-09-26T14:12:17Z",
-      "analysis_key": "824543:663436",
-      "context": {
-        "status": "clear",
-        "probability_distribution": "poisson",
-        "probability_alpha": 0.0,
-        "base_projected_mean": 3.7073836104610245,
-        "base_side_probability": 0.6857934173266701,
-        "baseline_opportunity": {
-          "baseline_bf": 17.240000000000002,
-          "baseline_pitches": 62.18666666666667,
-          "pitches_per_bf": 3.607115235885537
-        },
-        "market_implied_mean": 4.323570313849473,
-        "market_implied_opportunity_ratio": 1.1662052725403895,
-        "market_implied_bf": 20.105378898596317,
-        "market_over_probability": 0.43411382669629117,
-        "scenarios": [
-          {
-            "workload_ratio": 1.0,
-            "expected_bf": 17.240000000000002,
-            "projected_mean": 3.7073836104610245,
-            "over_probability": 0.31420658267333024
-          },
-          {
-            "workload_ratio": 0.9,
-            "expected_bf": 15.516000000000002,
-            "projected_mean": 3.336645249414922,
-            "over_probability": 0.24411377653538757
-          },
-          {
-            "workload_ratio": 0.8,
-            "expected_bf": 13.792000000000002,
-            "projected_mean": 2.9659068883688198,
-            "over_probability": 0.17904096416012322
-          },
-          {
-            "workload_ratio": 0.7,
-            "expected_bf": 12.068000000000001,
-            "projected_mean": 2.595168527322717,
-            "over_probability": 0.12189412493847614
-          }
-        ],
-        "signals": [],
-        "explicit_workload": null,
-        "context_adjusted_mean": null,
-        "context_adjusted_side_probability": null,
-        "guardrail": "Qualitative context never changes the central projection. Only explicit expected pitch-count or batters-faced evidence may create a context-adjusted projection."
-      }
-    },
-    {
-      "game_pk": 824543,
-      "game_datetime": "2026-09-26T23:10:00Z",
       "pitcher_id": 500779,
       "pitcher_name": "Jose Quintana",
       "team": "Colorado Rockies",
@@ -2019,12 +1605,12 @@
       "line": 3.5,
       "american_odds": -115,
       "model_probability": 0.6126996243147733,
-      "market_fair_probability": 0.5041554124246831,
-      "edge_pp": 10.854421189009022,
+      "market_fair_probability": 0.5,
+      "edge_pp": 11.269962431477332,
       "ev": 0.14548177313204902,
       "research_candidate": true,
-      "quote_last_seen_at": "2026-09-26T14:18:34.514179Z",
-      "quote_source_updated_at": "2026-09-26T13:26:56Z",
+      "quote_last_seen_at": "2026-09-26T21:13:51.451367Z",
+      "quote_source_updated_at": "2026-09-26T20:14:37Z",
       "analysis_key": "824543:500779",
       "context": {
         "status": "clear",
@@ -2037,10 +1623,10 @@
           "baseline_pitches": 67.54666666666667,
           "pitches_per_bf": 3.681686046511628
         },
-        "market_implied_mean": 3.6522905108171484,
-        "market_implied_opportunity_ratio": 1.157864957592148,
-        "market_implied_bf": 21.242962421957277,
-        "market_over_probability": 0.4958445875753169,
+        "market_implied_mean": 3.672060748850897,
+        "market_implied_opportunity_ratio": 1.1641326040881579,
+        "market_implied_bf": 21.35795284300407,
+        "market_over_probability": 0.5,
         "scenarios": [
           {
             "workload_ratio": 1.0,
@@ -2075,148 +1661,6 @@
       }
     },
     {
-      "game_pk": 822759,
-      "game_datetime": "2026-09-26T19:07:00Z",
-      "pitcher_id": 702056,
-      "pitcher_name": "Trey Yesavage",
-      "team": "Toronto Blue Jays",
-      "team_abbr": "TOR",
-      "opponent": "Cincinnati Reds",
-      "opponent_abbr": "CIN",
-      "throwing_hand": "R",
-      "projected_k": 4.455892043625318,
-      "sportsbook": "Pinnacle",
-      "side": "Over",
-      "line": 3.5,
-      "american_odds": -142,
-      "model_probability": 0.6502076300664126,
-      "market_fair_probability": 0.5543606364172068,
-      "edge_pp": 9.58469936492058,
-      "ev": 0.10810009834993206,
-      "research_candidate": true,
-      "quote_last_seen_at": "2026-09-26T14:18:34.514179Z",
-      "quote_source_updated_at": "2026-09-26T13:26:56Z",
-      "analysis_key": "822759:702056",
-      "context": {
-        "status": "clear",
-        "probability_distribution": "poisson",
-        "probability_alpha": 0.0,
-        "base_projected_mean": 4.455892043625318,
-        "base_side_probability": 0.6502076300664126,
-        "baseline_opportunity": {
-          "baseline_bf": 15.173333333333332,
-          "baseline_pitches": 64.10666666666667,
-          "pitches_per_bf": 4.224956063268893
-        },
-        "market_implied_mean": 3.9381834030471685,
-        "market_implied_opportunity_ratio": 0.8838148151908678,
-        "market_implied_bf": 13.410416795829432,
-        "market_over_probability": 0.5543606364172068,
-        "scenarios": [
-          {
-            "workload_ratio": 1.0,
-            "expected_bf": 15.173333333333332,
-            "projected_mean": 4.455892043625318,
-            "over_probability": 0.6502076300664126
-          },
-          {
-            "workload_ratio": 0.9,
-            "expected_bf": 13.655999999999999,
-            "projected_mean": 4.010302839262787,
-            "over_probability": 0.5685401158556844
-          },
-          {
-            "workload_ratio": 0.8,
-            "expected_bf": 12.138666666666666,
-            "projected_mean": 3.5647136349002544,
-            "over_probability": 0.47726489573281894
-          },
-          {
-            "workload_ratio": 0.7,
-            "expected_bf": 10.621333333333332,
-            "projected_mean": 3.1191244305377226,
-            "over_probability": 0.3794363456570553
-          }
-        ],
-        "signals": [],
-        "explicit_workload": null,
-        "context_adjusted_mean": null,
-        "context_adjusted_side_probability": null,
-        "guardrail": "Qualitative context never changes the central projection. Only explicit expected pitch-count or batters-faced evidence may create a context-adjusted projection."
-      }
-    },
-    {
-      "game_pk": 824057,
-      "game_datetime": "2026-09-26T23:10:00Z",
-      "pitcher_id": 608379,
-      "pitcher_name": "Michael Wacha",
-      "team": "Kansas City Royals",
-      "team_abbr": "KC",
-      "opponent": "Cleveland Guardians",
-      "opponent_abbr": "CLE",
-      "throwing_hand": "R",
-      "projected_k": 4.588483119595801,
-      "sportsbook": "Pinnacle",
-      "side": "Over",
-      "line": 3.5,
-      "american_odds": -166,
-      "model_probability": 0.6724119264644708,
-      "market_fair_probability": 0.5893794380981784,
-      "edge_pp": 8.30324883662924,
-      "ev": 0.0774795950859326,
-      "research_candidate": true,
-      "quote_last_seen_at": "2026-09-26T14:18:34.514179Z",
-      "quote_source_updated_at": "2026-09-26T13:26:56Z",
-      "analysis_key": "824057:608379",
-      "context": {
-        "status": "clear",
-        "probability_distribution": "poisson",
-        "probability_alpha": 0.0,
-        "base_projected_mean": 4.588483119595801,
-        "base_side_probability": 0.6724119264644708,
-        "baseline_opportunity": {
-          "baseline_bf": 25.226666666666667,
-          "baseline_pitches": 101.14666666666668,
-          "pitches_per_bf": 4.009513742071882
-        },
-        "market_implied_mean": 4.11875310352268,
-        "market_implied_opportunity_ratio": 0.8976284746331378,
-        "market_implied_bf": 22.644174320078623,
-        "market_over_probability": 0.5893794380981784,
-        "scenarios": [
-          {
-            "workload_ratio": 1.0,
-            "expected_bf": 25.226666666666667,
-            "projected_mean": 4.588483119595801,
-            "over_probability": 0.6724119264644708
-          },
-          {
-            "workload_ratio": 0.9,
-            "expected_bf": 22.704,
-            "projected_mean": 4.129634807636221,
-            "over_probability": 0.5914374506095419
-          },
-          {
-            "workload_ratio": 0.8,
-            "expected_bf": 20.181333333333335,
-            "projected_mean": 3.6707864956766407,
-            "over_probability": 0.49973261998584934
-          },
-          {
-            "workload_ratio": 0.7,
-            "expected_bf": 17.658666666666665,
-            "projected_mean": 3.2119381837170606,
-            "over_probability": 0.40013689642118777
-          }
-        ],
-        "signals": [],
-        "explicit_workload": null,
-        "context_adjusted_mean": null,
-        "context_adjusted_side_probability": null,
-        "guardrail": "Qualitative context never changes the central projection. Only explicit expected pitch-count or batters-faced evidence may create a context-adjusted projection."
-      }
-    },
-    {
       "game_pk": 823733,
       "game_datetime": "2026-09-26T23:10:00Z",
       "pitcher_id": 687273,
@@ -2230,14 +1674,14 @@
       "sportsbook": "Pinnacle",
       "side": "Over",
       "line": 4.5,
-      "american_odds": -107,
+      "american_odds": -106,
       "model_probability": 0.5619914271202174,
-      "market_fair_probability": 0.48287533242001773,
-      "edge_pp": 7.91160947001997,
-      "ev": 0.08721681308680318,
+      "market_fair_probability": 0.4808467741935484,
+      "edge_pp": 8.114465292666907,
+      "ev": 0.09217189149972205,
       "research_candidate": true,
-      "quote_last_seen_at": "2026-09-26T14:18:34.514179Z",
-      "quote_source_updated_at": "2026-09-26T14:12:17Z",
+      "quote_last_seen_at": "2026-09-26T21:13:51.451367Z",
+      "quote_source_updated_at": "2026-09-26T20:14:37Z",
       "analysis_key": "823733:687273",
       "context": {
         "status": "clear",
@@ -2250,10 +1694,10 @@
           "baseline_pitches": 98.6,
           "pitches_per_bf": 3.9003164556962022
         },
-        "market_implied_mean": 4.579280585409741,
-        "market_implied_opportunity_ratio": 0.9132659663904515,
-        "market_implied_bf": 23.087363630350616,
-        "market_over_probability": 0.48287533242001773,
+        "market_implied_mean": 4.568499278490538,
+        "market_implied_opportunity_ratio": 0.9111158031718252,
+        "market_implied_bf": 23.03300750418374,
+        "market_over_probability": 0.4808467741935484,
         "scenarios": [
           {
             "workload_ratio": 1.0,
@@ -2288,67 +1732,67 @@
       }
     },
     {
-      "game_pk": 824949,
-      "game_datetime": "2026-09-27T01:40:00Z",
-      "pitcher_id": 669713,
-      "pitcher_name": "Hayden Wesneski",
-      "team": "Houston Astros",
-      "team_abbr": "HOU",
-      "opponent": "Athletics",
-      "opponent_abbr": "ATH",
+      "game_pk": 824543,
+      "game_datetime": "2026-09-26T23:10:00Z",
+      "pitcher_id": 663436,
+      "pitcher_name": "Davis Martin",
+      "team": "Chicago White Sox",
+      "team_abbr": "CWS",
+      "opponent": "Colorado Rockies",
+      "opponent_abbr": "COL",
       "throwing_hand": "R",
-      "projected_k": 4.007910877603991,
+      "projected_k": 3.7073836104610245,
       "sportsbook": "Pinnacle",
       "side": "Under",
       "line": 4.5,
-      "american_odds": -153,
-      "model_probability": 0.627291416246094,
-      "market_fair_probability": 0.5652547469713892,
-      "edge_pp": 6.203666927470475,
-      "ev": 0.037285949447459776,
+      "american_odds": -185,
+      "model_probability": 0.6857934173266701,
+      "market_fair_probability": 0.6070591479387839,
+      "edge_pp": 7.873426938788619,
+      "ev": 0.05649287692184557,
       "research_candidate": true,
-      "quote_last_seen_at": "2026-09-26T14:18:34.514179Z",
-      "quote_source_updated_at": "2026-09-26T14:12:17Z",
-      "analysis_key": "824949:669713",
+      "quote_last_seen_at": "2026-09-26T21:13:51.451367Z",
+      "quote_source_updated_at": "2026-09-26T20:14:37Z",
+      "analysis_key": "824543:663436",
       "context": {
         "status": "clear",
         "probability_distribution": "poisson",
         "probability_alpha": 0.0,
-        "base_projected_mean": 4.007910877603991,
-        "base_side_probability": 0.627291416246094,
+        "base_projected_mean": 3.7073836104610245,
+        "base_side_probability": 0.6857934173266701,
         "baseline_opportunity": {
-          "baseline_bf": 20.85333333333333,
-          "baseline_pitches": 78.21333333333334,
-          "pitches_per_bf": 3.750639386189259
+          "baseline_bf": 17.240000000000002,
+          "baseline_pitches": 62.18666666666667,
+          "pitches_per_bf": 3.607115235885537
         },
-        "market_implied_mean": 4.3268431171652,
-        "market_implied_opportunity_ratio": 1.0795756815211104,
-        "market_implied_bf": 22.51275154532022,
-        "market_over_probability": 0.4347452530286108,
+        "market_implied_mean": 4.11152825478098,
+        "market_implied_opportunity_ratio": 1.109010743635914,
+        "market_implied_bf": 19.119345220283158,
+        "market_over_probability": 0.3929408520612161,
         "scenarios": [
           {
             "workload_ratio": 1.0,
-            "expected_bf": 20.85333333333333,
-            "projected_mean": 4.007910877603991,
-            "over_probability": 0.372708583753906
+            "expected_bf": 17.240000000000002,
+            "projected_mean": 3.7073836104610245,
+            "over_probability": 0.31420658267333024
           },
           {
             "workload_ratio": 0.9,
-            "expected_bf": 18.768,
-            "projected_mean": 3.6071197898435923,
-            "over_probability": 0.2949235483386683
+            "expected_bf": 15.516000000000002,
+            "projected_mean": 3.336645249414922,
+            "over_probability": 0.24411377653538757
           },
           {
             "workload_ratio": 0.8,
-            "expected_bf": 16.682666666666666,
-            "projected_mean": 3.206328702083193,
-            "over_probability": 0.22051547428549695
+            "expected_bf": 13.792000000000002,
+            "projected_mean": 2.9659068883688198,
+            "over_probability": 0.17904096416012322
           },
           {
             "workload_ratio": 0.7,
-            "expected_bf": 14.597333333333331,
-            "projected_mean": 2.8055376143227937,
-            "over_probability": 0.15318738539301108
+            "expected_bf": 12.068000000000001,
+            "projected_mean": 2.595168527322717,
+            "over_probability": 0.12189412493847614
           }
         ],
         "signals": [],
@@ -2372,14 +1816,14 @@
       "sportsbook": "Pinnacle",
       "side": "Over",
       "line": 4.5,
-      "american_odds": 114,
+      "american_odds": 116,
       "model_probability": 0.49237749587975177,
-      "market_fair_probability": 0.44051285724518296,
-      "edge_pp": 5.186463863456881,
-      "ev": 0.053687841182668894,
+      "market_fair_probability": 0.4329742261011864,
+      "edge_pp": 5.940326977856536,
+      "ev": 0.06353539110026385,
       "research_candidate": true,
-      "quote_last_seen_at": "2026-09-26T14:18:34.514179Z",
-      "quote_source_updated_at": "2026-09-26T13:26:56Z",
+      "quote_last_seen_at": "2026-09-26T21:13:51.451367Z",
+      "quote_source_updated_at": "2026-09-26T20:14:37Z",
       "analysis_key": "823083:696270",
       "context": {
         "status": "clear",
@@ -2392,10 +1836,10 @@
           "baseline_pitches": 93.18666666666667,
           "pitches_per_bf": 4.00515759312321
         },
-        "market_implied_mean": 4.356776161300743,
-        "market_implied_opportunity_ratio": 0.9409918359012903,
-        "market_implied_bf": 21.89374338197002,
-        "market_over_probability": 0.44051285724518296,
+        "market_implied_mean": 4.317665569322729,
+        "market_implied_opportunity_ratio": 0.93254459271366,
+        "market_implied_bf": 21.697204190471155,
+        "market_over_probability": 0.4329742261011864,
         "scenarios": [
           {
             "workload_ratio": 1.0,
@@ -2430,219 +1874,6 @@
       }
     },
     {
-      "game_pk": 823653,
-      "game_datetime": "2026-09-26T20:10:00Z",
-      "pitcher_id": 641927,
-      "pitcher_name": "Bailey Ober",
-      "team": "Minnesota Twins",
-      "team_abbr": "MIN",
-      "opponent": "Texas Rangers",
-      "opponent_abbr": "TEX",
-      "throwing_hand": "R",
-      "projected_k": 4.400110700475404,
-      "sportsbook": "Pinnacle",
-      "side": "Under",
-      "line": 4.5,
-      "american_odds": -115,
-      "model_probability": 0.5511625833808164,
-      "market_fair_probability": 0.5041554124246831,
-      "edge_pp": 4.700717095613327,
-      "ev": 0.030434275198355953,
-      "research_candidate": true,
-      "quote_last_seen_at": "2026-09-26T14:18:34.514179Z",
-      "quote_source_updated_at": "2026-09-26T13:57:06Z",
-      "analysis_key": "823653:641927",
-      "context": {
-        "status": "clear",
-        "probability_distribution": "poisson",
-        "probability_alpha": 0.0,
-        "base_projected_mean": 4.400110700475404,
-        "base_side_probability": 0.5511625833808164,
-        "baseline_opportunity": {
-          "baseline_bf": 22.266666666666666,
-          "baseline_pitches": 88.85333333333334,
-          "pitches_per_bf": 3.9904191616766473
-        },
-        "market_implied_mean": 4.648569075389133,
-        "market_implied_opportunity_ratio": 1.0564663918312067,
-        "market_implied_bf": 23.523984991441534,
-        "market_over_probability": 0.4958445875753169,
-        "scenarios": [
-          {
-            "workload_ratio": 1.0,
-            "expected_bf": 22.266666666666666,
-            "projected_mean": 4.400110700475404,
-            "over_probability": 0.44883741661918364
-          },
-          {
-            "workload_ratio": 0.9,
-            "expected_bf": 20.04,
-            "projected_mean": 3.9600996304278633,
-            "over_probability": 0.3633683763652742
-          },
-          {
-            "workload_ratio": 0.8,
-            "expected_bf": 17.813333333333333,
-            "projected_mean": 3.520088560380323,
-            "over_probability": 0.2783533781741176
-          },
-          {
-            "workload_ratio": 0.7,
-            "expected_bf": 15.586666666666664,
-            "projected_mean": 3.0800774903327826,
-            "over_probability": 0.1983670419909878
-          }
-        ],
-        "signals": [],
-        "explicit_workload": null,
-        "context_adjusted_mean": null,
-        "context_adjusted_side_probability": null,
-        "guardrail": "Qualitative context never changes the central projection. Only explicit expected pitch-count or batters-faced evidence may create a context-adjusted projection."
-      }
-    },
-    {
-      "game_pk": 822678,
-      "game_datetime": "2026-09-26T16:35:00Z",
-      "pitcher_id": 804636,
-      "pitcher_name": "Jonah Tong",
-      "team": "New York Mets",
-      "team_abbr": "NYM",
-      "opponent": "Washington Nationals",
-      "opponent_abbr": "WSH",
-      "throwing_hand": "R",
-      "projected_k": 4.677800401115754,
-      "sportsbook": "Pinnacle",
-      "side": "Over",
-      "line": 4.5,
-      "american_odds": -102,
-      "model_probability": 0.5012792155876279,
-      "market_fair_probability": 0.47614107883817425,
-      "edge_pp": 2.5138136749453643,
-      "ev": -0.00727065168398644,
-      "research_candidate": false,
-      "quote_last_seen_at": "2026-09-26T14:18:34.514179Z",
-      "quote_source_updated_at": "2026-09-26T13:26:56Z",
-      "analysis_key": "822678:804636",
-      "context": {
-        "status": "clear",
-        "probability_distribution": "poisson",
-        "probability_alpha": 0.0,
-        "base_projected_mean": 4.677800401115754,
-        "base_side_probability": 0.5012792155876279,
-        "baseline_opportunity": {
-          "baseline_bf": 20.813333333333333,
-          "baseline_pitches": 83.69333333333333,
-          "pitches_per_bf": 4.021140294682896
-        },
-        "market_implied_mean": 4.543544770114895,
-        "market_implied_opportunity_ratio": 0.9712994100883748,
-        "market_implied_bf": 20.215978388639375,
-        "market_over_probability": 0.47614107883817425,
-        "scenarios": [
-          {
-            "workload_ratio": 1.0,
-            "expected_bf": 20.813333333333333,
-            "projected_mean": 4.677800401115754,
-            "over_probability": 0.5012792155876279
-          },
-          {
-            "workload_ratio": 0.9,
-            "expected_bf": 18.732,
-            "projected_mean": 4.210020361004179,
-            "over_probability": 0.412120701759423
-          },
-          {
-            "workload_ratio": 0.8,
-            "expected_bf": 16.650666666666666,
-            "projected_mean": 3.742240320892604,
-            "over_probability": 0.3209490844646659
-          },
-          {
-            "workload_ratio": 0.7,
-            "expected_bf": 14.569333333333331,
-            "projected_mean": 3.2744602807810277,
-            "over_probability": 0.23276772633018483
-          }
-        ],
-        "signals": [],
-        "explicit_workload": null,
-        "context_adjusted_mean": null,
-        "context_adjusted_side_probability": null,
-        "guardrail": "Qualitative context never changes the central projection. Only explicit expected pitch-count or batters-faced evidence may create a context-adjusted projection."
-      }
-    },
-    {
-      "game_pk": 823407,
-      "game_datetime": "2026-09-26T23:15:00Z",
-      "pitcher_id": 643377,
-      "pitcher_name": "Griffin Jax",
-      "team": "Tampa Bay Rays",
-      "team_abbr": "TB",
-      "opponent": "Philadelphia Phillies",
-      "opponent_abbr": "PHI",
-      "throwing_hand": "R",
-      "projected_k": 4.707354287554994,
-      "sportsbook": "Pinnacle",
-      "side": "Under",
-      "line": 4.5,
-      "american_odds": 100,
-      "model_probability": 0.49324953965804097,
-      "market_fair_probability": 0.4710743801652893,
-      "edge_pp": 2.2175159492751675,
-      "ev": -0.01350092068391806,
-      "research_candidate": false,
-      "quote_last_seen_at": "2026-09-26T14:18:34.514179Z",
-      "quote_source_updated_at": "2026-09-26T13:57:06Z",
-      "analysis_key": "823407:643377",
-      "context": {
-        "status": "clear",
-        "probability_distribution": "poisson",
-        "probability_alpha": 0.0,
-        "base_projected_mean": 4.707354287554994,
-        "base_side_probability": 0.49324953965804097,
-        "baseline_opportunity": {
-          "baseline_bf": 17.986666666666668,
-          "baseline_pitches": 69.84,
-          "pitches_per_bf": 3.882876204595997
-        },
-        "market_implied_mean": 4.828549540100052,
-        "market_implied_opportunity_ratio": 1.0257459381940865,
-        "market_implied_bf": 18.449750274984304,
-        "market_over_probability": 0.5289256198347108,
-        "scenarios": [
-          {
-            "workload_ratio": 1.0,
-            "expected_bf": 17.986666666666668,
-            "projected_mean": 4.707354287554994,
-            "over_probability": 0.5067504603419593
-          },
-          {
-            "workload_ratio": 0.9,
-            "expected_bf": 16.188000000000002,
-            "projected_mean": 4.236618858799495,
-            "over_probability": 0.4172859883940063
-          },
-          {
-            "workload_ratio": 0.8,
-            "expected_bf": 14.389333333333335,
-            "projected_mean": 3.765883430043995,
-            "over_probability": 0.3255318524092973
-          },
-          {
-            "workload_ratio": 0.7,
-            "expected_bf": 12.590666666666667,
-            "projected_mean": 3.2951480012884953,
-            "over_probability": 0.23652579317068018
-          }
-        ],
-        "signals": [],
-        "explicit_workload": null,
-        "context_adjusted_mean": null,
-        "context_adjusted_side_probability": null,
-        "guardrail": "Qualitative context never changes the central projection. Only explicit expected pitch-count or batters-faced evidence may create a context-adjusted projection."
-      }
-    },
-    {
       "game_pk": 824057,
       "game_datetime": "2026-09-26T23:10:00Z",
       "pitcher_id": 676440,
@@ -2662,8 +1893,8 @@
       "edge_pp": 1.8948972253999607,
       "ev": -0.022552616979559348,
       "research_candidate": false,
-      "quote_last_seen_at": "2026-09-26T14:18:34.514179Z",
-      "quote_source_updated_at": "2026-09-26T13:26:56Z",
+      "quote_last_seen_at": "2026-09-26T21:13:51.451367Z",
+      "quote_source_updated_at": "2026-09-26T20:14:37Z",
       "analysis_key": "824057:676440",
       "context": {
         "status": "clear",
@@ -2733,8 +1964,8 @@
       "edge_pp": 1.5254199953834258,
       "ev": -0.03067969600165421,
       "research_candidate": false,
-      "quote_last_seen_at": "2026-09-26T14:18:34.514179Z",
-      "quote_source_updated_at": "2026-09-26T13:57:06Z",
+      "quote_last_seen_at": "2026-09-26T21:13:51.451367Z",
+      "quote_source_updated_at": "2026-09-26T20:29:37Z",
       "analysis_key": "824949:678022",
       "context": {
         "status": "clear",
@@ -2785,6 +2016,148 @@
       }
     },
     {
+      "game_pk": 823653,
+      "game_datetime": "2026-09-26T20:10:00Z",
+      "pitcher_id": 641927,
+      "pitcher_name": "Bailey Ober",
+      "team": "Minnesota Twins",
+      "team_abbr": "MIN",
+      "opponent": "Texas Rangers",
+      "opponent_abbr": "TEX",
+      "throwing_hand": "R",
+      "projected_k": 4.400110700475404,
+      "sportsbook": "Pinnacle",
+      "side": "Over",
+      "line": 4.5,
+      "american_odds": 113,
+      "model_probability": 0.44883741661918364,
+      "market_fair_probability": 0.4389815627743635,
+      "edge_pp": 0.9855853844820128,
+      "ev": -0.04397630260113894,
+      "research_candidate": false,
+      "quote_last_seen_at": "2026-09-26T21:13:51.451367Z",
+      "quote_source_updated_at": "2026-09-26T20:59:49Z",
+      "analysis_key": "823653:641927",
+      "context": {
+        "status": "clear",
+        "probability_distribution": "poisson",
+        "probability_alpha": 0.0,
+        "base_projected_mean": 4.400110700475404,
+        "base_side_probability": 0.44883741661918364,
+        "baseline_opportunity": {
+          "baseline_bf": 22.266666666666666,
+          "baseline_pitches": 88.85333333333334,
+          "pitches_per_bf": 3.9904191616766473
+        },
+        "market_implied_mean": 4.348822037836985,
+        "market_implied_opportunity_ratio": 0.9883437790251784,
+        "market_implied_bf": 22.007121479627305,
+        "market_over_probability": 0.4389815627743635,
+        "scenarios": [
+          {
+            "workload_ratio": 1.0,
+            "expected_bf": 22.266666666666666,
+            "projected_mean": 4.400110700475404,
+            "over_probability": 0.44883741661918364
+          },
+          {
+            "workload_ratio": 0.9,
+            "expected_bf": 20.04,
+            "projected_mean": 3.9600996304278633,
+            "over_probability": 0.3633683763652742
+          },
+          {
+            "workload_ratio": 0.8,
+            "expected_bf": 17.813333333333333,
+            "projected_mean": 3.520088560380323,
+            "over_probability": 0.2783533781741176
+          },
+          {
+            "workload_ratio": 0.7,
+            "expected_bf": 15.586666666666664,
+            "projected_mean": 3.0800774903327826,
+            "over_probability": 0.1983670419909878
+          }
+        ],
+        "signals": [],
+        "explicit_workload": null,
+        "context_adjusted_mean": null,
+        "context_adjusted_side_probability": null,
+        "guardrail": "Qualitative context never changes the central projection. Only explicit expected pitch-count or batters-faced evidence may create a context-adjusted projection."
+      }
+    },
+    {
+      "game_pk": 824949,
+      "game_datetime": "2026-09-27T01:40:00Z",
+      "pitcher_id": 669713,
+      "pitcher_name": "Hayden Wesneski",
+      "team": "Houston Astros",
+      "team_abbr": "HOU",
+      "opponent": "Athletics",
+      "opponent_abbr": "ATH",
+      "throwing_hand": "R",
+      "projected_k": 4.007910877603991,
+      "sportsbook": "Pinnacle",
+      "side": "Under",
+      "line": 4.5,
+      "american_odds": -198,
+      "model_probability": 0.627291416246094,
+      "market_fair_probability": 0.6204208488306925,
+      "edge_pp": 0.6870567415401485,
+      "ev": -0.05589442668740008,
+      "research_candidate": false,
+      "quote_last_seen_at": "2026-09-26T21:13:51.451367Z",
+      "quote_source_updated_at": "2026-09-26T20:14:37Z",
+      "analysis_key": "824949:669713",
+      "context": {
+        "status": "clear",
+        "probability_distribution": "poisson",
+        "probability_alpha": 0.0,
+        "base_projected_mean": 4.007910877603991,
+        "base_side_probability": 0.627291416246094,
+        "baseline_opportunity": {
+          "baseline_bf": 20.85333333333333,
+          "baseline_pitches": 78.21333333333334,
+          "pitches_per_bf": 3.750639386189259
+        },
+        "market_implied_mean": 4.0430816960146245,
+        "market_implied_opportunity_ratio": 1.0087753494238523,
+        "market_implied_bf": 21.036328619985397,
+        "market_over_probability": 0.3795791511693075,
+        "scenarios": [
+          {
+            "workload_ratio": 1.0,
+            "expected_bf": 20.85333333333333,
+            "projected_mean": 4.007910877603991,
+            "over_probability": 0.372708583753906
+          },
+          {
+            "workload_ratio": 0.9,
+            "expected_bf": 18.768,
+            "projected_mean": 3.6071197898435923,
+            "over_probability": 0.2949235483386683
+          },
+          {
+            "workload_ratio": 0.8,
+            "expected_bf": 16.682666666666666,
+            "projected_mean": 3.206328702083193,
+            "over_probability": 0.22051547428549695
+          },
+          {
+            "workload_ratio": 0.7,
+            "expected_bf": 14.597333333333331,
+            "projected_mean": 2.8055376143227937,
+            "over_probability": 0.15318738539301108
+          }
+        ],
+        "signals": [],
+        "explicit_workload": null,
+        "context_adjusted_mean": null,
+        "context_adjusted_side_probability": null,
+        "guardrail": "Qualitative context never changes the central projection. Only explicit expected pitch-count or batters-faced evidence may create a context-adjusted projection."
+      }
+    },
+    {
       "game_pk": 823245,
       "game_datetime": "2026-09-27T00:40:00Z",
       "pitcher_id": 621111,
@@ -2804,8 +2177,8 @@
       "edge_pp": 0.6828102452493601,
       "ev": -0.044195034764434205,
       "research_candidate": false,
-      "quote_last_seen_at": "2026-09-26T14:18:34.514179Z",
-      "quote_source_updated_at": "2026-09-26T13:57:06Z",
+      "quote_last_seen_at": "2026-09-26T21:13:51.451367Z",
+      "quote_source_updated_at": "2026-09-26T20:29:37Z",
       "analysis_key": "823245:621111",
       "context": {
         "status": "clear",
@@ -2875,8 +2248,8 @@
       "edge_pp": -0.6828102452493656,
       "ev": -0.07001379716292577,
       "research_candidate": false,
-      "quote_last_seen_at": "2026-09-26T14:18:34.514179Z",
-      "quote_source_updated_at": "2026-09-26T13:57:06Z",
+      "quote_last_seen_at": "2026-09-26T21:13:51.451367Z",
+      "quote_source_updated_at": "2026-09-26T20:29:37Z",
       "analysis_key": "823245:621111",
       "context": {
         "status": "clear",
@@ -2929,6 +2302,148 @@
     {
       "game_pk": 824949,
       "game_datetime": "2026-09-27T01:40:00Z",
+      "pitcher_id": 669713,
+      "pitcher_name": "Hayden Wesneski",
+      "team": "Houston Astros",
+      "team_abbr": "HOU",
+      "opponent": "Athletics",
+      "opponent_abbr": "ATH",
+      "throwing_hand": "R",
+      "projected_k": 4.007910877603991,
+      "sportsbook": "Pinnacle",
+      "side": "Over",
+      "line": 4.5,
+      "american_odds": 146,
+      "model_probability": 0.37270858375390603,
+      "market_fair_probability": 0.37957915116930757,
+      "edge_pp": -0.6870567415401541,
+      "ev": -0.0831368839653912,
+      "research_candidate": false,
+      "quote_last_seen_at": "2026-09-26T21:13:51.451367Z",
+      "quote_source_updated_at": "2026-09-26T20:14:37Z",
+      "analysis_key": "824949:669713",
+      "context": {
+        "status": "clear",
+        "probability_distribution": "poisson",
+        "probability_alpha": 0.0,
+        "base_projected_mean": 4.007910877603991,
+        "base_side_probability": 0.37270858375390603,
+        "baseline_opportunity": {
+          "baseline_bf": 20.85333333333333,
+          "baseline_pitches": 78.21333333333334,
+          "pitches_per_bf": 3.750639386189259
+        },
+        "market_implied_mean": 4.0430816960146245,
+        "market_implied_opportunity_ratio": 1.0087753494238523,
+        "market_implied_bf": 21.036328619985397,
+        "market_over_probability": 0.37957915116930757,
+        "scenarios": [
+          {
+            "workload_ratio": 1.0,
+            "expected_bf": 20.85333333333333,
+            "projected_mean": 4.007910877603991,
+            "over_probability": 0.372708583753906
+          },
+          {
+            "workload_ratio": 0.9,
+            "expected_bf": 18.768,
+            "projected_mean": 3.6071197898435923,
+            "over_probability": 0.2949235483386683
+          },
+          {
+            "workload_ratio": 0.8,
+            "expected_bf": 16.682666666666666,
+            "projected_mean": 3.206328702083193,
+            "over_probability": 0.22051547428549695
+          },
+          {
+            "workload_ratio": 0.7,
+            "expected_bf": 14.597333333333331,
+            "projected_mean": 2.8055376143227937,
+            "over_probability": 0.15318738539301108
+          }
+        ],
+        "signals": [],
+        "explicit_workload": null,
+        "context_adjusted_mean": null,
+        "context_adjusted_side_probability": null,
+        "guardrail": "Qualitative context never changes the central projection. Only explicit expected pitch-count or batters-faced evidence may create a context-adjusted projection."
+      }
+    },
+    {
+      "game_pk": 823653,
+      "game_datetime": "2026-09-26T20:10:00Z",
+      "pitcher_id": 641927,
+      "pitcher_name": "Bailey Ober",
+      "team": "Minnesota Twins",
+      "team_abbr": "MIN",
+      "opponent": "Texas Rangers",
+      "opponent_abbr": "TEX",
+      "throwing_hand": "R",
+      "projected_k": 4.400110700475404,
+      "sportsbook": "Pinnacle",
+      "side": "Under",
+      "line": 4.5,
+      "american_odds": -150,
+      "model_probability": 0.5511625833808164,
+      "market_fair_probability": 0.5610184372256365,
+      "edge_pp": -0.9855853844820128,
+      "ev": -0.08139551064444495,
+      "research_candidate": false,
+      "quote_last_seen_at": "2026-09-26T21:13:51.451367Z",
+      "quote_source_updated_at": "2026-09-26T20:59:49Z",
+      "analysis_key": "823653:641927",
+      "context": {
+        "status": "clear",
+        "probability_distribution": "poisson",
+        "probability_alpha": 0.0,
+        "base_projected_mean": 4.400110700475404,
+        "base_side_probability": 0.5511625833808164,
+        "baseline_opportunity": {
+          "baseline_bf": 22.266666666666666,
+          "baseline_pitches": 88.85333333333334,
+          "pitches_per_bf": 3.9904191616766473
+        },
+        "market_implied_mean": 4.348822037836985,
+        "market_implied_opportunity_ratio": 0.9883437790251784,
+        "market_implied_bf": 22.007121479627305,
+        "market_over_probability": 0.4389815627743635,
+        "scenarios": [
+          {
+            "workload_ratio": 1.0,
+            "expected_bf": 22.266666666666666,
+            "projected_mean": 4.400110700475404,
+            "over_probability": 0.44883741661918364
+          },
+          {
+            "workload_ratio": 0.9,
+            "expected_bf": 20.04,
+            "projected_mean": 3.9600996304278633,
+            "over_probability": 0.3633683763652742
+          },
+          {
+            "workload_ratio": 0.8,
+            "expected_bf": 17.813333333333333,
+            "projected_mean": 3.520088560380323,
+            "over_probability": 0.2783533781741176
+          },
+          {
+            "workload_ratio": 0.7,
+            "expected_bf": 15.586666666666664,
+            "projected_mean": 3.0800774903327826,
+            "over_probability": 0.1983670419909878
+          }
+        ],
+        "signals": [],
+        "explicit_workload": null,
+        "context_adjusted_mean": null,
+        "context_adjusted_side_probability": null,
+        "guardrail": "Qualitative context never changes the central projection. Only explicit expected pitch-count or batters-faced evidence may create a context-adjusted projection."
+      }
+    },
+    {
+      "game_pk": 824949,
+      "game_datetime": "2026-09-27T01:40:00Z",
       "pitcher_id": 678022,
       "pitcher_name": "Jack Perkins",
       "team": "Athletics",
@@ -2946,8 +2461,8 @@
       "edge_pp": -1.5254199953834313,
       "ev": -0.08835963957709003,
       "research_candidate": false,
-      "quote_last_seen_at": "2026-09-26T14:18:34.514179Z",
-      "quote_source_updated_at": "2026-09-26T13:57:06Z",
+      "quote_last_seen_at": "2026-09-26T21:13:51.451367Z",
+      "quote_source_updated_at": "2026-09-26T20:29:37Z",
       "analysis_key": "824949:678022",
       "context": {
         "status": "clear",
@@ -3017,8 +2532,8 @@
       "edge_pp": -1.8948972253999719,
       "ev": -0.09451290946263435,
       "research_candidate": false,
-      "quote_last_seen_at": "2026-09-26T14:18:34.514179Z",
-      "quote_source_updated_at": "2026-09-26T13:26:56Z",
+      "quote_last_seen_at": "2026-09-26T21:13:51.451367Z",
+      "quote_source_updated_at": "2026-09-26T20:14:37Z",
       "analysis_key": "824057:676440",
       "context": {
         "status": "clear",
@@ -3069,219 +2584,6 @@
       }
     },
     {
-      "game_pk": 823407,
-      "game_datetime": "2026-09-26T23:15:00Z",
-      "pitcher_id": 643377,
-      "pitcher_name": "Griffin Jax",
-      "team": "Tampa Bay Rays",
-      "team_abbr": "TB",
-      "opponent": "Philadelphia Phillies",
-      "opponent_abbr": "PHI",
-      "throwing_hand": "R",
-      "projected_k": 4.707354287554994,
-      "sportsbook": "Pinnacle",
-      "side": "Over",
-      "line": 4.5,
-      "american_odds": -128,
-      "model_probability": 0.506750460341959,
-      "market_fair_probability": 0.5289256198347108,
-      "edge_pp": -2.217515949275173,
-      "ev": -0.09735074251588549,
-      "research_candidate": false,
-      "quote_last_seen_at": "2026-09-26T14:18:34.514179Z",
-      "quote_source_updated_at": "2026-09-26T13:57:06Z",
-      "analysis_key": "823407:643377",
-      "context": {
-        "status": "clear",
-        "probability_distribution": "poisson",
-        "probability_alpha": 0.0,
-        "base_projected_mean": 4.707354287554994,
-        "base_side_probability": 0.506750460341959,
-        "baseline_opportunity": {
-          "baseline_bf": 17.986666666666668,
-          "baseline_pitches": 69.84,
-          "pitches_per_bf": 3.882876204595997
-        },
-        "market_implied_mean": 4.828549540100052,
-        "market_implied_opportunity_ratio": 1.0257459381940865,
-        "market_implied_bf": 18.449750274984304,
-        "market_over_probability": 0.5289256198347108,
-        "scenarios": [
-          {
-            "workload_ratio": 1.0,
-            "expected_bf": 17.986666666666668,
-            "projected_mean": 4.707354287554994,
-            "over_probability": 0.5067504603419593
-          },
-          {
-            "workload_ratio": 0.9,
-            "expected_bf": 16.188000000000002,
-            "projected_mean": 4.236618858799495,
-            "over_probability": 0.4172859883940063
-          },
-          {
-            "workload_ratio": 0.8,
-            "expected_bf": 14.389333333333335,
-            "projected_mean": 3.765883430043995,
-            "over_probability": 0.3255318524092973
-          },
-          {
-            "workload_ratio": 0.7,
-            "expected_bf": 12.590666666666667,
-            "projected_mean": 3.2951480012884953,
-            "over_probability": 0.23652579317068018
-          }
-        ],
-        "signals": [],
-        "explicit_workload": null,
-        "context_adjusted_mean": null,
-        "context_adjusted_side_probability": null,
-        "guardrail": "Qualitative context never changes the central projection. Only explicit expected pitch-count or batters-faced evidence may create a context-adjusted projection."
-      }
-    },
-    {
-      "game_pk": 822678,
-      "game_datetime": "2026-09-26T16:35:00Z",
-      "pitcher_id": 804636,
-      "pitcher_name": "Jonah Tong",
-      "team": "New York Mets",
-      "team_abbr": "NYM",
-      "opponent": "Washington Nationals",
-      "opponent_abbr": "WSH",
-      "throwing_hand": "R",
-      "projected_k": 4.677800401115754,
-      "sportsbook": "Pinnacle",
-      "side": "Under",
-      "line": 4.5,
-      "american_odds": -125,
-      "model_probability": 0.4987207844123721,
-      "market_fair_probability": 0.5238589211618258,
-      "edge_pp": -2.5138136749453643,
-      "ev": -0.10230258805773018,
-      "research_candidate": false,
-      "quote_last_seen_at": "2026-09-26T14:18:34.514179Z",
-      "quote_source_updated_at": "2026-09-26T13:26:56Z",
-      "analysis_key": "822678:804636",
-      "context": {
-        "status": "clear",
-        "probability_distribution": "poisson",
-        "probability_alpha": 0.0,
-        "base_projected_mean": 4.677800401115754,
-        "base_side_probability": 0.4987207844123721,
-        "baseline_opportunity": {
-          "baseline_bf": 20.813333333333333,
-          "baseline_pitches": 83.69333333333333,
-          "pitches_per_bf": 4.021140294682896
-        },
-        "market_implied_mean": 4.543544770114895,
-        "market_implied_opportunity_ratio": 0.9712994100883748,
-        "market_implied_bf": 20.215978388639375,
-        "market_over_probability": 0.47614107883817425,
-        "scenarios": [
-          {
-            "workload_ratio": 1.0,
-            "expected_bf": 20.813333333333333,
-            "projected_mean": 4.677800401115754,
-            "over_probability": 0.5012792155876279
-          },
-          {
-            "workload_ratio": 0.9,
-            "expected_bf": 18.732,
-            "projected_mean": 4.210020361004179,
-            "over_probability": 0.412120701759423
-          },
-          {
-            "workload_ratio": 0.8,
-            "expected_bf": 16.650666666666666,
-            "projected_mean": 3.742240320892604,
-            "over_probability": 0.3209490844646659
-          },
-          {
-            "workload_ratio": 0.7,
-            "expected_bf": 14.569333333333331,
-            "projected_mean": 3.2744602807810277,
-            "over_probability": 0.23276772633018483
-          }
-        ],
-        "signals": [],
-        "explicit_workload": null,
-        "context_adjusted_mean": null,
-        "context_adjusted_side_probability": null,
-        "guardrail": "Qualitative context never changes the central projection. Only explicit expected pitch-count or batters-faced evidence may create a context-adjusted projection."
-      }
-    },
-    {
-      "game_pk": 823653,
-      "game_datetime": "2026-09-26T20:10:00Z",
-      "pitcher_id": 641927,
-      "pitcher_name": "Bailey Ober",
-      "team": "Minnesota Twins",
-      "team_abbr": "MIN",
-      "opponent": "Texas Rangers",
-      "opponent_abbr": "TEX",
-      "throwing_hand": "R",
-      "projected_k": 4.400110700475404,
-      "sportsbook": "Pinnacle",
-      "side": "Over",
-      "line": 4.5,
-      "american_odds": -111,
-      "model_probability": 0.44883741661918364,
-      "market_fair_probability": 0.4958445875753168,
-      "edge_pp": -4.7007170956133155,
-      "ev": -0.14680450591117722,
-      "research_candidate": false,
-      "quote_last_seen_at": "2026-09-26T14:18:34.514179Z",
-      "quote_source_updated_at": "2026-09-26T13:57:06Z",
-      "analysis_key": "823653:641927",
-      "context": {
-        "status": "clear",
-        "probability_distribution": "poisson",
-        "probability_alpha": 0.0,
-        "base_projected_mean": 4.400110700475404,
-        "base_side_probability": 0.44883741661918364,
-        "baseline_opportunity": {
-          "baseline_bf": 22.266666666666666,
-          "baseline_pitches": 88.85333333333334,
-          "pitches_per_bf": 3.9904191616766473
-        },
-        "market_implied_mean": 4.648569075389133,
-        "market_implied_opportunity_ratio": 1.0564663918312067,
-        "market_implied_bf": 23.523984991441534,
-        "market_over_probability": 0.4958445875753168,
-        "scenarios": [
-          {
-            "workload_ratio": 1.0,
-            "expected_bf": 22.266666666666666,
-            "projected_mean": 4.400110700475404,
-            "over_probability": 0.44883741661918364
-          },
-          {
-            "workload_ratio": 0.9,
-            "expected_bf": 20.04,
-            "projected_mean": 3.9600996304278633,
-            "over_probability": 0.3633683763652742
-          },
-          {
-            "workload_ratio": 0.8,
-            "expected_bf": 17.813333333333333,
-            "projected_mean": 3.520088560380323,
-            "over_probability": 0.2783533781741176
-          },
-          {
-            "workload_ratio": 0.7,
-            "expected_bf": 15.586666666666664,
-            "projected_mean": 3.0800774903327826,
-            "over_probability": 0.1983670419909878
-          }
-        ],
-        "signals": [],
-        "explicit_workload": null,
-        "context_adjusted_mean": null,
-        "context_adjusted_side_probability": null,
-        "guardrail": "Qualitative context never changes the central projection. Only explicit expected pitch-count or batters-faced evidence may create a context-adjusted projection."
-      }
-    },
-    {
       "game_pk": 823083,
       "game_datetime": "2026-09-27T01:40:00Z",
       "pitcher_id": 696270,
@@ -3295,14 +2597,14 @@
       "sportsbook": "Pinnacle",
       "side": "Under",
       "line": 4.5,
-      "american_odds": -146,
+      "american_odds": -154,
       "model_probability": 0.5076225041202482,
-      "market_fair_probability": 0.5594871427548169,
-      "edge_pp": -5.186463863456869,
-      "ev": -0.1446905988876619,
+      "market_fair_probability": 0.5670257738988136,
+      "edge_pp": -5.940326977856536,
+      "ev": -0.16275231520676448,
       "research_candidate": false,
-      "quote_last_seen_at": "2026-09-26T14:18:34.514179Z",
-      "quote_source_updated_at": "2026-09-26T13:26:56Z",
+      "quote_last_seen_at": "2026-09-26T21:13:51.451367Z",
+      "quote_source_updated_at": "2026-09-26T20:14:37Z",
       "analysis_key": "823083:696270",
       "context": {
         "status": "clear",
@@ -3315,10 +2617,10 @@
           "baseline_pitches": 93.18666666666667,
           "pitches_per_bf": 4.00515759312321
         },
-        "market_implied_mean": 4.356776161300743,
-        "market_implied_opportunity_ratio": 0.9409918359012903,
-        "market_implied_bf": 21.89374338197002,
-        "market_over_probability": 0.4405128572451831,
+        "market_implied_mean": 4.317665569322729,
+        "market_implied_opportunity_ratio": 0.93254459271366,
+        "market_implied_bf": 21.697204190471155,
+        "market_over_probability": 0.4329742261011864,
         "scenarios": [
           {
             "workload_ratio": 1.0,
@@ -3353,361 +2655,6 @@
       }
     },
     {
-      "game_pk": 824949,
-      "game_datetime": "2026-09-27T01:40:00Z",
-      "pitcher_id": 669713,
-      "pitcher_name": "Hayden Wesneski",
-      "team": "Houston Astros",
-      "team_abbr": "HOU",
-      "opponent": "Athletics",
-      "opponent_abbr": "ATH",
-      "throwing_hand": "R",
-      "projected_k": 4.007910877603991,
-      "sportsbook": "Pinnacle",
-      "side": "Over",
-      "line": 4.5,
-      "american_odds": 115,
-      "model_probability": 0.37270858375390603,
-      "market_fair_probability": 0.4347452530286107,
-      "edge_pp": -6.203666927470469,
-      "ev": -0.19867654492910203,
-      "research_candidate": false,
-      "quote_last_seen_at": "2026-09-26T14:18:34.514179Z",
-      "quote_source_updated_at": "2026-09-26T14:12:17Z",
-      "analysis_key": "824949:669713",
-      "context": {
-        "status": "clear",
-        "probability_distribution": "poisson",
-        "probability_alpha": 0.0,
-        "base_projected_mean": 4.007910877603991,
-        "base_side_probability": 0.37270858375390603,
-        "baseline_opportunity": {
-          "baseline_bf": 20.85333333333333,
-          "baseline_pitches": 78.21333333333334,
-          "pitches_per_bf": 3.750639386189259
-        },
-        "market_implied_mean": 4.326843117165199,
-        "market_implied_opportunity_ratio": 1.07957568152111,
-        "market_implied_bf": 22.51275154532021,
-        "market_over_probability": 0.4347452530286107,
-        "scenarios": [
-          {
-            "workload_ratio": 1.0,
-            "expected_bf": 20.85333333333333,
-            "projected_mean": 4.007910877603991,
-            "over_probability": 0.372708583753906
-          },
-          {
-            "workload_ratio": 0.9,
-            "expected_bf": 18.768,
-            "projected_mean": 3.6071197898435923,
-            "over_probability": 0.2949235483386683
-          },
-          {
-            "workload_ratio": 0.8,
-            "expected_bf": 16.682666666666666,
-            "projected_mean": 3.206328702083193,
-            "over_probability": 0.22051547428549695
-          },
-          {
-            "workload_ratio": 0.7,
-            "expected_bf": 14.597333333333331,
-            "projected_mean": 2.8055376143227937,
-            "over_probability": 0.15318738539301108
-          }
-        ],
-        "signals": [],
-        "explicit_workload": null,
-        "context_adjusted_mean": null,
-        "context_adjusted_side_probability": null,
-        "guardrail": "Qualitative context never changes the central projection. Only explicit expected pitch-count or batters-faced evidence may create a context-adjusted projection."
-      }
-    },
-    {
-      "game_pk": 823733,
-      "game_datetime": "2026-09-26T23:10:00Z",
-      "pitcher_id": 687273,
-      "pitcher_name": "Quinn Mathews",
-      "team": "St. Louis Cardinals",
-      "team_abbr": "STL",
-      "opponent": "Milwaukee Brewers",
-      "opponent_abbr": "MIL",
-      "throwing_hand": "L",
-      "projected_k": 5.01418070303076,
-      "sportsbook": "Pinnacle",
-      "side": "Under",
-      "line": 4.5,
-      "american_odds": -124,
-      "model_probability": 0.43800857287978257,
-      "market_fair_probability": 0.5171246675799823,
-      "edge_pp": -7.911609470019975,
-      "ev": -0.20875853750417106,
-      "research_candidate": false,
-      "quote_last_seen_at": "2026-09-26T14:18:34.514179Z",
-      "quote_source_updated_at": "2026-09-26T14:12:17Z",
-      "analysis_key": "823733:687273",
-      "context": {
-        "status": "clear",
-        "probability_distribution": "poisson",
-        "probability_alpha": 0.0,
-        "base_projected_mean": 5.01418070303076,
-        "base_side_probability": 0.43800857287978257,
-        "baseline_opportunity": {
-          "baseline_bf": 25.28,
-          "baseline_pitches": 98.6,
-          "pitches_per_bf": 3.9003164556962022
-        },
-        "market_implied_mean": 4.579280585409741,
-        "market_implied_opportunity_ratio": 0.9132659663904515,
-        "market_implied_bf": 23.087363630350616,
-        "market_over_probability": 0.4828753324200177,
-        "scenarios": [
-          {
-            "workload_ratio": 1.0,
-            "expected_bf": 25.28,
-            "projected_mean": 5.01418070303076,
-            "over_probability": 0.5619914271202173
-          },
-          {
-            "workload_ratio": 0.9,
-            "expected_bf": 22.752000000000002,
-            "projected_mean": 4.512762632727685,
-            "over_probability": 0.4703171388301054
-          },
-          {
-            "workload_ratio": 0.8,
-            "expected_bf": 20.224000000000004,
-            "projected_mean": 4.0113445624246085,
-            "over_probability": 0.37337940397825486
-          },
-          {
-            "workload_ratio": 0.7,
-            "expected_bf": 17.695999999999998,
-            "projected_mean": 3.509926492121532,
-            "over_probability": 0.2764306098400136
-          }
-        ],
-        "signals": [],
-        "explicit_workload": null,
-        "context_adjusted_mean": null,
-        "context_adjusted_side_probability": null,
-        "guardrail": "Qualitative context never changes the central projection. Only explicit expected pitch-count or batters-faced evidence may create a context-adjusted projection."
-      }
-    },
-    {
-      "game_pk": 824057,
-      "game_datetime": "2026-09-26T23:10:00Z",
-      "pitcher_id": 608379,
-      "pitcher_name": "Michael Wacha",
-      "team": "Kansas City Royals",
-      "team_abbr": "KC",
-      "opponent": "Cleveland Guardians",
-      "opponent_abbr": "CLE",
-      "throwing_hand": "R",
-      "projected_k": 4.588483119595801,
-      "sportsbook": "Pinnacle",
-      "side": "Under",
-      "line": 3.5,
-      "american_odds": 130,
-      "model_probability": 0.3275880735355292,
-      "market_fair_probability": 0.4106205619018215,
-      "edge_pp": -8.30324883662923,
-      "ev": -0.2465474308682829,
-      "research_candidate": false,
-      "quote_last_seen_at": "2026-09-26T14:18:34.514179Z",
-      "quote_source_updated_at": "2026-09-26T13:26:56Z",
-      "analysis_key": "824057:608379",
-      "context": {
-        "status": "clear",
-        "probability_distribution": "poisson",
-        "probability_alpha": 0.0,
-        "base_projected_mean": 4.588483119595801,
-        "base_side_probability": 0.3275880735355292,
-        "baseline_opportunity": {
-          "baseline_bf": 25.226666666666667,
-          "baseline_pitches": 101.14666666666668,
-          "pitches_per_bf": 4.009513742071882
-        },
-        "market_implied_mean": 4.11875310352268,
-        "market_implied_opportunity_ratio": 0.8976284746331378,
-        "market_implied_bf": 22.644174320078623,
-        "market_over_probability": 0.5893794380981785,
-        "scenarios": [
-          {
-            "workload_ratio": 1.0,
-            "expected_bf": 25.226666666666667,
-            "projected_mean": 4.588483119595801,
-            "over_probability": 0.6724119264644708
-          },
-          {
-            "workload_ratio": 0.9,
-            "expected_bf": 22.704,
-            "projected_mean": 4.129634807636221,
-            "over_probability": 0.5914374506095419
-          },
-          {
-            "workload_ratio": 0.8,
-            "expected_bf": 20.181333333333335,
-            "projected_mean": 3.6707864956766407,
-            "over_probability": 0.49973261998584934
-          },
-          {
-            "workload_ratio": 0.7,
-            "expected_bf": 17.658666666666665,
-            "projected_mean": 3.2119381837170606,
-            "over_probability": 0.40013689642118777
-          }
-        ],
-        "signals": [],
-        "explicit_workload": null,
-        "context_adjusted_mean": null,
-        "context_adjusted_side_probability": null,
-        "guardrail": "Qualitative context never changes the central projection. Only explicit expected pitch-count or batters-faced evidence may create a context-adjusted projection."
-      }
-    },
-    {
-      "game_pk": 822759,
-      "game_datetime": "2026-09-26T19:07:00Z",
-      "pitcher_id": 702056,
-      "pitcher_name": "Trey Yesavage",
-      "team": "Toronto Blue Jays",
-      "team_abbr": "TOR",
-      "opponent": "Cincinnati Reds",
-      "opponent_abbr": "CIN",
-      "throwing_hand": "R",
-      "projected_k": 4.455892043625318,
-      "sportsbook": "Pinnacle",
-      "side": "Under",
-      "line": 3.5,
-      "american_odds": 112,
-      "model_probability": 0.3497923699335874,
-      "market_fair_probability": 0.4456393635827931,
-      "edge_pp": -9.584699364920567,
-      "ev": -0.2584401757407946,
-      "research_candidate": false,
-      "quote_last_seen_at": "2026-09-26T14:18:34.514179Z",
-      "quote_source_updated_at": "2026-09-26T13:26:56Z",
-      "analysis_key": "822759:702056",
-      "context": {
-        "status": "clear",
-        "probability_distribution": "poisson",
-        "probability_alpha": 0.0,
-        "base_projected_mean": 4.455892043625318,
-        "base_side_probability": 0.3497923699335874,
-        "baseline_opportunity": {
-          "baseline_bf": 15.173333333333332,
-          "baseline_pitches": 64.10666666666667,
-          "pitches_per_bf": 4.224956063268893
-        },
-        "market_implied_mean": 3.9381834030471685,
-        "market_implied_opportunity_ratio": 0.8838148151908678,
-        "market_implied_bf": 13.410416795829432,
-        "market_over_probability": 0.5543606364172069,
-        "scenarios": [
-          {
-            "workload_ratio": 1.0,
-            "expected_bf": 15.173333333333332,
-            "projected_mean": 4.455892043625318,
-            "over_probability": 0.6502076300664126
-          },
-          {
-            "workload_ratio": 0.9,
-            "expected_bf": 13.655999999999999,
-            "projected_mean": 4.010302839262787,
-            "over_probability": 0.5685401158556844
-          },
-          {
-            "workload_ratio": 0.8,
-            "expected_bf": 12.138666666666666,
-            "projected_mean": 3.5647136349002544,
-            "over_probability": 0.47726489573281894
-          },
-          {
-            "workload_ratio": 0.7,
-            "expected_bf": 10.621333333333332,
-            "projected_mean": 3.1191244305377226,
-            "over_probability": 0.3794363456570553
-          }
-        ],
-        "signals": [],
-        "explicit_workload": null,
-        "context_adjusted_mean": null,
-        "context_adjusted_side_probability": null,
-        "guardrail": "Qualitative context never changes the central projection. Only explicit expected pitch-count or batters-faced evidence may create a context-adjusted projection."
-      }
-    },
-    {
-      "game_pk": 824543,
-      "game_datetime": "2026-09-26T23:10:00Z",
-      "pitcher_id": 500779,
-      "pitcher_name": "Jose Quintana",
-      "team": "Colorado Rockies",
-      "team_abbr": "COL",
-      "opponent": "Chicago White Sox",
-      "opponent_abbr": "CWS",
-      "throwing_hand": "L",
-      "projected_k": 3.154332020214441,
-      "sportsbook": "Pinnacle",
-      "side": "Over",
-      "line": 3.5,
-      "american_odds": -111,
-      "model_probability": 0.3873003756852267,
-      "market_fair_probability": 0.4958445875753168,
-      "edge_pp": -10.854421189009011,
-      "ev": -0.2637803285595769,
-      "research_candidate": false,
-      "quote_last_seen_at": "2026-09-26T14:18:34.514179Z",
-      "quote_source_updated_at": "2026-09-26T13:26:56Z",
-      "analysis_key": "824543:500779",
-      "context": {
-        "status": "clear",
-        "probability_distribution": "poisson",
-        "probability_alpha": 0.0,
-        "base_projected_mean": 3.154332020214441,
-        "base_side_probability": 0.3873003756852267,
-        "baseline_opportunity": {
-          "baseline_bf": 18.346666666666668,
-          "baseline_pitches": 67.54666666666667,
-          "pitches_per_bf": 3.681686046511628
-        },
-        "market_implied_mean": 3.6522905108171484,
-        "market_implied_opportunity_ratio": 1.157864957592148,
-        "market_implied_bf": 21.242962421957277,
-        "market_over_probability": 0.4958445875753168,
-        "scenarios": [
-          {
-            "workload_ratio": 1.0,
-            "expected_bf": 18.346666666666668,
-            "projected_mean": 3.154332020214441,
-            "over_probability": 0.3873003756852265
-          },
-          {
-            "workload_ratio": 0.9,
-            "expected_bf": 16.512,
-            "projected_mean": 2.838898818192997,
-            "over_probability": 0.3167281254171068
-          },
-          {
-            "workload_ratio": 0.8,
-            "expected_bf": 14.677333333333335,
-            "projected_mean": 2.5234656161715527,
-            "over_probability": 0.2474515160616249
-          },
-          {
-            "workload_ratio": 0.7,
-            "expected_bf": 12.842666666666666,
-            "projected_mean": 2.2080324141501086,
-            "over_probability": 0.18222936000065298
-          }
-        ],
-        "signals": [],
-        "explicit_workload": null,
-        "context_adjusted_mean": null,
-        "context_adjusted_side_probability": null,
-        "guardrail": "Qualitative context never changes the central projection. Only explicit expected pitch-count or batters-faced evidence may create a context-adjusted projection."
-      }
-    },
-    {
       "game_pk": 824543,
       "game_datetime": "2026-09-26T23:10:00Z",
       "pitcher_id": 663436,
@@ -3721,14 +2668,14 @@
       "sportsbook": "Pinnacle",
       "side": "Over",
       "line": 4.5,
-      "american_odds": 115,
+      "american_odds": 138,
       "model_probability": 0.3142065826733299,
-      "market_fair_probability": 0.4341138266962912,
-      "edge_pp": -11.990724402296133,
-      "ev": -0.3244558472523408,
+      "market_fair_probability": 0.39294085206121604,
+      "edge_pp": -7.873426938788613,
+      "ev": -0.2521883332374749,
       "research_candidate": false,
-      "quote_last_seen_at": "2026-09-26T14:18:34.514179Z",
-      "quote_source_updated_at": "2026-09-26T14:12:17Z",
+      "quote_last_seen_at": "2026-09-26T21:13:51.451367Z",
+      "quote_source_updated_at": "2026-09-26T20:14:37Z",
       "analysis_key": "824543:663436",
       "context": {
         "status": "clear",
@@ -3741,10 +2688,10 @@
           "baseline_pitches": 62.18666666666667,
           "pitches_per_bf": 3.607115235885537
         },
-        "market_implied_mean": 4.323570313849473,
-        "market_implied_opportunity_ratio": 1.1662052725403895,
-        "market_implied_bf": 20.105378898596317,
-        "market_over_probability": 0.4341138266962912,
+        "market_implied_mean": 4.11152825478098,
+        "market_implied_opportunity_ratio": 1.109010743635914,
+        "market_implied_bf": 19.119345220283158,
+        "market_over_probability": 0.39294085206121604,
         "scenarios": [
           {
             "workload_ratio": 1.0,
@@ -3779,6 +2726,148 @@
       }
     },
     {
+      "game_pk": 823733,
+      "game_datetime": "2026-09-26T23:10:00Z",
+      "pitcher_id": 687273,
+      "pitcher_name": "Quinn Mathews",
+      "team": "St. Louis Cardinals",
+      "team_abbr": "STL",
+      "opponent": "Milwaukee Brewers",
+      "opponent_abbr": "MIL",
+      "throwing_hand": "L",
+      "projected_k": 5.01418070303076,
+      "sportsbook": "Pinnacle",
+      "side": "Under",
+      "line": 4.5,
+      "american_odds": -125,
+      "model_probability": 0.43800857287978257,
+      "market_fair_probability": 0.5191532258064516,
+      "edge_pp": -8.114465292666907,
+      "ev": -0.21158456881639132,
+      "research_candidate": false,
+      "quote_last_seen_at": "2026-09-26T21:13:51.451367Z",
+      "quote_source_updated_at": "2026-09-26T20:14:37Z",
+      "analysis_key": "823733:687273",
+      "context": {
+        "status": "clear",
+        "probability_distribution": "poisson",
+        "probability_alpha": 0.0,
+        "base_projected_mean": 5.01418070303076,
+        "base_side_probability": 0.43800857287978257,
+        "baseline_opportunity": {
+          "baseline_bf": 25.28,
+          "baseline_pitches": 98.6,
+          "pitches_per_bf": 3.9003164556962022
+        },
+        "market_implied_mean": 4.568499278490538,
+        "market_implied_opportunity_ratio": 0.9111158031718252,
+        "market_implied_bf": 23.03300750418374,
+        "market_over_probability": 0.4808467741935484,
+        "scenarios": [
+          {
+            "workload_ratio": 1.0,
+            "expected_bf": 25.28,
+            "projected_mean": 5.01418070303076,
+            "over_probability": 0.5619914271202173
+          },
+          {
+            "workload_ratio": 0.9,
+            "expected_bf": 22.752000000000002,
+            "projected_mean": 4.512762632727685,
+            "over_probability": 0.4703171388301054
+          },
+          {
+            "workload_ratio": 0.8,
+            "expected_bf": 20.224000000000004,
+            "projected_mean": 4.0113445624246085,
+            "over_probability": 0.37337940397825486
+          },
+          {
+            "workload_ratio": 0.7,
+            "expected_bf": 17.695999999999998,
+            "projected_mean": 3.509926492121532,
+            "over_probability": 0.2764306098400136
+          }
+        ],
+        "signals": [],
+        "explicit_workload": null,
+        "context_adjusted_mean": null,
+        "context_adjusted_side_probability": null,
+        "guardrail": "Qualitative context never changes the central projection. Only explicit expected pitch-count or batters-faced evidence may create a context-adjusted projection."
+      }
+    },
+    {
+      "game_pk": 824543,
+      "game_datetime": "2026-09-26T23:10:00Z",
+      "pitcher_id": 500779,
+      "pitcher_name": "Jose Quintana",
+      "team": "Colorado Rockies",
+      "team_abbr": "COL",
+      "opponent": "Chicago White Sox",
+      "opponent_abbr": "CWS",
+      "throwing_hand": "L",
+      "projected_k": 3.154332020214441,
+      "sportsbook": "Pinnacle",
+      "side": "Over",
+      "line": 3.5,
+      "american_odds": -115,
+      "model_probability": 0.3873003756852267,
+      "market_fair_probability": 0.5,
+      "edge_pp": -11.269962431477332,
+      "ev": -0.2759167731320492,
+      "research_candidate": false,
+      "quote_last_seen_at": "2026-09-26T21:13:51.451367Z",
+      "quote_source_updated_at": "2026-09-26T20:14:37Z",
+      "analysis_key": "824543:500779",
+      "context": {
+        "status": "clear",
+        "probability_distribution": "poisson",
+        "probability_alpha": 0.0,
+        "base_projected_mean": 3.154332020214441,
+        "base_side_probability": 0.3873003756852267,
+        "baseline_opportunity": {
+          "baseline_bf": 18.346666666666668,
+          "baseline_pitches": 67.54666666666667,
+          "pitches_per_bf": 3.681686046511628
+        },
+        "market_implied_mean": 3.672060748850897,
+        "market_implied_opportunity_ratio": 1.1641326040881579,
+        "market_implied_bf": 21.35795284300407,
+        "market_over_probability": 0.5,
+        "scenarios": [
+          {
+            "workload_ratio": 1.0,
+            "expected_bf": 18.346666666666668,
+            "projected_mean": 3.154332020214441,
+            "over_probability": 0.3873003756852265
+          },
+          {
+            "workload_ratio": 0.9,
+            "expected_bf": 16.512,
+            "projected_mean": 2.838898818192997,
+            "over_probability": 0.3167281254171068
+          },
+          {
+            "workload_ratio": 0.8,
+            "expected_bf": 14.677333333333335,
+            "projected_mean": 2.5234656161715527,
+            "over_probability": 0.2474515160616249
+          },
+          {
+            "workload_ratio": 0.7,
+            "expected_bf": 12.842666666666666,
+            "projected_mean": 2.2080324141501086,
+            "over_probability": 0.18222936000065298
+          }
+        ],
+        "signals": [],
+        "explicit_workload": null,
+        "context_adjusted_mean": null,
+        "context_adjusted_side_probability": null,
+        "guardrail": "Qualitative context never changes the central projection. Only explicit expected pitch-count or batters-faced evidence may create a context-adjusted projection."
+      }
+    },
+    {
       "game_pk": 823083,
       "game_datetime": "2026-09-27T01:40:00Z",
       "pitcher_id": 807739,
@@ -3792,14 +2881,14 @@
       "sportsbook": "Pinnacle",
       "side": "Over",
       "line": 5.5,
-      "american_odds": -180,
+      "american_odds": -164,
       "model_probability": 0.4509624324791637,
-      "market_fair_probability": 0.6047430830039526,
-      "edge_pp": -15.378065052478895,
-      "ev": -0.29850268238244204,
+      "market_fair_probability": 0.580766054754494,
+      "edge_pp": -12.980362227533037,
+      "ev": -0.27406051854207136,
       "research_candidate": false,
-      "quote_last_seen_at": "2026-09-26T14:18:34.514179Z",
-      "quote_source_updated_at": "2026-09-26T13:26:56Z",
+      "quote_last_seen_at": "2026-09-26T21:13:51.451367Z",
+      "quote_source_updated_at": "2026-09-26T20:29:37Z",
       "analysis_key": "823083:807739",
       "context": {
         "status": "clear",
@@ -3812,10 +2901,10 @@
           "baseline_pitches": 79.72,
           "pitches_per_bf": 3.599638771824202
         },
-        "market_implied_mean": 6.323199572200894,
-        "market_implied_opportunity_ratio": 1.1746176027840969,
-        "market_implied_bf": 26.013864509658468,
-        "market_over_probability": 0.6047430830039526,
+        "market_implied_mean": 6.1670526683655496,
+        "market_implied_opportunity_ratio": 1.1456112588009681,
+        "market_implied_bf": 25.371470678245444,
+        "market_over_probability": 0.580766054754494,
         "scenarios": [
           {
             "workload_ratio": 1.0,
@@ -3850,6 +2939,77 @@
       }
     },
     {
+      "game_pk": 824057,
+      "game_datetime": "2026-09-26T23:10:00Z",
+      "pitcher_id": 608379,
+      "pitcher_name": "Michael Wacha",
+      "team": "Kansas City Royals",
+      "team_abbr": "KC",
+      "opponent": "Cleveland Guardians",
+      "opponent_abbr": "CLE",
+      "throwing_hand": "R",
+      "projected_k": 4.588483119595801,
+      "sportsbook": "Pinnacle",
+      "side": "Under",
+      "line": 3.5,
+      "american_odds": -100,
+      "model_probability": 0.3275880735355292,
+      "market_fair_probability": 0.4677419354838709,
+      "edge_pp": -14.015386194834168,
+      "ev": -0.3448238529289416,
+      "research_candidate": false,
+      "quote_last_seen_at": "2026-09-26T21:13:51.451367Z",
+      "quote_source_updated_at": "2026-09-26T20:14:37Z",
+      "analysis_key": "824057:608379",
+      "context": {
+        "status": "clear",
+        "probability_distribution": "poisson",
+        "probability_alpha": 0.0,
+        "base_projected_mean": 4.588483119595801,
+        "base_side_probability": 0.3275880735355292,
+        "baseline_opportunity": {
+          "baseline_bf": 25.226666666666667,
+          "baseline_pitches": 101.14666666666668,
+          "pitches_per_bf": 4.009513742071882
+        },
+        "market_implied_mean": 3.8281546187613857,
+        "market_implied_opportunity_ratio": 0.8342963282163295,
+        "market_implied_bf": 21.04651537313727,
+        "market_over_probability": 0.5322580645161291,
+        "scenarios": [
+          {
+            "workload_ratio": 1.0,
+            "expected_bf": 25.226666666666667,
+            "projected_mean": 4.588483119595801,
+            "over_probability": 0.6724119264644708
+          },
+          {
+            "workload_ratio": 0.9,
+            "expected_bf": 22.704,
+            "projected_mean": 4.129634807636221,
+            "over_probability": 0.5914374506095419
+          },
+          {
+            "workload_ratio": 0.8,
+            "expected_bf": 20.181333333333335,
+            "projected_mean": 3.6707864956766407,
+            "over_probability": 0.49973261998584934
+          },
+          {
+            "workload_ratio": 0.7,
+            "expected_bf": 17.658666666666665,
+            "projected_mean": 3.2119381837170606,
+            "over_probability": 0.40013689642118777
+          }
+        ],
+        "signals": [],
+        "explicit_workload": null,
+        "context_adjusted_mean": null,
+        "context_adjusted_side_probability": null,
+        "guardrail": "Qualitative context never changes the central projection. Only explicit expected pitch-count or batters-faced evidence may create a context-adjusted projection."
+      }
+    },
+    {
       "game_pk": 823733,
       "game_datetime": "2026-09-26T23:10:00Z",
       "pitcher_id": 669160,
@@ -3863,14 +3023,14 @@
       "sportsbook": "Pinnacle",
       "side": "Under",
       "line": 3.5,
-      "american_odds": -183,
+      "american_odds": -242,
       "model_probability": 0.4207669876417601,
-      "market_fair_probability": 0.6041293643688452,
-      "edge_pp": -18.33623767270851,
-      "ev": -0.3493057334953753,
+      "market_fair_probability": 0.6613593155893537,
+      "edge_pp": -24.059232794759357,
+      "ev": -0.4053624154239489,
       "research_candidate": false,
-      "quote_last_seen_at": "2026-09-26T14:18:34.514179Z",
-      "quote_source_updated_at": "2026-09-26T13:57:06Z",
+      "quote_last_seen_at": "2026-09-26T21:13:51.451367Z",
+      "quote_source_updated_at": "2026-09-26T20:44:40Z",
       "analysis_key": "823733:669160",
       "context": {
         "status": "clear",
@@ -3883,10 +3043,10 @@
           "baseline_pitches": 66.49333333333334,
           "pitches_per_bf": 4.1011513157894735
         },
-        "market_implied_mean": 3.1927710470170556,
-        "market_implied_opportunity_ratio": 0.7853203774570503,
-        "market_implied_bf": 12.73266105317031,
-        "market_over_probability": 0.39587063563115477,
+        "market_implied_mean": 2.9369288151860893,
+        "market_implied_opportunity_ratio": 0.7223913057784961,
+        "market_implied_bf": 11.712371037688683,
+        "market_over_probability": 0.3386406844106463,
         "scenarios": [
           {
             "workload_ratio": 1.0,
@@ -3921,77 +3081,6 @@
       }
     },
     {
-      "game_pk": 823165,
-      "game_datetime": "2026-09-26T20:05:00Z",
-      "pitcher_id": 605483,
-      "pitcher_name": "Blake Snell",
-      "team": "Los Angeles Dodgers",
-      "team_abbr": "LAD",
-      "opponent": "San Francisco Giants",
-      "opponent_abbr": "SF",
-      "throwing_hand": "L",
-      "projected_k": 5.444696725223476,
-      "sportsbook": "Pinnacle",
-      "side": "Over",
-      "line": 8.5,
-      "american_odds": 214,
-      "model_probability": 0.10100878319441042,
-      "market_fair_probability": 0.29788877828457666,
-      "edge_pp": -19.687999509016624,
-      "ev": -0.6828324207695513,
-      "research_candidate": false,
-      "quote_last_seen_at": "2026-09-26T14:18:34.514179Z",
-      "quote_source_updated_at": "2026-09-26T13:27:07Z",
-      "analysis_key": "823165:605483",
-      "context": {
-        "status": "clear",
-        "probability_distribution": "poisson",
-        "probability_alpha": 0.0,
-        "base_projected_mean": 5.444696725223476,
-        "base_side_probability": 0.10100878319441042,
-        "baseline_opportunity": {
-          "baseline_bf": 17.68,
-          "baseline_pitches": 78.89333333333333,
-          "pitches_per_bf": 4.462292609351433
-        },
-        "market_implied_mean": 7.204164544104907,
-        "market_implied_opportunity_ratio": 1.3231525845563443,
-        "market_implied_bf": 23.393337694956166,
-        "market_over_probability": 0.29788877828457666,
-        "scenarios": [
-          {
-            "workload_ratio": 1.0,
-            "expected_bf": 17.68,
-            "projected_mean": 5.444696725223476,
-            "over_probability": 0.10100878319441037
-          },
-          {
-            "workload_ratio": 0.9,
-            "expected_bf": 15.912,
-            "projected_mean": 4.900227052701129,
-            "over_probability": 0.06177510356238383
-          },
-          {
-            "workload_ratio": 0.8,
-            "expected_bf": 14.144,
-            "projected_mean": 4.3557573801787814,
-            "over_probability": 0.03394444188467705
-          },
-          {
-            "workload_ratio": 0.7,
-            "expected_bf": 12.376,
-            "projected_mean": 3.811287707656433,
-            "over_probability": 0.01625848870705818
-          }
-        ],
-        "signals": [],
-        "explicit_workload": null,
-        "context_adjusted_mean": null,
-        "context_adjusted_side_probability": null,
-        "guardrail": "Qualitative context never changes the central projection. Only explicit expected pitch-count or batters-faced evidence may create a context-adjusted projection."
-      }
-    },
-    {
       "game_pk": 823653,
       "game_datetime": "2026-09-26T20:10:00Z",
       "pitcher_id": 543135,
@@ -4005,14 +3094,14 @@
       "sportsbook": "Pinnacle",
       "side": "Under",
       "line": 3.5,
-      "american_odds": -122,
+      "american_odds": -165,
       "model_probability": 0.2865122610100823,
-      "market_fair_probability": 0.5187593796898449,
-      "edge_pp": -23.224711867976254,
-      "ev": -0.47864166098326155,
+      "market_fair_probability": 0.5824141191301607,
+      "edge_pp": -29.590185812007842,
+      "ev": -0.5398438315698861,
       "research_candidate": false,
-      "quote_last_seen_at": "2026-09-26T14:18:34.514179Z",
-      "quote_source_updated_at": "2026-09-26T13:57:06Z",
+      "quote_last_seen_at": "2026-09-26T21:13:51.451367Z",
+      "quote_source_updated_at": "2026-09-26T20:59:49Z",
       "analysis_key": "823653:543135",
       "context": {
         "status": "clear",
@@ -4025,10 +3114,10 @@
           "baseline_pitches": 90.25333333333333,
           "pitches_per_bf": 3.779452819653824
         },
-        "market_implied_mean": 3.5833463343874428,
-        "market_implied_opportunity_ratio": 0.7386253284631527,
-        "market_implied_bf": 17.638372843700086,
-        "market_over_probability": 0.48124062031015513,
+        "market_implied_mean": 3.290606909566704,
+        "market_implied_opportunity_ratio": 0.6782837556329353,
+        "market_implied_bf": 16.197416084514497,
+        "market_over_probability": 0.4175858808698393,
         "scenarios": [
           {
             "workload_ratio": 1.0,
