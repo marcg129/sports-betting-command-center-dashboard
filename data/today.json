@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "sample_data": false,
-  "generated_at": "2026-09-28T00:50:17.928915Z",
-  "target_date": "2026-09-27",
+  "generated_at": "2026-10-02T14:19:36.693592Z",
+  "target_date": "2026-10-02",
   "timezone": "America/New_York",
   "model_version": "MLB_K_v0.1",
   "summary": {
@@ -10,7 +10,7 @@
     "sides_priced": 0,
     "research_candidates": 0,
     "unmatched_market_names": 0,
-    "unmatched_live_pitchers": 26,
+    "unmatched_live_pitchers": 0,
     "quotes_considered": 0,
     "quote_pairs_found": 0,
     "min_edge": 0.03,
@@ -29,215 +29,32 @@
   },
   "freshness": {
     "latest_quote_seen_at": null,
-    "collector_finished_at": "2026-09-28T00:49:38.258148Z",
-    "credits_remaining": 790,
-    "live_scoring_finished_at": "2026-09-27T14:19:08.267734Z",
-    "market_pricing_finished_at": "2026-09-28T00:49:40.621792Z"
+    "collector_finished_at": "2026-10-02T14:18:35.115534Z",
+    "credits_remaining": null,
+    "live_scoring_finished_at": "2026-10-02T14:18:29.548752Z",
+    "market_pricing_finished_at": "2026-10-02T14:18:42.524132Z"
   },
   "recent_runs": [
     {
       "name": "Odds Collector",
-      "finished_at": "2026-09-28T00:49:38.258148Z",
-      "status": "success",
+      "finished_at": "2026-10-02T14:18:35.115534Z",
+      "status": "skipped_no_games",
       "detail": "0 quotes"
     },
     {
       "name": "Live Projections",
-      "finished_at": "2026-09-27T14:19:08.267734Z",
+      "finished_at": "2026-10-02T14:18:29.548752Z",
       "status": "success",
-      "detail": "26 pitchers"
+      "detail": "0 pitchers"
     },
     {
       "name": "Market Pricing",
-      "finished_at": "2026-09-28T00:49:40.621792Z",
+      "finished_at": "2026-10-02T14:18:42.524132Z",
       "status": "success",
       "detail": "0 sides \u00b7 0 candidates"
     }
   ],
-  "issues": [
-    {
-      "issue_type": "live_pitcher_without_fresh_market",
-      "player_name": "Andre Pallante",
-      "sportsbook": null,
-      "line": null,
-      "detail": "Scored probable starter had no fresh two-sided pitcher-K market quote."
-    },
-    {
-      "issue_type": "live_pitcher_without_fresh_market",
-      "player_name": "Anthony Kay",
-      "sportsbook": null,
-      "line": null,
-      "detail": "Scored probable starter had no fresh two-sided pitcher-K market quote."
-    },
-    {
-      "issue_type": "live_pitcher_without_fresh_market",
-      "player_name": "Brandon Williamson",
-      "sportsbook": null,
-      "line": null,
-      "detail": "Scored probable starter had no fresh two-sided pitcher-K market quote."
-    },
-    {
-      "issue_type": "live_pitcher_without_fresh_market",
-      "player_name": "DJ Herz",
-      "sportsbook": null,
-      "line": null,
-      "detail": "Scored probable starter had no fresh two-sided pitcher-K market quote."
-    },
-    {
-      "issue_type": "live_pitcher_without_fresh_market",
-      "player_name": "Daniel Lynch IV",
-      "sportsbook": null,
-      "line": null,
-      "detail": "Scored probable starter had no fresh two-sided pitcher-K market quote."
-    },
-    {
-      "issue_type": "live_pitcher_without_fresh_market",
-      "player_name": "Dean Kremer",
-      "sportsbook": null,
-      "line": null,
-      "detail": "Scored probable starter had no fresh two-sided pitcher-K market quote."
-    },
-    {
-      "issue_type": "live_pitcher_without_fresh_market",
-      "player_name": "Elmer Rodr\u00edguez",
-      "sportsbook": null,
-      "line": null,
-      "detail": "Scored probable starter had no fresh two-sided pitcher-K market quote."
-    },
-    {
-      "issue_type": "live_pitcher_without_fresh_market",
-      "player_name": "JR Ritchie",
-      "sportsbook": null,
-      "line": null,
-      "detail": "Scored probable starter had no fresh two-sided pitcher-K market quote."
-    },
-    {
-      "issue_type": "live_pitcher_without_fresh_market",
-      "player_name": "Jacob Misiorowski",
-      "sportsbook": null,
-      "line": null,
-      "detail": "Scored probable starter had no fresh two-sided pitcher-K market quote."
-    },
-    {
-      "issue_type": "live_pitcher_without_fresh_market",
-      "player_name": "Janson Junk",
-      "sportsbook": null,
-      "line": null,
-      "detail": "Scored probable starter had no fresh two-sided pitcher-K market quote."
-    },
-    {
-      "issue_type": "live_pitcher_without_fresh_market",
-      "player_name": "Jared Jones",
-      "sportsbook": null,
-      "line": null,
-      "detail": "Scored probable starter had no fresh two-sided pitcher-K market quote."
-    },
-    {
-      "issue_type": "live_pitcher_without_fresh_market",
-      "player_name": "Kyle Freeland",
-      "sportsbook": null,
-      "line": null,
-      "detail": "Scored probable starter had no fresh two-sided pitcher-K market quote."
-    },
-    {
-      "issue_type": "live_pitcher_without_fresh_market",
-      "player_name": "Logan Gilbert",
-      "sportsbook": null,
-      "line": null,
-      "detail": "Scored probable starter had no fresh two-sided pitcher-K market quote."
-    },
-    {
-      "issue_type": "live_pitcher_without_fresh_market",
-      "player_name": "MacKenzie Gore",
-      "sportsbook": null,
-      "line": null,
-      "detail": "Scored probable starter had no fresh two-sided pitcher-K market quote."
-    },
-    {
-      "issue_type": "live_pitcher_without_fresh_market",
-      "player_name": "Max Scherzer",
-      "sportsbook": null,
-      "line": null,
-      "detail": "Scored probable starter had no fresh two-sided pitcher-K market quote."
-    },
-    {
-      "issue_type": "live_pitcher_without_fresh_market",
-      "player_name": "Michael Soroka",
-      "sportsbook": null,
-      "line": null,
-      "detail": "Scored probable starter had no fresh two-sided pitcher-K market quote."
-    },
-    {
-      "issue_type": "live_pitcher_without_fresh_market",
-      "player_name": "Nick Martinez",
-      "sportsbook": null,
-      "line": null,
-      "detail": "Scored probable starter had no fresh two-sided pitcher-K market quote."
-    },
-    {
-      "issue_type": "live_pitcher_without_fresh_market",
-      "player_name": "Parker Messick",
-      "sportsbook": null,
-      "line": null,
-      "detail": "Scored probable starter had no fresh two-sided pitcher-K market quote."
-    },
-    {
-      "issue_type": "live_pitcher_without_fresh_market",
-      "player_name": "Peter Lambert",
-      "sportsbook": null,
-      "line": null,
-      "detail": "Scored probable starter had no fresh two-sided pitcher-K market quote."
-    },
-    {
-      "issue_type": "live_pitcher_without_fresh_market",
-      "player_name": "Randy V\u00e1squez",
-      "sportsbook": null,
-      "line": null,
-      "detail": "Scored probable starter had no fresh two-sided pitcher-K market quote."
-    },
-    {
-      "issue_type": "live_pitcher_without_fresh_market",
-      "player_name": "River Ryan",
-      "sportsbook": null,
-      "line": null,
-      "detail": "Scored probable starter had no fresh two-sided pitcher-K market quote."
-    },
-    {
-      "issue_type": "live_pitcher_without_fresh_market",
-      "player_name": "Sean Manaea",
-      "sportsbook": null,
-      "line": null,
-      "detail": "Scored probable starter had no fresh two-sided pitcher-K market quote."
-    },
-    {
-      "issue_type": "live_pitcher_without_fresh_market",
-      "player_name": "Shane Baz",
-      "sportsbook": null,
-      "line": null,
-      "detail": "Scored probable starter had no fresh two-sided pitcher-K market quote."
-    },
-    {
-      "issue_type": "live_pitcher_without_fresh_market",
-      "player_name": "Shota Imanaga",
-      "sportsbook": null,
-      "line": null,
-      "detail": "Scored probable starter had no fresh two-sided pitcher-K market quote."
-    },
-    {
-      "issue_type": "live_pitcher_without_fresh_market",
-      "player_name": "Yusei Kikuchi",
-      "sportsbook": null,
-      "line": null,
-      "detail": "Scored probable starter had no fresh two-sided pitcher-K market quote."
-    },
-    {
-      "issue_type": "live_pitcher_without_fresh_market",
-      "player_name": "Zack Wheeler",
-      "sportsbook": null,
-      "line": null,
-      "detail": "Scored probable starter had no fresh two-sided pitcher-K market quote."
-    }
-  ],
+  "issues": [],
   "players": [],
   "markets": []
 }

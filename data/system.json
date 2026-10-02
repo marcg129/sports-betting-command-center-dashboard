@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "sample_data": false,
-  "generated_at": "2026-09-27T21:24:41.656190Z",
+  "generated_at": "2026-10-02T14:19:41.374798Z",
   "timezone": "America/New_York",
-  "overall_status": "healthy",
+  "overall_status": "attention",
   "api_usage": {
-    "credits_remaining": 793,
-    "last_request_cost": 3,
-    "last_collector_at": "2026-09-27T21:23:51.929326Z",
+    "credits_remaining": null,
+    "last_request_cost": 0,
+    "last_collector_at": "2026-10-02T14:18:35.115534Z",
     "rows_returned": 0
   },
   "model": {
@@ -24,13 +24,13 @@
     "last_result_date": "2026-09-26"
   },
   "data_quality": {
-    "pricing_finished_at": "2026-09-27T21:23:57.924370Z",
-    "pricing_target_date": "2026-09-27",
+    "pricing_finished_at": "2026-10-02T14:18:42.524132Z",
+    "pricing_target_date": "2026-10-02",
     "matched_markets": 0,
     "sides_priced": 0,
     "research_candidates": 0,
     "unmatched_market_names": 0,
-    "unmatched_live_pitchers": 26,
+    "unmatched_live_pitchers": 0,
     "pricing_status": "success",
     "projection_result_rows": 630,
     "projection_settled_rows": 620,
@@ -40,26 +40,26 @@
   "components": [
     {
       "name": "Odds Collector",
-      "started_at": "2026-09-27T21:23:46.617246Z",
-      "finished_at": "2026-09-27T21:23:51.929326Z",
-      "status": "success",
+      "started_at": "2026-10-02T14:18:32.613130Z",
+      "finished_at": "2026-10-02T14:18:35.115534Z",
+      "status": "skipped_no_games",
       "error_message": null,
       "rows": 0,
-      "credits_remaining": 793
+      "credits_remaining": null
     },
     {
       "name": "Live Projections",
-      "started_at": "2026-09-27T14:19:04.364374Z",
-      "finished_at": "2026-09-27T14:19:08.267734Z",
+      "started_at": "2026-10-02T14:18:29.460184Z",
+      "finished_at": "2026-10-02T14:18:29.548752Z",
       "status": "success",
       "error_message": null,
-      "rows": 26,
-      "trained_through": "2026-09-26"
+      "rows": 0,
+      "trained_through": null
     },
     {
       "name": "Market Pricing",
-      "started_at": "2026-09-27T21:23:54.102955Z",
-      "finished_at": "2026-09-27T21:23:57.924370Z",
+      "started_at": "2026-10-02T14:18:39.924871Z",
+      "finished_at": "2026-10-02T14:18:42.524132Z",
       "status": "success",
       "error_message": null,
       "rows": 0,
@@ -90,31 +90,31 @@
       "name": "Daily MLB K Today Pipeline",
       "status": "completed",
       "conclusion": "success",
-      "event": "schedule",
-      "created_at": "2026-09-27T18:28:43Z",
-      "updated_at": "2026-09-27T18:29:29Z",
-      "run_number": 63,
-      "html_url": "https://github.com/marcg129/sports-betting-command-center/actions/runs/36340789248"
+      "event": "repository_dispatch",
+      "created_at": "2026-10-02T14:17:06Z",
+      "updated_at": "2026-10-02T14:18:51Z",
+      "run_number": 76,
+      "html_url": "https://github.com/marcg129/sports-betting-command-center/actions/runs/37018785089"
     },
     {
       "name": "MLB Pitcher K Odds Collector",
       "status": "completed",
-      "conclusion": "success",
+      "conclusion": "failure",
       "event": "schedule",
-      "created_at": "2026-09-27T21:23:34Z",
-      "updated_at": "2026-09-27T21:24:01Z",
-      "run_number": 56,
-      "html_url": "https://github.com/marcg129/sports-betting-command-center/actions/runs/36351556549"
+      "created_at": "2026-10-01T22:43:36Z",
+      "updated_at": "2026-10-01T22:44:32Z",
+      "run_number": 61,
+      "html_url": "https://github.com/marcg129/sports-betting-command-center/actions/runs/36936779042"
     },
     {
       "name": "Settle MLB K Shadow Results",
       "status": "completed",
-      "conclusion": "success",
+      "conclusion": "failure",
       "event": "schedule",
-      "created_at": "2026-09-27T17:56:06Z",
-      "updated_at": "2026-09-27T17:58:59Z",
-      "run_number": 24,
-      "html_url": "https://github.com/marcg129/sports-betting-command-center/actions/runs/36338766634"
+      "created_at": "2026-10-01T19:02:31Z",
+      "updated_at": "2026-10-01T19:03:12Z",
+      "run_number": 28,
+      "html_url": "https://github.com/marcg129/sports-betting-command-center/actions/runs/36911349164"
     }
   ],
   "schedule": [
@@ -140,14 +140,14 @@
     }
   ],
   "pipeline_timing": {
-    "pipeline_run_id": "f87a2a2c-d6c7-4406-b567-5e0a88c97fd3",
-    "target_date": "2026-09-27",
-    "expected_start_at": "2026-09-27T14:17:00Z",
-    "started_at": "2026-09-27T14:17:49.124528Z",
-    "finished_at": "2026-09-27T14:19:42.597574Z",
+    "pipeline_run_id": "0e10eb5b-0288-4687-8144-3cea1aeafa83",
+    "target_date": "2026-10-02",
+    "expected_start_at": "2026-10-02T14:17:00Z",
+    "started_at": "2026-10-02T14:17:48.792455Z",
+    "finished_at": "2026-10-02T14:18:46.877480Z",
     "trigger_source": "repository_dispatch",
-    "github_run_id": "36325353333",
-    "delay_minutes": 0.8187421333333333,
+    "github_run_id": "37018785089",
+    "delay_minutes": 0.8132075833333333,
     "status": "success",
     "error_message": null
   }
