@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "sample_data": false,
-  "generated_at": "2026-10-02T19:23:39.934899Z",
+  "generated_at": "2026-10-02T22:18:20.405198Z",
   "target_date": "2026-10-02",
   "timezone": "America/New_York",
   "model_version": "MLB_K_v0.1",
@@ -29,15 +29,15 @@
   },
   "freshness": {
     "latest_quote_seen_at": null,
-    "collector_finished_at": "2026-10-02T14:18:35.115534Z",
+    "collector_finished_at": "2026-10-02T22:17:32.199025Z",
     "credits_remaining": null,
     "live_scoring_finished_at": "2026-10-02T14:18:29.548752Z",
-    "market_pricing_finished_at": "2026-10-02T14:18:42.524132Z"
+    "market_pricing_finished_at": "2026-10-02T22:17:35.926233Z"
   },
   "recent_runs": [
     {
       "name": "Odds Collector",
-      "finished_at": "2026-10-02T14:18:35.115534Z",
+      "finished_at": "2026-10-02T22:17:32.199025Z",
       "status": "skipped_no_games",
       "detail": "0 quotes"
     },
@@ -49,7 +49,7 @@
     },
     {
       "name": "Market Pricing",
-      "finished_at": "2026-10-02T14:18:42.524132Z",
+      "finished_at": "2026-10-02T22:17:35.926233Z",
       "status": "success",
       "detail": "0 sides \u00b7 0 candidates"
     }

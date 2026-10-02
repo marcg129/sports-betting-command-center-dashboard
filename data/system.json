@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "sample_data": false,
-  "generated_at": "2026-10-02T19:23:44.602181Z",
+  "generated_at": "2026-10-02T22:18:24.874681Z",
   "timezone": "America/New_York",
-  "overall_status": "attention",
+  "overall_status": "healthy",
   "api_usage": {
     "credits_remaining": null,
     "last_request_cost": 0,
-    "last_collector_at": "2026-10-02T14:18:35.115534Z",
+    "last_collector_at": "2026-10-02T22:17:32.199025Z",
     "rows_returned": 0
   },
   "model": {
@@ -24,7 +24,7 @@
     "last_result_date": "2026-09-26"
   },
   "data_quality": {
-    "pricing_finished_at": "2026-10-02T14:18:42.524132Z",
+    "pricing_finished_at": "2026-10-02T22:17:35.926233Z",
     "pricing_target_date": "2026-10-02",
     "matched_markets": 0,
     "sides_priced": 0,
@@ -40,8 +40,8 @@
   "components": [
     {
       "name": "Odds Collector",
-      "started_at": "2026-10-02T14:18:32.613130Z",
-      "finished_at": "2026-10-02T14:18:35.115534Z",
+      "started_at": "2026-10-02T22:17:28.663552Z",
+      "finished_at": "2026-10-02T22:17:32.199025Z",
       "status": "skipped_no_games",
       "error_message": null,
       "rows": 0,
@@ -58,8 +58,8 @@
     },
     {
       "name": "Market Pricing",
-      "started_at": "2026-10-02T14:18:39.924871Z",
-      "finished_at": "2026-10-02T14:18:42.524132Z",
+      "started_at": "2026-10-02T22:17:33.918424Z",
+      "finished_at": "2026-10-02T22:17:35.926233Z",
       "status": "success",
       "error_message": null,
       "rows": 0,
@@ -99,12 +99,12 @@
     {
       "name": "MLB Pitcher K Odds Collector",
       "status": "completed",
-      "conclusion": "failure",
+      "conclusion": "success",
       "event": "schedule",
-      "created_at": "2026-10-01T22:43:36Z",
-      "updated_at": "2026-10-01T22:44:32Z",
-      "run_number": 61,
-      "html_url": "https://github.com/marcg129/sports-betting-command-center/actions/runs/36936779042"
+      "created_at": "2026-10-02T22:17:11Z",
+      "updated_at": "2026-10-02T22:17:39Z",
+      "run_number": 62,
+      "html_url": "https://github.com/marcg129/sports-betting-command-center/actions/runs/37071656257"
     },
     {
       "name": "Settle MLB K Shadow Results",
