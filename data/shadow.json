@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-02T14:59:10.140601Z",
+  "generated_at": "2026-10-02T18:44:15.697987Z",
   "methodology": {
     "stake": "Flat $1 hypothetical stake per research candidate",
     "clv": "CLV is a proxy based on the latest captured Pinnacle pregame quote, not necessarily the exact closing tick.",
@@ -106,17 +106,17 @@
     }
   ],
   "latest_settlement_run": {
-    "target_date": "2026-09-26",
-    "finished_at": "2026-09-27T17:57:03.518504Z",
-    "candidate_entries": 12,
-    "candidate_settled": 12,
-    "wins": 7,
-    "losses": 5,
+    "target_date": "2026-10-01",
+    "finished_at": "2026-10-02T18:42:32.638202Z",
+    "candidate_entries": 0,
+    "candidate_settled": 0,
+    "wins": 0,
+    "losses": 0,
     "pushes": 0,
-    "roi": 0.09401091666666661,
-    "avg_clv_pp": 0.38198315943442784,
-    "avg_line_clv_k": 0.0,
-    "avg_close_minutes_before_start": 95.1396414645833,
+    "roi": null,
+    "avg_clv_pp": null,
+    "avg_line_clv_k": null,
+    "avg_close_minutes_before_start": null,
     "status": "success"
   },
   "results": [
