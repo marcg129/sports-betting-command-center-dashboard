@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "sample_data": false,
-  "generated_at": "2026-10-03T14:58:45.132518Z",
+  "generated_at": "2026-10-03T17:39:10.800128Z",
   "timezone": "America/New_York",
   "overall_status": "healthy",
   "api_usage": {
@@ -67,8 +67,8 @@
     },
     {
       "name": "Shadow Settlement",
-      "started_at": "2026-10-02T18:42:30.130292Z",
-      "finished_at": "2026-10-02T18:42:32.638202Z",
+      "started_at": "2026-10-03T17:37:57.441806Z",
+      "finished_at": "2026-10-03T17:37:58.258814Z",
       "status": "success",
       "error_message": null,
       "rows": 0,
@@ -111,10 +111,10 @@
       "status": "completed",
       "conclusion": "success",
       "event": "schedule",
-      "created_at": "2026-10-02T18:41:50Z",
-      "updated_at": "2026-10-02T18:43:36Z",
-      "run_number": 29,
-      "html_url": "https://github.com/marcg129/sports-betting-command-center/actions/runs/37049174912"
+      "created_at": "2026-10-03T17:37:19Z",
+      "updated_at": "2026-10-03T17:38:31Z",
+      "run_number": 30,
+      "html_url": "https://github.com/marcg129/sports-betting-command-center/actions/runs/37141181161"
     }
   ],
   "schedule": [
