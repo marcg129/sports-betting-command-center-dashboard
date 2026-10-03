@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
   "sample_data": false,
-  "generated_at": "2026-10-02T22:18:24.874681Z",
+  "generated_at": "2026-10-03T14:19:09.518267Z",
   "timezone": "America/New_York",
   "overall_status": "healthy",
   "api_usage": {
-    "credits_remaining": null,
-    "last_request_cost": 0,
-    "last_collector_at": "2026-10-02T22:17:32.199025Z",
+    "credits_remaining": 997,
+    "last_request_cost": 3,
+    "last_collector_at": "2026-10-03T14:18:11.131512Z",
     "rows_returned": 0
   },
   "model": {
@@ -24,8 +24,8 @@
     "last_result_date": "2026-09-26"
   },
   "data_quality": {
-    "pricing_finished_at": "2026-10-02T22:17:35.926233Z",
-    "pricing_target_date": "2026-10-02",
+    "pricing_finished_at": "2026-10-03T14:18:16.274988Z",
+    "pricing_target_date": "2026-10-03",
     "matched_markets": 0,
     "sides_priced": 0,
     "research_candidates": 0,
@@ -40,17 +40,17 @@
   "components": [
     {
       "name": "Odds Collector",
-      "started_at": "2026-10-02T22:17:28.663552Z",
-      "finished_at": "2026-10-02T22:17:32.199025Z",
-      "status": "skipped_no_games",
+      "started_at": "2026-10-03T14:18:08.856131Z",
+      "finished_at": "2026-10-03T14:18:11.131512Z",
+      "status": "success",
       "error_message": null,
       "rows": 0,
-      "credits_remaining": null
+      "credits_remaining": 997
     },
     {
       "name": "Live Projections",
-      "started_at": "2026-10-02T14:18:29.460184Z",
-      "finished_at": "2026-10-02T14:18:29.548752Z",
+      "started_at": "2026-10-03T14:18:06.635458Z",
+      "finished_at": "2026-10-03T14:18:06.683671Z",
       "status": "success",
       "error_message": null,
       "rows": 0,
@@ -58,8 +58,8 @@
     },
     {
       "name": "Market Pricing",
-      "started_at": "2026-10-02T22:17:33.918424Z",
-      "finished_at": "2026-10-02T22:17:35.926233Z",
+      "started_at": "2026-10-03T14:18:14.574243Z",
+      "finished_at": "2026-10-03T14:18:16.274988Z",
       "status": "success",
       "error_message": null,
       "rows": 0,
@@ -90,11 +90,11 @@
       "name": "Daily MLB K Today Pipeline",
       "status": "completed",
       "conclusion": "success",
-      "event": "schedule",
-      "created_at": "2026-10-02T19:22:14Z",
-      "updated_at": "2026-10-02T19:22:55Z",
-      "run_number": 78,
-      "html_url": "https://github.com/marcg129/sports-betting-command-center/actions/runs/37053665091"
+      "event": "repository_dispatch",
+      "created_at": "2026-10-03T14:17:05Z",
+      "updated_at": "2026-10-03T14:18:22Z",
+      "run_number": 79,
+      "html_url": "https://github.com/marcg129/sports-betting-command-center/actions/runs/37129065793"
     },
     {
       "name": "MLB Pitcher K Odds Collector",
@@ -140,14 +140,14 @@
     }
   ],
   "pipeline_timing": {
-    "pipeline_run_id": "0e10eb5b-0288-4687-8144-3cea1aeafa83",
-    "target_date": "2026-10-02",
-    "expected_start_at": "2026-10-02T14:17:00Z",
-    "started_at": "2026-10-02T14:17:48.792455Z",
-    "finished_at": "2026-10-02T14:18:46.877480Z",
+    "pipeline_run_id": "0eed0a82-5989-49fa-a10c-7b0efb073986",
+    "target_date": "2026-10-03",
+    "expected_start_at": "2026-10-03T14:17:00Z",
+    "started_at": "2026-10-03T14:17:40.500071Z",
+    "finished_at": "2026-10-03T14:18:19.020661Z",
     "trigger_source": "repository_dispatch",
-    "github_run_id": "37018785089",
-    "delay_minutes": 0.8132075833333333,
+    "github_run_id": "37129065793",
+    "delay_minutes": 0.6750011833333333,
     "status": "success",
     "error_message": null
   }

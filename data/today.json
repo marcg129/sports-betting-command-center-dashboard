@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "sample_data": false,
-  "generated_at": "2026-10-02T22:18:20.405198Z",
-  "target_date": "2026-10-02",
+  "generated_at": "2026-10-03T14:19:05.257190Z",
+  "target_date": "2026-10-03",
   "timezone": "America/New_York",
   "model_version": "MLB_K_v0.1",
   "summary": {
@@ -29,27 +29,27 @@
   },
   "freshness": {
     "latest_quote_seen_at": null,
-    "collector_finished_at": "2026-10-02T22:17:32.199025Z",
-    "credits_remaining": null,
-    "live_scoring_finished_at": "2026-10-02T14:18:29.548752Z",
-    "market_pricing_finished_at": "2026-10-02T22:17:35.926233Z"
+    "collector_finished_at": "2026-10-03T14:18:11.131512Z",
+    "credits_remaining": 997,
+    "live_scoring_finished_at": "2026-10-03T14:18:06.683671Z",
+    "market_pricing_finished_at": "2026-10-03T14:18:16.274988Z"
   },
   "recent_runs": [
     {
       "name": "Odds Collector",
-      "finished_at": "2026-10-02T22:17:32.199025Z",
-      "status": "skipped_no_games",
+      "finished_at": "2026-10-03T14:18:11.131512Z",
+      "status": "success",
       "detail": "0 quotes"
     },
     {
       "name": "Live Projections",
-      "finished_at": "2026-10-02T14:18:29.548752Z",
+      "finished_at": "2026-10-03T14:18:06.683671Z",
       "status": "success",
       "detail": "0 pitchers"
     },
     {
       "name": "Market Pricing",
-      "finished_at": "2026-10-02T22:17:35.926233Z",
+      "finished_at": "2026-10-03T14:18:16.274988Z",
       "status": "success",
       "detail": "0 sides \u00b7 0 candidates"
     }
