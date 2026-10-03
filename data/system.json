@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "sample_data": false,
-  "generated_at": "2026-10-03T17:39:10.800128Z",
+  "generated_at": "2026-10-03T18:01:09.246511Z",
   "timezone": "America/New_York",
   "overall_status": "healthy",
   "api_usage": {
@@ -90,11 +90,11 @@
       "name": "Daily MLB K Today Pipeline",
       "status": "completed",
       "conclusion": "success",
-      "event": "repository_dispatch",
-      "created_at": "2026-10-03T14:57:14Z",
-      "updated_at": "2026-10-03T14:58:00Z",
-      "run_number": 80,
-      "html_url": "https://github.com/marcg129/sports-betting-command-center/actions/runs/37131485868"
+      "event": "schedule",
+      "created_at": "2026-10-03T17:59:45Z",
+      "updated_at": "2026-10-03T18:00:29Z",
+      "run_number": 81,
+      "html_url": "https://github.com/marcg129/sports-betting-command-center/actions/runs/37142546194"
     },
     {
       "name": "MLB Pitcher K Odds Collector",
