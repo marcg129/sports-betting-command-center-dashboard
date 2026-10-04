@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-10-04T14:58:30.787798Z",
+  "generated_at": "2026-10-04T17:53:17.263726Z",
   "methodology": {
     "stake": "Flat $1 hypothetical stake per research candidate",
     "clv": "CLV is a proxy based on the latest captured Pinnacle pregame quote, not necessarily the exact closing tick.",
@@ -106,8 +106,8 @@
     }
   ],
   "latest_settlement_run": {
-    "target_date": "2026-10-02",
-    "finished_at": "2026-10-03T17:37:58.258814Z",
+    "target_date": "2026-10-03",
+    "finished_at": "2026-10-04T17:51:05.516202Z",
     "candidate_entries": 0,
     "candidate_settled": 0,
     "wins": 0,
