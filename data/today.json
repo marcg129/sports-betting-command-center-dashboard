@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "sample_data": false,
-  "generated_at": "2026-10-03T21:22:19.507564Z",
+  "generated_at": "2026-10-04T00:42:07.303400Z",
   "target_date": "2026-10-03",
   "timezone": "America/New_York",
   "model_version": "MLB_K_v0.1",
@@ -9,10 +9,10 @@
     "pitchers_priced": 0,
     "sides_priced": 0,
     "research_candidates": 0,
-    "unmatched_market_names": 4,
+    "unmatched_market_names": 2,
     "unmatched_live_pitchers": 0,
-    "quotes_considered": 8,
-    "quote_pairs_found": 4,
+    "quotes_considered": 4,
+    "quote_pairs_found": 2,
     "min_edge": 0.03,
     "min_ev": 0.02,
     "max_quote_age_minutes": 180,
@@ -29,17 +29,17 @@
   },
   "freshness": {
     "latest_quote_seen_at": null,
-    "collector_finished_at": "2026-10-03T21:21:30.161800Z",
-    "credits_remaining": 994,
+    "collector_finished_at": "2026-10-04T00:41:26.092905Z",
+    "credits_remaining": 991,
     "live_scoring_finished_at": "2026-10-03T14:18:06.683671Z",
-    "market_pricing_finished_at": "2026-10-03T21:21:36.605026Z"
+    "market_pricing_finished_at": "2026-10-04T00:41:28.124052Z"
   },
   "recent_runs": [
     {
       "name": "Odds Collector",
-      "finished_at": "2026-10-03T21:21:30.161800Z",
+      "finished_at": "2026-10-04T00:41:26.092905Z",
       "status": "success",
-      "detail": "4 quotes"
+      "detail": "2 quotes"
     },
     {
       "name": "Live Projections",
@@ -49,26 +49,12 @@
     },
     {
       "name": "Market Pricing",
-      "finished_at": "2026-10-03T21:21:36.605026Z",
+      "finished_at": "2026-10-04T00:41:28.124052Z",
       "status": "success",
       "detail": "0 sides \u00b7 0 candidates"
     }
   ],
   "issues": [
-    {
-      "issue_type": "market_name_not_live_scored",
-      "player_name": "Drew Rasmussen",
-      "sportsbook": "Pinnacle",
-      "line": 6.5,
-      "detail": "Fresh two-sided market quote had no uniquely scored probable starter for the target date."
-    },
-    {
-      "issue_type": "market_name_not_live_scored",
-      "player_name": "Gerrit Cole",
-      "sportsbook": "Pinnacle",
-      "line": 5.5,
-      "detail": "Fresh two-sided market quote had no uniquely scored probable starter for the target date."
-    },
     {
       "issue_type": "market_name_not_live_scored",
       "player_name": "Jacob Misiorowski",
