@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
   "sample_data": false,
-  "generated_at": "2026-10-05T00:59:56.633312Z",
-  "target_date": "2026-10-04",
+  "generated_at": "2026-10-05T14:19:21.742012Z",
+  "target_date": "2026-10-05",
   "timezone": "America/New_York",
   "model_version": "MLB_K_v0.1",
   "summary": {
     "pitchers_priced": 0,
     "sides_priced": 0,
     "research_candidates": 0,
-    "unmatched_market_names": 1,
+    "unmatched_market_names": 7,
     "unmatched_live_pitchers": 0,
-    "quotes_considered": 2,
-    "quote_pairs_found": 1,
+    "quotes_considered": 14,
+    "quote_pairs_found": 7,
     "min_edge": 0.03,
     "min_ev": 0.02,
     "max_quote_age_minutes": 180,
@@ -29,27 +29,27 @@
   },
   "freshness": {
     "latest_quote_seen_at": null,
-    "collector_finished_at": "2026-10-05T00:59:08.440773Z",
-    "credits_remaining": 982,
-    "live_scoring_finished_at": "2026-10-04T14:18:11.603851Z",
-    "market_pricing_finished_at": "2026-10-05T00:59:10.440309Z"
+    "collector_finished_at": "2026-10-05T14:18:23.503229Z",
+    "credits_remaining": 979,
+    "live_scoring_finished_at": "2026-10-05T14:18:16.499510Z",
+    "market_pricing_finished_at": "2026-10-05T14:18:29.817698Z"
   },
   "recent_runs": [
     {
       "name": "Odds Collector",
-      "finished_at": "2026-10-05T00:59:08.440773Z",
+      "finished_at": "2026-10-05T14:18:23.503229Z",
       "status": "success",
-      "detail": "1 quotes"
+      "detail": "7 quotes"
     },
     {
       "name": "Live Projections",
-      "finished_at": "2026-10-04T14:18:11.603851Z",
+      "finished_at": "2026-10-05T14:18:16.499510Z",
       "status": "success",
       "detail": "0 pitchers"
     },
     {
       "name": "Market Pricing",
-      "finished_at": "2026-10-05T00:59:10.440309Z",
+      "finished_at": "2026-10-05T14:18:29.817698Z",
       "status": "success",
       "detail": "0 sides \u00b7 0 candidates"
     }
@@ -57,9 +57,51 @@
   "issues": [
     {
       "issue_type": "market_name_not_live_scored",
+      "player_name": "Cam Schlittler",
+      "sportsbook": "Pinnacle",
+      "line": 6.5,
+      "detail": "Fresh two-sided market quote had no uniquely scored probable starter for the target date."
+    },
+    {
+      "issue_type": "market_name_not_live_scored",
+      "player_name": "Chris Sale",
+      "sportsbook": "Pinnacle",
+      "line": 7.5,
+      "detail": "Fresh two-sided market quote had no uniquely scored probable starter for the target date."
+    },
+    {
+      "issue_type": "market_name_not_live_scored",
+      "player_name": "Dustin May",
+      "sportsbook": "Pinnacle",
+      "line": 3.5,
+      "detail": "Fresh two-sided market quote had no uniquely scored probable starter for the target date."
+    },
+    {
+      "issue_type": "market_name_not_live_scored",
       "player_name": "Freddy Peralta",
       "sportsbook": "Pinnacle",
       "line": 5.5,
+      "detail": "Fresh two-sided market quote had no uniquely scored probable starter for the target date."
+    },
+    {
+      "issue_type": "market_name_not_live_scored",
+      "player_name": "Gavin Williams",
+      "sportsbook": "Pinnacle",
+      "line": 7.5,
+      "detail": "Fresh two-sided market quote had no uniquely scored probable starter for the target date."
+    },
+    {
+      "issue_type": "market_name_not_live_scored",
+      "player_name": "Nick Pivetta",
+      "sportsbook": "Pinnacle",
+      "line": 3.5,
+      "detail": "Fresh two-sided market quote had no uniquely scored probable starter for the target date."
+    },
+    {
+      "issue_type": "market_name_not_live_scored",
+      "player_name": "Yoshinobu Yamamoto",
+      "sportsbook": "Pinnacle",
+      "line": 6.5,
       "detail": "Fresh two-sided market quote had no uniquely scored probable starter for the target date."
     }
   ],
