@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "sample_data": false,
-  "generated_at": "2026-10-05T14:58:52.070559Z",
+  "generated_at": "2026-10-05T21:31:54.487139Z",
   "timezone": "America/New_York",
-  "overall_status": "healthy",
+  "overall_status": "attention",
   "api_usage": {
     "credits_remaining": 979,
     "last_request_cost": 3,
@@ -90,11 +90,11 @@
       "name": "Daily MLB K Today Pipeline",
       "status": "completed",
       "conclusion": "success",
-      "event": "repository_dispatch",
-      "created_at": "2026-10-05T14:57:16Z",
-      "updated_at": "2026-10-05T14:58:04Z",
-      "run_number": 86,
-      "html_url": "https://github.com/marcg129/sports-betting-command-center/actions/runs/37328896743"
+      "event": "schedule",
+      "created_at": "2026-10-05T21:30:18Z",
+      "updated_at": "2026-10-05T21:31:07Z",
+      "run_number": 87,
+      "html_url": "https://github.com/marcg129/sports-betting-command-center/actions/runs/37376272116"
     },
     {
       "name": "MLB Pitcher K Odds Collector",
@@ -109,12 +109,12 @@
     {
       "name": "Settle MLB K Shadow Results",
       "status": "completed",
-      "conclusion": "success",
+      "conclusion": "failure",
       "event": "schedule",
-      "created_at": "2026-10-04T17:50:21Z",
-      "updated_at": "2026-10-04T17:52:37Z",
-      "run_number": 31,
-      "html_url": "https://github.com/marcg129/sports-betting-command-center/actions/runs/37222025468"
+      "created_at": "2026-10-05T21:13:45Z",
+      "updated_at": "2026-10-05T21:28:48Z",
+      "run_number": 32,
+      "html_url": "https://github.com/marcg129/sports-betting-command-center/actions/runs/37374556328"
     }
   ],
   "schedule": [
