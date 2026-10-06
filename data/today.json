@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "sample_data": false,
-  "generated_at": "2026-10-05T21:31:50.311142Z",
+  "generated_at": "2026-10-06T00:07:11.306262Z",
   "target_date": "2026-10-05",
   "timezone": "America/New_York",
   "model_version": "MLB_K_v0.1",
@@ -9,10 +9,10 @@
     "pitchers_priced": 0,
     "sides_priced": 0,
     "research_candidates": 0,
-    "unmatched_market_names": 7,
+    "unmatched_market_names": 6,
     "unmatched_live_pitchers": 0,
-    "quotes_considered": 14,
-    "quote_pairs_found": 7,
+    "quotes_considered": 12,
+    "quote_pairs_found": 6,
     "min_edge": 0.03,
     "min_ev": 0.02,
     "max_quote_age_minutes": 180,
@@ -29,17 +29,17 @@
   },
   "freshness": {
     "latest_quote_seen_at": null,
-    "collector_finished_at": "2026-10-05T14:18:23.503229Z",
-    "credits_remaining": 979,
+    "collector_finished_at": "2026-10-06T00:06:12.199443Z",
+    "credits_remaining": 976,
     "live_scoring_finished_at": "2026-10-05T14:18:16.499510Z",
-    "market_pricing_finished_at": "2026-10-05T14:18:29.817698Z"
+    "market_pricing_finished_at": "2026-10-06T00:06:19.571224Z"
   },
   "recent_runs": [
     {
       "name": "Odds Collector",
-      "finished_at": "2026-10-05T14:18:23.503229Z",
+      "finished_at": "2026-10-06T00:06:12.199443Z",
       "status": "success",
-      "detail": "7 quotes"
+      "detail": "6 quotes"
     },
     {
       "name": "Live Projections",
@@ -49,7 +49,7 @@
     },
     {
       "name": "Market Pricing",
-      "finished_at": "2026-10-05T14:18:29.817698Z",
+      "finished_at": "2026-10-06T00:06:19.571224Z",
       "status": "success",
       "detail": "0 sides \u00b7 0 candidates"
     }
@@ -73,21 +73,14 @@
       "issue_type": "market_name_not_live_scored",
       "player_name": "Dustin May",
       "sportsbook": "Pinnacle",
-      "line": 3.5,
+      "line": 2.5,
       "detail": "Fresh two-sided market quote had no uniquely scored probable starter for the target date."
     },
     {
       "issue_type": "market_name_not_live_scored",
       "player_name": "Freddy Peralta",
       "sportsbook": "Pinnacle",
-      "line": 5.5,
-      "detail": "Fresh two-sided market quote had no uniquely scored probable starter for the target date."
-    },
-    {
-      "issue_type": "market_name_not_live_scored",
-      "player_name": "Gavin Williams",
-      "sportsbook": "Pinnacle",
-      "line": 7.5,
+      "line": 4.5,
       "detail": "Fresh two-sided market quote had no uniquely scored probable starter for the target date."
     },
     {
